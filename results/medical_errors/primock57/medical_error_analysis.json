@@ -1,0 +1,721 @@
+{
+  "dataset": "primock57",
+  "models": 19,
+  "medical_error_words": {
+    "diarrhea": {
+      "errors": 189,
+      "total": 475,
+      "error_rate": 0.3979,
+      "category": "CONDITION"
+    },
+    "done": {
+      "errors": 140,
+      "total": 680,
+      "error_rate": 0.2059,
+      "category": "DRUG"
+    },
+    "hypothyroidism": {
+      "errors": 90,
+      "total": 147,
+      "error_rate": 0.6122,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "amoxicillin": {
+      "errors": 87,
+      "total": 109,
+      "error_rate": 0.7982,
+      "category": "DRUG"
+    },
+    "lisinopril": {
+      "errors": 85,
+      "total": 110,
+      "error_rate": 0.7727,
+      "category": "DRUG"
+    },
+    "hypertension": {
+      "errors": 58,
+      "total": 165,
+      "error_rate": 0.3515,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "clindamycin": {
+      "errors": 56,
+      "total": 92,
+      "error_rate": 0.6087,
+      "category": "DRUG"
+    },
+    "april": {
+      "errors": 53,
+      "total": 164,
+      "error_rate": 0.3232,
+      "category": "DRUG"
+    },
+    "furosemide": {
+      "errors": 45,
+      "total": 57,
+      "error_rate": 0.7895,
+      "category": "DRUG"
+    },
+    "hyperthyroid": {
+      "errors": 44,
+      "total": 55,
+      "error_rate": 0.8,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "bisoprolol": {
+      "errors": 36,
+      "total": 38,
+      "error_rate": 0.9474,
+      "category": "DRUG"
+    },
+    "hyperthyroidism": {
+      "errors": 35,
+      "total": 36,
+      "error_rate": 0.9722,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "dermal": {
+      "errors": 32,
+      "total": 54,
+      "error_rate": 0.5926,
+      "category": "ANATOMY"
+    },
+    "osteoarthritis": {
+      "errors": 25,
+      "total": 54,
+      "error_rate": 0.463,
+      "category": "CONDITION"
+    },
+    "penicillin": {
+      "errors": 25,
+      "total": 72,
+      "error_rate": 0.3472,
+      "category": "DRUG"
+    },
+    "labyrinthitis": {
+      "errors": 24,
+      "total": 37,
+      "error_rate": 0.6486,
+      "category": "CONDITION"
+    },
+    "hypo": {
+      "errors": 24,
+      "total": 72,
+      "error_rate": 0.3333,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "gastroenteritis": {
+      "errors": 22,
+      "total": 90,
+      "error_rate": 0.2444,
+      "category": "CONDITION"
+    },
+    "anaemia": {
+      "errors": 19,
+      "total": 19,
+      "error_rate": 1.0,
+      "category": "CONDITION"
+    },
+    "zinopril": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "DRUG"
+    },
+    "ecg": {
+      "errors": 18,
+      "total": 36,
+      "error_rate": 0.5,
+      "category": "ABBREVIATION"
+    },
+    "hypothroidism": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "lisonopril": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "DRUG"
+    },
+    "amoxycillin": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "DRUG"
+    },
+    "mycin": {
+      "errors": 17,
+      "total": 18,
+      "error_rate": 0.9444,
+      "category": "DRUG"
+    },
+    "tuberculosis": {
+      "errors": 16,
+      "total": 36,
+      "error_rate": 0.4444,
+      "category": "CONDITION"
+    },
+    "aerosinusitis": {
+      "errors": 15,
+      "total": 18,
+      "error_rate": 0.8333,
+      "category": "CONDITION"
+    },
+    "amlodipine": {
+      "errors": 14,
+      "total": 18,
+      "error_rate": 0.7778,
+      "category": "DRUG"
+    },
+    "uti": {
+      "errors": 13,
+      "total": 55,
+      "error_rate": 0.2364,
+      "category": "ABBREVIATION"
+    },
+    "losartan": {
+      "errors": 13,
+      "total": 18,
+      "error_rate": 0.7222,
+      "category": "DRUG"
+    },
+    "metoprolol": {
+      "errors": 11,
+      "total": 19,
+      "error_rate": 0.5789,
+      "category": "DRUG"
+    },
+    "hypochondriac": {
+      "errors": 10,
+      "total": 19,
+      "error_rate": 0.5263,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "osteoporosis": {
+      "errors": 8,
+      "total": 19,
+      "error_rate": 0.4211,
+      "category": "CONDITION"
+    },
+    "neurofibromatosis": {
+      "errors": 8,
+      "total": 19,
+      "error_rate": 0.4211,
+      "category": "CONDITION"
+    },
+    "bursitis": {
+      "errors": 8,
+      "total": 18,
+      "error_rate": 0.4444,
+      "category": "CONDITION"
+    },
+    "hypothyroid": {
+      "errors": 8,
+      "total": 18,
+      "error_rate": 0.4444,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "cystitis": {
+      "errors": 6,
+      "total": 18,
+      "error_rate": 0.3333,
+      "category": "CONDITION"
+    },
+    "hepatitis": {
+      "errors": 6,
+      "total": 18,
+      "error_rate": 0.3333,
+      "category": "CONDITION"
+    },
+    "hyper": {
+      "errors": 6,
+      "total": 18,
+      "error_rate": 0.3333,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "neurology": {
+      "errors": 5,
+      "total": 18,
+      "error_rate": 0.2778,
+      "category": "ANATOMY"
+    },
+    "anemia": {
+      "errors": 4,
+      "total": 19,
+      "error_rate": 0.2105,
+      "category": "CONDITION"
+    }
+  },
+  "non_medical_error_words_count": 2040,
+  "model_medical_stats": {
+    "medasr": {
+      "medical_term_recall": 95.27,
+      "medical_errors": 142,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 40,
+        "DRUG": 70,
+        "ABBREVIATION": 4,
+        "ANATOMY": 4,
+        "CLINICAL_MODIFIER": 24
+      }
+    },
+    "medasr-int8": {
+      "medical_term_recall": 95.2,
+      "medical_errors": 144,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 40,
+        "DRUG": 71,
+        "ABBREVIATION": 4,
+        "ANATOMY": 4,
+        "CLINICAL_MODIFIER": 25
+      }
+    },
+    "nemo-fastconformer": {
+      "medical_term_recall": 96.4,
+      "medical_errors": 108,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 34,
+        "DRUG": 45,
+        "ABBREVIATION": 3,
+        "ANATOMY": 4,
+        "CLINICAL_MODIFIER": 22
+      }
+    },
+    "nemotron": {
+      "medical_term_recall": 96.73,
+      "medical_errors": 98,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 23,
+        "DRUG": 47,
+        "ABBREVIATION": 4,
+        "ANATOMY": 3,
+        "CLINICAL_MODIFIER": 21
+      }
+    },
+    "nemo-fastconformer-int8": {
+      "medical_term_recall": 96.3,
+      "medical_errors": 111,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 33,
+        "DRUG": 43,
+        "ABBREVIATION": 4,
+        "ANATOMY": 4,
+        "CLINICAL_MODIFIER": 27
+      }
+    },
+    "sensevoice-no-itn": {
+      "medical_term_recall": 97.57,
+      "medical_errors": 73,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 15,
+        "DRUG": 40,
+        "ABBREVIATION": 1,
+        "ANATOMY": 1,
+        "CLINICAL_MODIFIER": 16
+      }
+    },
+    "sensevoice": {
+      "medical_term_recall": 97.5,
+      "medical_errors": 75,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 15,
+        "DRUG": 41,
+        "ABBREVIATION": 1,
+        "ANATOMY": 2,
+        "CLINICAL_MODIFIER": 16
+      }
+    },
+    "paraformer-en": {
+      "medical_term_recall": 96.37,
+      "medical_errors": 109,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 39,
+        "DRUG": 43,
+        "ABBREVIATION": 3,
+        "ANATOMY": 3,
+        "CLINICAL_MODIFIER": 21
+      }
+    },
+    "whisper-base-en": {
+      "medical_term_recall": 97.67,
+      "medical_errors": 70,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 13,
+        "DRUG": 37,
+        "ABBREVIATION": 1,
+        "CLINICAL_MODIFIER": 19
+      }
+    },
+    "whisper-distil-v3.5": {
+      "medical_term_recall": 98.5,
+      "medical_errors": 45,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 4,
+        "DRUG": 28,
+        "CLINICAL_MODIFIER": 13
+      }
+    },
+    "parakeet-tdt-0.6b-v2": {
+      "medical_term_recall": 98.8,
+      "medical_errors": 36,
+      "medical_total": 3000,
+      "by_category": {
+        "DRUG": 24,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "CLINICAL_MODIFIER": 8
+      }
+    },
+    "qwen3-asr": {
+      "medical_term_recall": 98.43,
+      "medical_errors": 47,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 9,
+        "DRUG": 23,
+        "ABBREVIATION": 1,
+        "ANATOMY": 3,
+        "CLINICAL_MODIFIER": 11
+      }
+    },
+    "zipformer-zh-en": {
+      "medical_term_recall": 95.8,
+      "medical_errors": 126,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 46,
+        "DRUG": 45,
+        "ABBREVIATION": 5,
+        "ANATOMY": 4,
+        "CLINICAL_MODIFIER": 26
+      }
+    },
+    "cloud-aws": {
+      "medical_term_recall": 99.73,
+      "medical_errors": 8,
+      "medical_total": 3000,
+      "by_category": {
+        "DRUG": 5,
+        "CONDITION": 1,
+        "CLINICAL_MODIFIER": 2
+      }
+    },
+    "whisper-turbo": {
+      "medical_term_recall": 98.9,
+      "medical_errors": 33,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 3,
+        "DRUG": 23,
+        "CLINICAL_MODIFIER": 7
+      }
+    },
+    "cloud-assemblyai": {
+      "medical_term_recall": 98.9,
+      "medical_errors": 33,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 14,
+        "DRUG": 10,
+        "CLINICAL_MODIFIER": 9
+      }
+    },
+    "cloud-azure": {
+      "medical_term_recall": 99.0,
+      "medical_errors": 30,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 6,
+        "DRUG": 15,
+        "ANATOMY": 2,
+        "CLINICAL_MODIFIER": 7
+      }
+    },
+    "cloud-deepgram": {
+      "medical_term_recall": 99.3,
+      "medical_errors": 21,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 4,
+        "DRUG": 11,
+        "CLINICAL_MODIFIER": 6
+      }
+    },
+    "cloud-google": {
+      "medical_term_recall": 98.73,
+      "medical_errors": 38,
+      "medical_total": 3000,
+      "by_category": {
+        "CONDITION": 8,
+        "DRUG": 15,
+        "ANATOMY": 2,
+        "CLINICAL_MODIFIER": 13
+      }
+    }
+  },
+  "top_non_medical_errors": {
+    "um": {
+      "errors": 35254,
+      "total": 41132,
+      "error_rate": 0.8571
+    },
+    "ok": {
+      "errors": 34410,
+      "total": 37700,
+      "error_rate": 0.9127
+    },
+    "uh": {
+      "errors": 25322,
+      "total": 28283,
+      "error_rate": 0.8953
+    },
+    "i": {
+      "errors": 14881,
+      "total": 51115,
+      "error_rate": 0.2911
+    },
+    "you": {
+      "errors": 13384,
+      "total": 58565,
+      "error_rate": 0.2285
+    },
+    "and": {
+      "errors": 11608,
+      "total": 43318,
+      "error_rate": 0.268
+    },
+    "yeah": {
+      "errors": 9926,
+      "total": 21946,
+      "error_rate": 0.4523
+    },
+    "a": {
+      "errors": 9278,
+      "total": 32400,
+      "error_rate": 0.2864
+    },
+    "the": {
+      "errors": 8496,
+      "total": 34912,
+      "error_rate": 0.2434
+    },
+    "no": {
+      "errors": 7371,
+      "total": 17634,
+      "error_rate": 0.418
+    },
+    "that": {
+      "errors": 6848,
+      "total": 24894,
+      "error_rate": 0.2751
+    },
+    "to": {
+      "errors": 6522,
+      "total": 29816,
+      "error_rate": 0.2187
+    },
+    "it": {
+      "errors": 6433,
+      "total": 20625,
+      "error_rate": 0.3119
+    },
+    "of": {
+      "errors": 5932,
+      "total": 25343,
+      "error_rate": 0.2341
+    },
+    "so": {
+      "errors": 5930,
+      "total": 23158,
+      "error_rate": 0.2561
+    },
+    "it's": {
+      "errors": 5523,
+      "total": 16198,
+      "error_rate": 0.341
+    },
+    "like": {
+      "errors": 4596,
+      "total": 19685,
+      "error_rate": 0.2335
+    },
+    "your": {
+      "errors": 4518,
+      "total": 19329,
+      "error_rate": 0.2337
+    },
+    "is": {
+      "errors": 4013,
+      "total": 14963,
+      "error_rate": 0.2682
+    },
+    "have": {
+      "errors": 3780,
+      "total": 17050,
+      "error_rate": 0.2217
+    },
+    "in": {
+      "errors": 3679,
+      "total": 15612,
+      "error_rate": 0.2357
+    },
+    "i'm": {
+      "errors": 3530,
+      "total": 10456,
+      "error_rate": 0.3376
+    },
+    "any": {
+      "errors": 3516,
+      "total": 16188,
+      "error_rate": 0.2172
+    },
+    "do": {
+      "errors": 3421,
+      "total": 14309,
+      "error_rate": 0.2391
+    },
+    "just": {
+      "errors": 3320,
+      "total": 14968,
+      "error_rate": 0.2218
+    },
+    "but": {
+      "errors": 3120,
+      "total": 11800,
+      "error_rate": 0.2644
+    },
+    "or": {
+      "errors": 2914,
+      "total": 13063,
+      "error_rate": 0.2231
+    },
+    "right": {
+      "errors": 2760,
+      "total": 7641,
+      "error_rate": 0.3612
+    },
+    "not": {
+      "errors": 2692,
+      "total": 9814,
+      "error_rate": 0.2743
+    },
+    "all": {
+      "errors": 2617,
+      "total": 8546,
+      "error_rate": 0.3062
+    },
+    "at": {
+      "errors": 2582,
+      "total": 10009,
+      "error_rate": 0.258
+    },
+    "you're": {
+      "errors": 2459,
+      "total": 6869,
+      "error_rate": 0.358
+    },
+    "know": {
+      "errors": 2158,
+      "total": 8589,
+      "error_rate": 0.2513
+    },
+    "my": {
+      "errors": 2118,
+      "total": 9281,
+      "error_rate": 0.2282
+    },
+    "on": {
+      "errors": 2117,
+      "total": 7494,
+      "error_rate": 0.2825
+    },
+    "that's": {
+      "errors": 2082,
+      "total": 6183,
+      "error_rate": 0.3367
+    },
+    "what": {
+      "errors": 2043,
+      "total": 8126,
+      "error_rate": 0.2514
+    },
+    "are": {
+      "errors": 1963,
+      "total": 7186,
+      "error_rate": 0.2732
+    },
+    "for": {
+      "errors": 1934,
+      "total": 9158,
+      "error_rate": 0.2112
+    },
+    "yes": {
+      "errors": 1906,
+      "total": 5126,
+      "error_rate": 0.3718
+    },
+    "alright": {
+      "errors": 1886,
+      "total": 2074,
+      "error_rate": 0.9094
+    },
+    "if": {
+      "errors": 1885,
+      "total": 8179,
+      "error_rate": 0.2305
+    },
+    "bit": {
+      "errors": 1807,
+      "total": 7271,
+      "error_rate": 0.2485
+    },
+    "been": {
+      "errors": 1764,
+      "total": 7243,
+      "error_rate": 0.2435
+    },
+    "i've": {
+      "errors": 1748,
+      "total": 4511,
+      "error_rate": 0.3875
+    },
+    "ohh": {
+      "errors": 1748,
+      "total": 1748,
+      "error_rate": 1.0
+    },
+    "bye": {
+      "errors": 1561,
+      "total": 2462,
+      "error_rate": 0.634
+    },
+    "this": {
+      "errors": 1544,
+      "total": 6266,
+      "error_rate": 0.2464
+    },
+    "had": {
+      "errors": 1524,
+      "total": 6495,
+      "error_rate": 0.2346
+    },
+    "was": {
+      "errors": 1517,
+      "total": 6172,
+      "error_rate": 0.2458
+    }
+  }
+}
