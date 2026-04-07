@@ -1,0 +1,357 @@
+{
+  "model1": "sensevoice-no-itn",
+  "model2": "whisper-distil-v3.5",
+  "dataset": "primock57",
+  "files": 57,
+  "aggregate_wer_fused": 23.51,
+  "aggregate_wer_m1": 19.95,
+  "aggregate_wer_m2": 14.19,
+  "wins_fused": 0,
+  "wins_m1": 1,
+  "wins_m2": 56,
+  "ties": 0,
+  "per_file": [
+    {
+      "file_id": "day1_consultation01",
+      "wer_fused": 23.63,
+      "wer_m1": 21.58,
+      "wer_m2": 15.87
+    },
+    {
+      "file_id": "day1_consultation02",
+      "wer_fused": 26.14,
+      "wer_m1": 22.49,
+      "wer_m2": 15.43
+    },
+    {
+      "file_id": "day1_consultation03",
+      "wer_fused": 24.73,
+      "wer_m1": 23.51,
+      "wer_m2": 14.54
+    },
+    {
+      "file_id": "day1_consultation04",
+      "wer_fused": 28.59,
+      "wer_m1": 25.2,
+      "wer_m2": 18.53
+    },
+    {
+      "file_id": "day1_consultation05",
+      "wer_fused": 26.84,
+      "wer_m1": 19.55,
+      "wer_m2": 15.69
+    },
+    {
+      "file_id": "day1_consultation06",
+      "wer_fused": 27.74,
+      "wer_m1": 24.14,
+      "wer_m2": 18.35
+    },
+    {
+      "file_id": "day1_consultation07",
+      "wer_fused": 34.39,
+      "wer_m1": 33.82,
+      "wer_m2": 22.99
+    },
+    {
+      "file_id": "day1_consultation08",
+      "wer_fused": 26.4,
+      "wer_m1": 25.62,
+      "wer_m2": 17.11
+    },
+    {
+      "file_id": "day1_consultation09",
+      "wer_fused": 24.74,
+      "wer_m1": 23.07,
+      "wer_m2": 17.1
+    },
+    {
+      "file_id": "day1_consultation10",
+      "wer_fused": 27.1,
+      "wer_m1": 25.27,
+      "wer_m2": 18.53
+    },
+    {
+      "file_id": "day1_consultation11",
+      "wer_fused": 26.7,
+      "wer_m1": 22.61,
+      "wer_m2": 14.49
+    },
+    {
+      "file_id": "day1_consultation12",
+      "wer_fused": 24.87,
+      "wer_m1": 20.51,
+      "wer_m2": 15.53
+    },
+    {
+      "file_id": "day1_consultation13",
+      "wer_fused": 18.78,
+      "wer_m1": 16.23,
+      "wer_m2": 9.66
+    },
+    {
+      "file_id": "day1_consultation14",
+      "wer_fused": 25.04,
+      "wer_m1": 21.49,
+      "wer_m2": 15.89
+    },
+    {
+      "file_id": "day1_consultation15",
+      "wer_fused": 24.41,
+      "wer_m1": 22.66,
+      "wer_m2": 15.29
+    },
+    {
+      "file_id": "day2_consultation01",
+      "wer_fused": 22.42,
+      "wer_m1": 20.7,
+      "wer_m2": 13.57
+    },
+    {
+      "file_id": "day2_consultation02",
+      "wer_fused": 23.8,
+      "wer_m1": 22.55,
+      "wer_m2": 15.31
+    },
+    {
+      "file_id": "day2_consultation03",
+      "wer_fused": 25.37,
+      "wer_m1": 28.13,
+      "wer_m2": 17.1
+    },
+    {
+      "file_id": "day2_consultation04",
+      "wer_fused": 21.04,
+      "wer_m1": 19.18,
+      "wer_m2": 13.1
+    },
+    {
+      "file_id": "day2_consultation05",
+      "wer_fused": 20.4,
+      "wer_m1": 16.43,
+      "wer_m2": 9.81
+    },
+    {
+      "file_id": "day2_consultation06",
+      "wer_fused": 23.79,
+      "wer_m1": 19.66,
+      "wer_m2": 13.11
+    },
+    {
+      "file_id": "day2_consultation07",
+      "wer_fused": 25.08,
+      "wer_m1": 19.11,
+      "wer_m2": 17.35
+    },
+    {
+      "file_id": "day2_consultation08",
+      "wer_fused": 23.09,
+      "wer_m1": 17.28,
+      "wer_m2": 12.79
+    },
+    {
+      "file_id": "day2_consultation09",
+      "wer_fused": 23.55,
+      "wer_m1": 19.31,
+      "wer_m2": 15.27
+    },
+    {
+      "file_id": "day2_consultation10",
+      "wer_fused": 20.77,
+      "wer_m1": 16.53,
+      "wer_m2": 11.95
+    },
+    {
+      "file_id": "day3_consultation01",
+      "wer_fused": 21.61,
+      "wer_m1": 19.26,
+      "wer_m2": 15.19
+    },
+    {
+      "file_id": "day3_consultation02",
+      "wer_fused": 23.13,
+      "wer_m1": 18.29,
+      "wer_m2": 14.07
+    },
+    {
+      "file_id": "day3_consultation03",
+      "wer_fused": 25.07,
+      "wer_m1": 17.16,
+      "wer_m2": 14.4
+    },
+    {
+      "file_id": "day3_consultation04",
+      "wer_fused": 28.15,
+      "wer_m1": 20.32,
+      "wer_m2": 16.01
+    },
+    {
+      "file_id": "day3_consultation05",
+      "wer_fused": 22.3,
+      "wer_m1": 15.7,
+      "wer_m2": 12.4
+    },
+    {
+      "file_id": "day3_consultation06",
+      "wer_fused": 23.65,
+      "wer_m1": 19.43,
+      "wer_m2": 14.53
+    },
+    {
+      "file_id": "day3_consultation07",
+      "wer_fused": 27.7,
+      "wer_m1": 21.16,
+      "wer_m2": 16.82
+    },
+    {
+      "file_id": "day3_consultation08",
+      "wer_fused": 26.91,
+      "wer_m1": 18.41,
+      "wer_m2": 17.32
+    },
+    {
+      "file_id": "day3_consultation09",
+      "wer_fused": 25.49,
+      "wer_m1": 12.07,
+      "wer_m2": 16.85
+    },
+    {
+      "file_id": "day3_consultation10",
+      "wer_fused": 20.66,
+      "wer_m1": 12.03,
+      "wer_m2": 10.33
+    },
+    {
+      "file_id": "day4_consultation01",
+      "wer_fused": 21.59,
+      "wer_m1": 17.58,
+      "wer_m2": 12.4
+    },
+    {
+      "file_id": "day4_consultation02",
+      "wer_fused": 18.89,
+      "wer_m1": 14.55,
+      "wer_m2": 10.13
+    },
+    {
+      "file_id": "day4_consultation03",
+      "wer_fused": 16.81,
+      "wer_m1": 11.14,
+      "wer_m2": 7.82
+    },
+    {
+      "file_id": "day4_consultation04",
+      "wer_fused": 18.14,
+      "wer_m1": 12.06,
+      "wer_m2": 8.92
+    },
+    {
+      "file_id": "day4_consultation05",
+      "wer_fused": 26.28,
+      "wer_m1": 23.91,
+      "wer_m2": 16.56
+    },
+    {
+      "file_id": "day4_consultation06",
+      "wer_fused": 20.42,
+      "wer_m1": 13.52,
+      "wer_m2": 11.45
+    },
+    {
+      "file_id": "day4_consultation07",
+      "wer_fused": 21.83,
+      "wer_m1": 26.19,
+      "wer_m2": 13.87
+    },
+    {
+      "file_id": "day4_consultation08",
+      "wer_fused": 22.12,
+      "wer_m1": 19.04,
+      "wer_m2": 13.9
+    },
+    {
+      "file_id": "day4_consultation09",
+      "wer_fused": 21.02,
+      "wer_m1": 18.67,
+      "wer_m2": 14.43
+    },
+    {
+      "file_id": "day4_consultation10",
+      "wer_fused": 21.69,
+      "wer_m1": 15.94,
+      "wer_m2": 11.38
+    },
+    {
+      "file_id": "day5_consultation01",
+      "wer_fused": 22.06,
+      "wer_m1": 22.95,
+      "wer_m2": 12.16
+    },
+    {
+      "file_id": "day5_consultation02",
+      "wer_fused": 16.91,
+      "wer_m1": 13.96,
+      "wer_m2": 9.61
+    },
+    {
+      "file_id": "day5_consultation03",
+      "wer_fused": 20.98,
+      "wer_m1": 16.52,
+      "wer_m2": 9.16
+    },
+    {
+      "file_id": "day5_consultation04",
+      "wer_fused": 26.95,
+      "wer_m1": 30.81,
+      "wer_m2": 19.46
+    },
+    {
+      "file_id": "day5_consultation05",
+      "wer_fused": 22.31,
+      "wer_m1": 24.42,
+      "wer_m2": 14.43
+    },
+    {
+      "file_id": "day5_consultation06",
+      "wer_fused": 24.49,
+      "wer_m1": 21.16,
+      "wer_m2": 14.44
+    },
+    {
+      "file_id": "day5_consultation07",
+      "wer_fused": 23.01,
+      "wer_m1": 17.75,
+      "wer_m2": 12.48
+    },
+    {
+      "file_id": "day5_consultation08",
+      "wer_fused": 15.58,
+      "wer_m1": 12.82,
+      "wer_m2": 9.36
+    },
+    {
+      "file_id": "day5_consultation09",
+      "wer_fused": 23.68,
+      "wer_m1": 19.79,
+      "wer_m2": 15.62
+    },
+    {
+      "file_id": "day5_consultation10",
+      "wer_fused": 19.91,
+      "wer_m1": 20.88,
+      "wer_m2": 12.45
+    },
+    {
+      "file_id": "day5_consultation11",
+      "wer_fused": 17.6,
+      "wer_m1": 12.95,
+      "wer_m2": 8.45
+    },
+    {
+      "file_id": "day5_consultation12",
+      "wer_fused": 18.42,
+      "wer_m1": 15.12,
+      "wer_m2": 10.17
+    }
+  ]
+}

@@ -352,9 +352,10 @@ def main():
             output_dir = results_dir / 'fusion_results'
             output_dir.mkdir(exist_ok=True)
 
-            # Save full results
-            output_file = output_dir / 'all_pairs.json'
-            output_file.write_text(json.dumps(all_results, indent=2))
+            # Save per-pair files
+            for result in all_results:
+                pair_file = output_dir / f'{result["model1"]}_+_{result["model2"]}.json'
+                pair_file.write_text(json.dumps(result, indent=2))
 
             # Save summary sorted by fused WER
             summary = sorted(all_results, key=lambda x: x['aggregate_wer_fused'])
