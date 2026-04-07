@@ -328,6 +328,9 @@ def main():
         n_workers = min(multiprocessing.cpu_count(), 12)
         log.info(f'Running with {n_workers} workers')
 
+        output_dir = results_dir / 'fusion_results'
+        output_dir.mkdir(exist_ok=True)
+
         all_results = []
         with ProcessPoolExecutor(max_workers=n_workers) as executor:
             futures = {
@@ -343,21 +346,15 @@ def main():
                     continue
                 if result:
                     all_results.append(result)
-                    log.info(f'  {m1} + {m2}: fused={result["aggregate_wer_fused"]:.2f}% '
+                    pair_file = output_dir / f'{result["model1"]}_+_{result["model2"]}.json'
+                    pair_file.write_text(json.dumps(result, indent=2))
+                    log.info(f'  [{len(all_results)}/{len(pairs)}] {m1} + {m2}: '
+                             f'fused={result["aggregate_wer_fused"]:.2f}% '
                              f'(m1={result["aggregate_wer_m1"]:.2f}%, m2={result["aggregate_wer_m2"]:.2f}%) '
                              f'wins={result["wins_fused"]}/{result["files"]}')
 
-        # Save all fusion results
+        # Save summary sorted by fused WER
         if all_results:
-            output_dir = results_dir / 'fusion_results'
-            output_dir.mkdir(exist_ok=True)
-
-            # Save per-pair files
-            for result in all_results:
-                pair_file = output_dir / f'{result["model1"]}_+_{result["model2"]}.json'
-                pair_file.write_text(json.dumps(result, indent=2))
-
-            # Save summary sorted by fused WER
             summary = sorted(all_results, key=lambda x: x['aggregate_wer_fused'])
             summary_file = output_dir / 'summary.txt'
             lines = [f'ROVER Fusion Results — {dataset}',
