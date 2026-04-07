@@ -1,0 +1,441 @@
+{
+  "model1": "nemotron",
+  "model2": "qwen3-asr",
+  "dataset": "nazmulkazi",
+  "files": 71,
+  "aggregate_wer_fused": 22.13,
+  "aggregate_wer_m1": 37.4,
+  "aggregate_wer_m2": 7.94,
+  "wins_fused": 0,
+  "wins_m1": 0,
+  "wins_m2": 71,
+  "ties": 0,
+  "per_file": [
+    {
+      "file_id": "D0420-S1-T01",
+      "wer_fused": 22.8,
+      "wer_m1": 40.27,
+      "wer_m2": 5.7
+    },
+    {
+      "file_id": "D0420-S1-T02",
+      "wer_fused": 13.96,
+      "wer_m1": 39.77,
+      "wer_m2": 4.21
+    },
+    {
+      "file_id": "D0420-S1-T03",
+      "wer_fused": 19.04,
+      "wer_m1": 42.05,
+      "wer_m2": 6.69
+    },
+    {
+      "file_id": "D0420-S1-T04",
+      "wer_fused": 15.1,
+      "wer_m1": 43.95,
+      "wer_m2": 4.59
+    },
+    {
+      "file_id": "D0420-S1-T05",
+      "wer_fused": 19.36,
+      "wer_m1": 37.13,
+      "wer_m2": 5.08
+    },
+    {
+      "file_id": "D0420-S2-T01",
+      "wer_fused": 21.13,
+      "wer_m1": 40.86,
+      "wer_m2": 7.05
+    },
+    {
+      "file_id": "D0420-S3-T01",
+      "wer_fused": 13.86,
+      "wer_m1": 34.48,
+      "wer_m2": 6.45
+    },
+    {
+      "file_id": "D0420-S3-T02",
+      "wer_fused": 20.89,
+      "wer_m1": 33.82,
+      "wer_m2": 5.94
+    },
+    {
+      "file_id": "D0420-S3-T03",
+      "wer_fused": 19.04,
+      "wer_m1": 35.96,
+      "wer_m2": 4.88
+    },
+    {
+      "file_id": "D0420-S4-T01",
+      "wer_fused": 23.9,
+      "wer_m1": 33.15,
+      "wer_m2": 8.53
+    },
+    {
+      "file_id": "D0420-S4-T02",
+      "wer_fused": 20.0,
+      "wer_m1": 33.04,
+      "wer_m2": 6.87
+    },
+    {
+      "file_id": "D0421-S1-T01",
+      "wer_fused": 19.98,
+      "wer_m1": 36.2,
+      "wer_m2": 5.81
+    },
+    {
+      "file_id": "D0421-S1-T02",
+      "wer_fused": 20.01,
+      "wer_m1": 38.7,
+      "wer_m2": 6.07
+    },
+    {
+      "file_id": "D0421-S1-T03",
+      "wer_fused": 18.39,
+      "wer_m1": 31.57,
+      "wer_m2": 4.91
+    },
+    {
+      "file_id": "D0421-S1-T04",
+      "wer_fused": 19.67,
+      "wer_m1": 36.46,
+      "wer_m2": 4.6
+    },
+    {
+      "file_id": "D0421-S1-T05",
+      "wer_fused": 20.9,
+      "wer_m1": 34.61,
+      "wer_m2": 7.32
+    },
+    {
+      "file_id": "D0421-S2-T01",
+      "wer_fused": 23.22,
+      "wer_m1": 43.32,
+      "wer_m2": 7.85
+    },
+    {
+      "file_id": "D0421-S2-T02",
+      "wer_fused": 22.59,
+      "wer_m1": 42.28,
+      "wer_m2": 7.37
+    },
+    {
+      "file_id": "D0421-S3-T01",
+      "wer_fused": 26.16,
+      "wer_m1": 36.99,
+      "wer_m2": 12.09
+    },
+    {
+      "file_id": "D0421-S3-T02",
+      "wer_fused": 22.17,
+      "wer_m1": 38.52,
+      "wer_m2": 10.17
+    },
+    {
+      "file_id": "D0421-S3-T03",
+      "wer_fused": 22.33,
+      "wer_m1": 37.67,
+      "wer_m2": 8.15
+    },
+    {
+      "file_id": "D0421-S3-T04",
+      "wer_fused": 21.19,
+      "wer_m1": 35.02,
+      "wer_m2": 6.81
+    },
+    {
+      "file_id": "D0421-S3-T05",
+      "wer_fused": 21.32,
+      "wer_m1": 35.37,
+      "wer_m2": 10.85
+    },
+    {
+      "file_id": "D0422-S1-T01",
+      "wer_fused": 24.38,
+      "wer_m1": 42.96,
+      "wer_m2": 12.91
+    },
+    {
+      "file_id": "D0422-S1-T02",
+      "wer_fused": 21.84,
+      "wer_m1": 38.43,
+      "wer_m2": 8.13
+    },
+    {
+      "file_id": "D0422-S1-T03",
+      "wer_fused": 21.89,
+      "wer_m1": 37.35,
+      "wer_m2": 8.21
+    },
+    {
+      "file_id": "D0422-S1-T04",
+      "wer_fused": 29.29,
+      "wer_m1": 39.01,
+      "wer_m2": 8.73
+    },
+    {
+      "file_id": "D0422-S2-T01",
+      "wer_fused": 22.76,
+      "wer_m1": 35.56,
+      "wer_m2": 8.71
+    },
+    {
+      "file_id": "D0422-S2-T02",
+      "wer_fused": 20.73,
+      "wer_m1": 35.67,
+      "wer_m2": 9.16
+    },
+    {
+      "file_id": "D0422-S3-T01",
+      "wer_fused": 20.88,
+      "wer_m1": 35.76,
+      "wer_m2": 7.21
+    },
+    {
+      "file_id": "D0422-S3-T02",
+      "wer_fused": 23.14,
+      "wer_m1": 37.53,
+      "wer_m2": 7.12
+    },
+    {
+      "file_id": "D0422-S3-T03",
+      "wer_fused": 20.99,
+      "wer_m1": 35.77,
+      "wer_m2": 7.34
+    },
+    {
+      "file_id": "D0422-S3-T04",
+      "wer_fused": 20.28,
+      "wer_m1": 34.89,
+      "wer_m2": 6.09
+    },
+    {
+      "file_id": "D0422-S3-T05",
+      "wer_fused": 19.39,
+      "wer_m1": 35.47,
+      "wer_m2": 5.04
+    },
+    {
+      "file_id": "D0422-S3-T06",
+      "wer_fused": 23.74,
+      "wer_m1": 39.95,
+      "wer_m2": 7.29
+    },
+    {
+      "file_id": "D0422-S4-T01",
+      "wer_fused": 21.87,
+      "wer_m1": 37.87,
+      "wer_m2": 6.35
+    },
+    {
+      "file_id": "D0422-S4-T02",
+      "wer_fused": 20.89,
+      "wer_m1": 36.5,
+      "wer_m2": 6.0
+    },
+    {
+      "file_id": "D0422-S4-T03",
+      "wer_fused": 24.58,
+      "wer_m1": 36.94,
+      "wer_m2": 12.1
+    },
+    {
+      "file_id": "D0422-S4-T04",
+      "wer_fused": 22.62,
+      "wer_m1": 36.57,
+      "wer_m2": 11.67
+    },
+    {
+      "file_id": "D0422-S4-T05",
+      "wer_fused": 24.83,
+      "wer_m1": 39.81,
+      "wer_m2": 8.63
+    },
+    {
+      "file_id": "D0423-S1-T01",
+      "wer_fused": 21.42,
+      "wer_m1": 33.15,
+      "wer_m2": 5.84
+    },
+    {
+      "file_id": "D0423-S1-T02",
+      "wer_fused": 21.15,
+      "wer_m1": 34.77,
+      "wer_m2": 6.95
+    },
+    {
+      "file_id": "D0423-S1-T03",
+      "wer_fused": 22.8,
+      "wer_m1": 37.39,
+      "wer_m2": 8.14
+    },
+    {
+      "file_id": "D0423-S2-T01",
+      "wer_fused": 20.68,
+      "wer_m1": 36.1,
+      "wer_m2": 7.79
+    },
+    {
+      "file_id": "D0423-S2-T02",
+      "wer_fused": 21.91,
+      "wer_m1": 39.48,
+      "wer_m2": 7.34
+    },
+    {
+      "file_id": "D0423-S2-T03",
+      "wer_fused": 21.46,
+      "wer_m1": 38.46,
+      "wer_m2": 10.99
+    },
+    {
+      "file_id": "D0424-S1-T01",
+      "wer_fused": 20.28,
+      "wer_m1": 34.71,
+      "wer_m2": 5.46
+    },
+    {
+      "file_id": "D0424-S1-T02",
+      "wer_fused": 19.83,
+      "wer_m1": 33.26,
+      "wer_m2": 9.34
+    },
+    {
+      "file_id": "D0424-S1-T03",
+      "wer_fused": 25.67,
+      "wer_m1": 35.98,
+      "wer_m2": 8.61
+    },
+    {
+      "file_id": "D0424-S2-T01",
+      "wer_fused": 20.7,
+      "wer_m1": 36.15,
+      "wer_m2": 8.36
+    },
+    {
+      "file_id": "D0424-S2-T02",
+      "wer_fused": 25.91,
+      "wer_m1": 35.68,
+      "wer_m2": 9.48
+    },
+    {
+      "file_id": "D0424-S2-T03",
+      "wer_fused": 23.82,
+      "wer_m1": 34.08,
+      "wer_m2": 9.08
+    },
+    {
+      "file_id": "D0424-S2-T04",
+      "wer_fused": 22.95,
+      "wer_m1": 34.8,
+      "wer_m2": 9.26
+    },
+    {
+      "file_id": "D0424-S2-T05",
+      "wer_fused": 25.72,
+      "wer_m1": 36.72,
+      "wer_m2": 7.71
+    },
+    {
+      "file_id": "D0424-S2-T06",
+      "wer_fused": 24.11,
+      "wer_m1": 38.23,
+      "wer_m2": 8.54
+    },
+    {
+      "file_id": "D0424-S3-T01",
+      "wer_fused": 21.89,
+      "wer_m1": 40.33,
+      "wer_m2": 6.46
+    },
+    {
+      "file_id": "D0424-S3-T02",
+      "wer_fused": 19.33,
+      "wer_m1": 41.91,
+      "wer_m2": 6.94
+    },
+    {
+      "file_id": "D0424-S3-T03",
+      "wer_fused": 21.26,
+      "wer_m1": 37.53,
+      "wer_m2": 4.62
+    },
+    {
+      "file_id": "D0424-S3-T04",
+      "wer_fused": 19.77,
+      "wer_m1": 37.74,
+      "wer_m2": 6.95
+    },
+    {
+      "file_id": "D0425-S1-T01",
+      "wer_fused": 20.86,
+      "wer_m1": 40.73,
+      "wer_m2": 9.34
+    },
+    {
+      "file_id": "D0425-S1-T02",
+      "wer_fused": 20.33,
+      "wer_m1": 35.89,
+      "wer_m2": 5.73
+    },
+    {
+      "file_id": "D0425-S1-T03",
+      "wer_fused": 19.63,
+      "wer_m1": 37.27,
+      "wer_m2": 5.13
+    },
+    {
+      "file_id": "D0425-S2-T01",
+      "wer_fused": 24.03,
+      "wer_m1": 35.04,
+      "wer_m2": 5.17
+    },
+    {
+      "file_id": "D0425-S2-T02",
+      "wer_fused": 22.85,
+      "wer_m1": 43.48,
+      "wer_m2": 5.35
+    },
+    {
+      "file_id": "D0425-S2-T03",
+      "wer_fused": 20.2,
+      "wer_m1": 32.53,
+      "wer_m2": 7.45
+    },
+    {
+      "file_id": "D0425-S2-T04",
+      "wer_fused": 20.16,
+      "wer_m1": 36.57,
+      "wer_m2": 5.62
+    },
+    {
+      "file_id": "D0425-S3-T01",
+      "wer_fused": 25.84,
+      "wer_m1": 38.04,
+      "wer_m2": 10.52
+    },
+    {
+      "file_id": "D0425-S3-T02",
+      "wer_fused": 25.31,
+      "wer_m1": 46.7,
+      "wer_m2": 13.15
+    },
+    {
+      "file_id": "D0425-S3-T03",
+      "wer_fused": 25.93,
+      "wer_m1": 41.96,
+      "wer_m2": 13.51
+    },
+    {
+      "file_id": "D0425-S3-T04",
+      "wer_fused": 29.71,
+      "wer_m1": 43.48,
+      "wer_m2": 20.33
+    },
+    {
+      "file_id": "D0425-S3-T05",
+      "wer_fused": 26.15,
+      "wer_m1": 42.42,
+      "wer_m2": 12.84
+    }
+  ]
+}

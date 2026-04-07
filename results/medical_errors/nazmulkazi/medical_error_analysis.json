@@ -1,0 +1,616 @@
+{
+  "dataset": "nazmulkazi",
+  "models": 19,
+  "medical_error_words": {
+    "hyper": {
+      "errors": 46,
+      "total": 56,
+      "error_rate": 0.8214,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "hyper-vigilance": {
+      "errors": 34,
+      "total": 36,
+      "error_rate": 0.9444,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "hr": {
+      "errors": 34,
+      "total": 126,
+      "error_rate": 0.2698,
+      "category": "ABBREVIATION"
+    },
+    "diagnosis": {
+      "errors": 33,
+      "total": 108,
+      "error_rate": 0.3056,
+      "category": "CONDITION"
+    },
+    "organization": {
+      "errors": 32,
+      "total": 73,
+      "error_rate": 0.4384,
+      "category": "PROCEDURE"
+    },
+    "magazine": {
+      "errors": 29,
+      "total": 108,
+      "error_rate": 0.2685,
+      "category": "DRUG"
+    },
+    "trazodone": {
+      "errors": 20,
+      "total": 36,
+      "error_rate": 0.5556,
+      "category": "DRUG"
+    },
+    "overdiagnosis": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "CONDITION"
+    },
+    "bp": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "ABBREVIATION"
+    },
+    "bun": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "ABBREVIATION"
+    },
+    "hypochondria": {
+      "errors": 18,
+      "total": 18,
+      "error_rate": 1.0,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "neuropsychologist": {
+      "errors": 16,
+      "total": 36,
+      "error_rate": 0.4444,
+      "category": "ANATOMY"
+    },
+    "hypochondriac": {
+      "errors": 9,
+      "total": 18,
+      "error_rate": 0.5,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "overgeneralization": {
+      "errors": 9,
+      "total": 18,
+      "error_rate": 0.5,
+      "category": "PROCEDURE"
+    },
+    "hypothyroidism": {
+      "errors": 8,
+      "total": 36,
+      "error_rate": 0.2222,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "hypercritical": {
+      "errors": 8,
+      "total": 18,
+      "error_rate": 0.4444,
+      "category": "CLINICAL_MODIFIER"
+    },
+    "neuropsych": {
+      "errors": 6,
+      "total": 18,
+      "error_rate": 0.3333,
+      "category": "ANATOMY"
+    },
+    "idealization": {
+      "errors": 5,
+      "total": 18,
+      "error_rate": 0.2778,
+      "category": "PROCEDURE"
+    },
+    "optimization": {
+      "errors": 4,
+      "total": 18,
+      "error_rate": 0.2222,
+      "category": "PROCEDURE"
+    }
+  },
+  "non_medical_error_words_count": 3756,
+  "model_medical_stats": {
+    "nemotron": {
+      "medical_term_recall": 95.97,
+      "medical_errors": 32,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 9,
+        "CONDITION": 4,
+        "ANATOMY": 2,
+        "PROCEDURE": 5,
+        "DRUG": 6,
+        "ABBREVIATION": 6
+      }
+    },
+    "medasr-int8": {
+      "medical_term_recall": 97.36,
+      "medical_errors": 21,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 7,
+        "CONDITION": 3,
+        "PROCEDURE": 4,
+        "ABBREVIATION": 3,
+        "DRUG": 4
+      }
+    },
+    "nemo-fastconformer": {
+      "medical_term_recall": 96.23,
+      "medical_errors": 30,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 8,
+        "CONDITION": 3,
+        "ANATOMY": 2,
+        "PROCEDURE": 5,
+        "DRUG": 3,
+        "ABBREVIATION": 9
+      }
+    },
+    "medasr": {
+      "medical_term_recall": 97.23,
+      "medical_errors": 22,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 7,
+        "CONDITION": 3,
+        "PROCEDURE": 4,
+        "ABBREVIATION": 3,
+        "DRUG": 5
+      }
+    },
+    "nemo-fastconformer-int8": {
+      "medical_term_recall": 96.23,
+      "medical_errors": 30,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 8,
+        "CONDITION": 3,
+        "ANATOMY": 2,
+        "PROCEDURE": 5,
+        "DRUG": 3,
+        "ABBREVIATION": 9
+      }
+    },
+    "sensevoice": {
+      "medical_term_recall": 97.74,
+      "medical_errors": 18,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 7,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "DRUG": 3,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 2
+      }
+    },
+    "whisper-base-en": {
+      "medical_term_recall": 97.74,
+      "medical_errors": 18,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "DRUG": 3,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 3
+      }
+    },
+    "paraformer-en": {
+      "medical_term_recall": 96.6,
+      "medical_errors": 27,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 8,
+        "CONDITION": 3,
+        "ANATOMY": 2,
+        "DRUG": 3,
+        "PROCEDURE": 3,
+        "ABBREVIATION": 8
+      }
+    },
+    "sensevoice-no-itn": {
+      "medical_term_recall": 97.86,
+      "medical_errors": 17,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 7,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "DRUG": 3,
+        "PROCEDURE": 1,
+        "ABBREVIATION": 2
+      }
+    },
+    "parakeet-tdt-0.6b-v2": {
+      "medical_term_recall": 97.99,
+      "medical_errors": 16,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "DRUG": 2,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 2
+      }
+    },
+    "whisper-distil-v3.5": {
+      "medical_term_recall": 97.86,
+      "medical_errors": 17,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "DRUG": 3,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 2
+      }
+    },
+    "qwen3-asr": {
+      "medical_term_recall": 98.49,
+      "medical_errors": 12,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 4,
+        "CONDITION": 2,
+        "ANATOMY": 1,
+        "DRUG": 2,
+        "PROCEDURE": 1,
+        "ABBREVIATION": 2
+      }
+    },
+    "cloud-aws": {
+      "medical_term_recall": 99.37,
+      "medical_errors": 5,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 2,
+        "PROCEDURE": 1,
+        "ABBREVIATION": 2
+      }
+    },
+    "whisper-turbo": {
+      "medical_term_recall": 98.11,
+      "medical_errors": 15,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 2,
+        "DRUG": 1
+      }
+    },
+    "cloud-google": {
+      "medical_term_recall": 98.24,
+      "medical_errors": 14,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 2,
+        "ANATOMY": 1,
+        "PROCEDURE": 3,
+        "DRUG": 2
+      }
+    },
+    "cloud-assemblyai": {
+      "medical_term_recall": 98.11,
+      "medical_errors": 15,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 2,
+        "DRUG": 1
+      }
+    },
+    "zipformer-zh-en": {
+      "medical_term_recall": 96.35,
+      "medical_errors": 29,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 8,
+        "CONDITION": 3,
+        "ANATOMY": 3,
+        "PROCEDURE": 3,
+        "DRUG": 3,
+        "ABBREVIATION": 9
+      }
+    },
+    "cloud-azure": {
+      "medical_term_recall": 98.36,
+      "medical_errors": 13,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 1,
+        "ANATOMY": 1,
+        "PROCEDURE": 2,
+        "ABBREVIATION": 2,
+        "DRUG": 1
+      }
+    },
+    "cloud-deepgram": {
+      "medical_term_recall": 98.24,
+      "medical_errors": 14,
+      "medical_total": 795,
+      "by_category": {
+        "CLINICAL_MODIFIER": 6,
+        "CONDITION": 3,
+        "ANATOMY": 1,
+        "PROCEDURE": 1,
+        "ABBREVIATION": 2,
+        "DRUG": 1
+      }
+    }
+  },
+  "top_non_medical_errors": {
+    "you're": {
+      "errors": 4228,
+      "total": 20503,
+      "error_rate": 0.2062
+    },
+    "okay": {
+      "errors": 3791,
+      "total": 14521,
+      "error_rate": 0.2611
+    },
+    "there's": {
+      "errors": 2150,
+      "total": 10354,
+      "error_rate": 0.2076
+    },
+    "they're": {
+      "errors": 1641,
+      "total": 5631,
+      "error_rate": 0.2914
+    },
+    "we're": {
+      "errors": 1514,
+      "total": 4549,
+      "error_rate": 0.3328
+    },
+    "i've": {
+      "errors": 1506,
+      "total": 7087,
+      "error_rate": 0.2125
+    },
+    "their": {
+      "errors": 1146,
+      "total": 3866,
+      "error_rate": 0.2964
+    },
+    "i'll": {
+      "errors": 1139,
+      "total": 4326,
+      "error_rate": 0.2633
+    },
+    "cuz": {
+      "errors": 1002,
+      "total": 1007,
+      "error_rate": 0.995
+    },
+    "2": {
+      "errors": 940,
+      "total": 1111,
+      "error_rate": 0.8461
+    },
+    "3": {
+      "errors": 751,
+      "total": 869,
+      "error_rate": 0.8642
+    },
+    "our": {
+      "errors": 691,
+      "total": 2291,
+      "error_rate": 0.3016
+    },
+    "us": {
+      "errors": 677,
+      "total": 2638,
+      "error_rate": 0.2566
+    },
+    "5": {
+      "errors": 670,
+      "total": 777,
+      "error_rate": 0.8623
+    },
+    "talked": {
+      "errors": 663,
+      "total": 2615,
+      "error_rate": 0.2535
+    },
+    "6": {
+      "errors": 641,
+      "total": 742,
+      "error_rate": 0.8639
+    },
+    "ask": {
+      "errors": 639,
+      "total": 2342,
+      "error_rate": 0.2728
+    },
+    "stop": {
+      "errors": 577,
+      "total": 2562,
+      "error_rate": 0.2252
+    },
+    "4": {
+      "errors": 569,
+      "total": 671,
+      "error_rate": 0.848
+    },
+    "tanya": {
+      "errors": 538,
+      "total": 1363,
+      "error_rate": 0.3947
+    },
+    "10": {
+      "errors": 521,
+      "total": 1107,
+      "error_rate": 0.4706
+    },
+    "james": {
+      "errors": 482,
+      "total": 2382,
+      "error_rate": 0.2024
+    },
+    "asked": {
+      "errors": 422,
+      "total": 1867,
+      "error_rate": 0.226
+    },
+    "1": {
+      "errors": 410,
+      "total": 457,
+      "error_rate": 0.8972
+    },
+    "30": {
+      "errors": 407,
+      "total": 834,
+      "error_rate": 0.488
+    },
+    "its": {
+      "errors": 402,
+      "total": 597,
+      "error_rate": 0.6734
+    },
+    "doctor": {
+      "errors": 388,
+      "total": 1637,
+      "error_rate": 0.237
+    },
+    "7": {
+      "errors": 379,
+      "total": 463,
+      "error_rate": 0.8186
+    },
+    "stay": {
+      "errors": 368,
+      "total": 1232,
+      "error_rate": 0.2987
+    },
+    "everyday": {
+      "errors": 362,
+      "total": 383,
+      "error_rate": 0.9452
+    },
+    "alright": {
+      "errors": 361,
+      "total": 417,
+      "error_rate": 0.8657
+    },
+    "use": {
+      "errors": 359,
+      "total": 1424,
+      "error_rate": 0.2521
+    },
+    "8": {
+      "errors": 348,
+      "total": 456,
+      "error_rate": 0.7632
+    },
+    "blah": {
+      "errors": 328,
+      "total": 1325,
+      "error_rate": 0.2475
+    },
+    "we'll": {
+      "errors": 327,
+      "total": 1017,
+      "error_rate": 0.3215
+    },
+    "yet": {
+      "errors": 325,
+      "total": 1222,
+      "error_rate": 0.266
+    },
+    "write": {
+      "errors": 324,
+      "total": 1190,
+      "error_rate": 0.2723
+    },
+    "i'd": {
+      "errors": 316,
+      "total": 1198,
+      "error_rate": 0.2638
+    },
+    "ya": {
+      "errors": 307,
+      "total": 311,
+      "error_rate": 0.9871
+    },
+    "play": {
+      "errors": 294,
+      "total": 837,
+      "error_rate": 0.3513
+    },
+    "email": {
+      "errors": 286,
+      "total": 981,
+      "error_rate": 0.2915
+    },
+    "haha": {
+      "errors": 276,
+      "total": 290,
+      "error_rate": 0.9517
+    },
+    "12": {
+      "errors": 267,
+      "total": 568,
+      "error_rate": 0.4701
+    },
+    "20": {
+      "errors": 264,
+      "total": 543,
+      "error_rate": 0.4862
+    },
+    "anymore": {
+      "errors": 258,
+      "total": 1250,
+      "error_rate": 0.2064
+    },
+    "pain": {
+      "errors": 256,
+      "total": 905,
+      "error_rate": 0.2829
+    },
+    "likes": {
+      "errors": 251,
+      "total": 424,
+      "error_rate": 0.592
+    },
+    "four": {
+      "errors": 242,
+      "total": 655,
+      "error_rate": 0.3695
+    },
+    "ivan": {
+      "errors": 237,
+      "total": 1138,
+      "error_rate": 0.2083
+    },
+    "talkin": {
+      "errors": 236,
+      "total": 236,
+      "error_rate": 1.0
+    }
+  }
+}

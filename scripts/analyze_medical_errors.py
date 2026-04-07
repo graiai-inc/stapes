@@ -305,6 +305,9 @@ def analyze_dataset(dataset: str) -> dict:
     n_workers = min(multiprocessing.cpu_count(), 12)
     log.info(f'  Analyzing {len(model_results)} models with {n_workers} workers...')
 
+    intermediate_dir = results_dir / 'medical_errors_per_model'
+    intermediate_dir.mkdir(exist_ok=True)
+
     with ProcessPoolExecutor(max_workers=n_workers) as executor:
         futures = {
             executor.submit(_analyze_one_model, (model, files)): model
@@ -317,6 +320,15 @@ def analyze_dataset(dataset: str) -> dict:
                 all_error_words[word] += count
             for word, count in ref_counts.items():
                 all_ref_words[word] += count
+            # Write per-model results immediately
+            model_file = intermediate_dir / f'{model_name}.json'
+            model_file.write_text(json.dumps({
+                'model': model_name,
+                'unique_error_words': len(word_errors),
+                'total_errors': sum(word_errors.values()),
+                'top_errors': dict(sorted(word_errors.items(),
+                                          key=lambda x: x[1], reverse=True)[:50]),
+            }, indent=2))
             log.info(f'    [{len(model_errors)}/{len(model_results)}] {model_name}: '
                      f'{len(word_errors)} unique error words')
 
