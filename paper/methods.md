@@ -20,7 +20,7 @@ All on-device models were run through the sherpa-onnx inference engine (v1.12.34
 
 ### Cloud APIs
 
-Five commercial cloud ASR services were evaluated: Azure Speech, Google Cloud Speech (medical_conversation model), Deepgram Nova-2 Medical, AssemblyAI (best model), and AWS Transcribe Medical. All services were accessed via their respective APIs using medical or clinical model variants where available. Azure, Google, Deepgram, and AssemblyAI were run on all files across all three datasets. AWS Transcribe Medical was run on representative subsets (50, 17, and 21 files from each dataset) due to cost.
+Five commercial cloud ASR services were evaluated: Azure Speech, Google Cloud Speech (medical_conversation model), Deepgram Nova-2 Medical, AssemblyAI (universal-3-pro), and AWS Transcribe Medical. Three of five services (Google, Deepgram, AWS) used medical-specific models; Azure and AssemblyAI used general-purpose models. Azure, Google, Deepgram, and AssemblyAI were run on all files across all three datasets. AWS Transcribe Medical was run on representative subsets (50, 17, and 21 files from each dataset) due to cost. All 14 on-device models are general-purpose and were not fine-tuned for medical or clinical speech.
 
 ### Text Normalization and WER Computation
 

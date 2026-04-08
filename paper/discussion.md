@@ -1,6 +1,6 @@
 ## Discussion
 
-Our benchmark demonstrates that on-device ASR models achieve clinical term recall within 1 to 3 percentage points of commercial cloud APIs across three clinical conversation datasets, supporting the feasibility of privacy-preserving on-device ASR for clinical documentation.
+Our benchmark demonstrates that on-device ASR models achieve clinical term recall within 1 to 3 percentage points of commercial cloud APIs across three clinical conversation datasets, supporting the feasibility of privacy-preserving on-device ASR for clinical documentation. This performance was achieved using general-purpose models with no medical fine-tuning, compared against cloud APIs where three of five services deployed medical-specific models, suggesting that domain-adapted on-device models could further narrow or eliminate the gap.
 
 ### Model Selection
 
