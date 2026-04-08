@@ -130,7 +130,7 @@ All three datasets consist of simulated or enacted encounters rather than real p
 
 ## Future Directions
 
-Future work should evaluate on real clinical recordings such as the Bridge2AI-Voice corpus. The dataset-dependent ROVER failure motivates investigation of confidence-weighted fusion using per-token model probabilities. Specialty-specific benchmarks and evaluation of complete documentation pipelines would provide more clinically meaningful assessments.
+Future work should evaluate on real clinical recordings such as the Bridge2AI-Voice corpus. The data gap itself is addressable without patient data: OSCE examinations are conducted routinely at medical schools worldwide, are clinically realistic, involve students and evaluators with diverse accents and languages, and contain no protected health information. If institutions shared even a fraction of these recordings under open licenses, the research community would have access to a large, diverse, and ecologically valid clinical ASR benchmark. The barrier is not technical or ethical but institutional willingness. The dataset-dependent ROVER failure motivates investigation of confidence-weighted fusion using per-token model probabilities. Specialty-specific benchmarks and evaluation of complete documentation pipelines would provide more clinically meaningful assessments.
 
 # Conclusion
 
