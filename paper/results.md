@@ -20,11 +20,11 @@ This dataset-dependent behavior has not been previously reported. We examined th
 
 ### Medical Terminology Accuracy
 
-Medical term recall (MTR), the proportion of identified medical terms in the reference that were correctly transcribed, was computed for all models using pattern-based classification of error words into clinical categories (drugs, conditions, procedures, anatomy, abbreviations).
+Medical term recall (MTR) was computed by first identifying all medical concept spans in the reference transcripts using QuickUMLS (threshold 0.8) against the UMLS 2025AB Metathesaurus, then checking whether those spans were correctly transcribed. This captures both single-word terms (e.g., "hypertension") and multi-word terms (e.g., "chest pain", "runny nose"). A medical span was scored as an error if any word within it was incorrectly transcribed. Common English words that collide with UMLS abbreviations or eponyms (e.g., "said" matching Simian AIDS) were excluded via a curated stopword list.
 
-On-device models achieved MTR within 1 to 2 percentage points of cloud APIs across all datasets (Table 2). On the psychiatric dataset, the best on-device model (98.49%) exceeded three of five cloud APIs. On PriMock57, the best on-device model (98.90%) matched the fourth-ranked cloud API. On the OSCE dataset, the top on-device model (99.20%) trailed the best cloud API by 0.56 percentage points.
+On-device models achieved MTR within 1 to 3 percentage points of cloud APIs across all datasets (Table 2). On the psychiatric dataset, the best on-device models (whisper-turbo 92.0%, whisper-distil 91.9%, parakeet-tdt 91.8%) were within 1 percentage point of the best cloud API (93.0%). On the OSCE dataset, the best on-device model (whisper-turbo, 93.6%) trailed the best cloud APIs (95.5%) by 1.9 percentage points. On PriMock57, the gap was widest: parakeet-tdt (89.4%) trailed the best cloud API (92.4%) by 3.0 percentage points.
 
-Drug names exhibited the highest per-word error rates across both on-device and cloud models: ramipril (67.5% error rate on the OSCE dataset), rosuvastatin (75.2%), amoxicillin (79.8% on PriMock57), and lisinopril (77.3% on PriMock57). These failures were consistent across model types, suggesting that medical terminology remains an intrinsic challenge for current ASR systems regardless of deployment mode.
+Model rankings differed between WER and MTR. Whisper-turbo, which ranked second on overall WER, achieved the highest on-device MTR on two of three datasets. Drug names exhibited the highest per-term error rates across both on-device and cloud models, including wellbutrin (60.4% error rate on the psychiatric dataset), and common medications and symptoms on the primary care and OSCE datasets. These failures were consistent across model types, suggesting that medical terminology remains an intrinsic challenge for current ASR systems regardless of deployment mode.
 
 ### Cost Analysis
 
