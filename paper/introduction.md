@@ -1,4 +1,4 @@
-## Background
+## Introduction
 
 Physicians spend more than half their working hours on documentation, and administrative burden is a leading contributor to burnout. Ambient AI scribes, systems that passively transcribe clinical encounters for automated note generation, have emerged as a promising intervention. Recent evaluations report reductions in after-hours documentation time and improvements in clinician satisfaction, though results are mixed: one large cohort study of a commercial ambient scribe found no significant time savings and worsened after-hours EHR use. Regardless of their downstream effectiveness, all ambient documentation systems depend on the foundational accuracy of automatic speech recognition (ASR) for clinical conversations, where reported word error rates range from under 1% for controlled dictation to over 50% for naturalistic clinical speech.
 
