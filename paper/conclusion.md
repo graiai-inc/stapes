@@ -1,0 +1,3 @@
+## Conclusion
+
+On-device ASR models approach the clinical term recall of commercial cloud APIs while eliminating patient audio transmission and recurring costs. ROVER fusion can close this gap on structured examinations but degrades performance on naturalistic conversation, a finding not previously reported. These results support the feasibility of privacy-preserving on-device clinical speech recognition. Until medication transcription accuracy improves, clinical deployment of any ASR system requires robust verification workflows. By running on devices clinicians already own, on-device ASR may democratize access to documentation technology for settings where cloud services are unaffordable or legally prohibited.
