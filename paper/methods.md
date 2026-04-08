@@ -28,7 +28,7 @@ Word error rate was computed after applying the Whisper English text normalizer 
 
 ### ROVER Fusion
 
-Recognizer Output Voting Error Reduction (ROVER) (Fiscus, 1997) combines two transcription hypotheses by aligning them at the word level and selecting the most frequently occurring word at each position through majority voting. When two models agree on a word, it is retained; when they disagree, the system selects based on alignment scoring. We applied ROVER to all pairwise combinations of the 14 on-device models (91 pairs) on each dataset, using equal model weighting and word-level similarity scoring for alignment. Fused WER was computed using the same normalization pipeline. Per-file win counts (files where fused WER was lower than both individual models) were recorded.
+Recognizer Output Voting Error Reduction (ROVER) (Fiscus, 1997) combines two transcription hypotheses by aligning them at the word level and selecting the most frequently occurring word at each position through majority voting. When two models agree on a word, it is retained; when they disagree, the system selects the word that produces better alignment with the surrounding context. We applied ROVER to all pairwise combinations of the 14 on-device models (91 pairs) on each dataset, using equal model weighting and word-level similarity scoring for alignment. Fused WER was computed using the same normalization pipeline. Per-file win counts (files where fused WER was lower than both individual models) were recorded.
 
 ### Clinical Term Recall
 

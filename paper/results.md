@@ -4,7 +4,7 @@
 
 On-device models approached or matched cloud API performance across all three datasets (Table 1). On the Kazi et al. psychiatric dataset (71 conversations), the best on-device model (parakeet-tdt-0.6b-v2, 7.30%) was within 0.47 percentage points of the best cloud API (6.83%) and outperformed two of five cloud services. On the OSCE respiratory interview dataset (272 conversations), the best on-device model (whisper-distil-v3.5, 17.59%) trailed the best cloud API (14.56%) by 3.03 percentage points. On PriMock57 (57 mock primary care consultations), the gap was widest: the best on-device model (parakeet-tdt-0.6b-v2, 13.85%) trailed the best cloud API (9.88%) by 3.97 percentage points.
 
-No single on-device model performed best across all datasets. Whisper-distil-v3.5 led on the OSCE dataset while parakeet-tdt-0.6b-v2 led on both PriMock57 and the psychiatric dataset.
+No single on-device model performed best across all datasets. Whisper-distil-v3.5 led on the OSCE dataset while parakeet-tdt-0.6b-v2 led on both PriMock57 and the psychiatric dataset. Among cloud APIs, one service (Google medical_conversation) exhibited WER 5 to 16 percentage points higher than other cloud APIs, attributable to verbatim transcription of disfluencies (see Limitations).
 
 ### ROVER Fusion
 
