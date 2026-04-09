@@ -1,0 +1,20 @@
+Model,Type,OSCE (n=272),PriMock57 (n=57),Psychiatric (n=71)
+Whisper distil-v3.5,On-device,17.59,14.19,7.35
+Whisper turbo,On-device,17.93,15.53,7.55
+Whisper base.en,On-device,20.18,20.27,7.64
+Qwen3-ASR,On-device,18.74,14.74,7.94
+Parakeet-TDT-0.6b-v2,On-device,22.93,13.85,7.30
+SenseVoice (no ITN),On-device,18.99,19.95,7.63
+SenseVoice,On-device,18.75,21.01,7.68
+Paraformer-en,On-device,23.97,29.12,9.28
+NeMo FastConformer,On-device,27.70,34.93,11.51
+NeMo FastConformer int8,On-device,28.03,32.33,11.28
+Nemotron,On-device,38.82,38.16,37.40
+Zipformer,On-device,39.82,36.61,11.14
+MedASR,On-device,58.31,89.28,32.78
+MedASR int8,On-device,57.85,88.83,32.48
+Azure Speech,Cloud (general),14.56,9.88,6.83
+Deepgram Nova-2 Medical,Cloud (medical),17.04,11.80,6.99
+AssemblyAI,Cloud (general),16.43,13.76,7.81
+AWS Transcribe Medical*,Cloud (medical),-,9.39,7.18
+Google medical_conversation,Cloud (medical),23.08,26.00,10.52
