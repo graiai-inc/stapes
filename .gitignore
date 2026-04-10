@@ -6,3 +6,5 @@ __pycache__/
 *.mp3
 *.flac
 assets/audio/
+*.lock
+.~lock*
