@@ -24,7 +24,7 @@ Five commercial cloud ASR services were evaluated: Azure Speech, Google Cloud Sp
 
 ### Text Normalization and WER Computation
 
-Word error rate was computed after applying the Whisper English text normalizer (whisper-normalizer v1.0), which performs case folding, punctuation removal, number-to-word conversion, and contraction expansion. This normalizer is the standard pipeline used by the HuggingFace Open ASR Leaderboard (Gandhi et al., 2025) and MLPerf Inference ASR benchmarks. Both raw and normalized WER were computed for all model-file pairs; normalized WER is reported throughout.
+Word error rate was computed after applying the Whisper English text normalizer (whisper-normalizer v1.0), which performs case folding, punctuation removal, number-to-word conversion, and contraction expansion. This normalizer is the standard pipeline used by the HuggingFace Open ASR Leaderboard (Gandhi et al., 2025) and MLPerf Inference ASR benchmarks. Both raw and normalized WER were computed for all model-file pairs; normalized WER is reported throughout. Because we evaluated a fixed, exhaustive set of models and files rather than sampling from a population, we report descriptive performance metrics without inferential statistics.
 
 ### ROVER Fusion
 

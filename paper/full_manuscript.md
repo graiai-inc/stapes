@@ -49,7 +49,7 @@ Five commercial cloud ASR services were evaluated: Azure Speech, Google Cloud Sp
 
 ## Text Normalization and WER Computation
 
-Word error rate was computed after applying the Whisper English text normalizer (whisper-normalizer v1.0), which performs case folding, punctuation removal, number-to-word conversion, and contraction expansion. This normalizer is the standard pipeline used by the HuggingFace Open ASR Leaderboard (Gandhi et al., 2025) and MLPerf Inference ASR benchmarks. Both raw and normalized WER were computed for all model-file pairs; normalized WER is reported throughout.
+Word error rate was computed after applying the Whisper English text normalizer (whisper-normalizer v1.0), which performs case folding, punctuation removal, number-to-word conversion, and contraction expansion. This normalizer is the standard pipeline used by the HuggingFace Open ASR Leaderboard (Gandhi et al., 2025) and MLPerf Inference ASR benchmarks. Both raw and normalized WER were computed for all model-file pairs; normalized WER is reported throughout. Because we evaluated a fixed, exhaustive set of models and files rather than sampling from a population, we report descriptive performance metrics without inferential statistics.
 
 
 ## ROVER Fusion
@@ -96,7 +96,7 @@ Model rankings differed between WER and CTR. Whisper-turbo, which ranked second 
 
 ## Cost Analysis
 
-Total cloud API costs for evaluating approximately 80 hours of audio across all three datasets ranged from $19.33 to $382.64 (Table 3). The five services ranked by total cost were: Azure Speech ($19.33), Deepgram Nova-2 Medical ($25.78), AssemblyAI ($28.10), AWS Transcribe Medical ($99.63, representative subsets only due to cost), and Google Cloud Speech ($382.64, which may include preliminary test runs). On-device inference incurred no per-encounter cost after initial model download (model sizes range from 37 MB to 1.5 GB). On-device processing runs on consumer mobile devices that clinicians already own and regularly update, requiring no additional hardware investment. For a practice transcribing 30 encounters per day, estimated annual cloud costs at published rates would range from approximately $2,000 to over $20,000 depending on the service, whereas on-device processing has zero marginal cost per encounter.
+Total cloud API costs for evaluating approximately 80 hours of audio across all three datasets ranged from $19.33 to $382.64 (Table 3). The five services ranked by total cost were: Azure Speech ($19.33), Deepgram Nova-2 Medical ($25.78), AssemblyAI ($28.10), AWS Transcribe Medical ($99.63, representative subsets only due to cost), and Google Cloud Speech ($382.64, including initial configuration runs). On-device inference incurred no per-encounter cost after initial model download (model sizes range from 37 MB to 1.5 GB). On-device processing runs on consumer mobile devices that clinicians already own and regularly update, requiring no additional hardware investment. For a practice transcribing 30 encounters per day, estimated annual cloud costs at published rates would range from approximately $2,000 to over $20,000 depending on the service, whereas on-device processing has zero marginal cost per encounter.
 
 # Discussion
 
