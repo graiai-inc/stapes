@@ -1,0 +1,47 @@
+category	token	expansion	count
+unambiguous	im	i'm	1325
+unambiguous	ive	i've	1300
+unambiguous	dont	don't	1280
+unambiguous	thats	that's	1044
+unambiguous	havent	haven't	759
+unambiguous	youre	you're	695
+unambiguous	hes	he's	424
+unambiguous	youve	you've	402
+unambiguous	didnt	didn't	279
+unambiguous	shes	she's	251
+unambiguous	theres	there's	221
+unambiguous	cant	can't	216
+unambiguous	hasnt	hasn't	170
+unambiguous	doesnt	doesn't	158
+unambiguous	whats	what's	110
+unambiguous	whos	who's	104
+unambiguous	weve	we've	85
+unambiguous	wasnt	wasn't	69
+unambiguous	theyre	they're	67
+unambiguous	theyve	they've	47
+unambiguous	couldnt	couldn't	36
+unambiguous	youll	you'll	24
+unambiguous	wouldnt	wouldn't	23
+unambiguous	hows	how's	22
+unambiguous	isnt	isn't	18
+unambiguous	werent	weren't	16
+unambiguous	theyll	they'll	14
+unambiguous	arent	aren't	14
+unambiguous	wont	won't	12
+unambiguous	youd	you'd	7
+unambiguous	shouldnt	shouldn't	4
+unambiguous	hadnt	hadn't	4
+unambiguous	whens	when's	2
+unambiguous	wheres	where's	2
+unambiguous	couldve	could've	2
+unambiguous	mustve	must've	1
+unambiguous	shouldve	should've	1
+unambiguous	wouldve	would've	1
+unambiguous	theyd	they'd	1
+ambiguous	its	it's / its	2780
+ambiguous	well	we'll / well	1857
+ambiguous	were	we're / were	575
+ambiguous	ill	i'll / ill	272
+ambiguous	id	i'd / id	92
+ambiguous	lets	let's / lets	56
+ambiguous	wed	we'd / wed	6

@@ -1,0 +1,16 @@
+kind	key	fixed_wer	buggy_wer	delta_pp
+solo	parakeet-tdt-0.6b-v2	17.06	22.93	-5.87
+solo	whisper-distil-v3.5	11.23	17.59	-6.36
+solo	whisper-turbo	12.01	17.93	-5.92
+solo	sensevoice	12.80	18.75	-5.95
+solo	sensevoice-no-itn	13.06	18.99	-5.94
+solo	qwen3-asr	12.37	18.74	-6.37
+pair	parakeet-tdt-0.6b-v2+sensevoice	11.01	10.71	+0.30
+pair	parakeet-tdt-0.6b-v2+sensevoice-no-itn	11.02	10.71	+0.31
+pair	parakeet-tdt-0.6b-v2+whisper-distil-v3.5	11.28	10.92	+0.36
+pair	whisper-distil-v3.5+sensevoice	11.03	10.69	+0.34
+pair	whisper-distil-v3.5+sensevoice-no-itn	11.03	10.69	+0.34
+pair	whisper-distil-v3.5+qwen3-asr	11.84	11.50	+0.34
+pair	whisper-distil-v3.5+whisper-turbo	11.36	11.01	+0.35
+pair	parakeet-tdt-0.6b-v2+qwen3-asr	11.74	11.44	+0.30
+pair	sensevoice+sensevoice-no-itn	12.67	12.41	+0.26

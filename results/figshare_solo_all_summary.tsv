@@ -1,0 +1,10 @@
+display	files	fixed_wer	buggy_wer	delta_pp
+Whisper base.en	272	14.27	20.18	-5.90
+Paraformer-en	272	17.95	23.97	-6.02
+NeMo FastConformer	272	22.44	27.70	-5.26
+NeMo FastConformer int8	272	22.73	28.03	-5.31
+Nemotron	272	35.59	38.82	-3.23
+Zipformer (libriheavy)	270	25.21	29.99	-4.78
+Zipformer (zh-en)	272	33.90	39.82	-5.92
+MedASR	270	56.45	58.05	-1.60
+MedASR int8	270	55.94	57.59	-1.65
