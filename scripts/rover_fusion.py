@@ -41,7 +41,12 @@ DATASETS = ['figshare-osce', 'primock57', 'nazmulkazi']
 
 def _tokenize(text: str) -> list[str]:
     text = text.lower()
-    text = re.sub(r'[^\w\s]', '', text)
+    # Preserve apostrophes so WhisperNormalizer can expand contractions
+    # after fusion output is stitched back together. Stripping apostrophes
+    # here caused fused WER to be inflated by ~6-8pp on apostrophe-bearing
+    # references (PriMock57, Nazmulkazi) because WNORM expands "I'm" -> "i am"
+    # on the reference but "im" -> "im" on apostrophe-stripped hypotheses.
+    text = re.sub(r"[^\w\s']", '', text)
     return [w for w in text.split() if w]
 
 
