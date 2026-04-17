@@ -1,0 +1,41 @@
+[plan] 1264 (subdir, provider, file) tasks
+[progress] 50/1264
+[progress] 100/1264
+[progress] 150/1264
+[progress] 200/1264
+[progress] 250/1264
+[progress] 300/1264
+[progress] 350/1264
+[progress] 400/1264
+[progress] 450/1264
+[progress] 500/1264
+[progress] 550/1264
+[progress] 600/1264
+[progress] 650/1264
+[progress] 700/1264
+[progress] 750/1264
+[progress] 800/1264
+[progress] 850/1264
+[progress] 900/1264
+[progress] 950/1264
+[progress] 1000/1264
+[progress] 1050/1264
+[progress] 1100/1264
+[progress] 1150/1264
+[progress] 1200/1264
+[progress] 1250/1264
+[progress] 1264/1264
+
+=== CLOUD API WER (figshare-osce, apostrophe-injected ref) ===
+subdir                                          provider        files     fixed     buggy     delta
+benchmark_results_cloud_figshare-osce           assemblyai        272    10.29%    16.43%    -6.14
+benchmark_results_cloud_figshare-osce           azure             272     7.70%    14.56%    -6.86
+benchmark_results_cloud_figshare-osce           deepgram          272    10.10%    17.04%    -6.93
+benchmark_results_cloud_figshare-osce           google            272    16.53%    23.08%    -6.55
+benchmark_results_cloud_figshare-osce-subset    assemblyai         26     8.50%    14.63%    -6.13
+benchmark_results_cloud_figshare-osce-subset    aws                50     8.03%    14.46%    -6.43
+benchmark_results_cloud_figshare-osce-subset    azure              50     7.58%    13.95%    -6.36
+benchmark_results_cloud_figshare-osce-subset    google             50    15.72%    21.92%    -6.20
+
+[done] per-file: /home/grey/dev/graiai/stapes/results/figshare_cloud_fix_per_file.tsv
+[done] summary:  /home/grey/dev/graiai/stapes/results/figshare_cloud_fix_summary.tsv

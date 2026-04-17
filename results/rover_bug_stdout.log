@@ -1,0 +1,180 @@
+[plan] 3600 (dataset, pair, file) tasks
+[progress] 25/3600 files scored
+[progress] 50/3600 files scored
+[progress] 75/3600 files scored
+[progress] 100/3600 files scored
+[progress] 125/3600 files scored
+[progress] 150/3600 files scored
+[progress] 175/3600 files scored
+[progress] 200/3600 files scored
+[progress] 225/3600 files scored
+[progress] 250/3600 files scored
+[progress] 275/3600 files scored
+[progress] 300/3600 files scored
+[progress] 325/3600 files scored
+[progress] 350/3600 files scored
+[progress] 375/3600 files scored
+[progress] 400/3600 files scored
+[progress] 425/3600 files scored
+[progress] 450/3600 files scored
+[progress] 475/3600 files scored
+[progress] 500/3600 files scored
+[progress] 525/3600 files scored
+[progress] 550/3600 files scored
+[progress] 575/3600 files scored
+[progress] 600/3600 files scored
+[progress] 625/3600 files scored
+[progress] 650/3600 files scored
+[progress] 675/3600 files scored
+[progress] 700/3600 files scored
+[progress] 725/3600 files scored
+[progress] 750/3600 files scored
+[progress] 775/3600 files scored
+[progress] 800/3600 files scored
+[progress] 825/3600 files scored
+[progress] 850/3600 files scored
+[progress] 875/3600 files scored
+[progress] 900/3600 files scored
+[progress] 925/3600 files scored
+[progress] 950/3600 files scored
+[progress] 975/3600 files scored
+[progress] 1000/3600 files scored
+[progress] 1025/3600 files scored
+[progress] 1050/3600 files scored
+[progress] 1075/3600 files scored
+[progress] 1100/3600 files scored
+[progress] 1125/3600 files scored
+[progress] 1150/3600 files scored
+[progress] 1175/3600 files scored
+[progress] 1200/3600 files scored
+[progress] 1225/3600 files scored
+[progress] 1250/3600 files scored
+[progress] 1275/3600 files scored
+[progress] 1300/3600 files scored
+[progress] 1325/3600 files scored
+[progress] 1350/3600 files scored
+[progress] 1375/3600 files scored
+[progress] 1400/3600 files scored
+[progress] 1425/3600 files scored
+[progress] 1450/3600 files scored
+[progress] 1475/3600 files scored
+[progress] 1500/3600 files scored
+[progress] 1525/3600 files scored
+[progress] 1550/3600 files scored
+[progress] 1575/3600 files scored
+[progress] 1600/3600 files scored
+[progress] 1625/3600 files scored
+[progress] 1650/3600 files scored
+[progress] 1675/3600 files scored
+[progress] 1700/3600 files scored
+[progress] 1725/3600 files scored
+[progress] 1750/3600 files scored
+[progress] 1775/3600 files scored
+[progress] 1800/3600 files scored
+[progress] 1825/3600 files scored
+[progress] 1850/3600 files scored
+[progress] 1875/3600 files scored
+[progress] 1900/3600 files scored
+[progress] 1925/3600 files scored
+[progress] 1950/3600 files scored
+[progress] 1975/3600 files scored
+[progress] 2000/3600 files scored
+[progress] 2025/3600 files scored
+[progress] 2050/3600 files scored
+[progress] 2075/3600 files scored
+[progress] 2100/3600 files scored
+[progress] 2125/3600 files scored
+[progress] 2150/3600 files scored
+[progress] 2175/3600 files scored
+[progress] 2200/3600 files scored
+[progress] 2225/3600 files scored
+[progress] 2250/3600 files scored
+[progress] 2275/3600 files scored
+[progress] 2300/3600 files scored
+[progress] 2325/3600 files scored
+[progress] 2350/3600 files scored
+[progress] 2375/3600 files scored
+[progress] 2400/3600 files scored
+[progress] 2425/3600 files scored
+[progress] 2450/3600 files scored
+[progress] 2475/3600 files scored
+[progress] 2500/3600 files scored
+[progress] 2525/3600 files scored
+[progress] 2550/3600 files scored
+[progress] 2575/3600 files scored
+[progress] 2600/3600 files scored
+[progress] 2625/3600 files scored
+[progress] 2650/3600 files scored
+[progress] 2675/3600 files scored
+[progress] 2700/3600 files scored
+[progress] 2725/3600 files scored
+[progress] 2750/3600 files scored
+[progress] 2775/3600 files scored
+[progress] 2800/3600 files scored
+[progress] 2825/3600 files scored
+[progress] 2850/3600 files scored
+[progress] 2875/3600 files scored
+[progress] 2900/3600 files scored
+[progress] 2925/3600 files scored
+[progress] 2950/3600 files scored
+[progress] 2975/3600 files scored
+[progress] 3000/3600 files scored
+[progress] 3025/3600 files scored
+[progress] 3050/3600 files scored
+[progress] 3075/3600 files scored
+[progress] 3100/3600 files scored
+[progress] 3125/3600 files scored
+[progress] 3150/3600 files scored
+[progress] 3175/3600 files scored
+[progress] 3200/3600 files scored
+[progress] 3225/3600 files scored
+[progress] 3250/3600 files scored
+[progress] 3275/3600 files scored
+[progress] 3300/3600 files scored
+[progress] 3325/3600 files scored
+[progress] 3350/3600 files scored
+[progress] 3375/3600 files scored
+[progress] 3400/3600 files scored
+[progress] 3425/3600 files scored
+[progress] 3450/3600 files scored
+[progress] 3475/3600 files scored
+[progress] 3500/3600 files scored
+[progress] 3525/3600 files scored
+[progress] 3550/3600 files scored
+[progress] 3575/3600 files scored
+[progress] 3600/3600 files scored
+
+dataset         pair                                                  buggy    fixed    delta    best_solo    fixed_vs_solo
+---------------------------------------------------------------------------------------------------------------------------
+figshare-osce   parakeet-tdt-0.6b-v2 + sensevoice                    10.71%   17.46%   +6.75       17.59%          -0.13pp
+figshare-osce   parakeet-tdt-0.6b-v2 + sensevoice-no-itn             10.71%   17.48%   +6.77       17.59%          -0.11pp
+figshare-osce   parakeet-tdt-0.6b-v2 + whisper-distil-v3.5           10.92%   17.80%   +6.87       17.59%          +0.21pp
+figshare-osce   whisper-distil-v3.5 + sensevoice                     10.69%   17.62%   +6.93       17.59%          +0.03pp
+figshare-osce   whisper-distil-v3.5 + sensevoice-no-itn              10.69%   17.65%   +6.96       17.59%          +0.06pp
+figshare-osce   whisper-distil-v3.5 + qwen3-asr                      11.50%   18.57%   +7.07       17.59%          +0.98pp
+figshare-osce   whisper-distil-v3.5 + whisper-turbo                  11.01%   17.79%   +6.77       17.59%          +0.20pp
+figshare-osce   parakeet-tdt-0.6b-v2 + qwen3-asr                     11.44%   18.37%   +6.93       17.59%          +0.78pp
+figshare-osce   sensevoice + sensevoice-no-itn                       12.41%   18.68%   +6.27       17.59%          +1.09pp
+
+primock57       parakeet-tdt-0.6b-v2 + sensevoice                    21.34%   13.47%   -7.86       13.85%          -0.38pp
+primock57       parakeet-tdt-0.6b-v2 + sensevoice-no-itn             21.27%   13.41%   -7.86       13.85%          -0.44pp
+primock57       parakeet-tdt-0.6b-v2 + whisper-distil-v3.5           21.48%   13.49%   -7.99       13.85%          -0.36pp
+primock57       whisper-distil-v3.5 + sensevoice                     22.08%   14.19%   -7.89       13.85%          +0.34pp
+primock57       whisper-distil-v3.5 + sensevoice-no-itn              22.06%   14.18%   -7.88       13.85%          +0.33pp
+primock57       whisper-distil-v3.5 + qwen3-asr                      21.71%   14.03%   -7.67       13.85%          +0.18pp
+primock57       whisper-distil-v3.5 + whisper-turbo                  22.15%   14.30%   -7.86       13.85%          +0.45pp
+primock57       parakeet-tdt-0.6b-v2 + qwen3-asr                     20.77%   13.03%   -7.74       13.85%          -0.82pp
+primock57       sensevoice + sensevoice-no-itn                       26.41%   19.89%   -6.52       13.85%          +6.04pp
+
+nazmulkazi      parakeet-tdt-0.6b-v2 + sensevoice                    17.26%    7.15%  -10.11        7.30%          -0.15pp
+nazmulkazi      parakeet-tdt-0.6b-v2 + sensevoice-no-itn             17.27%    7.16%  -10.11        7.30%          -0.14pp
+nazmulkazi      parakeet-tdt-0.6b-v2 + whisper-distil-v3.5           17.52%    7.45%  -10.07        7.30%          +0.15pp
+nazmulkazi      whisper-distil-v3.5 + sensevoice                     17.46%    7.39%  -10.07        7.30%          +0.09pp
+nazmulkazi      whisper-distil-v3.5 + sensevoice-no-itn              17.47%    7.39%  -10.07        7.30%          +0.09pp
+nazmulkazi      whisper-distil-v3.5 + qwen3-asr                      17.54%    7.62%   -9.92        7.30%          +0.32pp
+nazmulkazi      whisper-distil-v3.5 + whisper-turbo                  17.60%    7.52%  -10.08        7.30%          +0.22pp
+nazmulkazi      parakeet-tdt-0.6b-v2 + qwen3-asr                     17.34%    7.37%   -9.97        7.30%          +0.07pp
+nazmulkazi      sensevoice + sensevoice-no-itn                       17.71%    7.69%  -10.02        7.30%          +0.39pp
+
+[done] per-file: /home/grey/dev/graiai/stapes/results/rover_bug_per_file.tsv
+[done] summary:  /home/grey/dev/graiai/stapes/results/rover_bug_verification.tsv

@@ -1,0 +1,74 @@
+[load] Whisper base.en: 272 rows
+[load] Paraformer-en: 272 rows
+[load] NeMo FastConformer: 272 rows
+[load] NeMo FastConformer int8: 272 rows
+[load] Nemotron: 272 rows
+[load] Zipformer (libriheavy): 270 rows
+[load] Zipformer (zh-en): 272 rows
+[load] MedASR: 272 rows
+[load] MedASR int8: 272 rows
+[plan] 2442 tasks
+[progress] 50/2442
+[progress] 100/2442
+[progress] 150/2442
+[progress] 200/2442
+[progress] 250/2442
+[progress] 300/2442
+[progress] 350/2442
+[progress] 400/2442
+[progress] 450/2442
+[progress] 500/2442
+[progress] 550/2442
+[progress] 600/2442
+[progress] 650/2442
+[progress] 700/2442
+[progress] 750/2442
+[progress] 800/2442
+[progress] 850/2442
+[progress] 900/2442
+[progress] 950/2442
+[progress] 1000/2442
+[progress] 1050/2442
+[progress] 1100/2442
+[progress] 1150/2442
+[progress] 1200/2442
+[progress] 1250/2442
+[progress] 1300/2442
+[progress] 1350/2442
+[progress] 1400/2442
+[progress] 1450/2442
+[progress] 1500/2442
+[progress] 1550/2442
+[progress] 1600/2442
+[progress] 1650/2442
+[progress] 1700/2442
+[progress] 1750/2442
+[progress] 1800/2442
+[progress] 1850/2442
+[progress] 1900/2442
+[progress] 1950/2442
+[progress] 2000/2442
+[progress] 2050/2442
+[progress] 2100/2442
+[progress] 2150/2442
+[progress] 2200/2442
+[progress] 2250/2442
+[progress] 2300/2442
+[progress] 2350/2442
+[progress] 2400/2442
+[progress] 2442/2442
+
+=== SOLO WER (figshare-osce, corrected ref) ===
+model                             files     fixed     buggy     delta
+Whisper base.en                     272    14.27%    20.18%    -5.90
+Paraformer-en                       272    17.95%    23.97%    -6.02
+NeMo FastConformer                  272    22.44%    27.70%    -5.26
+NeMo FastConformer int8             272    22.73%    28.03%    -5.31
+Nemotron                            272    35.59%    38.82%    -3.23
+Zipformer (libriheavy)              270    25.21%    29.99%    -4.78
+Zipformer (zh-en)                   272    33.90%    39.82%    -5.92
+MedASR                              270    56.45%    58.05%    -1.60
+MedASR int8                         270    55.94%    57.59%    -1.65
+
+[done] per-file: /home/grey/dev/graiai/stapes/results/figshare_solo_all_per_file.tsv
+[done] summary:  /home/grey/dev/graiai/stapes/results/figshare_solo_all_summary.tsv

@@ -1,0 +1,20 @@
+[pool] primock57: 9/9 models available
+[pool] nazmulkazi: 9/9 models available
+[pool] figshare-osce: 9/9 models available
+[plan] 360 total combinations (108 pairs, 252 triples)
+[10/360] primock57      pair   parakeet-tdt-0.6b-v2+paraformer-en: 14.43%
+[20/360] primock57      pair   whisper-turbo+qwen3-asr: 13.33%
+[30/360] primock57      pair   sensevoice-no-itn+nemo-fastconformer: 19.19%
+[40/360] primock57      triple parakeet-tdt-0.6b-v2+whisper-distil-v3.5+whisper-base-en: 14.36%
+[50/360] primock57      triple parakeet-tdt-0.6b-v2+whisper-base-en+sensevoice-no-itn: 14.28%
+[60/360] primock57      triple parakeet-tdt-0.6b-v2+sensevoice-no-itn+qwen3-asr: 13.24%
+[70/360] primock57      triple whisper-distil-v3.5+whisper-turbo+paraformer-en: 15.07%
+[80/360] primock57      triple whisper-distil-v3.5+sensevoice+qwen3-asr: 14.20%
+[90/360] primock57      triple whisper-turbo+whisper-base-en+paraformer-en: 15.99%
+[100/360] primock57      triple whisper-base-en+sensevoice+nemo-fastconformer: 18.44%
+[110/360] primock57      triple sensevoice+sensevoice-no-itn+paraformer-en: 20.06%
+[120/360] primock57      triple qwen3-asr+paraformer-en+nemo-fastconformer: 15.32%
+[130/360] nazmulkazi     pair   whisper-distil-v3.5+whisper-base-en: 7.61%
+[140/360] nazmulkazi     pair   whisper-turbo+sensevoice-no-itn: 7.17%
+[150/360] nazmulkazi     pair   sensevoice+paraformer-en: 7.93%
+[160/360] nazmulkazi     triple parakeet-tdt-0.6b-v2+whisper-distil-v3.5+nemo-fastconformer: 7.64%

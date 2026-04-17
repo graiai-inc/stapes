@@ -1,0 +1,107 @@
+[plan] 1632 solo + 2448 pair tasks
+[progress] 50/4080
+[progress] 100/4080
+[progress] 150/4080
+[progress] 200/4080
+[progress] 250/4080
+[progress] 300/4080
+[progress] 350/4080
+[progress] 400/4080
+[progress] 450/4080
+[progress] 500/4080
+[progress] 550/4080
+[progress] 600/4080
+[progress] 650/4080
+[progress] 700/4080
+[progress] 750/4080
+[progress] 800/4080
+[progress] 850/4080
+[progress] 900/4080
+[progress] 950/4080
+[progress] 1000/4080
+[progress] 1050/4080
+[progress] 1100/4080
+[progress] 1150/4080
+[progress] 1200/4080
+[progress] 1250/4080
+[progress] 1300/4080
+[progress] 1350/4080
+[progress] 1400/4080
+[progress] 1450/4080
+[progress] 1500/4080
+[progress] 1550/4080
+[progress] 1600/4080
+[progress] 1650/4080
+[progress] 1700/4080
+[progress] 1750/4080
+[progress] 1800/4080
+[progress] 1850/4080
+[progress] 1900/4080
+[progress] 1950/4080
+[progress] 2000/4080
+[progress] 2050/4080
+[progress] 2100/4080
+[progress] 2150/4080
+[progress] 2200/4080
+[progress] 2250/4080
+[progress] 2300/4080
+[progress] 2350/4080
+[progress] 2400/4080
+[progress] 2450/4080
+[progress] 2500/4080
+[progress] 2550/4080
+[progress] 2600/4080
+[progress] 2650/4080
+[progress] 2700/4080
+[progress] 2750/4080
+[progress] 2800/4080
+[progress] 2850/4080
+[progress] 2900/4080
+[progress] 2950/4080
+[progress] 3000/4080
+[progress] 3050/4080
+[progress] 3100/4080
+[progress] 3150/4080
+[progress] 3200/4080
+[progress] 3250/4080
+[progress] 3300/4080
+[progress] 3350/4080
+[progress] 3400/4080
+[progress] 3450/4080
+[progress] 3500/4080
+[progress] 3550/4080
+[progress] 3600/4080
+[progress] 3650/4080
+[progress] 3700/4080
+[progress] 3750/4080
+[progress] 3800/4080
+[progress] 3850/4080
+[progress] 3900/4080
+[progress] 3950/4080
+[progress] 4000/4080
+[progress] 4050/4080
+[progress] 4080/4080
+
+=== SOLO WER (figshare-osce) ===
+model                              fixed     buggy     delta
+parakeet-tdt-0.6b-v2              17.06%    22.93%    -5.87
+whisper-distil-v3.5               11.23%    17.59%    -6.36
+whisper-turbo                     12.01%    17.93%    -5.92
+sensevoice                        12.80%    18.75%    -5.95
+sensevoice-no-itn                 13.06%    18.99%    -5.94
+qwen3-asr                         12.37%    18.74%    -6.37
+
+=== FUSED WER (figshare-osce) ===
+pair                                                   fixed     buggy     delta
+parakeet-tdt-0.6b-v2+sensevoice                       11.01%    10.71%    +0.30
+parakeet-tdt-0.6b-v2+sensevoice-no-itn                11.02%    10.71%    +0.31
+parakeet-tdt-0.6b-v2+whisper-distil-v3.5              11.28%    10.92%    +0.36
+whisper-distil-v3.5+sensevoice                        11.03%    10.69%    +0.34
+whisper-distil-v3.5+sensevoice-no-itn                 11.03%    10.69%    +0.34
+whisper-distil-v3.5+qwen3-asr                         11.84%    11.50%    +0.34
+whisper-distil-v3.5+whisper-turbo                     11.36%    11.01%    +0.35
+parakeet-tdt-0.6b-v2+qwen3-asr                        11.74%    11.44%    +0.30
+sensevoice+sensevoice-no-itn                          12.67%    12.41%    +0.26
+
+[done] per-file: /home/grey/dev/graiai/stapes/results/figshare_fix_per_file.tsv
+[done] summary:  /home/grey/dev/graiai/stapes/results/figshare_fix_summary.tsv
