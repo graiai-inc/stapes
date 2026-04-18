@@ -130,6 +130,23 @@ To assess clinical relevance beyond aggregate WER, we measured the accuracy of m
 
 Cloud API costs were recorded from each provider's billing dashboard after all benchmark runs were complete. On-device inference costs were considered zero per encounter, as models run on local hardware with no API fees. Annual cost projections were estimated based on published per-minute or per-request pricing for a hypothetical practice performing 30 encounters per day.
 
-# Data and Code Availability
 
-All evaluation code, model inference scripts, ROVER fusion implementation, and per-file results are publicly available at github.com/graiai-inc/stapes. The three clinical conversation datasets are available under CC-BY licenses at their respective repositories. UMLS 2025AB requires a free license from the National Library of Medicine.
+## AI Tool Use
+
+This work used AI coding assistants (Anthropic Claude Code and Google Gemini Code Assist) for programming support during the development of evaluation scripts, data verification tools, and fusion implementation code. All scientific design, dataset selection, analysis decisions, and manuscript text were authored and verified by the human authors. AI-generated code was reviewed and tested before use.
+
+# Data Availability
+
+The three clinical conversation datasets evaluated in this work are publicly available under CC-BY licenses at their respective repositories: the OSCE respiratory interview dataset on figshare (Fareez et al., Scientific Data 2022), PriMock57 on the Babylon Health GitHub (Korfiatis et al., ACL 2022), and the Kazi et al. psychiatric dataset on Zenodo/GitHub. The Unified Medical Language System (UMLS) 2025AB Metathesaurus requires a free license from the U.S. National Library of Medicine. Per-model inference outputs, aggregated WER and clinical term recall tables, and per-file fusion results for the exhaustive round-robin search and the fusion depth-study are deposited with the code repository (see Code Availability).
+
+# Code Availability
+
+All evaluation code, model inference scripts, ROVER fusion implementation, the exhaustive pair and triple round-robin search, and the fusion depth-study (seven fusion algorithms on PriMock57) are publicly available under the MIT license at https://github.com/graiai-inc/stapes. The depth-study scripts and per-file results are in the `fusion_depth/` subdirectory. Cloud API evaluation scripts for each of the five services are included, along with the apostrophe-injection correction applied to the OSCE reference transcripts.
+
+# Competing Interests
+
+The authors declare no competing interests.
+
+# Author Contributions
+
+[To be completed per CRediT taxonomy before submission.]

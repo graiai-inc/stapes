@@ -39,3 +39,8 @@ To assess clinical relevance beyond aggregate WER, we measured the accuracy of m
 ### Cost Tracking
 
 Cloud API costs were recorded from each provider's billing dashboard after all benchmark runs were complete. On-device inference costs were considered zero per encounter, as models run on local hardware with no API fees. Annual cost projections were estimated based on published per-minute or per-request pricing for a hypothetical practice performing 30 encounters per day.
+
+
+### AI Tool Use
+
+This work used AI coding assistants (Anthropic Claude Code and Google Gemini Code Assist) for programming support during the development of evaluation scripts, data verification tools, and fusion implementation code. All scientific design, dataset selection, analysis decisions, and manuscript text were authored and verified by the human authors. AI-generated code was reviewed and tested before use.
