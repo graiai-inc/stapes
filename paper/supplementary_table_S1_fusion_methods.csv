@@ -1,0 +1,14 @@
+method,wer_pct,delta_vs_best_solo_pp,uses_token_log_probs
+"parakeet-tdt-0.6b-v2 (solo)",13.76,+0.00,no
+"whisper-distil-v3.5 (solo)",15.27,+1.51,no
+"Naive ROVER (Fiscus 1997)",13.41,-0.35,no
+"Confidence-weighted ROVER",13.36,-0.40,yes
+"Shannon entropy-weighted",13.30,-0.46,yes
+"Tsallis entropy-weighted",13.41,-0.35,yes
+"Margin-weighted",13.39,-0.37,yes
+"Asymmetric defaulting",14.02,+0.26,yes
+"CNC default (Mangu 2000)",13.80,+0.04,no
+"CNC epsilon-tuned (del 0.6 / ins 0.7)",13.05,-0.71,no
+"CNC 3-model (+ sensevoice-no-itn)",15.54,+1.78,no
+"Learned per-word GBM (5-fold group CV)",13.14,-0.62,yes
+"Oracle upper bound",9.07,-4.69,n/a
