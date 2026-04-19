@@ -25,5 +25,6 @@ Sincerely,
 Jason Grey Faulkenberry, MD, MPH
 Assistant Professor, Department of Hematology and Medical Oncology
 Emory University School of Medicine
-Email: grey@fhirfli.dev
-[Institutional email, phone, and mailing address to be completed]
+Email: grey.faulkenberry@emory.edu
+Phone: +1 786 571 6384
+1929 Morrison Dr., Decatur, GA 30033, USA
