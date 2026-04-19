@@ -43,4 +43,4 @@ Cloud API costs were recorded from each provider's billing dashboard after all b
 
 ### AI Tool Use
 
-This work used AI coding assistants (Anthropic Claude Code and Google Gemini Code Assist) for programming support during the development of evaluation scripts, data verification tools, and fusion implementation code. All scientific design, dataset selection, analysis decisions, and manuscript text were authored and verified by the human authors. AI-generated code was reviewed and tested before use.
+This work used AI coding assistants (Anthropic Claude Code and Google Gemini Code Assist) for programming support during the development of evaluation scripts, data verification tools, and fusion implementation code. All scientific design, dataset selection, analysis decisions, and manuscript text were authored and verified by the author. AI-generated code was reviewed and tested before use.

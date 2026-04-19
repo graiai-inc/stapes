@@ -46,25 +46,28 @@
 "ROVER (Fiscus, 1997)"
 → [14] Fiscus
 
+"confusion network combination (Mangu et al., 2000)"
+→ [15] Mangu
+
 "QuickUMLS"
-→ [15] Soldaini
+→ [16] Soldaini
 
 ### Discussion citations:
 
 "5.7 to 8.9 percent of ASR errors in clinical documents are clinically significant"
-→ [16] Zhou
+→ [17] Zhou
 
 "A 2026 national study found that ambient AI adoption in U.S. hospitals is concentrated"
-→ [17] Graetz
+→ [18] Yang & Graetz
 
 "Clinical deployment may fall under FDA oversight"
-→ [18] Warraich
+→ [19] Warraich
 
 "For privacy-sensitive specialties such as psychiatry, substance abuse treatment"
 → [7] Elsayed (already cited)
 
 "overlapping speech, background noise, and non-lexical conversational sounds"
-→ [19] Tran, [20] Alboksmaty
+→ [20] Tran, [21] Alboksmaty
 
 ---
 
@@ -98,14 +101,16 @@
 
 14. Fiscus JG. A Post-Processing System to Yield Reduced Word Error Rates: Recognizer Output Voting Error Reduction (ROVER). In: Proceedings of the 1997 IEEE Workshop on Automatic Speech Recognition and Understanding. Santa Barbara, CA: IEEE, 1997:347-354. DOI: 10.1109/ASRU.1997.659110.
 
-15. Soldaini L, Goharian N. QuickUMLS: A Fast, Unsupervised Approach for Medical Concept Extraction. In: Proceedings of the Medical Information Retrieval Workshop (MedIR) at SIGIR 2016. Pisa, Italy: 2016.
+15. Mangu L, Brill E, Stolcke A. Finding Consensus in Speech Recognition: Word Error Minimization and Other Applications of Confusion Networks. Comput Speech Lang 2000;14(4):373-400. DOI: 10.1006/csla.2000.0152.
 
-16. Zhou L, Blackley SV, Kowalski L, et al. Analysis of Errors in Dictated Clinical Documents Assisted by Speech Recognition Software and Professional Transcriptionists. JAMA Netw Open 2018;1(3):e180530. DOI: 10.1001/jamanetworkopen.2018.0530.
+16. Soldaini L, Goharian N. QuickUMLS: A Fast, Unsupervised Approach for Medical Concept Extraction. In: Proceedings of the Medical Information Retrieval Workshop (MedIR) at SIGIR 2016. Pisa, Italy: 2016.
 
-17. Yang F, Graetz I. Ambient AI Tool Adoption in US Hospitals and Associated Factors. Am J Manag Care 2026. DOI: 10.37765/ajmc.2026.89876.
+17. Zhou L, Blackley SV, Kowalski L, et al. Analysis of Errors in Dictated Clinical Documents Assisted by Speech Recognition Software and Professional Transcriptionists. JAMA Netw Open 2018;1(3):e180530. DOI: 10.1001/jamanetworkopen.2018.0530.
 
-18. Warraich HJ, Tazbaz T, Califf RM. FDA Perspective on the Regulation of Artificial Intelligence in Health Care and Biomedicine. JAMA 2025;333(3):241-247. DOI: 10.1001/jama.2024.21451.
+18. Yang F, Graetz I. Ambient AI Tool Adoption in US Hospitals and Associated Factors. Am J Manag Care 2026. DOI: 10.37765/ajmc.2026.89876.
 
-19. Tran BD, Latif K, Reynolds TL, et al. "Mm-Hm," "Uh-Uh": Are Non-Lexical Conversational Sounds Deal Breakers for the Ambient Clinical Documentation Technology? J Am Med Inform Assoc 2023;30(4):703-711. DOI: 10.1093/jamia/ocad001.
+19. Warraich HJ, Tazbaz T, Califf RM. FDA Perspective on the Regulation of Artificial Intelligence in Health Care and Biomedicine. JAMA 2025;333(3):241-247. DOI: 10.1001/jama.2024.21451.
 
-20. Alboksmaty A, Aldakhil R, Hayhoe BWJ, et al. The Impact of Using AI-powered Voice-to-Text Technology for Clinical Documentation on Quality of Care in Primary Care and Outpatient Settings: A Systematic Review. EBioMedicine 2025;118:105861. DOI: 10.1016/j.ebiom.2025.105861.
+20. Tran BD, Latif K, Reynolds TL, et al. "Mm-Hm," "Uh-Uh": Are Non-Lexical Conversational Sounds Deal Breakers for the Ambient Clinical Documentation Technology? J Am Med Inform Assoc 2023;30(4):703-711. DOI: 10.1093/jamia/ocad001.
+
+21. Alboksmaty A, Aldakhil R, Hayhoe BWJ, et al. The Impact of Using AI-powered Voice-to-Text Technology for Clinical Documentation on Quality of Care in Primary Care and Outpatient Settings: A Systematic Review. EBioMedicine 2025;118:105861. DOI: 10.1016/j.ebiom.2025.105861.

@@ -26,7 +26,7 @@ Data: `supplementary_table_S1_fusion_methods.csv`.
 
 ## Table S2. Round-robin pairwise ROVER WER, all 36 pairs × 2 datasets.
 
-Naive equal-weight ROVER on the 9-model on-device pool. Rows sorted by dataset then WER ascending. figshare-OSCE is not included because its 272-file size made exhaustive search infeasible in our pure-Python implementation; the main paper reports only the targeted parakeet-tdt-0.6b-v2 + sensevoice fusion for that dataset.
+Naive equal-weight ROVER on the 9-model on-device pool. Rows sorted by dataset then WER ascending. figshare-OSCE is not included because its 272-file size made exhaustive search infeasible in our pure-Python implementation; the targeted parakeet-tdt-0.6b-v2 + sensevoice fusion on figshare-OSCE (11.01% WER, vs. 11.23% for the best solo on-device model) is reported in the main text Results section.
 
 Data: `supplementary_table_S2_rover_pairs.csv` (72 rows).
 
