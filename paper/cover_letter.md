@@ -18,10 +18,6 @@ Beyond filling the evaluation gap, we report three findings that we think will b
 
 **Author background.** I am board-certified in Clinical Informatics (American Board of Preventive Medicine, 2022), completed clinical informatics fellowship training at the Children's Hospital of Philadelphia, and currently serve as Assistant Professor of Hematology and Medical Oncology at Emory University School of Medicine and as Director of FHIR-FLI, an open-source international health information technology collaborative.
 
-**Suggested reviewers.** [To be completed by the author — npj Digital Medicine invites authors to suggest reviewers with attention to diversity of gender, ethnicity/race, geographic location, and career stage.]
-
-**Excluded reviewers.** [None, unless the author wishes to add any.]
-
 Thank you for considering this submission.
 
 Sincerely,
