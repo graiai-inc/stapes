@@ -48,9 +48,10 @@ TITLE_PAGE = """# Open Benchmark of On-Device and Cloud ASR for Clinical Convers
 **Corresponding author:** Jason Grey Faulkenberry, MD, MPH
 Department of Hematology and Medical Oncology
 Emory University School of Medicine
-1929 Morrison Dr., Decatur, GA 30033, USA
+36 Linden Ave NE, GA 30308 
 Email: grey.faulkenberry@emory.edu
-Phone: +1 786 571 6384
+Phone: +1 404 778 1900
+
 
 ---
 
