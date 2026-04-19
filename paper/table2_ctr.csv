@@ -1,20 +1,20 @@
 Model,Type,OSCE (n=272),PriMock57 (n=57),Psychiatric (n=71)
-Whisper distil-v3.5,On-device,93.1,88.5,91.9
-Whisper turbo,On-device,93.6,88.8,92.0
-Whisper base.en,On-device,89.1,80.3,91.2
-Qwen3-ASR,On-device,91.9,87.0,90.9
-Parakeet-TDT-0.6b-v2,On-device,87.2,89.4,91.8
-SenseVoice (no ITN),On-device,87.5,78.1,90.5
-SenseVoice,On-device,88.8,77.8,90.5
-Paraformer-en,On-device,76.9,64.8,88.1
-NeMo FastConformer,On-device,76.9,62.0,84.0
-NeMo FastConformer int8,On-device,75.6,63.8,84.2
-Nemotron,On-device,60.0,53.5,52.4
-Zipformer,On-device,68.5,57.7,85.2
-MedASR,On-device,56.9,13.9,75.5
-MedASR int8,On-device,57.1,14.4,75.6
-Azure Speech,Cloud (general),95.5,89.8,93.0
-Deepgram Nova-2 Medical,Cloud (medical),95.4,90.8,92.4
-AssemblyAI,Cloud (general),95.4,91.4,92.0
-AWS Transcribe Medical†,Cloud (medical),96.1†,92.3†,93.0†
-Google medical_conversation,Cloud (medical),91.0,76.5,89.0
+Whisper distil-v3.5,On-device,"93.1 [92.8, 93.5]","88.5 [87.3, 89.6]","91.9 [91.2, 92.5]"
+Whisper turbo,On-device,"93.6 [93.2, 93.9]","88.8 [87.7, 89.7]","92.0 [91.2, 92.6]"
+Whisper base.en,On-device,"89.1 [88.6, 89.6]","80.3 [78.6, 82.0]","91.2 [90.6, 91.8]"
+Qwen3-ASR,On-device,"91.9 [91.5, 92.3]","87.0 [85.9, 88.0]","90.9 [90.2, 91.6]"
+Parakeet-TDT-0.6b-v2,On-device,"87.2 [86.3, 88.1]","89.4 [88.3, 90.4]","91.8 [91.1, 92.3]"
+SenseVoice (no ITN),On-device,"87.5 [87.0, 88.1]","78.1 [76.4, 79.7]","90.5 [89.7, 91.1]"
+SenseVoice,On-device,"88.8 [88.3, 89.2]","77.8 [76.2, 79.5]","90.5 [89.9, 91.2]"
+Paraformer-en,On-device,"76.9 [76.2, 77.7]","64.8 [62.5, 66.9]","88.1 [87.3, 88.9]"
+NeMo FastConformer,On-device,"76.9 [76.0, 77.8]","62.0 [60.0, 64.0]","84.0 [83.2, 84.6]"
+NeMo FastConformer int8,On-device,"75.6 [74.8, 76.4]","63.8 [61.9, 65.8]","84.2 [83.4, 85.0]"
+Nemotron,On-device,"60.0 [59.3, 60.7]","53.5 [51.9, 55.0]","52.4 [51.4, 53.4]"
+Zipformer,On-device,"68.5 [67.6, 69.2]","57.7 [55.1, 60.2]","85.2 [84.3, 86.2]"
+MedASR,On-device,"56.9 [53.4, 60.1]","13.9 [11.6, 16.4]","75.5 [71.8, 78.7]"
+MedASR int8,On-device,"57.1 [53.7, 60.4]","14.4 [12.1, 16.9]","75.6 [72.2, 78.9]"
+Azure Speech,Cloud (general),"95.5 [95.2, 95.7]","89.8 [89.0, 90.8]","93.0 [92.4, 93.6]"
+Deepgram Nova-2 Medical,Cloud (medical),"95.4 [95.1, 95.6]","90.8 [90.0, 91.6]","92.4 [91.7, 93.0]"
+AssemblyAI,Cloud (general),"95.4 [95.2, 95.7]","91.4 [90.5, 92.3]","92.0 [91.0, 92.9]"
+AWS Transcribe Medical†,Cloud (medical),n/a,"92.3 [91.0, 93.5]","93.0 [91.8, 94.1]"
+Google medical_conversation,Cloud (medical),"91.0 [90.4, 91.5]","76.5 [74.3, 78.4]","89.0 [88.1, 89.8]"

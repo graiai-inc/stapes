@@ -1,16 +1,4 @@
 dataset,models,n_files,wer_pct,n_words
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-turbo+sensevoice",71,7.2636,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-turbo+sensevoice-no-itn",71,7.2701,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+sensevoice",71,7.4402,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+sensevoice-no-itn",71,7.4499,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-turbo+whisper-base-en",71,7.4567,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-turbo+qwen3-asr",71,7.4905,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+whisper-turbo",71,7.5056,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-turbo+paraformer-en",71,7.5440,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+whisper-base-en",71,7.6059,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+nemo-fastconformer",71,7.6358,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+qwen3-asr",71,7.6581,310313
-nazmulkazi,"parakeet-tdt-0.6b-v2+whisper-distil-v3.5+paraformer-en",71,7.7187,310313
 primock57,"parakeet-tdt-0.6b-v2+whisper-turbo+qwen3-asr",57,13.1161,85239
 primock57,"parakeet-tdt-0.6b-v2+qwen3-asr+nemo-fastconformer",57,13.1442,85239
 primock57,"parakeet-tdt-0.6b-v2+sensevoice+qwen3-asr",57,13.1700,85239

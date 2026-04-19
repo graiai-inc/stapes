@@ -30,8 +30,8 @@ Naive equal-weight ROVER on the 9-model on-device pool. Rows sorted by dataset t
 
 Data: `supplementary_table_S2_rover_pairs.csv` (72 rows).
 
-## Table S3. Round-robin three-model ROVER WER.
+## Table S3. Round-robin three-model ROVER WER on PriMock57.
 
-Naive equal-weight progressive pairwise ROVER. PriMock57 contains all 84 triples from the 9-model pool. The psychiatric dataset contains 12 of 84 triples — the exhaustive search was terminated due to runtime and no deliberate selection was applied to the completed subset; all 12 happen to include parakeet-tdt-0.6b-v2 as an artifact of parallel job ordering. figshare-OSCE is not included for the same runtime reason as Table S2.
+Naive equal-weight progressive pairwise ROVER across all 84 three-model combinations from the 9-model pool on PriMock57 (n = 57 files). The three-model search on the Kazi et al. psychiatric dataset and on figshare-OSCE was not feasible in our pure-Python implementation due to the O(n²) per-file alignment cost; the PriMock57 data is sufficient to establish that triples consistently underperform the best pair.
 
-Data: `supplementary_table_S3_rover_triples.csv` (96 rows).
+Data: `supplementary_table_S3_rover_triples.csv` (84 rows).

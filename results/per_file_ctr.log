@@ -1,0 +1,88 @@
+11:50:12 INFO initializing QuickUMLS...
+11:50:20 INFO === dataset: figshare-osce ===
+11:50:22 INFO figshare-osce: 22 models loaded
+11:50:22 INFO   computing medical spans for 272 reference files...
+11:51:37 INFO     [50/272] 6883 medical spans so far
+11:52:32 INFO     [100/272] 12942 medical spans so far
+11:53:19 INFO     [150/272] 19031 medical spans so far
+11:54:05 INFO     [200/272] 24913 medical spans so far
+11:54:54 INFO     [250/272] 30249 medical spans so far
+11:55:15 INFO     [272/272] 32255 medical spans so far
+11:55:15 INFO   32255 medical spans across 272 files
+[figshare-osce] [1/22] canary-180m-flash: MTR=30.51% (22414/32255)
+[figshare-osce] [2/22] cloud-assemblyai: MTR=95.43% (1474/32255)
+[figshare-osce] [3/22] cloud-azure: MTR=95.45% (1467/32255)
+[figshare-osce] [4/22] cloud-deepgram: MTR=95.36% (1498/32255)
+[figshare-osce] [5/22] cloud-google: MTR=90.95% (2918/32255)
+[figshare-osce] [6/22] cohere-transcribe-14lang: MTR=56.05% (1086/2471)
+[figshare-osce] [7/22] medasr: MTR=56.92% (13895/32255)
+[figshare-osce] [8/22] medasr-int8: MTR=57.14% (13824/32255)
+[figshare-osce] [9/22] nemo-fastconformer: MTR=76.86% (7464/32255)
+[figshare-osce] [10/22] nemo-fastconformer-int8: MTR=75.58% (7876/32255)
+[figshare-osce] [11/22] nemotron: MTR=60.03% (12892/32255)
+[figshare-osce] [12/22] paraformer-en: MTR=76.92% (7446/32255)
+[figshare-osce] [13/22] parakeet-tdt-0.6b-v2: MTR=87.19% (4131/32255)
+[figshare-osce] [14/22] parakeet-tdt-0.6b-v3: MTR=76.46% (2561/10878)
+[figshare-osce] [15/22] parakeet-tdt-1.1b: MTR=0.00% (20486/20486)
+[figshare-osce] [16/22] qwen3-asr: MTR=91.91% (2608/32255)
+[figshare-osce] [17/22] sensevoice: MTR=88.78% (3620/32255)
+[figshare-osce] [18/22] sensevoice-no-itn: MTR=87.52% (4024/32255)
+[figshare-osce] [19/22] whisper-base-en: MTR=89.11% (3511/32255)
+[figshare-osce] [20/22] whisper-distil-v3.5: MTR=93.14% (2213/32255)
+[figshare-osce] [21/22] whisper-turbo: MTR=93.59% (2067/32255)
+[figshare-osce] [22/22] zipformer-zh-en: MTR=68.45% (10177/32255)
+11:55:36 INFO === dataset: primock57 ===
+11:55:36 INFO primock57: 21 models loaded
+11:55:36 INFO   computing medical spans for 57 reference files...
+11:56:31 INFO     [50/57] 5792 medical spans so far
+11:56:38 INFO     [57/57] 6653 medical spans so far
+11:56:38 INFO   6653 medical spans across 57 files
+[primock57] [1/21] canary-180m-flash: MTR=56.34% (2905/6653)
+[primock57] [2/21] cloud-assemblyai: MTR=91.42% (571/6653)
+[primock57] [3/21] cloud-aws: MTR=92.35% (166/2171)
+[primock57] [4/21] cloud-azure: MTR=89.84% (676/6653)
+[primock57] [5/21] cloud-deepgram: MTR=90.82% (611/6653)
+[primock57] [6/21] cloud-google: MTR=76.46% (1566/6653)
+[primock57] [7/21] medasr: MTR=13.89% (5729/6653)
+[primock57] [8/21] medasr-int8: MTR=14.41% (5694/6653)
+[primock57] [9/21] nemo-fastconformer: MTR=62.03% (2526/6653)
+[primock57] [10/21] nemo-fastconformer-int8: MTR=63.82% (2407/6653)
+[primock57] [11/21] nemotron: MTR=53.52% (3092/6653)
+[primock57] [12/21] paraformer-en: MTR=64.75% (2345/6653)
+[primock57] [13/21] parakeet-tdt-0.6b-v2: MTR=89.39% (706/6653)
+[primock57] [14/21] parakeet-tdt-1.1b: MTR=0.00% (6653/6653)
+[primock57] [15/21] qwen3-asr: MTR=87.01% (864/6653)
+[primock57] [16/21] sensevoice: MTR=77.83% (1475/6653)
+[primock57] [17/21] sensevoice-no-itn: MTR=78.09% (1458/6653)
+[primock57] [18/21] whisper-base-en: MTR=80.29% (1311/6653)
+[primock57] [19/21] whisper-distil-v3.5: MTR=88.46% (768/6653)
+[primock57] [20/21] whisper-turbo: MTR=88.79% (746/6653)
+[primock57] [21/21] zipformer-zh-en: MTR=57.70% (2814/6653)
+11:56:41 INFO === dataset: nazmulkazi ===
+11:56:42 INFO nazmulkazi: 21 models loaded
+11:56:42 INFO   computing medical spans for 71 reference files...
+11:58:58 INFO     [50/71] 10212 medical spans so far
+11:59:43 INFO     [71/71] 13785 medical spans so far
+11:59:43 INFO   13785 medical spans across 71 files
+[nazmulkazi] [1/21] canary-180m-flash: MTR=75.81% (3335/13785)
+[nazmulkazi] [2/21] cloud-assemblyai: MTR=91.98% (1106/13785)
+[nazmulkazi] [3/21] cloud-aws: MTR=92.95% (316/4484)
+[nazmulkazi] [4/21] cloud-azure: MTR=92.96% (970/13785)
+[nazmulkazi] [5/21] cloud-deepgram: MTR=92.37% (1052/13785)
+[nazmulkazi] [6/21] cloud-google: MTR=88.99% (1353/12293)
+[nazmulkazi] [7/21] medasr: MTR=75.47% (3381/13785)
+[nazmulkazi] [8/21] medasr-int8: MTR=75.57% (3367/13785)
+[nazmulkazi] [9/21] nemo-fastconformer: MTR=83.95% (2213/13785)
+[nazmulkazi] [10/21] nemo-fastconformer-int8: MTR=84.18% (2181/13785)
+[nazmulkazi] [11/21] nemotron: MTR=52.38% (6565/13785)
+[nazmulkazi] [12/21] paraformer-en: MTR=88.10% (1641/13785)
+[nazmulkazi] [13/21] parakeet-tdt-0.6b-v2: MTR=91.75% (1137/13785)
+[nazmulkazi] [14/21] parakeet-tdt-1.1b: MTR=0.00% (13785/13785)
+[nazmulkazi] [15/21] qwen3-asr: MTR=90.90% (1255/13785)
+[nazmulkazi] [16/21] sensevoice: MTR=90.53% (1305/13785)
+[nazmulkazi] [17/21] sensevoice-no-itn: MTR=90.45% (1317/13785)
+[nazmulkazi] [18/21] whisper-base-en: MTR=91.22% (1210/13785)
+[nazmulkazi] [19/21] whisper-distil-v3.5: MTR=91.88% (1120/13785)
+[nazmulkazi] [20/21] whisper-turbo: MTR=91.96% (1109/13785)
+[nazmulkazi] [21/21] zipformer-zh-en: MTR=85.24% (2035/13785)
+[done] wrote /home/grey/dev/graiai/stapes/results/per_file_ctr.tsv
