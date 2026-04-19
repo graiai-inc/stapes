@@ -8,3 +8,6 @@ __pycache__/
 assets/audio/
 *.lock
 .~lock*
+
+# Submission build artifacts — regenerable via scripts/assemble_submission.py
+build/
