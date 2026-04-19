@@ -131,4 +131,4 @@ The authors declare no competing interests.
 
 # Author Contributions
 
-[To be completed per CRediT taxonomy before submission, referring to each co-author by initials.]
+J.G.F. conceptualized the study, designed and implemented the benchmarking pipeline and all analyses, generated all figures and tables, wrote the manuscript, and approved the final version.
