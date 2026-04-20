@@ -116,7 +116,7 @@
 
 17. Zhou L, Blackley SV, Kowalski L, et al. Analysis of Errors in Dictated Clinical Documents Assisted by Speech Recognition Software and Professional Transcriptionists. JAMA Netw Open 2018;1(3):e180530. DOI: 10.1001/jamanetworkopen.2018.0530.
 
-18. Yang F, Graetz I. Ambient AI Tool Adoption in US Hospitals and Associated Factors. Am J Manag Care 2026. DOI: 10.37765/ajmc.2026.89876.
+18. Yang F, Graetz I. Ambient AI Tool Adoption in US Hospitals and Associated Factors. Am J Manag Care 2026 (online ahead of print). DOI: 10.37765/ajmc.2026.89876.
 
 19. Warraich HJ, Tazbaz T, Califf RM. FDA Perspective on the Regulation of Artificial Intelligence in Health Care and Biomedicine. JAMA 2025;333(3):241-247. DOI: 10.1001/jama.2024.21451.
 

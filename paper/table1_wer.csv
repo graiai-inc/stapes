@@ -17,4 +17,4 @@ Azure Speech,Cloud (general),7.70,9.88,6.83
 Deepgram Nova-2 Medical,Cloud (medical),10.10,11.80,6.99
 AssemblyAI,Cloud (general),10.29,13.76,7.81
 AWS Transcribe Medical†,Cloud (medical),8.03†,9.39†,7.18†
-Google medical_conversation,Cloud (medical),16.53,26.00,10.52
+Google medical_conversation,Cloud (medical),16.53,26.00,10.52‡

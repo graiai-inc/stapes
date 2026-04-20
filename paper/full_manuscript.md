@@ -129,7 +129,7 @@ This study received no funding.
 
 # Competing Interests
 
-The authors declare no competing interests.
+The author declares no competing interests.
 
 # Author Contributions
 

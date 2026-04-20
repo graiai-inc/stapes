@@ -108,7 +108,7 @@ def build_main_manuscript() -> str:
     tables_block = f"""
 # Tables
 
-**Table 1. Word error rate (%) by model and dataset.** Asterisked OSCE column reflects the apostrophe-injected reference transcripts (see Methods).
+**Table 1. Word error rate (%) by model and dataset.** Asterisked OSCE column reflects the apostrophe-injected reference transcripts (see Methods). †AWS Transcribe Medical was run on cost-limited subsets: 50 of 272 figshare-OSCE files, 17 of 57 PriMock57 files, 21 of 71 psychiatric files (see Methods). ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four files exceeded the 10-minute per-request timeout and were not retried (see Methods).
 
 {tbl1}
 
