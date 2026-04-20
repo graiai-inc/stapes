@@ -41,17 +41,19 @@ def csv_to_md_table(csv_path: Path) -> str:
 
 TITLE_PAGE = """# Open Benchmark of On-Device and Cloud ASR for Clinical Conversations
 
-**Jason Grey Faulkenberry, MD, MPH**<sup>1</sup>
+Jason Grey Faulkenberry, MD, MPH<sup>1</sup>
 
-<sup>1</sup> Department of Hematology and Medical Oncology, Emory University School of Medicine, Atlanta, Georgia, USA
+<sup>1</sup>Department of Hematology and Medical Oncology
+Emory University School of Medicine
+Atlanta, Georgia, USA
 
-**Corresponding author:** Jason Grey Faulkenberry, MD, MPH
+**Corresponding author:**
+Jason Grey Faulkenberry, MD, MPH
 Department of Hematology and Medical Oncology
 Emory University School of Medicine
-36 Linden Ave NE, GA 30308 
+36 Linden Ave NE, GA 30308
 Email: grey.faulkenberry@emory.edu
 Phone: +1 404 778 1900
-
 
 ---
 

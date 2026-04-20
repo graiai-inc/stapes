@@ -10,7 +10,7 @@ Data: `supplementary_table_S1_fusion_methods.csv`.
 
 | Method | WER (%) | Δ (pp) | Uses token log-probs |
 |---|---:|---:|:---:|
-| parakeet-tdt-0.6b-v2 (solo) | 13.76 | — | no |
+| parakeet-tdt-0.6b-v2 (solo) | 13.76 | baseline | no |
 | whisper-distil-v3.5 (solo) | 15.27 | +1.51 | no |
 | Naive ROVER (Fiscus 1997) | 13.41 | −0.35 | no |
 | Confidence-weighted ROVER | 13.36 | −0.40 | yes |
