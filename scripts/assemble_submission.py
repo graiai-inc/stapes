@@ -41,14 +41,14 @@ def csv_to_md_table(csv_path: Path) -> str:
 
 TITLE_PAGE = """# Open Benchmark of On-Device and Cloud ASR for Clinical Conversations
 
-Jason Grey Faulkenberry, MD, MPH<sup>1</sup>
+J. Grey Faulkenberry, MD, MPH
 
-<sup>1</sup>Department of Hematology and Medical Oncology
+Department of Hematology and Medical Oncology
 Emory University School of Medicine
 Atlanta, Georgia, USA
 
 **Corresponding author:**
-Jason Grey Faulkenberry, MD, MPH
+J. Grey Faulkenberry, MD, MPH
 Department of Hematology and Medical Oncology
 Emory University School of Medicine
 36 Linden Ave NE, GA 30308
@@ -116,7 +116,7 @@ def build_main_manuscript() -> str:
 
 {tbl2}
 
-**Table 3. Cloud API cost for the full benchmark (~80 hours, 400 conversations).** AWS Transcribe Medical was run on representative subsets (50 OSCE, 17 PriMock57, 21 psychiatric files) due to cost; on-device inference incurs no per-encounter cost.
+**Table 3. Cloud API cost for the full benchmark (~90 hours, 400 conversations).** AWS Transcribe Medical was run on representative subsets (50 OSCE, 17 PriMock57, 21 psychiatric files) due to cost; on-device inference incurs no per-encounter cost.
 
 {tbl3}
 """

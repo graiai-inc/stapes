@@ -20,7 +20,7 @@ All 14 on-device models are general-purpose and were not fine-tuned for medical 
 
 ### Cloud APIs
 
-Five commercial cloud ASR services were evaluated: Azure Speech, Google Cloud Speech (medical_conversation model), Deepgram Nova-2 Medical, AssemblyAI (universal-3-pro), and AWS Transcribe Medical. Three of five services (Google, Deepgram, AWS) used medical-specific models; Azure and AssemblyAI used general-purpose models. Azure, Google, Deepgram, and AssemblyAI were run on all files across all three datasets. AWS Transcribe Medical was run on representative subsets (50, 17, and 21 files from each dataset) due to cost.
+Five commercial cloud ASR services were evaluated: Azure Speech (Batch Transcription v3.2), Google Cloud Speech (v1, `medical_conversation` model), Deepgram Nova-2 Medical, AssemblyAI (Universal-3 Pro, invoked with the system prompt "This is a doctor-patient clinical conversation." for consistency with the other services' clinical configuration), and AWS Transcribe Medical (Specialty=PRIMARYCARE, Type=CONVERSATION). Three of the five services (Google, Deepgram, AWS) used medical-specific models; Azure and AssemblyAI used general-purpose models. Azure, Deepgram, and AssemblyAI were run on all files across all three datasets. Google Cloud Speech was run on 396 of 400 files; four psychiatric-dataset files exceeded the 10-minute per-request timeout and were not retried. AWS Transcribe Medical was run on cost-limited subsets totalling 88 files (50 of 272 on figshare-OSCE, 17 of 57 on PriMock57, and 21 of 71 on the psychiatric dataset). The figshare-OSCE subset was selected by stratified sampling (all files from the four less-represented specialties and a seed-42 random sample from MSK and RES); the PriMock57 and psychiatric subsets were hand-curated to span all recording days and speaker pairs in each dataset, without a fixed random seed.
 
 ### Text Normalization and WER Computation
 
@@ -38,7 +38,7 @@ To assess clinical relevance beyond aggregate WER, we measured the accuracy of m
 
 ### Cost Tracking
 
-Cloud API costs were recorded from each provider's billing dashboard after all benchmark runs were complete. On-device inference costs were considered zero per encounter, as models run on local hardware with no API fees. Annual cost projections were estimated based on published per-minute or per-request pricing for a hypothetical practice performing 30 encounters per day.
+Cloud API costs were recorded from each provider's billing dashboard after all benchmark runs were complete and reflect list-price totals at published per-minute or per-request rates. Introductory credits available to new accounts at the time of benchmarking defrayed actual out-of-pocket cost on all five services; only Google Cloud Speech exceeded its $300 credit during the benchmark. On-device inference costs were considered zero per encounter, as models run on local hardware with no API fees. Annual cost projections were estimated from published rates for a hypothetical practice performing 30 encounters per day.
 
 
 ### AI Tool Use
