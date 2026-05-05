@@ -102,7 +102,7 @@
 
 10. Fareez F, Parikh T, Wavell C, et al. A Dataset of Simulated Patient-Physician Medical Interviews with a Focus on Respiratory Cases. Sci Data 2022;9:313. DOI: 10.1038/s41597-022-01423-1.
 
-11. Korfiatis AP, Moramarco F, Sarac R, Savkov A. PriMock57: A Dataset of Primary Care Mock Consultations. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Dublin, Ireland: ACL, 2022:541-547.
+11. Korfiatis AP, Moramarco F, Sarac R, et al. PriMock57: A Dataset of Primary Care Mock Consultations. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Dublin, Ireland: ACL, 2022:541-547.
 
 12. Kazi N. Dataset for Automated Medical Transcription. GitHub/Zenodo, 2020. (https://github.com/nazmulkazi/dataset_automated_medical_transcription.)
 
@@ -128,4 +128,4 @@
 
 23. Lambert BL, Dickey LW, Fisher WM, et al. Listen Carefully: The Risk of Error in Spoken Medication Orders. Soc Sci Med 2010;70(10):1599-1608. DOI: 10.1016/j.socscimed.2010.01.042.
 
-24. Bryan R, Aronson JK, Williams A, Jordan S. The Problem of Look-Alike, Sound-Alike Name Errors: Drivers and Solutions. Br J Clin Pharmacol 2021;87(2):386-394. DOI: 10.1111/bcp.14285.
+24. Bryan R, Aronson JK, Williams A, et al. The Problem of Look-Alike, Sound-Alike Name Errors: Drivers and Solutions. Br J Clin Pharmacol 2021;87(2):386-394. DOI: 10.1111/bcp.14285.

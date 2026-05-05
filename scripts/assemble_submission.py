@@ -41,7 +41,7 @@ def csv_to_md_table(csv_path: Path) -> str:
 
 TITLE_PAGE = """# Open Benchmark of On-Device and Cloud Speech Recognition for Clinical Conversations: Parity in Accuracy, Persistent Errors in Medication Names
 
-J. Grey Faulkenberry, MD, MPH
+**Author:** J. Grey Faulkenberry, MD, MPH
 
 Department of Hematology and Medical Oncology
 Emory University School of Medicine
@@ -51,9 +51,13 @@ Atlanta, Georgia, USA
 J. Grey Faulkenberry, MD, MPH
 Department of Hematology and Medical Oncology
 Emory University School of Medicine
-36 Linden Ave NE, GA 30308
+36 Linden Ave NE, Atlanta, GA 30308, USA
 Email: grey.faulkenberry@emory.edu
 Phone: +1 404 778 1900
+
+**Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
+
+**Word count (body, excluding abstract, references, tables, figures):** 3,998
 
 ---
 
@@ -62,12 +66,12 @@ Phone: +1 404 778 1900
 
 FIGURES_BLOCK = """# Figures
 
-![](figure1.png){width="6in"}
+![Two-panel grouped bar chart comparing the best on-device ASR model with the best cloud API on each of three clinical conversation datasets. Panel a shows word error rate (lower is better); panel b shows clinical term recall (higher is better). Datasets are OSCE respiratory interviews (n=272), PriMock57 primary care (n=57), and Kazi et al. psychiatric (n=71).](figure1.png){width="6in"}
 
 **Figure 1. Word error rate and clinical term recall of the best on-device ASR model versus the best cloud API, per dataset.**
 **a**, Word error rate (%) of the best on-device model and the best cloud API on each of the three clinical conversation datasets (OSCE respiratory interviews, n = 272; PriMock57 primary care, n = 57; Kazi et al. psychiatric, n = 71). Lower is better. **b**, Clinical term recall (%) of the best on-device model and the best cloud API on each dataset. Higher is better. Clinical term recall was computed as the proportion of UMLS medical concept spans in the reference transcript that were correctly transcribed.
 
-![](figure2.png){width="6in"}
+![Dot-and-line plot showing word error rate for the best single on-device model versus the best two-model ROVER fusion pair on each of three clinical conversation datasets, with the best cloud API drawn as a dashed horizontal reference line. Fusion produces small improvements over the best single on-device model on all three datasets but does not reach the best cloud API on any of them.](figure2.png){width="6in"}
 
 **Figure 2. ROVER hypothesis fusion yields small improvements over the best single on-device model, with the best cloud API as reference.**
 For each dataset, the figure shows the word error rate of the best single on-device model (left point), the best two-model ROVER fusion pair (right point, connected by a grey line to display the fusion delta), and the best cloud API as a dashed horizontal reference. Fusion provided ≤ 0.82 percentage point improvements on all three datasets. On the OSCE respiratory interview dataset, the best fused on-device pair (parakeet-tdt-0.6b-v2 + sensevoice, 11.01%) did not surpass the best cloud API (Azure, 7.70%).
@@ -165,7 +169,29 @@ def build_cover_letter() -> str:
     return read_file(PAPER / 'cover_letter.md')
 
 
-def write_and_convert(md_text: str, stem: str, to_docx: bool = True) -> None:
+def apply_double_spacing(docx_path: Path) -> None:
+    """Set line spacing to 2.0 on all paragraphs in the docx.
+
+    JAMIA requires double-spaced manuscript submission. Pandoc default is 1.0;
+    we post-process here so that authors do not need a Word reference doc.
+    """
+    from docx import Document
+    from docx.shared import Pt
+
+    doc = Document(str(docx_path))
+    for paragraph in doc.paragraphs:
+        paragraph.paragraph_format.line_spacing = 2.0
+    # Also set spacing on table cells.
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                for paragraph in cell.paragraphs:
+                    paragraph.paragraph_format.line_spacing = 2.0
+    doc.save(str(docx_path))
+
+
+def write_and_convert(md_text: str, stem: str, to_docx: bool = True,
+                      double_space: bool = False) -> None:
     md_path = BUILD / f'{stem}.md'
     md_path.write_text(md_text)
     print(f'[write] {md_path} ({len(md_text)} chars)', flush=True)
@@ -190,13 +216,17 @@ def write_and_convert(md_text: str, stem: str, to_docx: bool = True) -> None:
             print(f'[error] pandoc conversion failed for {stem}: {exc}', flush=True)
             raise
 
+        if double_space:
+            apply_double_spacing(docx_path)
+            print(f'[double-spaced] {docx_path}', flush=True)
+
 
 def main() -> None:
     main_md = build_main_manuscript()
-    write_and_convert(main_md, 'stapes_manuscript')
+    write_and_convert(main_md, 'stapes_manuscript', double_space=True)
 
     supp_md = build_supplementary()
-    write_and_convert(supp_md, 'stapes_supplementary')
+    write_and_convert(supp_md, 'stapes_supplementary', double_space=True)
 
     cover_md = build_cover_letter()
     write_and_convert(cover_md, 'stapes_cover_letter')
