@@ -64,14 +64,34 @@ Phone: +1 404 778 1900
 """
 
 
+# Note for the author: JAMIA submission portal asks for figure alt-text in
+# a separate field at submission time. Paste these into that field — do NOT
+# embed them inline in the manuscript (pandoc renders them as visible body
+# paragraphs that confuse reviewers).
+#
+# Figure 1 alt text:
+#   Two-panel grouped bar chart comparing the best on-device ASR model with the
+#   best cloud API on each of three clinical conversation datasets. Panel a
+#   shows word error rate (lower is better); panel b shows clinical term recall
+#   (higher is better). Datasets are OSCE respiratory interviews (n=272),
+#   PriMock57 primary care (n=57), and Kazi et al. psychiatric (n=71).
+#
+# Figure 2 alt text:
+#   Dot-and-line plot showing word error rate for the best single on-device
+#   model versus the best two-model ROVER fusion pair on each of three clinical
+#   conversation datasets, with the best cloud API drawn as a dashed horizontal
+#   reference line. Fusion produces small improvements over the best single
+#   on-device model on all three datasets but does not reach the best cloud API
+#   on any of them.
+
 FIGURES_BLOCK = """# Figures
 
-![Two-panel grouped bar chart comparing the best on-device ASR model with the best cloud API on each of three clinical conversation datasets. Panel a shows word error rate (lower is better); panel b shows clinical term recall (higher is better). Datasets are OSCE respiratory interviews (n=272), PriMock57 primary care (n=57), and Kazi et al. psychiatric (n=71).](figure1.png){width="6in"}
+![](figure1.png){width="6in"}
 
 **Figure 1. Word error rate and clinical term recall of the best on-device ASR model versus the best cloud API, per dataset.**
 **a**, Word error rate (%) of the best on-device model and the best cloud API on each of the three clinical conversation datasets (OSCE respiratory interviews, n = 272; PriMock57 primary care, n = 57; Kazi et al. psychiatric, n = 71). Lower is better. **b**, Clinical term recall (%) of the best on-device model and the best cloud API on each dataset. Higher is better. Clinical term recall was computed as the proportion of UMLS medical concept spans in the reference transcript that were correctly transcribed.
 
-![Dot-and-line plot showing word error rate for the best single on-device model versus the best two-model ROVER fusion pair on each of three clinical conversation datasets, with the best cloud API drawn as a dashed horizontal reference line. Fusion produces small improvements over the best single on-device model on all three datasets but does not reach the best cloud API on any of them.](figure2.png){width="6in"}
+![](figure2.png){width="6in"}
 
 **Figure 2. ROVER hypothesis fusion yields small improvements over the best single on-device model, with the best cloud API as reference.**
 For each dataset, the figure shows the word error rate of the best single on-device model (left point), the best two-model ROVER fusion pair (right point, connected by a grey line to display the fusion delta), and the best cloud API as a dashed horizontal reference. Fusion provided ≤ 0.82 percentage point improvements on all three datasets. On the OSCE respiratory interview dataset, the best fused on-device pair (parakeet-tdt-0.6b-v2 + sensevoice, 11.01%) did not surpass the best cloud API (Azure, 7.70%).
@@ -120,7 +140,7 @@ def build_main_manuscript() -> str:
 
 {tbl2}
 
-**Table 3. Cloud API cost for the full benchmark (~90 hours, 400 conversations).** AWS Transcribe Medical was run on representative subsets (50 OSCE, 17 PriMock57, 21 psychiatric files) due to cost; on-device inference incurs no per-encounter cost.
+**Table 3. Cloud API cost for the full benchmark (~90 hours, 400 conversations).** †AWS Transcribe Medical was run on cost-limited subsets totalling 88 files (50 of 272 figshare-OSCE, 17 of 57 PriMock57, 21 of 71 psychiatric); the cost shown reflects this subset only. On-device inference incurs no per-encounter cost.
 
 {tbl3}
 """

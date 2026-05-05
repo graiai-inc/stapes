@@ -2,6 +2,6 @@ Service,Model Type,Total Cost,Files Evaluated
 Azure Speech,General,$19.33,400
 Deepgram Nova-2 Medical,Medical,$25.78,400
 AssemblyAI,General,$28.10,400
-AWS Transcribe Medical*,Medical,$99.63,88
+AWS Transcribe Medical†,Medical,$99.63,88
 Google Cloud Speech,Medical,$382.64,396
 On-device (any model),General,$0.00,400
