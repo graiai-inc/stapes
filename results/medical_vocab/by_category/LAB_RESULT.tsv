@@ -1,0 +1,982 @@
+term	category	first_tier	first_source
+blood in urine	LAB_RESULT	1a	1a:primock57
+negative	LAB_RESULT	1b	1b:figshare-osce
+white blood cell count	LAB_RESULT	1b	1b:figshare-osce
+false negatives	LAB_RESULT	1b	1b:figshare-osce
+false negative	LAB_RESULT	1b	1b:figshare-osce
+labs	LAB_RESULT	1b	1b:figshare-osce
+atrial fibrillation	LAB_RESULT	1b	1b:figshare-osce
+test result	LAB_RESULT	1b	1b:figshare-osce
+afib	LAB_RESULT	1b	1b:figshare-osce
+glucose levels	LAB_RESULT	1b	1b:figshare-osce
+resistant	LAB_RESULT	1c	1c:nazmulkazi
+absent	LAB_RESULT	1c	1c:nazmulkazi
+expressed	LAB_RESULT	1c	1c:nazmulkazi
+not secreted	LAB_RESULT	1c	1c:nazmulkazi
+electrolyte levels	LAB_RESULT	1c	1c:nazmulkazi
+identified	LAB_RESULT	1c	1c:nazmulkazi
+biochemical finding	LAB_RESULT	1c	1c:nazmulkazi
+intermediate	LAB_RESULT	1c	1c:nazmulkazi
+genome profile	LAB_RESULT	1c	1c:nazmulkazi
+blood glucose fasting	LAB_RESULT	1e_eka	1e:eka
+hiv seropositivity	LAB_RESULT	1e_eka	1e:eka
+snowstorm knee	LAB_RESULT	1e_eka	1e:eka
+glucose	LAB_RESULT	1e_eka	1e:eka
+glucose plasma	LAB_RESULT	1e_eka	1e:eka
+fungus	LAB_RESULT	1e_eka	1e:eka
+human cells	LAB_RESULT	1e_eka	1e:eka
+atrial flutter	LAB_RESULT	1e_eka	1e:eka
+red blood cell count	LAB_RESULT	1e_eka	1e:eka
+secreted	LAB_RESULT	1e_eka	1e:eka
+serum chloride	LAB_RESULT	1e_eka	1e:eka
+pus cells	LAB_RESULT	1e_eka	1e:eka
+cholesterol total	LAB_RESULT	1e_eka	1e:eka
+urine epithelial cells	LAB_RESULT	1e_eka	1e:eka
+serum potassium	LAB_RESULT	1e_eka	1e:eka
+laboratory findings	LAB_RESULT	1e_eka	1e:eka
+eosinophil count	LAB_RESULT	1e_eka	1e:eka
+blood group abo	LAB_RESULT	1e_eka	1e:eka
+ldl hdl ratio	LAB_RESULT	1e_eka	1e:eka
+urine rbc	LAB_RESULT	1e_eka	1e:eka
+urine protein	LAB_RESULT	1e_eka	1e:eka
+platelet distribution width	LAB_RESULT	1e_eka	1e:eka
+packed cell volume	LAB_RESULT	1e_eka	1e:eka
+phosphate level	LAB_RESULT	1e_eka	1e:eka
+total protein serum	LAB_RESULT	1e_eka	1e:eka
+bilirubin total	LAB_RESULT	1e_eka	1e:eka
+low platelet count	LAB_RESULT	1e_eka	1e:eka
+less than two	LAB_RESULT	2b	2b:yt_med
+presence of bacteria	LAB_RESULT	2b	2b:yt_med
+five to ten	LAB_RESULT	2b	2b:yt_med
+hypoproteinemia	LAB_RESULT	2b	2b:yt_med
+protein level	LAB_RESULT	2b	2b:yt_med
+rv filling	LAB_RESULT	2b	2b:yt_med
+antibody titer	LAB_RESULT	2b	2b:yt_med
+gamma hemolysis	LAB_RESULT	2b	2b:yt_med
+amplified	LAB_RESULT	2b	2b:yt_med
+v e	LAB_RESULT	2b	2b:yt_med
+positive rpr	LAB_RESULT	2b	2b:yt_med
+heart block	LAB_RESULT	2b	2b:yt_med
+motility	LAB_RESULT	2b	2b:yt_med
+hemoglobin c crystals	LAB_RESULT	2b	2b:yt_med
+not expressed	LAB_RESULT	2b	2b:yt_med
+pancreatic enzymes	LAB_RESULT	2b	2b:yt_med
+gastrin levels	LAB_RESULT	2b	2b:yt_med
+progesterone levels	LAB_RESULT	2b	2b:yt_med
+genomic testing	LAB_RESULT	2b	2b:yt_med
+blood glucose level	LAB_RESULT	2b	2b:yt_med
+blood glucose levels	LAB_RESULT	2b	2b:yt_med
+poor quality ecg	LAB_RESULT	2b	2b:yt_med
+psa level two to ten	LAB_RESULT	2b	2b:yt_med
+plasma glucose	LAB_RESULT	2a	2a:yt_med_seg
+blood compatible	LAB_RESULT	2a	2a:yt_med_seg
+traditional angiogram	LAB_RESULT	2a	2a:yt_med_seg
+ventricular fibrillation	LAB_RESULT	2a	2a:yt_med_seg
+gross pathology	LAB_RESULT	2a	2a:yt_med_seg
+ventricular arrhythmia	LAB_RESULT	2a	2a:yt_med_seg
+mutated	LAB_RESULT	2a	2a:yt_med_seg
+liver enzymes	LAB_RESULT	2a	2a:yt_med_seg
+laboratory results	LAB_RESULT	2a	2a:yt_med_seg
+mra	LAB_RESULT	2a	2a:yt_med_seg
+cortisol levels	LAB_RESULT	2a	2a:yt_med_seg
+therapeutic range	LAB_RESULT	2a	2a:yt_med_seg
+drug levels	LAB_RESULT	2a	2a:yt_med_seg
+left ventricular pressure	LAB_RESULT	2a	2a:yt_med_seg
+cmv negative	LAB_RESULT	2a	2a:yt_med_seg
+cmv positive	LAB_RESULT	2a	2a:yt_med_seg
+pco2	LAB_RESULT	2a	2a:yt_med_seg
+bacterial growth	LAB_RESULT	2a	2a:yt_med_seg
+low platelets	LAB_RESULT	2a	2a:yt_med_seg
+salinity	LAB_RESULT	2a	2a:yt_med_seg
+triple positive	LAB_RESULT	2a	2a:yt_med_seg
+blood groups	LAB_RESULT	2a	2a:yt_med_seg
+temporal resolution	LAB_RESULT	2a	2a:yt_med_seg
+genetic profile	LAB_RESULT	2a	2a:yt_med_seg
+stone composition	LAB_RESULT	2a	2a:yt_med_seg
+hemoglobin levels	LAB_RESULT	2a	2a:yt_med_seg
+skin response	LAB_RESULT	2a	2a:yt_med_seg
+minimum inhibitory concentration	LAB_RESULT	2a	2a:yt_med_seg
+antimicrobial activity	LAB_RESULT	2a	2a:yt_med_seg
+segmental pressure	LAB_RESULT	2a	2a:yt_med_seg
+minimum volume	LAB_RESULT	2a	2a:yt_med_seg
+albumin level	LAB_RESULT	2a	2a:yt_med_seg
+virus particle	LAB_RESULT	2a	2a:yt_med_seg
+fgfr alteration	LAB_RESULT	2a	2a:yt_med_seg
+blood concentration	LAB_RESULT	2a	2a:yt_med_seg
+genomic profile	LAB_RESULT	2a	2a:yt_med_seg
+not mutated	LAB_RESULT	2a	2a:yt_med_seg
+iron utilization	LAB_RESULT	2a	2a:yt_med_seg
+blood test results	LAB_RESULT	2a	2a:yt_med_seg
+human cell	LAB_RESULT	2a	2a:yt_med_seg
+total capacity	LAB_RESULT	2a	2a:yt_med_seg
+group ax	LAB_RESULT	2a	2a:yt_med_seg
+ddimer level	LAB_RESULT	2a	2a:yt_med_seg
+hiv positivity	LAB_RESULT	2a	2a:yt_med_seg
+genomic test	LAB_RESULT	2a	2a:yt_med_seg
+low platelet	LAB_RESULT	2a	2a:yt_med_seg
+spinal fluid pressure	LAB_RESULT	2a	2a:yt_med_seg
+motor unit potentials	LAB_RESULT	2a	2a:yt_med_seg
+wild type	LAB_RESULT	2a	2a:yt_med_seg
+red cell mass	LAB_RESULT	2a	2a:yt_med_seg
+mss	LAB_RESULT	2a	2a:yt_med_seg
+ova and parasites	LAB_RESULT	2a	2a:yt_med_seg
+hepatitis b positive	LAB_RESULT	2a	2a:yt_med_seg
+hi positive	LAB_RESULT	2a	2a:yt_med_seg
+fructosamine	LAB_RESULT	2a	2a:yt_med_seg
+effective refractory period	LAB_RESULT	2a	2a:yt_med_seg
+lab findings	LAB_RESULT	2a	2a:yt_med_seg
+platelet aggregation	LAB_RESULT	2a	2a:yt_med_seg
+hemoglobin level	LAB_RESULT	2a	2a:yt_med_seg
+lead levels	LAB_RESULT	2a	2a:yt_med_seg
+rvc	LAB_RESULT	2a	2a:yt_med_seg
+culture negative	LAB_RESULT	2a	2a:yt_med_seg
+positive blood culture	LAB_RESULT	2a	2a:yt_med_seg
+raised ck	LAB_RESULT	2a	2a:yt_med_seg
+ten to fifty	LAB_RESULT	2a	2a:yt_med_seg
+intensity change	LAB_RESULT	2a	2a:yt_med_seg
+not ordered	LAB_RESULT	2a	2a:yt_med_seg
+dna fingerprint	LAB_RESULT	2a	2a:yt_med_seg
+diagnostic test result	LAB_RESULT	2a	2a:yt_med_seg
+pdl1 negative	LAB_RESULT	2a	2a:yt_med_seg
+sscp	LAB_RESULT	2a	2a:yt_med_seg
+albumin levels	LAB_RESULT	2a	2a:yt_med_seg
+rhesus blood group	LAB_RESULT	2a	2a:yt_med_seg
+blood viscosity	LAB_RESULT	2a	2a:yt_med_seg
+blood hormone levels	LAB_RESULT	2a	2a:yt_med_seg
+positive hiv	LAB_RESULT	2a	2a:yt_med_seg
+segmental blood pressure	LAB_RESULT	2a	2a:yt_med_seg
+test results	LAB_RESULT	2a	2a:yt_med_seg
+hemoglobin variants	LAB_RESULT	2a	2a:yt_med_seg
+growth hormone levels	LAB_RESULT	2a	2a:yt_med_seg
+counterclockwise card rotatn	LAB_RESULT	2a	2a:yt_med_seg
+magnetic resonance angiogram	LAB_RESULT	2a	2a:yt_med_seg
+myocardial metabolism	LAB_RESULT	2a	2a:yt_med_seg
+serum glucose level	LAB_RESULT	2a	2a:yt_med_seg
+er positive	LAB_RESULT	2a	2a:yt_med_seg
+copy number gain	LAB_RESULT	2a	2a:yt_med_seg
+progesterone level	LAB_RESULT	2a	2a:yt_med_seg
+fsh levels	LAB_RESULT	2a	2a:yt_med_seg
+fungus present	LAB_RESULT	2a	2a:yt_med_seg
+total ige	LAB_RESULT	2a	2a:yt_med_seg
+total iron binding capacity	LAB_RESULT	2a	2a:yt_med_seg
+tibc	LAB_RESULT	2a	2a:yt_med_seg
+copper levels	LAB_RESULT	2a	2a:yt_med_seg
+negative progesterone receptor	LAB_RESULT	2a	2a:yt_med_seg
+egfr positive	LAB_RESULT	2a	2a:yt_med_seg
+trace element level	LAB_RESULT	2a	2a:yt_med_seg
+female sex hormone	LAB_RESULT	2a	2a:yt_med_seg
+no parasites found	LAB_RESULT	2a	2a:yt_med_seg
+triglyceride level	LAB_RESULT	2a	2a:yt_med_seg
+hypovolemic	LAB_RESULT	2a	2a:yt_med_seg
+non motile	LAB_RESULT	2a	2a:yt_med_seg
+antibody profile	LAB_RESULT	2a	2a:yt_med_seg
+fasting blood glucose	LAB_RESULT	2a	2a:yt_med_seg
+rlv	LAB_RESULT	2a	2a:yt_med_seg
+drug level	LAB_RESULT	2a	2a:yt_med_seg
+venous flow	LAB_RESULT	2a	2a:yt_med_seg
+cardiac axis	LAB_RESULT	2a	2a:yt_med_seg
+rh blood group	LAB_RESULT	2a	2a:yt_med_seg
+h antigen type	LAB_RESULT	2a	2a:yt_med_seg
+antibody negative	LAB_RESULT	2a	2a:yt_med_seg
+rh positive	LAB_RESULT	2a	2a:yt_med_seg
+karyotype	LAB_RESULT	2a	2a:yt_med_seg
+antigen level	LAB_RESULT	2a	2a:yt_med_seg
+screen positive	LAB_RESULT	2a	2a:yt_med_seg
+cng	LAB_RESULT	2a	2a:yt_med_seg
+iron kinetics nos	LAB_RESULT	2a	2a:yt_med_seg
+presence of cells	LAB_RESULT	2a	2a:yt_med_seg
+genetic finding	LAB_RESULT	2a	2a:yt_med_seg
+lead level	LAB_RESULT	2a	2a:yt_med_seg
+wedge pressure	LAB_RESULT	2a	2a:yt_med_seg
+plateau pressure	LAB_RESULT	2a	2a:yt_med_seg
+idh wild type	LAB_RESULT	2a	2a:yt_med_seg
+cdkn2a loss	LAB_RESULT	2a	2a:yt_med_seg
+cd4 positive	LAB_RESULT	2a	2a:yt_med_seg
+cd8 positive	LAB_RESULT	2a	2a:yt_med_seg
+karyotyping	LAB_RESULT	2a	2a:yt_med_seg
+moire patterns	LAB_RESULT	2a	2a:yt_med_seg
+albumin concentration	LAB_RESULT	2a	2a:yt_med_seg
+pleural pressure	LAB_RESULT	2a	2a:yt_med_seg
+nidus	LAB_RESULT	2a	2a:yt_med_seg
+genomic profiling	LAB_RESULT	2a	2a:yt_med_seg
+pefr - expected	LAB_RESULT	2a	2a:yt_med_seg
+fusion positive	LAB_RESULT	2a	2a:yt_med_seg
+mutations detected	LAB_RESULT	2a	2a:yt_med_seg
+ntrk3 fusion	LAB_RESULT	2a	2a:yt_med_seg
+genotype profiles	LAB_RESULT	2a	2a:yt_med_seg
+wildtype	LAB_RESULT	2a	2a:yt_med_seg
+positive pregnancy test	LAB_RESULT	2a	2a:yt_med_seg
+abnormal lab test	LAB_RESULT	2a	2a:yt_med_seg
+fvc	LAB_RESULT	2a	2a:yt_med_seg
+minimal effective dose	LAB_RESULT	2a	2a:yt_med_seg
+pfr - before bronchodilation	LAB_RESULT	2a	2a:yt_med_seg
+genetic profiles	LAB_RESULT	2a	2a:yt_med_seg
+middle ear function	LAB_RESULT	2a	2a:yt_med_seg
+renal plasma flow	LAB_RESULT	2a	2a:yt_med_seg
+estrogen receptor negative	LAB_RESULT	2a	2a:yt_med_seg
+beta hcg	LAB_RESULT	2a	2a:yt_med_seg
+r haplotype	LAB_RESULT	2a	2a:yt_med_seg
+serum cholesterol	LAB_RESULT	2a	2a:yt_med_seg
+antibody titers	LAB_RESULT	2a	2a:yt_med_seg
+antibodies identified	LAB_RESULT	2a	2a:yt_med_seg
+drugs identify	LAB_RESULT	2a	2a:yt_med_seg
+viremia	LAB_RESULT	2a	2a:yt_med_seg
+karyotypes	LAB_RESULT	2a	2a:yt_med_seg
+pmmr	LAB_RESULT	2a	2a:yt_med_seg
+her2 positive	LAB_RESULT	2a	2a:yt_med_seg
+r1 haplotype	LAB_RESULT	2a	2a:yt_med_seg
+r2 haplotype	LAB_RESULT	2a	2a:yt_med_seg
+hormone receptor positive	LAB_RESULT	2a	2a:yt_med_seg
+peak flow rate	LAB_RESULT	2a	2a:yt_med_seg
+genetic observations	LAB_RESULT	2a	2a:yt_med_seg
+her-2 positive	LAB_RESULT	2a	2a:yt_med_seg
+hgb	LAB_RESULT	3a	3a:syn_dict
+igm positive	LAB_RESULT	3a	3a:syn_dict
+positive ana	LAB_RESULT	3a	3a:syn_dict
+positive fecal occult blood test	LAB_RESULT	3a	3a:syn_dict
+laboratory abnormalities	LAB_RESULT	3a	3a:syn_dict
+rv mass	LAB_RESULT	3a	3a:syn_dict
+lbbb	LAB_RESULT	3a	3a:syn_dict
+positive ppd	LAB_RESULT	3a	3a:syn_dict
+immune to hepatitis b	LAB_RESULT	3a	3a:syn_dict
+liquefaction	LAB_RESULT	3a	3a:syn_dict
+eustachian tube function	LAB_RESULT	3a	3a:syn_dict
+elevated ldh	LAB_RESULT	3a	3a:syn_dict
+schistocytes	LAB_RESULT	3a	3a:syn_dict
+reticulocyte count	LAB_RESULT	3a	3a:syn_dict
+negative ana	LAB_RESULT	3a	3a:syn_dict
+positive serology	LAB_RESULT	3a	3a:syn_dict
+supratherapeutic inr	LAB_RESULT	3a	3a:syn_dict
+skin test results	LAB_RESULT	3a	3a:syn_dict
+negative to date	LAB_RESULT	3a	3a:syn_dict
+adenovirus positive	LAB_RESULT	3a	3a:syn_dict
+total bilirubin	LAB_RESULT	3a	3a:syn_dict
+lachman's test	LAB_RESULT	3a	3a:syn_dict
+schistocytosis	LAB_RESULT	3a	3a:syn_dict
+seronegative	LAB_RESULT	3a	3a:syn_dict
+antibody positive	LAB_RESULT	3a	3a:syn_dict
+positive mantoux test	LAB_RESULT	3a	3a:syn_dict
+csf results	LAB_RESULT	3a	3a:syn_dict
+positive coombs test	LAB_RESULT	3a	3a:syn_dict
+screen negative	LAB_RESULT	3a	3a:syn_dict
+serology positive	LAB_RESULT	3a	3a:syn_dict
+pcr negative	LAB_RESULT	3a	3a:syn_dict
+oxalate crystals	LAB_RESULT	3a	3a:syn_dict
+anion gap	LAB_RESULT	3a	3a:syn_dict
+serum calcitonin	LAB_RESULT	3a	3a:syn_dict
+urine catecholamines	LAB_RESULT	3a	3a:syn_dict
+anca negative	LAB_RESULT	3a	3a:syn_dict
+bacterial culture negative	LAB_RESULT	3a	3a:syn_dict
+negative pregnancy test	LAB_RESULT	3a	3a:syn_dict
+urine microalbumin	LAB_RESULT	3a	3a:syn_dict
+bicytopenia	LAB_RESULT	3a	3a:syn_dict
+positive serologies	LAB_RESULT	3a	3a:syn_dict
+antibodies negative	LAB_RESULT	3a	3a:syn_dict
+bone marrow results	LAB_RESULT	3a	3a:syn_dict
+positive tuberculin skin test	LAB_RESULT	3a	3a:syn_dict
+blood cultures negative	LAB_RESULT	3a	3a:syn_dict
+urine mercury	LAB_RESULT	3a	3a:syn_dict
+ferritin levels	LAB_RESULT	3a	3a:syn_dict
+positive mantoux	LAB_RESULT	3a	3a:syn_dict
+urinalysis results	LAB_RESULT	3a	3a:syn_dict
+positive guaiac	LAB_RESULT	3a	3a:syn_dict
+mpo positive	LAB_RESULT	3a	3a:syn_dict
+blood cultures positive	LAB_RESULT	3a	3a:syn_dict
+rpr nonreactive	LAB_RESULT	3a	3a:syn_dict
+water deprivation test	LAB_RESULT	3a	3a:syn_dict
+catecholamine levels	LAB_RESULT	3a	3a:syn_dict
+immunoglobulin levels	LAB_RESULT	3a	3a:syn_dict
+serum iron level	LAB_RESULT	3a	3a:syn_dict
+pregnancy test was negative	LAB_RESULT	3a	3a:syn_dict
+imaging interpretation	LAB_RESULT	3a	3a:syn_dict
+estrogen receptor positive	LAB_RESULT	3a	3a:syn_dict
+liver enzyme levels	LAB_RESULT	3a	3a:syn_dict
+hcv antibody positive	LAB_RESULT	3a	3a:syn_dict
+rsv positive	LAB_RESULT	3a	3a:syn_dict
+coombs negative	LAB_RESULT	3a	3a:syn_dict
+pcr positive	LAB_RESULT	3a	3a:syn_dict
+phenobarbital level	LAB_RESULT	3a	3a:syn_dict
+afb smear negative	LAB_RESULT	3a	3a:syn_dict
+laboratory finding	LAB_RESULT	3a	3a:syn_dict
+left ventricular wall motion	LAB_RESULT	3a	3a:syn_dict
+arterial oxygen saturation	LAB_RESULT	3a	3a:syn_dict
+hiv antibody negative	LAB_RESULT	3a	3a:syn_dict
+igg positive	LAB_RESULT	3a	3a:syn_dict
+csf lymphocytosis	LAB_RESULT	3a	3a:syn_dict
+cd7 negative	LAB_RESULT	3a	3a:syn_dict
+positive tuberculin	LAB_RESULT	3a	3a:syn_dict
+low complement	LAB_RESULT	3a	3a:syn_dict
+valproate level	LAB_RESULT	3a	3a:syn_dict
+sitting blood pressure	LAB_RESULT	3a	3a:syn_dict
+phenylalanine level	LAB_RESULT	3a	3a:syn_dict
+csf vdrl negative	LAB_RESULT	3a	3a:syn_dict
+electrocardiogram finding	LAB_RESULT	3a	3a:syn_dict
+antibodies positive	LAB_RESULT	3a	3a:syn_dict
+homans' sign negative	LAB_RESULT	3a	3a:syn_dict
+platelet count 50000	LAB_RESULT	3a	3a:syn_dict
+urine culture negative	LAB_RESULT	3a	3a:syn_dict
+negative rheumatoid factor	LAB_RESULT	3a	3a:syn_dict
+sputum culture positive for pseudomonas	LAB_RESULT	3a	3a:syn_dict
+urine copper	LAB_RESULT	3a	3a:syn_dict
+ldh elevated	LAB_RESULT	3a	3a:syn_dict
+positive fta	LAB_RESULT	3a	3a:syn_dict
+serology negative	LAB_RESULT	3a	3a:syn_dict
+plasmacytoid lymphocytes	LAB_RESULT	3a	3a:syn_dict
+free androgen index	LAB_RESULT	3a	3a:syn_dict
+therapeutic drug level	LAB_RESULT	3a	3a:syn_dict
+hepatitis c positive	LAB_RESULT	3a	3a:syn_dict
+negative blood culture	LAB_RESULT	3a	3a:syn_dict
+culture result	LAB_RESULT	3a	3a:syn_dict
+ultrasound finding	LAB_RESULT	3a	3a:syn_dict
+joint fluid culture	LAB_RESULT	3a	3a:syn_dict
+peripheral blood eosinophilia	LAB_RESULT	3a	3a:syn_dict
+ammonia levels	LAB_RESULT	3a	3a:syn_dict
+blood culture for staphylococcus aureus	LAB_RESULT	3a	3a:syn_dict
+urine drug screen positive	LAB_RESULT	3a	3a:syn_dict
+afb smear positive	LAB_RESULT	3a	3a:syn_dict
+carboxyhemoglobin levels	LAB_RESULT	3a	3a:syn_dict
+deteriorating renal function	LAB_RESULT	3a	3a:syn_dict
+carboxyhemoglobin level	LAB_RESULT	3a	3a:syn_dict
+blood culture serratia	LAB_RESULT	3a	3a:syn_dict
+pathologic result	LAB_RESULT	3a	3a:syn_dict
+red cells in urine	LAB_RESULT	3a	3a:syn_dict
+vestibular evoked myogenic potentials	LAB_RESULT	3a	3a:syn_dict
+relative lymphocytosis	LAB_RESULT	3a	3a:syn_dict
+cerebrospinal fluid lymphocytosis	LAB_RESULT	3a	3a:syn_dict
+negative hiv test	LAB_RESULT	3a	3a:syn_dict
+preliminary positive	LAB_RESULT	3a	3a:syn_dict
+helicobacter pylori negative	LAB_RESULT	3a	3a:syn_dict
+cd10 positive	LAB_RESULT	3a	3a:syn_dict
+cd34 positive	LAB_RESULT	3a	3a:syn_dict
+lv wall motion	LAB_RESULT	3a	3a:syn_dict
+clear amniotic fluid	LAB_RESULT	3a	3a:syn_dict
+hbsag positive	LAB_RESULT	3a	3a:syn_dict
+hbsag negative	LAB_RESULT	3a	3a:syn_dict
+mixed flora	LAB_RESULT	3a	3a:syn_dict
+serum osmolality	LAB_RESULT	3a	3a:syn_dict
+phosphate crystals	LAB_RESULT	3a	3a:syn_dict
+positive urine drug screen	LAB_RESULT	3a	3a:syn_dict
+aldosterone levels	LAB_RESULT	3a	3a:syn_dict
+monoclonal spike	LAB_RESULT	3a	3a:syn_dict
+toxoplasma serology negative	LAB_RESULT	3a	3a:syn_dict
+vdrl negative	LAB_RESULT	3a	3a:syn_dict
+lithium level therapeutic	LAB_RESULT	3a	3a:syn_dict
+rv wall motion	LAB_RESULT	3a	3a:syn_dict
+carbamazepine level therapeutic	LAB_RESULT	3a	3a:syn_dict
+urine drug screen negative	LAB_RESULT	3a	3a:syn_dict
+positive for aspergillus fumigatus	LAB_RESULT	3a	3a:syn_dict
+hbv negative	LAB_RESULT	3a	3a:syn_dict
+monoclonal band	LAB_RESULT	3a	3a:syn_dict
+anca positive	LAB_RESULT	3a	3a:syn_dict
+rpr negative	LAB_RESULT	3a	3a:syn_dict
+pas positive	LAB_RESULT	3a	3a:syn_dict
+negative hbsag	LAB_RESULT	3a	3a:syn_dict
+afb positive	LAB_RESULT	3a	3a:syn_dict
+dematiaceous mold	LAB_RESULT	3a	3a:syn_dict
+cd20 positive	LAB_RESULT	3a	3a:syn_dict
+cd3 negative	LAB_RESULT	3a	3a:syn_dict
+positive vdrl	LAB_RESULT	3a	3a:syn_dict
+blood culture positive	LAB_RESULT	3a	3a:syn_dict
+sedimentation rate greater than 100	LAB_RESULT	3a	3a:syn_dict
+urine metanephrin	LAB_RESULT	3a	3a:syn_dict
+mantoux positive	LAB_RESULT	3a	3a:syn_dict
+surgical margins free of tumor	LAB_RESULT	3a	3a:syn_dict
+increased fibrinogen	LAB_RESULT	3a	3a:syn_dict
+hbs positive	LAB_RESULT	3a	3a:syn_dict
+cryptococcal antigen positive	LAB_RESULT	3a	3a:syn_dict
+platelets low	LAB_RESULT	3a	3a:syn_dict
+direct coombs test negative	LAB_RESULT	3a	3a:syn_dict
+western blot positive	LAB_RESULT	3a	3a:syn_dict
+igm and igg positive	LAB_RESULT	3a	3a:syn_dict
+fibrinogen elevated	LAB_RESULT	3a	3a:syn_dict
+antimicrosomal antibodies	LAB_RESULT	3a	3a:syn_dict
+ah interval	LAB_RESULT	3a	3a:syn_dict
+av slow nodal pathway	LAB_RESULT	3a	3a:syn_dict
+oligoclonal bands present	LAB_RESULT	3a	3a:syn_dict
+pr negative	LAB_RESULT	3a	3a:syn_dict
+right ventricular filling	LAB_RESULT	3a	3a:syn_dict
+red cell casts	LAB_RESULT	3a	3a:syn_dict
+treponemal antibody positive	LAB_RESULT	3a	3a:syn_dict
+rpr reactive	LAB_RESULT	3a	3a:syn_dict
+positive tourniquet test	LAB_RESULT	3a	3a:syn_dict
+physiological dead space	LAB_RESULT	3a	3a:syn_dict
+ocbs	LAB_RESULT	3a	3a:syn_dict
+pap results	LAB_RESULT	3a	3a:syn_dict
+urine organic acids	LAB_RESULT	3a	3a:syn_dict
+cd3 positive	LAB_RESULT	3a	3a:syn_dict
+expected fvc	LAB_RESULT	3a	3a:syn_dict
+hiv test negative	LAB_RESULT	3a	3a:syn_dict
+stool culture positive	LAB_RESULT	3a	3a:syn_dict
+cmv dnaemia	LAB_RESULT	3a	3a:syn_dict
+ppd negative	LAB_RESULT	3a	3a:syn_dict
+positive for cryptococcus neoformans	LAB_RESULT	3a	3a:syn_dict
+hepatitis b surface antigen negative	LAB_RESULT	3a	3a:syn_dict
+hepatitis b core antibody negative	LAB_RESULT	3a	3a:syn_dict
+hepatitis c antibody negative	LAB_RESULT	3a	3a:syn_dict
+bilirubin positive	LAB_RESULT	3a	3a:syn_dict
+hbcab positive	LAB_RESULT	3a	3a:syn_dict
+hbsab positive	LAB_RESULT	3a	3a:syn_dict
+phenobarbital level therapeutic	LAB_RESULT	3a	3a:syn_dict
+ebv negative	LAB_RESULT	3a	3a:syn_dict
+saag	LAB_RESULT	3a	3a:syn_dict
+amylase levels	LAB_RESULT	3a	3a:syn_dict
+pas negative	LAB_RESULT	3a	3a:syn_dict
+negative for tumor cells	LAB_RESULT	3a	3a:syn_dict
+hcg positive	LAB_RESULT	3a	3a:syn_dict
+rheumatoid factor negative	LAB_RESULT	3a	3a:syn_dict
+drug screen negative	LAB_RESULT	3a	3a:syn_dict
+stable hematocrit	LAB_RESULT	3a	3a:syn_dict
+antibody test positive	LAB_RESULT	3a	3a:syn_dict
+laboratory result	LAB_RESULT	3a	3a:syn_dict
+guaiac positive	LAB_RESULT	3a	3a:syn_dict
+chromosome microdeletion	LAB_RESULT	3a	3a:syn_dict
+aortic valve function	LAB_RESULT	3a	3a:syn_dict
+afb negative	LAB_RESULT	3a	3a:syn_dict
+negative for residual tumor	LAB_RESULT	3a	3a:syn_dict
+romberg test positive	LAB_RESULT	3a	3a:syn_dict
+occult blood positive	LAB_RESULT	3a	3a:syn_dict
+supraventricular arrhythmia	LAB_RESULT	3a	3a:syn_dict
+rast positive	LAB_RESULT	3a	3a:syn_dict
+p16 negative	LAB_RESULT	3a	3a:syn_dict
+urine sodium	LAB_RESULT	3a	3a:syn_dict
+rheumatoid factor positive	LAB_RESULT	3a	3a:syn_dict
+positive drug screen	LAB_RESULT	3a	3a:syn_dict
+therapeutic lithium level	LAB_RESULT	3a	3a:syn_dict
+circulating tumor cells present	LAB_RESULT	3a	3a:syn_dict
+segment deviation	LAB_RESULT	3a	3a:syn_dict
+procedure results	LAB_RESULT	3a	3a:syn_dict
+fungus identified	LAB_RESULT	3a	3a:syn_dict
+coronary artery patent	LAB_RESULT	3a	3a:syn_dict
+hormone receptor negative	LAB_RESULT	3a	3a:syn_dict
+hbv dna detectable	LAB_RESULT	3a	3a:syn_dict
+rbc normochromic normocytic	LAB_RESULT	3a	3a:syn_dict
+hepatitis c antibody positive	LAB_RESULT	3a	3a:syn_dict
+neutrophil oxidative burst	LAB_RESULT	3a	3a:syn_dict
+hiv test positive	LAB_RESULT	3a	3a:syn_dict
+positive benzodiazepine	LAB_RESULT	3a	3a:syn_dict
+pr positive	LAB_RESULT	3a	3a:syn_dict
+his-purkinje conduction	LAB_RESULT	3a	3a:syn_dict
+positive stool culture	LAB_RESULT	3a	3a:syn_dict
+pathology result	LAB_RESULT	3a	3a:syn_dict
+hiv seropositive	LAB_RESULT	3a	3a:syn_dict
+pregnancy test positive	LAB_RESULT	3a	3a:syn_dict
+rast negative	LAB_RESULT	3a	3a:syn_dict
+bicarbonate levels	LAB_RESULT	3a	3a:syn_dict
+pdgfra positive	LAB_RESULT	3a	3a:syn_dict
+anticardiolipin antibodies negative	LAB_RESULT	3a	3a:syn_dict
+valproate level therapeutic	LAB_RESULT	3a	3a:syn_dict
+spherocytosis	LAB_RESULT	3a	3a:syn_dict
+gentamicin levels	LAB_RESULT	3a	3a:syn_dict
+toxoplasma serology positive	LAB_RESULT	3a	3a:syn_dict
+voltage ecg	LAB_RESULT	3a	3a:syn_dict
+igm monoclonal gammopathy	LAB_RESULT	3a	3a:syn_dict
+serum zinc level	LAB_RESULT	3a	3a:syn_dict
+listening level	LAB_RESULT	3a	3a:syn_dict
+msi stable	LAB_RESULT	3a	3a:syn_dict
+negative for recurrent tumor	LAB_RESULT	3a	3a:syn_dict
+r wave notched	LAB_RESULT	3a	3a:syn_dict
+monospot positive	LAB_RESULT	3a	3a:syn_dict
+cd1a positive	LAB_RESULT	3a	3a:syn_dict
+chloride levels	LAB_RESULT	3a	3a:syn_dict
+cardiac enzyme levels	LAB_RESULT	3a	3a:syn_dict
+wedged hepatic venous pressure	LAB_RESULT	3a	3a:syn_dict
+negative pregnancy tests	LAB_RESULT	3a	3a:syn_dict
+antiphospholipid antibodies negative	LAB_RESULT	3a	3a:syn_dict
+elevated lactate dehydrogenase	LAB_RESULT	3a	3a:syn_dict
+hcv positive	LAB_RESULT	3a	3a:syn_dict
+cea positive	LAB_RESULT	3a	3a:syn_dict
+ema positive	LAB_RESULT	3a	3a:syn_dict
+intrinsic factor antibody positive	LAB_RESULT	3a	3a:syn_dict
+presence of hemoglobin	LAB_RESULT	3a	3a:syn_dict
+ch 50	LAB_RESULT	3a	3a:syn_dict
+mefv	LAB_RESULT	3a	3a:syn_dict
+karyogram	LAB_RESULT	3a	3a:syn_dict
+responses skin	LAB_RESULT	3a	3a:syn_dict
+viruria	LAB_RESULT	3a	3a:syn_dict
+vdrl positive	LAB_RESULT	3a	3a:syn_dict
+granular casts in urine	LAB_RESULT	3a	3a:syn_dict
+hepatitis b surface antibody positive	LAB_RESULT	3a	3a:syn_dict
+anaerobic bacterial culture	LAB_RESULT	3a	3a:syn_dict
+positive thc	LAB_RESULT	3a	3a:syn_dict
+surgical margin free of tumor	LAB_RESULT	3a	3a:syn_dict
+dukes stage b	LAB_RESULT	3a	3a:syn_dict
+gram stain positive	LAB_RESULT	3a	3a:syn_dict
+atypical cells present	LAB_RESULT	3a	3a:syn_dict
+negative ppd	LAB_RESULT	3a	3a:syn_dict
+positive tuberculin test	LAB_RESULT	3a	3a:syn_dict
+screening for depression	LAB_RESULT	3a	3a:syn_dict
+ppd positive	LAB_RESULT	3a	3a:syn_dict
+mpo negative	LAB_RESULT	3a	3a:syn_dict
+urine culture positive	LAB_RESULT	3a	3a:syn_dict
+elliptocytes	LAB_RESULT	3a	3a:syn_dict
+urine magnesium	LAB_RESULT	3a	3a:syn_dict
+csf xanthochromia	LAB_RESULT	3a	3a:syn_dict
+ecg complex characteristics	LAB_RESULT	3a	3a:syn_dict
+bite registration	LAB_RESULT	3a	3a:syn_dict
+p53 positive	LAB_RESULT	3a	3a:syn_dict
+serum bicarbonate	LAB_RESULT	3a	3a:syn_dict
+urine osmolarity	LAB_RESULT	3a	3a:syn_dict
+venous oxygen saturation	LAB_RESULT	3a	3a:syn_dict
+smooth muscle actin positive	LAB_RESULT	3a	3a:syn_dict
+mixed skin flora	LAB_RESULT	3a	3a:syn_dict
+afb culture positive	LAB_RESULT	3a	3a:syn_dict
+coronary artery patency	LAB_RESULT	3a	3a:syn_dict
+mitral valve function	LAB_RESULT	3a	3a:syn_dict
+monoclonal protein detected	LAB_RESULT	3a	3a:syn_dict
+blood pressure lying	LAB_RESULT	3a	3a:syn_dict
+negative antibody	LAB_RESULT	3a	3a:syn_dict
+progesterone receptor negative	LAB_RESULT	3a	3a:syn_dict
+amphetamine positive	LAB_RESULT	3a	3a:syn_dict
+urine porphobilinogen	LAB_RESULT	3a	3a:syn_dict
+sputum culture positive for aspergillus	LAB_RESULT	3a	3a:syn_dict
+av conduction pattern	LAB_RESULT	3a	3a:syn_dict
+cd45 positive	LAB_RESULT	3a	3a:syn_dict
+lupus anticoagulant positive	LAB_RESULT	3a	3a:syn_dict
+positive antibody	LAB_RESULT	3a	3a:syn_dict
+lactic dehydrogenase increased	LAB_RESULT	3a	3a:syn_dict
+platelet count low	LAB_RESULT	3a	3a:syn_dict
+jc virus positive	LAB_RESULT	3a	3a:syn_dict
+coombs test negative	LAB_RESULT	3a	3a:syn_dict
+serum insulin	LAB_RESULT	3a	3a:syn_dict
+monocyte count	LAB_RESULT	3a	3a:syn_dict
+hbs negative	LAB_RESULT	3a	3a:syn_dict
+neutrophil hypersegmentation	LAB_RESULT	3a	3a:syn_dict
+heme positive	LAB_RESULT	3a	3a:syn_dict
+pregnancy test was positive	LAB_RESULT	3a	3a:syn_dict
+stool culture positive for salmonella	LAB_RESULT	3a	3a:syn_dict
+direct coombs test positive	LAB_RESULT	3a	3a:syn_dict
+cd20 negative	LAB_RESULT	3a	3a:syn_dict
+cd22 positive	LAB_RESULT	3a	3a:syn_dict
+drug level therapeutic	LAB_RESULT	3a	3a:syn_dict
+sweat chloride	LAB_RESULT	3a	3a:syn_dict
+benzodiazepines negative	LAB_RESULT	3a	3a:syn_dict
+barbiturates negative	LAB_RESULT	3a	3a:syn_dict
+urine amino acids	LAB_RESULT	3a	3a:syn_dict
+chromogranin positive	LAB_RESULT	3a	3a:syn_dict
+cd56 positive	LAB_RESULT	3a	3a:syn_dict
+lupus anticoagulant negative	LAB_RESULT	3a	3a:syn_dict
+serum pregnancy test negative	LAB_RESULT	3a	3a:syn_dict
+urobilinogenuria	LAB_RESULT	3a	3a:syn_dict
+no growth	LAB_RESULT	3a	3a:syn_dict
+superior axis	LAB_RESULT	3a	3a:syn_dict
+cochlear function	LAB_RESULT	3a	3a:syn_dict
+somatostatin receptor positive	LAB_RESULT	3a	3a:syn_dict
+negative peripheral blood	LAB_RESULT	3a	3a:syn_dict
+sideroblast	LAB_RESULT	3a	3a:syn_dict
+aspartate aminotransferase level	LAB_RESULT	3a	3a:syn_dict
+urine cocaine	LAB_RESULT	3a	3a:syn_dict
+cd117 positive	LAB_RESULT	3a	3a:syn_dict
+tdt negative	LAB_RESULT	3a	3a:syn_dict
+helicobacter pylori positive	LAB_RESULT	3a	3a:syn_dict
+stool culture negative	LAB_RESULT	3a	3a:syn_dict
+reduced glutathione	LAB_RESULT	3b	3b:united_syn_med
+red blood cell survival	LAB_RESULT	3b	3b:united_syn_med
+vitamin b12 absorption	LAB_RESULT	3b	3b:united_syn_med
+rh-positive	LAB_RESULT	3b	3b:united_syn_med
+autoantibody level	LAB_RESULT	3b	3b:united_syn_med
+ntrk fusion	LAB_RESULT	3b	3b:united_syn_med
+alk-positive	LAB_RESULT	3b	3b:united_syn_med
+haemoglobin levels	LAB_RESULT	3b	3b:united_syn_med
+trk fusion	LAB_RESULT	3b	3b:united_syn_med
+fgfr2 fusion	LAB_RESULT	3b	3b:united_syn_med
+ret fusion	LAB_RESULT	3b	3b:united_syn_med
+blood pressure standing	LAB_RESULT	3c	3c:syn_piper
+pancreatic test	LAB_RESULT	3d	3d:kokoro_tts
+prostate specific antigen level	LAB_RESULT	4a	4a:ezdi
+level hemoglobin	LAB_RESULT	4b	4b:thalamus_notes
+anti-hbc positive	LAB_RESULT	4b	4b:thalamus_notes
+anti-hbs positive	LAB_RESULT	4b	4b:thalamus_notes
+pik3ca gene alteration	LAB_RESULT	4b	4b:thalamus_notes
+positive progesterone receptor	LAB_RESULT	4b	4b:thalamus_notes
+anti-hbc negative	LAB_RESULT	4b	4b:thalamus_notes
+m-spike	LAB_RESULT	4b	4b:thalamus_notes
+lyme titer elevated	LAB_RESULT	4b	4b:thalamus_notes
+immunity to hepatitis b	LAB_RESULT	4b	4b:thalamus_notes
+covid-19 negative	LAB_RESULT	4b	4b:thalamus_notes
+2-hour postprandial glucose	LAB_RESULT	4b	4b:thalamus_notes
+fat positive	LAB_RESULT	4b	4b:thalamus_notes
+ros negative	LAB_RESULT	4b	4b:thalamus_notes
+ros positive	LAB_RESULT	4b	4b:thalamus_notes
+non-motile	LAB_RESULT	4b	4b:thalamus_notes
+epstein-barr virus negative	LAB_RESULT	4b	4b:thalamus_notes
+cytomegalovirus negative	LAB_RESULT	4b	4b:thalamus_notes
+hiv seroconversion	LAB_RESULT	4b	4b:thalamus_notes
+blood culture negative	LAB_RESULT	4b	4b:thalamus_notes
+epstein-barr virus positive	LAB_RESULT	4b	4b:thalamus_notes
+urine pregnancy test positive	LAB_RESULT	4b	4b:thalamus_notes
+occult blood negative	LAB_RESULT	4b	4b:thalamus_notes
+anti-hbs negative	LAB_RESULT	4b	4b:thalamus_notes
+hla-b27 positive	LAB_RESULT	4b	4b:thalamus_notes
+urine pregnancy test negative	LAB_RESULT	4b	4b:thalamus_notes
+glucose positive	LAB_RESULT	4b	4b:thalamus_notes
+cd117 negative	LAB_RESULT	4b	4b:thalamus_notes
+cd34 negative	LAB_RESULT	4b	4b:thalamus_notes
+epithelial cells urine	LAB_RESULT	4b	4b:thalamus_notes
+anti-jo-1 antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+macro-ovalocytes	LAB_RESULT	4b	4b:thalamus_notes
+pregnancy test urine negative	LAB_RESULT	4b	4b:thalamus_notes
+positive for pneumocystis jirovecii	LAB_RESULT	4b	4b:thalamus_notes
+positive rumpel-leede test	LAB_RESULT	4b	4b:thalamus_notes
+tourniquet test positive	LAB_RESULT	4b	4b:thalamus_notes
+csf culture staphylococcus aureus	LAB_RESULT	4b	4b:thalamus_notes
+csf culture positive	LAB_RESULT	4b	4b:thalamus_notes
+csf culture negative	LAB_RESULT	4b	4b:thalamus_notes
+normochromic red blood cells	LAB_RESULT	4b	4b:thalamus_notes
+ph positive	LAB_RESULT	4b	4b:thalamus_notes
+myeloperoxidase positive	LAB_RESULT	4b	4b:thalamus_notes
+positive p-anca	LAB_RESULT	4b	4b:thalamus_notes
+iga monoclonal gammopathy	LAB_RESULT	4b	4b:thalamus_notes
+amphetamines negative	LAB_RESULT	4b	4b:thalamus_notes
+opiates negative	LAB_RESULT	4b	4b:thalamus_notes
+synovial fluid cloudy	LAB_RESULT	4b	4b:thalamus_notes
+braf mutation negative	LAB_RESULT	4b	4b:thalamus_notes
+ck raised	LAB_RESULT	4b	4b:thalamus_notes
+anti-insulin antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+autoantibody positive	LAB_RESULT	4b	4b:thalamus_notes
+esr positive	LAB_RESULT	4b	4b:thalamus_notes
+urine oxalate	LAB_RESULT	4b	4b:thalamus_notes
+pr-	LAB_RESULT	4b	4b:thalamus_notes
+rpr positive	LAB_RESULT	4b	4b:thalamus_notes
+myocardial infarction ecg	LAB_RESULT	4b	4b:thalamus_notes
+aortic valve gradient	LAB_RESULT	4b	4b:thalamus_notes
+amphetamines positive	LAB_RESULT	4b	4b:thalamus_notes
+jak2 mutation negative	LAB_RESULT	4b	4b:thalamus_notes
+urine culture escherichia coli	LAB_RESULT	4b	4b:thalamus_notes
+sars-cov-2 positive	LAB_RESULT	4b	4b:thalamus_notes
+iga negative	LAB_RESULT	4b	4b:thalamus_notes
+ventricular ejection fraction	LAB_RESULT	4b	4b:thalamus_notes
+ki-1 positive	LAB_RESULT	4b	4b:thalamus_notes
+adenosine deaminase normal	LAB_RESULT	4b	4b:thalamus_notes
+coombs test positive	LAB_RESULT	4b	4b:thalamus_notes
+er negative	LAB_RESULT	4b	4b:thalamus_notes
+hiv viral load undetectable	LAB_RESULT	4b	4b:thalamus_notes
+toxoplasma positive	LAB_RESULT	4b	4b:thalamus_notes
+levels phenytoin	LAB_RESULT	4b	4b:thalamus_notes
+anti-caspr2 antibody	LAB_RESULT	4b	4b:thalamus_notes
+anti-caspr2	LAB_RESULT	4b	4b:thalamus_notes
+parietal cell antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+c-anca positive	LAB_RESULT	4b	4b:thalamus_notes
+cd30 positive	LAB_RESULT	4b	4b:thalamus_notes
+alk negative	LAB_RESULT	4b	4b:thalamus_notes
+ki-67 positive	LAB_RESULT	4b	4b:thalamus_notes
+flare reaction	LAB_RESULT	4b	4b:thalamus_notes
+hsv-1 positive	LAB_RESULT	4b	4b:thalamus_notes
+red blood cells urine	LAB_RESULT	4b	4b:thalamus_notes
+covid-19 positive	LAB_RESULT	4b	4b:thalamus_notes
+parvovirus b19 serology negative	LAB_RESULT	4b	4b:thalamus_notes
+thc positive	LAB_RESULT	4b	4b:thalamus_notes
+hypochromic red blood cells	LAB_RESULT	4b	4b:thalamus_notes
+specimen clear	LAB_RESULT	4b	4b:thalamus_notes
+beta-lactamase positive	LAB_RESULT	4b	4b:thalamus_notes
+brucella serology negative	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis c rna positive	LAB_RESULT	4b	4b:thalamus_notes
+albumin serum	LAB_RESULT	4b	4b:thalamus_notes
+sputum cytology positive	LAB_RESULT	4b	4b:thalamus_notes
+cd8 negative	LAB_RESULT	4b	4b:thalamus_notes
+c-kit negative	LAB_RESULT	4b	4b:thalamus_notes
+digoxin level serum	LAB_RESULT	4b	4b:thalamus_notes
+alk rearrangement negative	LAB_RESULT	4b	4b:thalamus_notes
+west nile virus negative	LAB_RESULT	4b	4b:thalamus_notes
+periodontal indices	LAB_RESULT	4b	4b:thalamus_notes
+ecg voltage	LAB_RESULT	4b	4b:thalamus_notes
+squamous epithelial cells in urine	LAB_RESULT	4b	4b:thalamus_notes
+low ldh	LAB_RESULT	4b	4b:thalamus_notes
+p-anca positive	LAB_RESULT	4b	4b:thalamus_notes
+atrioventricular gradient	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis b surface antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+vesicular reaction	LAB_RESULT	4b	4b:thalamus_notes
+ige total	LAB_RESULT	4b	4b:thalamus_notes
+erythrocyte size	LAB_RESULT	4b	4b:thalamus_notes
+2-hour glucose	LAB_RESULT	4b	4b:thalamus_notes
+anti-thyroglobulin antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+culture positive for candida albicans	LAB_RESULT	4b	4b:thalamus_notes
+nitrites positive urine	LAB_RESULT	4b	4b:thalamus_notes
+pregnancy test result	LAB_RESULT	4b	4b:thalamus_notes
+csf culture neisseria meningitidis	LAB_RESULT	4b	4b:thalamus_notes
+morphine urine	LAB_RESULT	4b	4b:thalamus_notes
+finding of grade	LAB_RESULT	4b	4b:thalamus_notes
+digoxin level therapeutic	LAB_RESULT	4b	4b:thalamus_notes
+ras wild type	LAB_RESULT	4b	4b:thalamus_notes
+htlv-1 positive	LAB_RESULT	4b	4b:thalamus_notes
+htlv iii seropositivity	LAB_RESULT	4b	4b:thalamus_notes
+m-protein	LAB_RESULT	4b	4b:thalamus_notes
+htlv-i positive	LAB_RESULT	4b	4b:thalamus_notes
+tpha negative	LAB_RESULT	4b	4b:thalamus_notes
+blood type rh positive	LAB_RESULT	4b	4b:thalamus_notes
+karyotype result	LAB_RESULT	4b	4b:thalamus_notes
+hbeag positive	LAB_RESULT	4b	4b:thalamus_notes
+positive estrogen receptor	LAB_RESULT	4b	4b:thalamus_notes
+benzodiazepines positive	LAB_RESULT	4b	4b:thalamus_notes
+opiates positive	LAB_RESULT	4b	4b:thalamus_notes
+serum acth	LAB_RESULT	4b	4b:thalamus_notes
+serum-ascites albumin gradient	LAB_RESULT	4b	4b:thalamus_notes
+iron sat	LAB_RESULT	4b	4b:thalamus_notes
+monoclonal band detected	LAB_RESULT	4b	4b:thalamus_notes
+protein urine negative	LAB_RESULT	4b	4b:thalamus_notes
+right ventricular mass	LAB_RESULT	4b	4b:thalamus_notes
+microbiology result	LAB_RESULT	4b	4b:thalamus_notes
+blood group rh	LAB_RESULT	4b	4b:thalamus_notes
+throat swab culture negative	LAB_RESULT	4b	4b:thalamus_notes
+drug-induced hyponatremia	LAB_RESULT	4b	4b:thalamus_notes
+csf chemistry	LAB_RESULT	4b	4b:thalamus_notes
+antiendomysial antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+x-rays results	LAB_RESULT	4b	4b:thalamus_notes
+er-	LAB_RESULT	4b	4b:thalamus_notes
+egfr negative	LAB_RESULT	4b	4b:thalamus_notes
+anti-lgi1 antibody	LAB_RESULT	4b	4b:thalamus_notes
+positive hcg	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis b core antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+flicker fusion	LAB_RESULT	4b	4b:thalamus_notes
+tricyclic antidepressants positive	LAB_RESULT	4b	4b:thalamus_notes
+drugs identified	LAB_RESULT	4b	4b:thalamus_notes
+urobilinogen negative	LAB_RESULT	4b	4b:thalamus_notes
+amphetamine urine	LAB_RESULT	4b	4b:thalamus_notes
+syphilis serology positive	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis c rna negative	LAB_RESULT	4b	4b:thalamus_notes
+fractional excretion of potassium	LAB_RESULT	4b	4b:thalamus_notes
+fek	LAB_RESULT	4b	4b:thalamus_notes
+urine culture proteus	LAB_RESULT	4b	4b:thalamus_notes
+hbsab negative	LAB_RESULT	4b	4b:thalamus_notes
+no mycobacterial growth	LAB_RESULT	4b	4b:thalamus_notes
+cd20 expression	LAB_RESULT	4b	4b:thalamus_notes
+sputum gram stain mixed flora	LAB_RESULT	4b	4b:thalamus_notes
+negative nitrogen balance	LAB_RESULT	4b	4b:thalamus_notes
+stool culture for salmonella enteritidis	LAB_RESULT	4b	4b:thalamus_notes
+antiphospholipid antibodies positive	LAB_RESULT	4b	4b:thalamus_notes
+specimen cloudy	LAB_RESULT	4b	4b:thalamus_notes
+nikolsky's sign negative	LAB_RESULT	4b	4b:thalamus_notes
+mha-tp positive	LAB_RESULT	4b	4b:thalamus_notes
+crp positive	LAB_RESULT	4b	4b:thalamus_notes
+urobilinogen increased	LAB_RESULT	4b	4b:thalamus_notes
+chlamydia serology negative	LAB_RESULT	4b	4b:thalamus_notes
+hiv pos	LAB_RESULT	4b	4b:thalamus_notes
+normal thyroxine	LAB_RESULT	4b	4b:thalamus_notes
+cerebrospinal fluid culture positive	LAB_RESULT	4b	4b:thalamus_notes
+t4 normal	LAB_RESULT	4b	4b:thalamus_notes
+vestibular evoked myogenic potential	LAB_RESULT	4b	4b:thalamus_notes
+beta-hemolysis	LAB_RESULT	4b	4b:thalamus_notes
+fta negative	LAB_RESULT	4b	4b:thalamus_notes
+pten exon mutation present	LAB_RESULT	4b	4b:thalamus_notes
+positive direct antiglobulin test	LAB_RESULT	4b	4b:thalamus_notes
+c3d positive	LAB_RESULT	4b	4b:thalamus_notes
+macrocytic index	LAB_RESULT	4b	4b:thalamus_notes
+cannabinoids positive	LAB_RESULT	4b	4b:thalamus_notes
+platelet count 20000	LAB_RESULT	4b	4b:thalamus_notes
+cd38 positive	LAB_RESULT	4b	4b:thalamus_notes
+cd23 negative	LAB_RESULT	4b	4b:thalamus_notes
+protein in pleural fluid	LAB_RESULT	4b	4b:thalamus_notes
+cd15 negative	LAB_RESULT	4b	4b:thalamus_notes
+ldh low	LAB_RESULT	4b	4b:thalamus_notes
+smooth muscle antibodies negative	LAB_RESULT	4b	4b:thalamus_notes
+treponema pallidum test positive	LAB_RESULT	4b	4b:thalamus_notes
+m spike	LAB_RESULT	4b	4b:thalamus_notes
+amniotic fluid clear	LAB_RESULT	4b	4b:thalamus_notes
+levels vancomycin	LAB_RESULT	4b	4b:thalamus_notes
+light chains present	LAB_RESULT	4b	4b:thalamus_notes
+anti-amphiphysin antibodies	LAB_RESULT	4b	4b:thalamus_notes
+elevated antinuclear antibody	LAB_RESULT	4b	4b:thalamus_notes
+her2 non-amplified	LAB_RESULT	4b	4b:thalamus_notes
+lipase serum	LAB_RESULT	4b	4b:thalamus_notes
+stool culture for shigella	LAB_RESULT	4b	4b:thalamus_notes
+indirect coombs test negative	LAB_RESULT	4b	4b:thalamus_notes
+sars-cov-2 negative	LAB_RESULT	4b	4b:thalamus_notes
+drug screen cocaine positive	LAB_RESULT	4b	4b:thalamus_notes
+bcl2 positive	LAB_RESULT	4b	4b:thalamus_notes
+cd56 negative	LAB_RESULT	4b	4b:thalamus_notes
+cytomegalovirus positive	LAB_RESULT	4b	4b:thalamus_notes
+smooth muscle antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+sinus node function	LAB_RESULT	4b	4b:thalamus_notes
+troponin t normal	LAB_RESULT	4b	4b:thalamus_notes
+cocaine urine	LAB_RESULT	4b	4b:thalamus_notes
+alt raised	LAB_RESULT	4b	4b:thalamus_notes
+sample cloudy	LAB_RESULT	4b	4b:thalamus_notes
+ebv-positive	LAB_RESULT	4b	4b:thalamus_notes
+bacterial culture positive	LAB_RESULT	4b	4b:thalamus_notes
+ki-67 negative	LAB_RESULT	4b	4b:thalamus_notes
+blood smear trypanosoma cruzi	LAB_RESULT	4b	4b:thalamus_notes
+pregnancy test urine positive	LAB_RESULT	4b	4b:thalamus_notes
+anti-gad65 antibody	LAB_RESULT	4b	4b:thalamus_notes
+pcnt pathogenic variant	LAB_RESULT	4b	4b:thalamus_notes
+antibody hepatitis b surface antigen	LAB_RESULT	4b	4b:thalamus_notes
+positive pseudomonas aeruginosa	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis d antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+presumptive positive	LAB_RESULT	4b	4b:thalamus_notes
+anti-dna antibodies negative	LAB_RESULT	4b	4b:thalamus_notes
+sars-cov-2 igm positive	LAB_RESULT	4b	4b:thalamus_notes
+anti-amphiphysin antibody	LAB_RESULT	4b	4b:thalamus_notes
+ab not detected	LAB_RESULT	4b	4b:thalamus_notes
+atrial fibrillation ecg	LAB_RESULT	4b	4b:thalamus_notes
+cd43 negative	LAB_RESULT	4b	4b:thalamus_notes
+iga positive	LAB_RESULT	4b	4b:thalamus_notes
+enteropathogenic bacteria isolated	LAB_RESULT	4b	4b:thalamus_notes
+sputum afb stain positive	LAB_RESULT	4b	4b:thalamus_notes
+p-anca positivity	LAB_RESULT	4b	4b:thalamus_notes
+ebv positive	LAB_RESULT	4b	4b:thalamus_notes
+hbsag eia negative	LAB_RESULT	4b	4b:thalamus_notes
+ppd induration	LAB_RESULT	4b	4b:thalamus_notes
+rearrangement present	LAB_RESULT	4b	4b:thalamus_notes
+white blood cell casts	LAB_RESULT	4b	4b:thalamus_notes
+sodium urine	LAB_RESULT	4b	4b:thalamus_notes
+anti-hcv positive	LAB_RESULT	4b	4b:thalamus_notes
+urine test results	LAB_RESULT	4b	4b:thalamus_notes
+percentage neutrophils	LAB_RESULT	4b	4b:thalamus_notes
+egfr wt	LAB_RESULT	4b	4b:thalamus_notes
+cd10 negative	LAB_RESULT	4b	4b:thalamus_notes
+hep b surface antigen positive	LAB_RESULT	4b	4b:thalamus_notes
+monoclonal protein present	LAB_RESULT	4b	4b:thalamus_notes
+blood culture positive for staphylococcus	LAB_RESULT	4b	4b:thalamus_notes
+throat swab culture positive	LAB_RESULT	4b	4b:thalamus_notes
+nitrite positive urine	LAB_RESULT	4b	4b:thalamus_notes
+parietal cell antibodies positive	LAB_RESULT	4b	4b:thalamus_notes
+extractable nuclear antigen negative	LAB_RESULT	4b	4b:thalamus_notes
+bcl-2 positive	LAB_RESULT	4b	4b:thalamus_notes
+mpo-anca	LAB_RESULT	4b	4b:thalamus_notes
+aortic pressure	LAB_RESULT	4b	4b:thalamus_notes
+prothrombin level	LAB_RESULT	4b	4b:thalamus_notes
+rbc fragmentation	LAB_RESULT	4b	4b:thalamus_notes
+nse negative	LAB_RESULT	4b	4b:thalamus_notes
+parainfluenza virus positive	LAB_RESULT	4b	4b:thalamus_notes
+eber positive	LAB_RESULT	4b	4b:thalamus_notes
+ck raising	LAB_RESULT	4b	4b:thalamus_notes
+htlv-2 positive	LAB_RESULT	4b	4b:thalamus_notes
+heterozygous mutation detected	LAB_RESULT	4b	4b:thalamus_notes
+blood culture streptococcus pneumoniae	LAB_RESULT	4b	4b:thalamus_notes
+antibody screen positive	LAB_RESULT	4b	4b:thalamus_notes
+hmb-45 positive	LAB_RESULT	4b	4b:thalamus_notes
+presence of drug	LAB_RESULT	4b	4b:thalamus_notes
+fecal occult blood negative	LAB_RESULT	4b	4b:thalamus_notes
+hypokinetic rv wall	LAB_RESULT	4b	4b:thalamus_notes
+no parasites observed	LAB_RESULT	4b	4b:thalamus_notes
+r wave height	LAB_RESULT	4b	4b:thalamus_notes
+sputum culture mrsa	LAB_RESULT	4b	4b:thalamus_notes
+shbg low	LAB_RESULT	4b	4b:thalamus_notes
+normocytosis	LAB_RESULT	4b	4b:thalamus_notes
+hsv-2 positive	LAB_RESULT	4b	4b:thalamus_notes
+kras wild-type	LAB_RESULT	4b	4b:thalamus_notes
+alk translocation negative	LAB_RESULT	4b	4b:thalamus_notes
+red blood cell fragmentation	LAB_RESULT	4b	4b:thalamus_notes
+fetal non-stress test	LAB_RESULT	4b	4b:thalamus_notes
+c-kit positive	LAB_RESULT	4b	4b:thalamus_notes
+mitochondrial antibodies negative	LAB_RESULT	4b	4b:thalamus_notes
+southwestern blot	LAB_RESULT	4b	4b:thalamus_notes
+hbcab negative	LAB_RESULT	4b	4b:thalamus_notes
+schistosoma serology positive	LAB_RESULT	4b	4b:thalamus_notes
+flu b negative	LAB_RESULT	4b	4b:thalamus_notes
+parietal cell antibodies negative	LAB_RESULT	4b	4b:thalamus_notes
+tricuspid valve function	LAB_RESULT	4b	4b:thalamus_notes
+amplification positive	LAB_RESULT	4b	4b:thalamus_notes
+drug screen positive	LAB_RESULT	4b	4b:thalamus_notes
+plasma given	LAB_RESULT	4b	4b:thalamus_notes
+skin test result	LAB_RESULT	4b	4b:thalamus_notes
+coombs positive	LAB_RESULT	4b	4b:thalamus_notes
+gene mutation not detected	LAB_RESULT	4b	4b:thalamus_notes
+middle ear pressure	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis b immune	LAB_RESULT	4b	4b:thalamus_notes
+heinz body	LAB_RESULT	4b	4b:thalamus_notes
+covid-19 antigen test positive	LAB_RESULT	4b	4b:thalamus_notes
+antibody test negative	LAB_RESULT	4b	4b:thalamus_notes
+hiv rna undetectable	LAB_RESULT	4b	4b:thalamus_notes
+f2 g20210a mutation	LAB_RESULT	4b	4b:thalamus_notes
+faecal occult blood negative	LAB_RESULT	4b	4b:thalamus_notes
+hcv rna positive	LAB_RESULT	4b	4b:thalamus_notes
+borrelia burgdorferi serology negative	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis c virus positive	LAB_RESULT	4b	4b:thalamus_notes
+2019-ncov positive	LAB_RESULT	4b	4b:thalamus_notes
+rsr pattern in v1 and v2	LAB_RESULT	4b	4b:thalamus_notes
+positive rh	LAB_RESULT	4b	4b:thalamus_notes
+bone marrow finding	LAB_RESULT	4b	4b:thalamus_notes
+schistosoma serology negative	LAB_RESULT	4b	4b:thalamus_notes
+2h glucose	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis b positive surface antigen	LAB_RESULT	4b	4b:thalamus_notes
+rheumatoid arthritis rf negative	LAB_RESULT	4b	4b:thalamus_notes
+cardiolipin antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+ring-form	LAB_RESULT	4b	4b:thalamus_notes
+reference range comments	LAB_RESULT	4b	4b:thalamus_notes
+blood lymphoblasts	LAB_RESULT	4b	4b:thalamus_notes
+afp positive	LAB_RESULT	4b	4b:thalamus_notes
+presumed positive	LAB_RESULT	4b	4b:thalamus_notes
+positive skin test	LAB_RESULT	4b	4b:thalamus_notes
+hep b negative	LAB_RESULT	4b	4b:thalamus_notes
+alpha-fetoprotein level	LAB_RESULT	4b	4b:thalamus_notes
+catecholamines urine	LAB_RESULT	4b	4b:thalamus_notes
+lv wall dyskinetic	LAB_RESULT	4b	4b:thalamus_notes
+minimal erythema dose	LAB_RESULT	4b	4b:thalamus_notes
+cervical dysplasia pap smear	LAB_RESULT	4b	4b:thalamus_notes
+urine amphetamine	LAB_RESULT	4b	4b:thalamus_notes
+nse positive	LAB_RESULT	4b	4b:thalamus_notes
+heterophile antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+no proteinuria	LAB_RESULT	4b	4b:thalamus_notes
+hv interval	LAB_RESULT	4b	4b:thalamus_notes
+rb1 mutation negative	LAB_RESULT	4b	4b:thalamus_notes
+chromogranin negative	LAB_RESULT	4b	4b:thalamus_notes
+sputum culture escherichia coli	LAB_RESULT	4b	4b:thalamus_notes
+anti-cv2 antibody	LAB_RESULT	4b	4b:thalamus_notes
+increased ldh	LAB_RESULT	4b	4b:thalamus_notes
+blood culture viral	LAB_RESULT	4b	4b:thalamus_notes
+yeast present	LAB_RESULT	4b	4b:thalamus_notes
+her2 wt	LAB_RESULT	4b	4b:thalamus_notes
+liver tissue culture mycobacterium tuberculosis	LAB_RESULT	4b	4b:thalamus_notes
+tuberculosis culture positive	LAB_RESULT	4b	4b:thalamus_notes
+serum ceruloplasmin	LAB_RESULT	4b	4b:thalamus_notes
+anti-mitochondrial ant.	LAB_RESULT	4b	4b:thalamus_notes
+treponemal eia positive	LAB_RESULT	4b	4b:thalamus_notes
+more than 100,000 colonies	LAB_RESULT	4b	4b:thalamus_notes
+chlamydia pcr negative	LAB_RESULT	4b	4b:thalamus_notes
+troponin i normal	LAB_RESULT	4b	4b:thalamus_notes
+negative skin test	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis c core antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+lmp positive	LAB_RESULT	4b	4b:thalamus_notes
+yellow stool	LAB_RESULT	4b	4b:thalamus_notes
+hhv-6 positive	LAB_RESULT	4b	4b:thalamus_notes
+atypical lymphocytes present	LAB_RESULT	4b	4b:thalamus_notes
+anticardiolipin antibodies positive	LAB_RESULT	4b	4b:thalamus_notes
+urine organic acid	LAB_RESULT	4b	4b:thalamus_notes
+gene mutation detected	LAB_RESULT	4b	4b:thalamus_notes
+positive hiv antibody test	LAB_RESULT	4b	4b:thalamus_notes
+indirect coombs test positive	LAB_RESULT	4b	4b:thalamus_notes
+elevated fibrinogen level	LAB_RESULT	4b	4b:thalamus_notes
+cardiolipin antibodies positive	LAB_RESULT	4b	4b:thalamus_notes
+parainfluenza virus 3 positive	LAB_RESULT	4b	4b:thalamus_notes
+levels prolactin	LAB_RESULT	4b	4b:thalamus_notes
+htlv-1 antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+pd-l1 negative	LAB_RESULT	4b	4b:thalamus_notes
+level lipid	LAB_RESULT	4b	4b:thalamus_notes
+range therapeutic	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis d antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+antibodies mitochondrial	LAB_RESULT	4b	4b:thalamus_notes
+sma positive	LAB_RESULT	4b	4b:thalamus_notes
+ca125 level	LAB_RESULT	4b	4b:thalamus_notes
+cmv igm antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+cmv igg antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+hbs antigen negative	LAB_RESULT	4b	4b:thalamus_notes
+fluid color	LAB_RESULT	4b	4b:thalamus_notes
+antineutrophil cytoplasmic antibody negative	LAB_RESULT	4b	4b:thalamus_notes
+tuberculin test negative	LAB_RESULT	4b	4b:thalamus_notes
+paul bunnell test negative	LAB_RESULT	4b	4b:thalamus_notes
+paracetamol level	LAB_RESULT	4b	4b:thalamus_notes
+seroconversion hiv	LAB_RESULT	4b	4b:thalamus_notes
+positive stool occult blood test	LAB_RESULT	4b	4b:thalamus_notes
+monospot test negative	LAB_RESULT	4b	4b:thalamus_notes
+sputum culture pneumococcus	LAB_RESULT	4b	4b:thalamus_notes
+anti-dsdna antibody positive	LAB_RESULT	4b	4b:thalamus_notes
+m-spike present	LAB_RESULT	4b	4b:thalamus_notes
+dengue ns1 antigen positive	LAB_RESULT	4b	4b:thalamus_notes
+hepatitis b serology positive	LAB_RESULT	4b	4b:thalamus_notes
+dog1 positive	LAB_RESULT	4b	4b:thalamus_notes
+barbiturates positive	LAB_RESULT	4b	4b:thalamus_notes
+serum renin activity	LAB_RESULT	4b	4b:thalamus_notes
+wet prep positive	LAB_RESULT	4b	4b:thalamus_notes
+fta positive	LAB_RESULT	4b	4b:thalamus_notes
+esr negative	LAB_RESULT	4b	4b:thalamus_notes
+blister cells	LAB_RESULT	4b	4b:thalamus_notes
+dopamine urine	LAB_RESULT	4b	4b:thalamus_notes
+autoantibody negative	LAB_RESULT	4b	4b:thalamus_notes
+positive hydrogen breath test	LAB_RESULT	4b	4b:thalamus_notes
+yeast with pseudohyphae	LAB_RESULT	4b	4b:thalamus_notes
+ebv dna positive	LAB_RESULT	4b	4b:thalamus_notes
+sample clear	LAB_RESULT	4b	4b:thalamus_notes
+blood type b	LAB_RESULT	4b	4b:thalamus_notes
+cd25 negative	LAB_RESULT	4b	4b:thalamus_notes
+2 hr glucose	LAB_RESULT	4b	4b:thalamus_notes
+hla b27 positive	LAB_RESULT	4b	4b:thalamus_notes
+anti-smith antibody positive	LAB_RESULT	4b	4b:thalamus_notes

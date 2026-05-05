@@ -1,0 +1,55 @@
+file_id	parakeet_span	medasr_replacement	vocab_phrase	edit_dist	max_len
+CAR0002	rizubastatin	rosuvastatin	rosuvastatin	3	12
+CAR0002	lesidopril	lisinopril	lisinopril	2	10
+MSK0001	coughs	cough	cough	1	6
+MSK0003	reactive	active	active	2	8
+MSK0009	cruster	crestor	crestor	2	7
+MSK0010	other	others	others	1	6
+MSK0013	a toverstatin	uhm atorvastatin	atorvastatin	3	12
+MSK0024	me	mea	mea	1	3
+MSK0031	ramapril	ramipril	ramipril	1	8
+MSK0032	medication	medications	medications	1	11
+MSK0033	pylonol	tylenol	tylenol	2	7
+MSK0035	all	als	als	1	3
+MSK0036	a cough	cough uh	cough	1	6
+MSK0046	mothers	others	others	1	7
+MSK0049	ramaprol	ramipril	ramipril	2	8
+RES0004	bases	basis	basis	1	5
+RES0005	rozuvastatin	rosuvastatin	rosuvastatin	1	12
+RES0025	silenol	tylenol	tylenol	2	7
+RES0033	cough's	cough	cough	2	7
+RES0037	resubastatin	rosuvastatin	rosuvastatin	2	12
+RES0042	biologics	biologic	biologic	1	9
+RES0044	medicine	medicines	medicines	1	9
+RES0048	cough's	cough	cough	2	7
+RES0055	topd	copd	copd	1	4
+RES0063	ramapril	ramipril	ramipril	1	8
+RES0063	pneumovacs	pneumovax	pneumovax	2	10
+RES0063	vaccines	vaccine	vaccine	1	8
+RES0074	crester	crestor	crestor	1	7
+RES0076	cop	copd	copd	1	4
+RES0078	cobd	copd	copd	1	4
+RES0083	thylanol	tylenol	tylenol	2	8
+RES0088	multivitamins	multivitamin	multivitamin	1	13
+RES0089	ventilin	ventolin	ventolin	1	8
+RES0098	ventilin	ventolin	ventolin	1	8
+RES0102	coughs	cough	cough	1	6
+RES0102	ramapril	ramipril	ramipril	1	8
+RES0105	spariva	spiriva	spiriva	1	7
+RES0106	coughed	cough	cough	2	7
+RES0107	coughs	cough	cough	1	6
+RES0114	cop	copd	copd	1	4
+RES0126	coughed	cough	cough	2	7
+RES0132	copd	cop	cop	1	4
+RES0147	cobd	copd	copd	1	4
+RES0154	multivitamins all	multivitamin alright	multivitamin	4	16
+RES0155	ventilin	ventolin	ventolin	1	8
+RES0167	shingrex i	shingrix uh	shingrix	2	9
+RES0191	coughed	cough	cough	2	7
+RES0197	ventiline	ventolin	ventolin	2	9
+RES0197	ventilin	ventolin	ventolin	1	8
+RES0197	ventilin	ventolin	ventolin	1	8
+RES0200	cop	copd	copd	1	4
+RES0201	do	dok	dok	1	3
+RES0202	medicine so	medicines sounrt	medicines	1	10
+RES0217	abiotics	antibiotics	antibiotics	3	11

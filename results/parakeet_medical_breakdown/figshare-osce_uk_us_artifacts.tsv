@@ -1,0 +1,28 @@
+file_id	term	category	length	parakeet_sub	rule
+MSK0008	xray	PROCEDURE	1	we'll get a knee x-ray	us_to_uk:xray->x-ray
+MSK0011	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0015	behaviour	FINDING	1	behavior	uk_to_us:behaviour->behavior
+MSK0018	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0021	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0027	xray	PROCEDURE	1	on x-ray	us_to_uk:xray->x-ray
+MSK0034	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0034	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0035	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0040	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0040	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0042	tumour	CONDITION	1	tumor	uk_to_us:tumour->tumor
+MSK0042	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0042	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0045	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+MSK0046	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+RES0002	behaviour	FINDING	1	behavior	uk_to_us:behaviour->behavior
+RES0034	behaviour	FINDING	1	behavior she's	uk_to_us:behaviour->behavior
+RES0108	fibre	DRUG	1	fiber	uk_to_us:fibre->fiber
+RES0136	behaviour	FINDING	1	behavior	uk_to_us:behaviour->behavior
+RES0138	xray	PROCEDURE	1	x-ray	us_to_uk:xray->x-ray
+RES0166	leukaemia	CONDITION	1	leukemia leukemia okay	uk_to_us:leukaemia->leukemia
+RES0166	leukaemia	CONDITION	1	leukemia leukemia okay	uk_to_us:leukaemia->leukemia
+RES0178	behaviour	FINDING	1	behavior	uk_to_us:behaviour->behavior
+RES0183	behaviour	FINDING	1	behavior	uk_to_us:behaviour->behavior
+RES0188	behaviour	FINDING	1	behavior	uk_to_us:behaviour->behavior
+RES0192	diarrhea	FINDING	1	diarrhoea	us_to_uk:diarrhea->diarrhoea

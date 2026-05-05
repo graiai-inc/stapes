@@ -1,0 +1,9 @@
+{
+  "total_input": 85899,
+  "kept_multi_word": 64259,
+  "kept_single_not_in_dict": 13793,
+  "kept_single_drug_allowlist": 210,
+  "dropped_too_short": 3567,
+  "dropped_explicit_noise": 66,
+  "dropped_in_english_dict": 4004
+}

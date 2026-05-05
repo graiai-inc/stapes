@@ -1,0 +1,4 @@
+dataset	n_files	parakeet_wer	medasr_wer	fused_wer	fused_delta_pp	better	worse	tied	n_subs	n_inserts
+primock57	57	18.2168	88.8292	18.5294	0.3127	0	46	11	160	8
+figshare-osce	272	22.658	57.3161	21.8999	-0.7581	91	164	17	1437	490
+nazmulkazi	71	7.7545	26.9347	7.9439	0.1894	8	62	1	849	218

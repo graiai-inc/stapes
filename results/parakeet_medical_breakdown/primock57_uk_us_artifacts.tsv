@@ -1,0 +1,28 @@
+file_id	term	category	length	parakeet_sub	rule
+day1_consultation03	co-codamol	DRUG	1	cocodamol	hyphenation:hyphen->joined
+day1_consultation07	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day1_consultation11	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day1_consultation11	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day1_consultation12	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day1_consultation12	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day1_consultation12	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day1_consultation12	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day2_consultation05	mini-stroke	CONDITION	1	mini stroke	uk_to_us:mini-stroke->mini stroke
+day2_consultation05	mini-stroke	CONDITION	1	mini stroke	uk_to_us:mini-stroke->mini stroke
+day2_consultation08	diarrhoea	SYMPTOM	1	diarrhea um	uk_to_us:diarrhoea->diarrhea
+day3_consultation03	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day3_consultation03	anaemia	CONDITION	1	anemia	uk_to_us:anaemia->anemia
+day3_consultation10	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day3_consultation10	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day4_consultation01	light-headedness	SYMPTOM	1	lightheadedness	hyphenation:hyphen->joined
+day4_consultation05	diarrhoea	SYMPTOM	1	diarrhea okay	uk_to_us:diarrhoea->diarrhea
+day4_consultation05	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day4_consultation05	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day4_consultation09	light-headed	SYMPTOM	1	lightheaded	uk_to_us:light-headed->light headed
+day4_consultation10	light-headed	SYMPTOM	1	lightheaded	uk_to_us:light-headed->light headed
+day4_consultation10	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day4_consultation10	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day5_consultation05	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day5_consultation06	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day5_consultation06	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea
+day5_consultation07	diarrhoea	SYMPTOM	1	diarrhea	uk_to_us:diarrhoea->diarrhea

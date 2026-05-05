@@ -1,0 +1,201 @@
+term	category	length	n_occurrences	n_errors	error_rate_pct
+diarrhoea	SYMPTOM	1	24	23	95.83
+ibuprofen	DRUG	1	42	12	28.57
+fit and well	FINDING	3	18	9	50.00
+run	FINDING	1	22	9	40.91
+wee	CONDITION	1	39	8	20.51
+face	ANATOMY	1	28	8	28.57
+ventolin	DRUG	1	8	8	100.00
+not not really	FINDING	3	8	7	87.50
+hand	FINDING	1	23	7	30.43
+dot	PROCEDURE	1	7	7	100.00
+headache	SYMPTOM	1	74	6	8.11
+problem	PROCEDURE	1	28	6	21.43
+dioralyte	DRUG	1	5	5	100.00
+don't know	FINDING	2	76	5	6.58
+lisinopril	DRUG	1	6	5	83.33
+lower	ANATOMY	1	24	5	20.83
+pill	DRUG	1	21	5	23.81
+very much	FINDING	2	40	4	10.00
+piriton	DRUG	1	4	4	100.00
+eczema	CONDITION	1	25	4	16.00
+temperature	PROCEDURE	1	37	4	10.81
+right right	ANATOMY	2	5	4	80.00
+cough	DRUG	1	50	4	8.00
+tests	PROCEDURE	1	28	4	14.29
+back	ANATOMY	1	94	4	4.26
+mini-stroke	CONDITION	1	4	4	100.00
+short of breath	SYMPTOM	3	44	4	9.09
+salbutamol	DRUG	1	10	4	40.00
+light-headed	SYMPTOM	1	4	4	100.00
+difficult	FINDING	1	23	3	13.04
+loratadine	DRUG	1	3	3	100.00
+arm	ANATOMY	1	16	3	18.75
+light	PROCEDURE	1	17	3	17.65
+well-hydrated	FINDING	1	3	3	100.00
+medications	DRUG	1	68	3	4.41
+trimethoprim	DRUG	1	3	3	100.00
+implanon	DRUG	1	9	3	33.33
+furosemide	DRUG	1	3	3	100.00
+metformin	DRUG	1	6	3	50.00
+hayfever	CONDITION	1	3	3	100.00
+definitely	FINDING	1	41	3	7.32
+medical	PROCEDURE	1	43	3	6.98
+bowel	ANATOMY	1	7	3	42.86
+related	FINDING	1	20	3	15.00
+antihistamine	DRUG	1	8	3	37.50
+asthma	CONDITION	1	51	3	5.88
+chest pains	SYMPTOM	2	4	3	75.00
+slight	FINDING	1	7	3	42.86
+stairs	FINDING	1	7	3	42.86
+amoxicillin	DRUG	1	4	3	75.00
+mebeverine	DRUG	1	3	3	100.00
+controlled	FINDING	1	2	2	100.00
+symptoms	SYMPTOM	1	117	2	1.71
+normal	FINDING	1	61	2	3.28
+fever	FINDING	1	29	2	6.90
+infection	CONDITION	1	26	2	7.69
+fexofenadine	DRUG	1	2	2	100.00
+disease	CONDITION	1	5	2	40.00
+brain tumour	CONDITION	2	2	2	100.00
+migraine	CONDITION	1	25	2	8.00
+problems	FINDING	1	99	2	2.02
+bisoprolol	DRUG	1	2	2	100.00
+coughing	SYMPTOM	1	21	2	9.52
+drugs	PROCEDURE	1	9	2	22.22
+teacher	FINDING	1	5	2	40.00
+fluids	PROCEDURE	1	25	2	8.00
+worry	FINDING	1	20	2	10.00
+no problems	FINDING	2	4	2	50.00
+nitrofurantoin	DRUG	1	2	2	100.00
+feeling ok	SYMPTOM	2	2	2	100.00
+lives	FINDING	1	8	2	25.00
+couple	FINDING	1	82	2	2.44
+no vomiting	FINDING	2	3	2	66.67
+nausea vomiting	SYMPTOM	2	8	2	25.00
+medicine	DRUG	1	5	2	40.00
+history	FINDING	1	66	2	3.03
+hearing	FINDING	1	10	2	20.00
+cotton	DRUG	1	2	2	100.00
+skin	CONDITION	1	34	2	5.88
+dry	SYMPTOM	1	18	2	11.11
+nose	CONDITION	1	12	2	16.67
+ear	CONDITION	1	19	2	10.53
+methotrexate	PROCEDURE	1	5	2	40.00
+cat	PROCEDURE	1	5	2	40.00
+strokes	CONDITION	1	3	2	66.67
+double check	DRUG	2	5	2	40.00
+sertraline	DRUG	1	3	2	66.67
+cetirizine	DRUG	1	2	2	100.00
+ben	CONDITION	1	2	2	100.00
+rash	SYMPTOM	1	24	2	8.33
+hyperthyroidism	CONDITION	1	2	2	100.00
+pain killers	DRUG	2	2	2	100.00
+lexapro	DRUG	1	2	2	100.00
+else	FINDING	1	69	2	2.90
+hyperthyroid	CONDITION	1	3	2	66.67
+paracetamol	PROCEDURE	1	33	2	6.06
+cough worse at night	SYMPTOM	4	2	2	100.00
+wheezy	SYMPTOM	1	11	2	18.18
+flare	FINDING	1	5	2	40.00
+diarrhoea vomiting	SYMPTOM	2	2	2	100.00
+headaches	SYMPTOM	1	41	2	4.88
+aleve	DRUG	1	2	2	100.00
+and problems	FINDING	2	6	2	33.33
+feeling feverish	SYMPTOM	2	9	1	11.11
+night sweats	SYMPTOM	2	2	1	50.00
+come and go	FINDING	3	10	1	10.00
+no blood	FINDING	2	2	1	50.00
+vomit	SYMPTOM	1	12	1	8.33
+admit	PROCEDURE	1	2	1	50.00
+left side left	ANATOMY	3	1	1	100.00
+right alright	ANATOMY	2	1	1	100.00
+itchy	SYMPTOM	1	17	1	5.88
+arms	CONDITION	1	13	1	7.69
+anti-inflammatories	DRUG	1	4	1	25.00
+difficulties	FINDING	1	3	1	33.33
+brain tumor	CONDITION	2	1	1	100.00
+sensitivity	CONDITION	1	2	1	50.00
+co-codamol	DRUG	1	1	1	100.00
+left hand	ANATOMY	2	2	1	50.00
+left eye	PROCEDURE	2	3	1	33.33
+worries	FINDING	1	4	1	25.00
+cancer	CONDITION	1	4	1	25.00
+respiratory tract infection	CONDITION	3	1	1	100.00
+pain on swallowing	SYMPTOM	3	1	1	100.00
+one or two days	FINDING	4	4	1	25.00
+head	ANATOMY	1	28	1	3.57
+more than normal	FINDING	3	4	1	25.00
+barrier method	PROCEDURE	2	1	1	100.00
+loose stools	SYMPTOM	2	3	1	33.33
+mates	DRUG	1	1	1	100.00
+reporting	PROCEDURE	1	1	1	100.00
+general	PROCEDURE	1	23	1	4.35
+ankles	ANATOMY	1	6	1	16.67
+other symptoms	SYMPTOM	2	35	1	2.86
+aspirin	DRUG	1	9	1	11.11
+life	PROCEDURE	1	21	1	4.76
+fit	FINDING	1	2	1	50.00
+and clear	DRUG	2	1	1	100.00
+first first	PROCEDURE	2	1	1	100.00
+lactose intolerant	CONDITION	2	2	1	50.00
+dry skin	CONDITION	2	3	1	33.33
+itha	ANATOMY	1	1	1	100.00
+cramping	SYMPTOM	1	3	1	33.33
+hope	FINDING	1	8	1	12.50
+guts	ANATOMY	1	1	1	100.00
+pink urine	FINDING	2	3	1	33.33
+discolouration	FINDING	1	1	1	100.00
+aching pain	SYMPTOM	2	1	1	100.00
+clindamycin	DRUG	1	5	1	20.00
+either	FINDING	1	16	1	6.25
+good very good	FINDING	3	1	1	100.00
+very good good	FINDING	3	1	1	100.00
+screen	PROCEDURE	1	8	1	12.50
+hoarse	SYMPTOM	1	2	1	50.00
+mouth	ANATOMY	1	6	1	16.67
+anus	CONDITION	1	1	1	100.00
+dan	DRUG	1	5	1	20.00
+diarrhea	FINDING	1	25	1	4.00
+drink drink	CONDITION	2	1	1	100.00
+similar similar	FINDING	2	1	1	100.00
+feel restless	SYMPTOM	2	1	1	100.00
+ears pain	SYMPTOM	2	1	1	100.00
+labored	FINDING	1	2	1	50.00
+field	PROCEDURE	1	3	1	33.33
+able	FINDING	1	39	1	2.56
+other thing	FINDING	2	11	1	9.09
+no problem	FINDING	2	2	1	50.00
+bleeding	CONDITION	1	8	1	12.50
+grinding	PROCEDURE	1	1	1	100.00
+no palpitations	FINDING	2	1	1	100.00
+left ear	ANATOMY	2	6	1	16.67
+ear drum	ANATOMY	2	1	1	100.00
+mesa	PROCEDURE	1	1	1	100.00
+easy	FINDING	1	4	1	25.00
+osteoarthritis	CONDITION	1	3	1	33.33
+blood test	PROCEDURE	2	12	1	8.33
+nerve	ANATOMY	1	1	1	100.00
+labyrinthitis	CONDITION	1	2	1	50.00
+bell's palsy	CONDITION	2	1	1	100.00
+playing	FINDING	1	1	1	100.00
+rennie	DRUG	1	1	1	100.00
+latex	PROCEDURE	1	2	1	50.00
+cottons	DRUG	1	1	1	100.00
+rennies	DRUG	1	1	1	100.00
+ringing	DRUG	1	9	1	11.11
+finger	ANATOMY	1	7	1	14.29
+lung	CONDITION	1	1	1	100.00
+transient ischemic attacks	CONDITION	3	1	1	100.00
+pals	CONDITION	1	1	1	100.00
+tia	CONDITION	1	4	1	25.00
+localised infection	CONDITION	2	1	1	100.00
+chlorphenamine	DRUG	1	1	1	100.00
+anxiety	CONDITION	1	17	1	5.88
+stridor	SYMPTOM	1	1	1	100.00
+epipen	DRUG	1	1	1	100.00
+link	DRUG	1	6	1	16.67
+compromise	FINDING	1	1	1	100.00
+now right	FINDING	2	3	1	33.33
+trying trying	FINDING	2	1	1	100.00
+life threatening	FINDING	2	1	1	100.00

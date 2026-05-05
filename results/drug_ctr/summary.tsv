@@ -1,0 +1,9 @@
+# vocab_size=2538
+# fusion_min_anchor_words=2
+# fusion_max_anchor_edit_ratio=0.5
+# drug_semtypes=['T116', 'T121', 'T195', 'T200']
+dataset	n_files	n_drug_spans	parakeet_drug_recall	fused_drug_recall	delta_pp	parakeet_errors	fused_errors	errors_corrected	errors_introduced
+primock57	57	873	75.8305	76.2887	+0.4582	211	207	4	0
+figshare-osce	272	3957	82.2846	82.7647	+0.4802	701	682	19	0
+nazmulkazi	71	1302	84.1782	86.7127	+2.5346	206	173	33	0
+kokoro-va-sample	30	2690	68.4387	78.2156	+9.7770	849	586	263	0

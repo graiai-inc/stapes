@@ -1,0 +1,565 @@
+file_id	term	category	length	parakeet_sub	ref_context
+day1_consultation01	feeling feverish	SYMPTOM	2	<DELETED>	have you been feeling feverish for example yeah
+day1_consultation01	night sweats	SYMPTOM	2	<DELETED>	sweating or um night sweats no and uh
+day1_consultation01	fit and well	FINDING	3	fitting	are you normally fit and well or uh um
+day1_consultation01	come and go	FINDING	3	<DELETED>	comes and goes come and go does the pain
+day1_consultation01	controlled	FINDING	1	controlled	is your asthma well-controlled uh yeah that's
+day1_consultation01	difficult	FINDING	1	<DELETED>	it's been quite difficult okay that must
+day1_consultation01	dioralyte	DRUG	1	dirolite	are things like dioralyte you can get
+day1_consultation01	no blood	FINDING	2	<DELETED>	vomit yeah no no blood no yeah no
+day1_consultation01	symptoms	SYMPTOM	1	<DELETED>	days ago the symptoms are you aware
+day1_consultation01	normal	FINDING	1	<DELETED>	yeah yeah just normal vomit yeah no
+day1_consultation01	vomit	SYMPTOM	1	<DELETED>	yeah just normal vomit yeah no no
+day1_consultation01	fever	FINDING	1	feeling generally	and vomiting and fever and you're quite
+day1_consultation01	admit	PROCEDURE	1	<DELETED>	yeah um i'll admit if your symptoms
+day1_consultation01	infection	CONDITION	1	pressure	days as the infection clears from your
+day1_consultation01	left side left	ANATOMY	3	<UNKNOWN>	uh on the left side left side okay and
+day1_consultation01	right alright	ANATOMY	2	<UNKNOWN>	right yes yeah right alright um just a
+day1_consultation02	fexofenadine	DRUG	1	fexaphenidine	um something like fexofenadine which i can
+day1_consultation02	loratadine	DRUG	1	loratidine	counter things like loratadine or piriton which
+day1_consultation02	very much	FINDING	2	<DELETED>	it thank you very much bye thank you
+day1_consultation02	disease	CONDITION	1	this	so maybe it's disease but it seems
+day1_consultation02	piriton	DRUG	1	pyritin	like loratadine or piriton which can help
+day1_consultation02	eczema	CONDITION	1	i see you okay just	discussion about an eczema cu ok yes
+day1_consultation02	itchy	SYMPTOM	1	okay	itchy nothing else itchy ok so your
+day1_consultation02	arms	CONDITION	1	arm	only on the arms so i'm i'm
+day1_consultation02	arm	ANATOMY	1	arms and	only in the arm but now it's
+day1_consultation03	anti-inflammatories	DRUG	1	anti-inflammatory	um and some anti-inflammatories such as ibuprofen
+day1_consultation03	brain tumour	CONDITION	2	<UNKNOWN>	it is a brain tumour what's gonna happen
+day1_consultation03	difficulties	FINDING	1	difficulty	at all any difficulties with your words
+day1_consultation03	brain tumor	CONDITION	2	<UNKNOWN>	died of a brain tumor so it's really
+day1_consultation03	sensitivity	CONDITION	1	<DELETED>	nausea vomiting um sensitivity to bright lights
+day1_consultation03	left hand	ANATOMY	2	left-hand	it's on your left hand side is that
+day1_consultation03	headache	SYMPTOM	1	the headaches	you mentioned a headache you also mentioned
+day1_consultation03	left eye	PROCEDURE	2	<DELETED>	just in left left eye yeah eh feels
+day1_consultation03	migraine	CONDITION	1	migraine-type	may have a migraine uh migraine type
+day1_consultation03	migraine	CONDITION	1	<DELETED>	a migraine uh migraine type headache uh
+day1_consultation03	worries	FINDING	1	is	all your main worries today ohh yeah
+day1_consultation03	disease	CONDITION	1	zigzag lines	also mentioned some disease like lyme's uh
+day1_consultation03	cancer	CONDITION	1	<DELETED>	you're worried about cancer is that is
+day1_consultation03	light	PROCEDURE	1	<DELETED>	you know the light's really hurting my
+day1_consultation03	problems	FINDING	1	having problems with like people	you been having problems at like work
+day1_consultation04	respiratory tract infection	CONDITION	3	spiritual	a viral upper respiratory tract infection or maybe early
+day1_consultation04	pain on swallowing	SYMPTOM	3	<UNKNOWN>	uh difficulty or pain on swallowing um yeah yeah
+day1_consultation04	one or two days	FINDING	4	<UNKNOWN>	to swallow for one or two days ok you did
+day1_consultation04	well-hydrated	FINDING	1	hydrated continuing	and make yourself well-hydrated continue with the
+day1_consultation04	fit and well	FINDING	3	fitting	are you otherwise fit and well or do you
+day1_consultation04	fit and well	FINDING	3	fitting	you are otherwise fit and well uh any any
+day1_consultation04	medications	DRUG	1	that	all to any medications i should be
+day1_consultation04	don't know	FINDING	2	no no	to help i don't know i i like
+day1_consultation04	head	ANATOMY	1	<DELETED>	whereabouts are the head headaches um it's
+day1_consultation04	problem	PROCEDURE	1	problems	resting there's no problem yeah yeah yeah
+day1_consultation05	more than normal	FINDING	3	<DELETED>	don't think more more than normal no ok ok
+day1_consultation05	barrier method	PROCEDURE	2	<UNKNOWN>	use any other barrier method so we just
+day1_consultation05	loose stools	SYMPTOM	2	<UNKNOWN>	like diarrhea or loose stools no i'm i'm
+day1_consultation05	fit and well	FINDING	3	fitting	are you normally fit and well yeah well i
+day1_consultation05	trimethoprim	DRUG	1	trimethoprin	today something called trimethoprim um you can
+day1_consultation05	temperature	PROCEDURE	1	temperature is	or sweaty your temperature's not coming down
+day1_consultation05	implanon	DRUG	1	on	just have the implanon and the same
+day1_consultation05	implanon	DRUG	1	on	theoretically if the implanon hasn't been working
+day1_consultation05	implanon	DRUG	1	implant on okay	just have the implanon ok um have
+day1_consultation05	mates	DRUG	1	roommates okay	other two other room-mates ok um and
+day1_consultation06	furosemide	DRUG	1	and	take something called furosemide do you know
+day1_consultation06	bisoprolol	DRUG	1	not prol that	ok and uh bisoprolol the metoprolol was
+day1_consultation06	bisoprolol	DRUG	1	not prolol	it or uh bisoprolol sorry the connection's
+day1_consultation06	furosemide	DRUG	1	so	your dose of furosemide maybe rather than
+day1_consultation06	furosemide	DRUG	1	<DELETED>	your um your furosemide uh to you
+day1_consultation06	reporting	PROCEDURE	1	but important	your ankles um reporting no chest pain
+day1_consultation06	coughing	SYMPTOM	1	<DELETED>	found yourself coughing coughing at all um
+day1_consultation06	general	PROCEDURE	1	jelly	a it's a general scan of your
+day1_consultation06	ankles	ANATOMY	1	<DELETED>	bit embarrassing both ankles ok uh i
+day1_consultation06	drugs	PROCEDURE	1	<DELETED>	ever since the drugs yeah sure ok
+day1_consultation06	run	FINDING	1	run down	feeling a little run-down um but otherwise
+day1_consultation06	right right	ANATOMY	2	<UNKNOWN>	getting worse ok right right ok so you
+day1_consultation07	other symptoms	SYMPTOM	2	there it seems like it's definitely trouble	and uh any other symptoms so for example
+day1_consultation07	medications	DRUG	1	<DELETED>	just allergies to medications really i'm i'm
+day1_consultation07	lisinopril	DRUG	1	listen up real	there's another one lisinopril is that yeah
+day1_consultation07	lisinopril	DRUG	1	<DELETED>	paper so ok lisinopril yeah that sounds
+day1_consultation07	teacher	FINDING	1	team	uh a head teacher of of primary
+day1_consultation07	aspirin	DRUG	1	aspen	wee bit of aspirin or whatever every
+day1_consultation07	fluids	PROCEDURE	1	clouds	keep keep the fluids up as well
+day1_consultation07	worry	FINDING	1	worried	yeah i'm not worry i think you
+day1_consultation07	life	PROCEDURE	1	luck	you know good life ok ok ok
+day1_consultation07	run	FINDING	1	down	feel a bit run-down you know i've
+day1_consultation07	wee	CONDITION	1	<DELETED>	wee bit a wee bit rough uh
+day1_consultation07	fit	FINDING	1	50	you know i'm fit i'm i'm fifty
+day1_consultation07	wee	CONDITION	1	<DELETED>	a wee a wee bit stiffer than
+day1_consultation07	wee	CONDITION	1	we are we knight in	her out yeah wee a wee night
+day1_consultation07	wee	CONDITION	1	we are we knight in	yeah wee a wee night on the
+day1_consultation07	wee	CONDITION	1	how we	do like a wee drink uh aye
+day1_consultation07	wee	CONDITION	1	<DELETED>	a wee a wee bit too much
+day1_consultation07	wee	CONDITION	1	<DELETED>	uh ugh a wee every now and
+day1_consultation07	wee	CONDITION	1	we	what are those wee things called the
+day1_consultation07	run	FINDING	1	down	feeling breathless and run-down i think there's
+day1_consultation07	metformin	DRUG	1	morning	me so it's metformin that's correct ok
+day1_consultation07	and clear	DRUG	2	<DELETED>	coming through loud and clear on the phone
+day1_consultation07	problem	PROCEDURE	1	problems	no problems no problem that's fine anything
+day1_consultation07	first first	PROCEDURE	2	<UNKNOWN>	uh the the first the first day i had
+day1_consultation07	right right	ANATOMY	2	<UNKNOWN>	or redness ohh right right aye sorry you
+day1_consultation08	lactose intolerant	CONDITION	2	lactus	be lactose intolerant lactose intolerant ok that could
+day1_consultation08	no problems	FINDING	2	<UNKNOWN>	no that's ok no no problems well um uh
+day1_consultation08	loratadine	DRUG	1	pyritin loratidine that	the counter piriton loratadine they can sometimes
+day1_consultation08	hayfever	CONDITION	1	hay fever yep okay	my mum has hayfever hayfever ok um
+day1_consultation08	hayfever	CONDITION	1	hay fever yep okay	mum has hayfever hayfever ok um fine
+day1_consultation08	dry skin	CONDITION	2	<DELETED>	with the dry dry skin and that's something
+day1_consultation08	piriton	DRUG	1	pyritin loratidine that	over the counter piriton loratadine they can
+day1_consultation08	itha	ANATOMY	1	my name is liza	uh my name's itha and i'm twenty
+day1_consultation08	run	FINDING	1	down	you feel generally run-down do you feel
+day1_consultation09	nitrofurantoin	DRUG	1	nitrofurintoin	something called either nitrofurantoin or trimethoprim uh
+day1_consultation09	fit and well	FINDING	3	fitting	are you otherwise fit and well uh-huh um yeah
+day1_consultation09	trimethoprim	DRUG	1	trimethoprin	either nitrofurantoin or trimethoprim uh and it's
+day1_consultation09	definitely	FINDING	1	<DELETED>	uh it's it's definitely uh it definitely
+day1_consultation09	feeling ok	SYMPTOM	2	<UNKNOWN>	think i'm i'm feeling ok otherwise yeah and
+day1_consultation09	diarrhoea	SYMPTOM	1	<DELETED>	um any any diarrhoea loose stool uh
+day1_consultation09	cramping	SYMPTOM	1	<DELETED>	it's not like cramping like when i
+day1_consultation09	medical	PROCEDURE	1	<DELETED>	medical problems medical medical history um so
+day1_consultation09	lower	ANATOMY	1	lowered	pain kind of lower down in my
+day1_consultation09	bowel	ANATOMY	1	bowels	terms of your bowel are your bowels
+day1_consultation09	lives	FINDING	1	<DELETED>	home situation who's lives who's at home
+day1_consultation09	lower	ANATOMY	1	lowered	crampy tummy pain lower down um essentially
+day1_consultation09	hope	FINDING	1	hoping that we are	full history um hope you don't mind
+day1_consultation09	guts	ANATOMY	1	gut	kidneys bladder bowels guts yeah uh no
+day1_consultation09	right right	ANATOMY	2	okay okay	i don't know right right ok ok um
+day1_consultation10	pink urine	FINDING	2	<UNKNOWN>	like a bit pink the the urine ok uh of
+day1_consultation10	discolouration	FINDING	1	discoloration of the	blood or um discolouration of urine um
+day1_consultation10	nitrofurantoin	DRUG	1	nitrofurintoin	called trimethoprim or nitrofurantoin which is a
+day1_consultation10	trimethoprim	DRUG	1	trimethoprin	antibiotics something called trimethoprim or nitrofurantoin which
+day1_consultation10	aching pain	SYMPTOM	2	<DELETED>	suppose ok an aching pain ok and does
+day1_consultation10	clindamycin	DRUG	1	clindusin that looked like half years ago	antibiotic um called clindamycin mycin ok ok
+day1_consultation10	symptoms	SYMPTOM	1	issues	noticed no new symptoms no no no
+day1_consultation10	either	FINDING	1	okay fever	a call ok either back pain vomiting
+day1_consultation10	pill	DRUG	1	<DELETED>	the pill the pill what kind of
+day1_consultation10	pill	DRUG	1	minute pill	pill or the mini-pill uh combined pill
+day1_consultation10	good very good	FINDING	3	<UNKNOWN>	it's really fun good very good very good good
+day1_consultation10	very good good	FINDING	3	<DELETED>	good very good very good good um in terms
+day1_consultation11	well-hydrated	FINDING	1	hydrated	and keep yourself well-hydrated first ok ok
+day1_consultation11	fit and well	FINDING	3	fitting	are you otherwise fit and well or do you
+day1_consultation11	fit and well	FINDING	3	fitting	think otherwise i'm fit and well i um yeah
+day1_consultation11	definitely	FINDING	1	<DELETED>	i definitely i definitely feel kind of
+day1_consultation11	don't know	FINDING	2	<DELETED>	i don't i don't know the exact details
+day1_consultation11	dioralyte	DRUG	1	diary like	and buy this dioralyte what what should
+day1_consultation11	screen	PROCEDURE	1	have a connection on the screen it's audio no no it's actually fine	connection on the screen uh now before
+day1_consultation11	hoarse	SYMPTOM	1	getting hot okay	so you're feeling hoarse ok and in
+day1_consultation11	fluids	PROCEDURE	1	yeah absolutely so	just focus on fluids clear fluids you
+day1_consultation11	bowel	ANATOMY	1	<DELETED>	bowel problems um bowel so would would
+day1_consultation11	mouth	ANATOMY	1	<DELETED>	anything from the mouth anus so my
+day1_consultation11	anus	CONDITION	1	<DELETED>	from the mouth anus so my yeah
+day1_consultation11	dan	DRUG	1	jan	home with you dan um so uh
+day1_consultation11	couple	FINDING	1	<DELETED>	final couple uh couple questions uh smoking
+day1_consultation12	fit and well	FINDING	3	fitting	are you otherwise fit and well yeah yeah uh
+day1_consultation12	definitely	FINDING	1	<DELETED>	yes it's definitely definitely watery uh loose
+day1_consultation12	diarrhoea	SYMPTOM	1	<DELETED>	been having uh diarrhoea for like let's
+day1_consultation12	dioralyte	DRUG	1	dirolite	which is called dioralyte which can help
+day1_consultation12	dioralyte	DRUG	1	what's the name of that	uh it's called dioralyte um it's it's
+day1_consultation12	diarrhea	FINDING	1	free	have to be diarrhea-free for about twenty
+day1_consultation12	drink drink	CONDITION	2	<UNKNOWN>	try to and drink drink plenty of fluid
+day1_consultation12	not not really	FINDING	3	<UNKNOWN>	tummy pain uh not not really no uh but
+day1_consultation12	not not really	FINDING	3	no	or muscle pains not not really no ok alright
+day1_consultation13	fit and well	FINDING	3	fitting	are you otherwise fit and well adriana am i
+day1_consultation13	no vomiting	FINDING	2	<DELETED>	sick ok yeah no vomiting ok any neck
+day1_consultation13	controlled	FINDING	1	controlled	is that normally well-controlled or are they
+day1_consultation13	ibuprofen	DRUG	1	ibrafrofen	i take uh ibuprofen it kind of
+day1_consultation13	similar similar	FINDING	2	<UNKNOWN>	or uh or similar similar to similar to
+day1_consultation14	nausea vomiting	SYMPTOM	2	no	no no no nausea no vomiting like um yeah
+day1_consultation14	feel restless	SYMPTOM	2	<UNKNOWN>	you i don't feel restless no i feel
+day1_consultation14	well-hydrated	FINDING	1	hydrated	fluids keep yourself well-hydrated you can take
+day1_consultation14	ears pain	SYMPTOM	2	<DELETED>	nothing on the ears no pain no discharge coming
+day1_consultation14	medications	DRUG	1	medication	at all to medications no no allergies
+day1_consultation14	lisinopril	DRUG	1	lithinopril	and i take lisinopril for the high
+day1_consultation14	labored	FINDING	1	laboured	your breathing more labored um i don't
+day1_consultation14	related	FINDING	1	did so the	don't think it's related sure reason i
+day1_consultation14	cough	DRUG	1	coughs	but then the cough just kept going
+day1_consultation14	lives	FINDING	1	okay	and my partner lives ok um fine
+day1_consultation14	field	PROCEDURE	1	okay yeah work in it it field right okay	field ok it field right ok uh
+day1_consultation14	able	FINDING	1	<DELETED>	sometimes i've been able to take a
+day1_consultation14	other thing	FINDING	2	<UNKNOWN>	terms of any other thing do you notice
+day1_consultation14	right right	ANATOMY	2	<UNKNOWN>	lying in bed right right ok ok i'm
+day1_consultation15	no problem	FINDING	2	<UNKNOWN>	with your bowels no any problem with your urine
+day1_consultation15	antihistamine	DRUG	1	anti-stamines anti-atistamin	also tried an antihistamine antihistamine uh but
+day1_consultation15	antihistamine	DRUG	1	anti-stamines anti-atistamin	tried an antihistamine antihistamine uh but it
+day1_consultation15	bleeding	CONDITION	1	<DELETED>	yourself often and bleeding um yeah i
+day1_consultation15	grinding	PROCEDURE	1	of dryness in	just like literally grinding my legs ok
+day1_consultation15	medicine	DRUG	1	medicines	i get the medicine from i'll i'll
+day1_consultation15	related	FINDING	1	a bit	that could be related um i switched
+day1_consultation15	history	FINDING	1	<DELETED>	no ok family history-wise is there anything
+day1_consultation15	hand	FINDING	1	hands	skin on your hand mainly that's dry
+day1_consultation15	metformin	DRUG	1	okay	do you take metformin ok do you
+day1_consultation15	problem	PROCEDURE	1	problems	vomiting no any problem with your bowels
+day2_consultation01	no palpitations	FINDING	2	<DELETED>	with it no no any palpitations heart beating fast
+day2_consultation01	left ear	ANATOMY	2	<DELETED>	uh no my left ear ok any discharge
+day2_consultation01	ear drum	ANATOMY	2	eardrum	look inside the ear drum so um what
+day2_consultation01	hearing	FINDING	1	hearing's	to like my hearing is kind of
+day2_consultation01	cotton	DRUG	1	cottonwool	do you use cotton ball buds to
+day2_consultation01	mesa	PROCEDURE	1	meza	i'm dr dean mesa from babylon can
+day2_consultation01	easy	FINDING	1	easily	that's something that's easy fixable but um
+day2_consultation02	osteoarthritis	CONDITION	1	ostearthritis	you you've got osteoarthritis um yes yes
+day2_consultation02	blood test	PROCEDURE	2	<UNKNOWN>	can review the blood test ok uh we
+day2_consultation02	medical	PROCEDURE	1	<DELETED>	say about my medical history yeah right
+day2_consultation02	history	FINDING	1	<DELETED>	about my medical history yeah right ok
+day2_consultation02	nerve	ANATOMY	1	now	pressing on that nerve is it if
+day2_consultation02	tests	PROCEDURE	1	test	get those blood tests done and that
+day2_consultation02	tests	PROCEDURE	1	to test on us	get the blood tests done straight away
+day2_consultation02	tests	PROCEDURE	1	test	you after the tests things goes well
+day2_consultation02	hand	FINDING	1	<DELETED>	from gp at hand nice to see
+day2_consultation02	skin	CONDITION	1	head do you need more skin for your dry	really i have skin really dry now
+day2_consultation02	dry	SYMPTOM	1	head do you need more skin for your dry	have skin really dry now do you
+day2_consultation02	not not really	FINDING	3	<UNKNOWN>	all um well not not really no um i'm
+day2_consultation03	labyrinthitis	CONDITION	1	principis	quite remember but labyrinthitis something like that
+day2_consultation03	bell's palsy	CONDITION	2	zelph	be something called bell's palsy ok um ok
+day2_consultation03	playing	FINDING	1	<DELETED>	nose polyps are playing up i've got
+day2_consultation03	cotton	DRUG	1	more	do you use cotton buds to kind
+day2_consultation03	rennie	DRUG	1	renes	i take a rennie's if i need
+day2_consultation03	latex	PROCEDURE	1	okay all right let's get	no just latex latex ok alright that's
+day2_consultation03	nose	CONDITION	1	collapse is faying	and if my nose polyps are playing
+day2_consultation03	ear	CONDITION	1	ringing in here okay you know part of it	ringing in your ear ok yeah it's
+day2_consultation03	cottons	DRUG	1	coffee	no don't use cottons buds like that
+day2_consultation03	rennies	DRUG	1	renes	sometimes take like rennies but i just
+day2_consultation03	ringing	DRUG	1	ringing in here okay you know part of it	um some some ringing in your ear
+day2_consultation04	methotrexate	PROCEDURE	1	okay	yeah um methotrexate methotrexate that's methotrexate ok
+day2_consultation04	methotrexate	PROCEDURE	1	<DELETED>	methotrexate methotrexate that's methotrexate ok what are
+day2_consultation04	finger	ANATOMY	1	fingers	doing now my finger's come right behind
+day2_consultation04	cough	DRUG	1	in	side and you've cough blood ok all
+day2_consultation04	hand	FINDING	1	han	from gp at hand nice to see
+day2_consultation04	back	ANATOMY	1	yeah it just feels like it feels hard	um with the back of my my
+day2_consultation04	hand	FINDING	1	<DELETED>	of my my hand yes just with
+day2_consultation04	lung	CONDITION	1	lungs	clots in your lung blood clots not
+day2_consultation04	cat	PROCEDURE	1	cats	have any pets cat a cat ok
+day2_consultation04	infection	CONDITION	1	infections	can lead to infection inside the body
+day2_consultation05	transient ischemic attacks	CONDITION	3	<DELETED>	mini-strokes or tias transient ischemic attacks um ok and
+day2_consultation05	mini-stroke	CONDITION	1	stroke	working diagnosis is mini-stroke or tia ok
+day2_consultation05	mini-stroke	CONDITION	1	stroke	and if a mini-stroke is prolonged then
+day2_consultation05	strokes	CONDITION	1	strokes	of stroke or mini-strokes in your family
+day2_consultation05	strokes	CONDITION	1	strokes	any history of mini-strokes or anything like
+day2_consultation05	asthma	CONDITION	1	action	problems with your asthma is that right
+day2_consultation05	hand	FINDING	1	<DELETED>	from gp at hand nice to see
+day2_consultation05	pals	CONDITION	1	pal's	um uh the pals number and then
+day2_consultation05	back	ANATOMY	1	<DELETED>	in contact back back with us ok
+day2_consultation05	tia	CONDITION	1	<DELETED>	there's also the tia clinic number i'm
+day2_consultation05	problem	PROCEDURE	1	<DELETED>	that's not a problem you know you
+day2_consultation06	localised infection	CONDITION	2	localized	signs of any localised infection we may need
+day2_consultation06	chlorphenamine	DRUG	1	chlorophene	get piriton or chlorphenamine and you can
+day2_consultation06	anxiety	CONDITION	1	anxiety-provoking okay	it is quite anxiety provoking ok all
+day2_consultation06	stridor	SYMPTOM	1	strido	have something called stridor which is an
+day2_consultation06	piriton	DRUG	1	pyritone	you can get piriton or chlorphenamine and
+day2_consultation06	epipen	DRUG	1	epi pen	been given an epipen uh i haven't
+day2_consultation06	lower	ANATOMY	1	low	just have a lower threshold for having
+day2_consultation06	hand	FINDING	1	hand	of on the right-hand side um and
+day2_consultation06	link	DRUG	1	<DELETED>	gonna leave a link to some information
+day2_consultation06	cat	PROCEDURE	1	<DELETED>	at home a cat ok great what
+day2_consultation06	compromise	FINDING	1	<DELETED>	someone has um compromise of their breathing
+day2_consultation06	now right	FINDING	2	<UNKNOWN>	of that right now right but that's the
+day2_consultation06	trying trying	FINDING	2	<UNKNOWN>	you when you're trying trying to breathe it
+day2_consultation07	life threatening	FINDING	2	life-threatening	but um nothing life threatening um i've i
+day2_consultation07	blood pressure	PROCEDURE	2	<DELETED>	high blood uh blood pressure but um not
+day2_consultation07	double check	DRUG	2	double-check	can i just double check do you have
+day2_consultation07	worry	FINDING	1	is there anyone	so don't don't worry who's in the
+day2_consultation07	swell	FINDING	1	swallow	reaction so i swell up um a
+day2_consultation08	double check	DRUG	2	<DELETED>	can i just double check have you gotten
+day2_consultation08	difficult	FINDING	1	<DELETED>	it's been quite difficult feeling so uh
+day2_consultation08	seroxat	DRUG	1	sarah's et okay	all uh just seroxat ok uh do
+day2_consultation08	neck	FINDING	1	<DELETED>	um no my neck's my neck's been
+day2_consultation09	difficulties swallowing	CONDITION	2	difficulty	you have some difficulties swallowing is that right
+day2_consultation09	losartan and amlodipine	DRUG	3	low sartan	i'm taking metformin losartan and amlodipine ok do you
+day2_consultation09	bold	PROCEDURE	1	<DELETED>	and i'd be bold a bit and
+day2_consultation09	penicillin	CONDITION	1	penethylene	medication um only penicillin i believe ok
+day2_consultation09	metformin	DRUG	1	low sartan	um i'm taking metformin losartan and amlodipine
+day2_consultation10	counselling service	PROCEDURE	2	counseling	so there's a counselling service in your area
+day2_consultation10	sertraline	DRUG	1	search really	been on uh sertraline for a while
+day2_consultation10	sertraline	DRUG	1	searching	are you taking sertraline at the moment
+day2_consultation10	ibuprofen	DRUG	1	ibuprofen is	but the the ibuprofen's um actually more
+day2_consultation10	headache	SYMPTOM	1	<DELETED>	because if the headache is due to
+day2_consultation10	helped	FINDING	1	help	paracetamol has that helped um not really
+day2_consultation10	lower	ANATOMY	1	low	free have a lower threshold for ringing
+day2_consultation10	atan	DRUG	1	ayrton	there my name's atan hi anthony so
+day2_consultation10	base	ANATOMY	1	space	we'll we'll touch base in a week's
+day2_consultation10	best	CONDITION	1	<DELETED>	then all the best bye thank you
+day3_consultation01	anaphylactic reaction	CONDITION	2	anaphylectic	is a suspected anaphylactic reaction and they need
+day3_consultation01	feeling dizzy	SYMPTOM	2	feel busy okay	are you you're feeling dizzy ok right do
+day3_consultation01	don't know	FINDING	2	and a	been like i don't know half an hour
+day3_consultation01	don't know	FINDING	2	didn't	breathing but i don't know what it was
+day3_consultation01	cetirizine	DRUG	1	cetrazine loratidine peritin	use antihistamines like cetirizine loratadine piriton any
+day3_consultation01	loratadine	DRUG	1	cetrazine loratidine peritin	antihistamines like cetirizine loratadine piriton any of
+day3_consultation01	piriton	DRUG	1	cetrazine loratidine peritin	like cetirizine loratadine piriton any of those
+day3_consultation01	dizzy	SYMPTOM	1	<DELETED>	feel a little dizzy right now to
+day3_consultation01	dot	PROCEDURE	1	<DELETED>	traba at gmail dot com ok and
+day3_consultation01	nine nine nine nine	DRUG	4	<UNKNOWN>	call the uh nine nine nine nine nine yeah and
+day3_consultation02	no bleeding	FINDING	2	<DELETED>	uh no no no no bleeding ok so where
+day3_consultation02	ben	CONDITION	1	then	and all but ben you just have
+day3_consultation02	ben	CONDITION	1	then	you take care ben bye now cheers
+day3_consultation03	overactive thyroid	CONDITION	2	active	yeah it's for overactive thyroid like you can
+day3_consultation03	no diarrhoea	FINDING	2	<UNKNOWN>	any diarrhoea uh no no diarrhoea no no ok
+day3_consultation03	stress at home	FINDING	3	<UNKNOWN>	any kind of stress at home um it is
+day3_consultation03	chest pains	SYMPTOM	2	<UNKNOWN>	ok ok no chest pains i'm up no
+day3_consultation03	chest pains	SYMPTOM	2	<UNKNOWN>	you have any chest pains or change in
+day3_consultation03	too little	FINDING	2	<DELETED>	yes i had too little activity of my
+day3_consultation03	not well	FINDING	2	unwell	yeah i'm feeling not well uh in the
+day3_consultation03	nauseous	SYMPTOM	1	<DELETED>	make you nauseous nauseous no nothing ok
+day3_consultation03	report	PROCEDURE	1	support oh	i call to report ohh there's a
+day3_consultation03	heart	CONDITION	1	heartbeat	racing of your heart beat and all
+day3_consultation03	dot	PROCEDURE	1	<DELETED>	address is peter dot peterson at dot
+day3_consultation03	dot	PROCEDURE	1	lawyers	dot peterson at dot co dot uk
+day3_consultation03	dot	PROCEDURE	1	<DELETED>	at dot co dot uk that's correct
+day3_consultation03	problem	PROCEDURE	1	<DELETED>	ok yes no problem ok and uh
+day3_consultation03	short of breathlet	SYMPTOM	3	<UNKNOWN>	do you feel short of breathlet's start this way
+day3_consultation04	history of eczema	FINDING	3	<UNKNOWN>	do have a history of eczema em my brother
+day3_consultation04	short of breath	SYMPTOM	3	<UNKNOWN>	generally a bit short of breath wheezing and coughing
+day3_consultation04	bactroban	DRUG	1	clenyl cetraben	i'm salbutamol flanel bactroban and hydrocortisone that
+day3_consultation04	peak flow	FINDING	2	that you're	you do the peak flow reading so depending
+day3_consultation04	overlap	PROCEDURE	1	last	i haven't done overlap since i've has
+day3_consultation04	eczema	CONDITION	1	a czema	my sister has eczema em and i've
+day3_consultation04	sneeze	SYMPTOM	1	<DELETED>	you'd opt to sneeze you what we're
+day3_consultation04	brown	CONDITION	1	browning	but uh the brown your clenil the
+day3_consultation04	oral	FINDING	1	<DELETED>	didn't have any oral steroids or antibiotics
+day3_consultation04	face	ANATOMY	1	you do the face-to-face	that meet her face to face in
+day3_consultation04	face	ANATOMY	1	<DELETED>	her face to face in the interim
+day3_consultation04	run	FINDING	1	ran	her whilst i run but i found
+day3_consultation04	opt	ANATOMY	1	your doctor sees	so when you'd opt to sneeze you
+day3_consultation04	salbutamol	DRUG	1	butymol	day and the salbutamol just like as
+day3_consultation04	salbutamol	DRUG	1	salbutamo	day and your salbutamol inhalers up to
+day3_consultation05	ear discharge	FINDING	2	year	ear pain or ear discharge anything like that
+day3_consultation05	ear buzzing	SYMPTOM	2	year	have a some ear buzzing kind of thing
+day3_consultation05	feeling ok	SYMPTOM	2	<UNKNOWN>	boat kind of feeling ok so that's what
+day3_consultation05	ear pain	FINDING	2	year	any kind of ear pain or ear discharge
+day3_consultation05	hearing	FINDING	1	ovarian	ok charting premature hearing failure ok and
+day3_consultation05	cross	CONDITION	1	prescription across to your	a prescription at cross pharmacy looks like
+day3_consultation05	ear	CONDITION	1	<DELETED>	off mm-hmm ok ear's buzzing so when
+day3_consultation05	settled	CONDITION	1	<DELETED>	'cause it it settled quite quickly um
+day3_consultation06	eczema	CONDITION	1	extra	a bit of eczema and i'm allergic
+day3_consultation06	advice	FINDING	1	<DELETED>	you for the advice
+day3_consultation06	rash	SYMPTOM	1	rush in	you having any rash on your body
+day3_consultation06	penicillin ok	DRUG	2	<UNKNOWN>	i'm allergic to penicillin ok are you on
+day3_consultation07	hyperthyroidism	CONDITION	1	hypothyroidism okay	so she has hyperthyroidism ok that's fine
+day3_consultation07	antihistamine	DRUG	1	anti-histamines	it's called the antihistamine is called fexofenadine
+day3_consultation07	fexofenadine	DRUG	1	fextphenidine	antihistamine is called fexofenadine and then we'll
+day3_consultation07	cetirizine	DRUG	1	cetrazin	ok so like cetirizine yeah yeah ok
+day3_consultation07	diprobase	DRUG	1	deprobase	a cream called diprobase uh and in
+day3_consultation07	betnovate	DRUG	1	weight	try with some betnovate first so it's
+day3_consultation07	very much	FINDING	2	<DELETED>	ok thank you very much so what we're
+day3_consultation07	elbow	ANATOMY	1	<DELETED>	inside of the elbow elbows ok inside
+day3_consultation07	fever	FINDING	1	i've tried also antihistamine	pains yeah no fever but i remember
+day3_consultation07	rash	SYMPTOM	1	red	other than those rash you're feeling well
+day3_consultation07	hand	FINDING	1	<DELETED>	call us before hand otherwise wait for
+day3_consultation07	neither	FINDING	1	nailer	you know probably neither uh the blue
+day3_consultation07	dermal dermal	FINDING	2	<UNKNOWN>	use something called dermal dermal alright and have
+day3_consultation08	running nose	SYMPTOM	2	runny	coughing and like running nose and like kind
+day3_consultation08	pain killers	DRUG	2	painkillers	uh just like pain killers and such i
+day3_consultation08	night nurse	DRUG	2	<DELETED>	use the night night nurse day nurse if
+day3_consultation08	lisinopril	DRUG	1	lisinoprol lisinoprol okay	like have uh lisinopril lisonopril ok yeah
+day3_consultation08	ibuprofen	DRUG	1	ibrubroofin	paracetamol ok any ibuprofen at all no
+day3_consultation08	headache	SYMPTOM	1	know	occasional feeling like headache cold chills and
+day3_consultation08	medical	PROCEDURE	1	of	don't have your medical complete medical history
+day3_consultation08	slight	FINDING	1	my	but the like slight blood pressure yeah
+day3_consultation08	pass	FINDING	1	paracetamol	i'll just like pass it along paracetamol
+day3_consultation08	dot	PROCEDURE	1	<DELETED>	at john jones dot net ok and
+day3_consultation09	left handed	FINDING	2	left-handed so i	know i'm not left handed so it's kind
+day3_consultation09	ibuprofen	DRUG	1	libopropen	i just take ibuprofen every once in
+day3_consultation09	related	FINDING	1	<DELETED>	uh there are related conditions no ok
+day3_consultation09	date	DRUG	1	<DELETED>	please and your date of birth sure
+day3_consultation09	legs	ANATOMY	1	leg for	your left arm legs are walking and
+day3_consultation09	dot	PROCEDURE	1	<DELETED>	address is mary dot smith at gmail
+day3_consultation09	dot	PROCEDURE	1	<DELETED>	smith at gmail dot com that's correct
+day3_consultation09	edward	CONDITION	1	<DELETED>	of weakness ok edward any neck pain
+day3_consultation10	colour yellow	FINDING	2	color	like a blue colour yellow yellow ok i'll
+day3_consultation10	diarrhoea	SYMPTOM	1	<DELETED>	if if the diarrhoea is getting better
+day3_consultation10	dioralyte	DRUG	1	dirolite	get something called dioralyte over the counter
+day3_consultation10	lexapro	DRUG	1	lexipro	yes which ones lexapro sorry lexapro laxepro
+day3_consultation10	lexapro	DRUG	1	lexipro lexipro	ones lexapro sorry lexapro laxepro yes ok
+day3_consultation10	soft	CONDITION	1	<DELETED>	diarrhea go sorry soft what is a
+day3_consultation10	dry	SYMPTOM	1	<DELETED>	mostly it's been dry and red ok
+day3_consultation10	red	FINDING	1	rid okay	been dry and red ok and um
+day3_consultation10	gut	ANATOMY	1	<DELETED>	normal um gut gut bacteria back ok
+day4_consultation01	difficulty climbing stairs	FINDING	3	<UNKNOWN>	i've had some difficulty climbing the stairs and if i
+day4_consultation01	hypertension	CONDITION	1	tension okay	i've had hypertension hypertension ok so that's
+day4_consultation01	light-headed	SYMPTOM	1	lightheaded okay	i feel slightly light-headed ok and is
+day4_consultation01	discomfort	SYMPTOM	1	comfort	to describe what discomfort feeling it's it's
+day4_consultation01	stairs	FINDING	1	<DELETED>	climbing up the stairs and going uphill
+day4_consultation01	arm	ANATOMY	1	right now	left shoulder and arm and does that
+day4_consultation01	swellings	CONDITION	1	sometimes okay	pain and leg swellings ok so let
+day4_consultation01	pretty pretty	FINDING	2	<UNKNOWN>	by a consultant pretty pretty much immediately yeah
+day4_consultation02	have headaches	SYMPTOM	2	<UNKNOWN>	and when you have the headaches specifically do you
+day4_consultation02	short of breath	SYMPTOM	3	<UNKNOWN>	of short like short of breath sometimes ok so
+day4_consultation02	hyperthyroidism	CONDITION	1	hypothyroidism okay	well i have hyperthyroidism ok and do
+day4_consultation02	one thing	FINDING	2	<DELETED>	one one time one thing at a time
+day4_consultation02	else	FINDING	1	<DELETED>	and does it else does it go
+day4_consultation02	not not really	FINDING	3	<DELETED>	sick yeah not not not really but it's like
+day4_consultation03	scar	FINDING	1	scarf	does my c-section scar you know it's
+day4_consultation04	turned	FINDING	1	heard	yeah we just turned off so given
+day4_consultation05	pain abdominal	SYMPTOM	2	<UNKNOWN>	bit of uh pain abdominal pain and i
+day4_consultation05	bowel cancer	CONDITION	2	all	years ago of bowel cancer yep ok so
+day4_consultation05	belly button	ANATOMY	2	<UNKNOWN>	belly under the belly button and uh yeah
+day4_consultation05	don't know	FINDING	2	<DELETED>	know uh i don't know what could cause
+day4_consultation05	sounding	PROCEDURE	1	some vulgar	i mean without sounding good like diarrhoea
+day4_consultation05	normal	FINDING	1	<DELETED>	like middle like normal like uh it
+day4_consultation05	belly	ANATOMY	1	bed okay	loot at your belly ok ok i
+day4_consultation05	run	FINDING	1	<DELETED>	kind of um run out the one
+day4_consultation05	please	FINDING	1	to alphitomol and three is	ok uh-huh and please stay home for
+day4_consultation06	migraine relief	DRUG	2	migra leave	can get specific migraine relief medication and that
+day4_consultation06	hyperthyroid	CONDITION	1	<DELETED>	yeah yeah hypothyroidism hyperthyroid she also has
+day4_consultation06	brain tumour	CONDITION	2	<UNKNOWN>	some kind of brain tumour tumour or something
+day4_consultation06	paracetamol	PROCEDURE	1	caratitimal	you take the paracetamol how long ago
+day4_consultation06	tumour	CONDITION	1	<DELETED>	of brain tumour tumour or something because
+day4_consultation06	visual problem	FINDING	2	<UNKNOWN>	um and your visual problem is still ongoing
+day4_consultation06	postmenopausally	FINDING	1	post-menopausally	you know even postmenopausally so there's different
+day4_consultation06	disconnect	FINDING	1	<DELETED>	bye should i disconnect
+day4_consultation07	no history of asthma	FINDING	4	medical	medical history no no no history of asthma no um and
+day4_consultation07	cough worse at night	SYMPTOM	4	<UNKNOWN>	and is the cough worse at night-time no no it's
+day4_consultation07	coughing	SYMPTOM	1	quoughing	uh are you coughing up anything no
+day4_consultation07	worrying	FINDING	1	worried	a little bit worrying and you're a
+day4_consultation07	nose	CONDITION	1	nose is tiny now right	so like my nose is like so
+day4_consultation07	run	FINDING	1	<DELETED>	significant illnesses uh run running in your
+day4_consultation07	exercises	PROCEDURE	1	exercise	and i do exercises now and then
+day4_consultation08	history of hypothyroidism	FINDING	3	<UNKNOWN>	have a a history of hypothyroidism um hypo hypothyroidism
+day4_consultation08	hours of sleep	FINDING	3	<DELETED>	five how many hours of sleep actually well now
+day4_consultation08	hypothyroidism	CONDITION	1	hyperthyroidism hyperthyroidism	hypothyroidism um hypo hypothyroidism hyperthyroid yeah k
+day4_consultation08	hyperthyroid	CONDITION	1	hyperthyroidism hyperthyroidism	um hypo hypothyroidism hyperthyroid yeah k so
+day4_consultation08	difficult	FINDING	1	difficulty	hard to quite difficult to keep focusing
+day4_consultation08	diagnoses	PROCEDURE	1	diagnosis	specific uh medical diagnoses along these lines
+day4_consultation08	very much	FINDING	2	<DELETED>	ok thank you very much for taking the
+day4_consultation08	lower	ANATOMY	1	<DELETED>	with a low lower mood decreased sex
+day4_consultation08	problems	FINDING	1	problem	have uh any problems sort of eating
+day4_consultation08	not not really	FINDING	3	<UNKNOWN>	i'm just uh not not really waking up early
+day4_consultation08	not not really	FINDING	3	<UNKNOWN>	no no no not not really no and are
+day4_consultation09	cough worse at night	SYMPTOM	4	<UNKNOWN>	uh is the cough worse at night-time i mean it
+day4_consultation09	short of breath	SYMPTOM	3	sure	but you're not short of breath at rest at
+day4_consultation09	chest pains	SYMPTOM	2	<UNKNOWN>	say you've got chest pains it's more of
+day4_consultation09	hayfever	CONDITION	1	fever	have like a hayfever you know and
+day4_consultation09	ventolin	DRUG	1	ventilin	the um uh ventolin it's called uh
+day4_consultation09	ventolin	DRUG	1	ventilin	clenil and the ventolin and how often
+day4_consultation09	ventolin	DRUG	1	ventilin	clenil or any ventolin at the moment
+day4_consultation09	ventolin	DRUG	1	ventilin clinol modulate	you some uh ventolin clenil modulite have
+day4_consultation09	ventolin	DRUG	1	ventilin	you're just on ventolin and clenil and
+day4_consultation09	ventolin	DRUG	1	ventilin	the morning with ventolin as a prn
+day4_consultation09	ventolin	DRUG	1	ventilin	prn so a ventolin when you need
+day4_consultation09	ventolin	DRUG	1	ventilin	to use the ventolin more than uh
+day4_consultation09	slight	FINDING	1	tight	cough coughing yeah slight cough yeah sore
+day4_consultation09	asthma	CONDITION	1	is	i feel like asthma's probably a part
+day4_consultation09	stairs	FINDING	1	<DELETED>	i'm walking up stairs i do feel
+day4_consultation09	asthma	CONDITION	1	you out	should help your asthma an awful lot
+day4_consultation09	wheezy	SYMPTOM	1	noisy	when you're getting wheezy ok ok if
+day4_consultation09	cough	DRUG	1	<DELETED>	well kind of cough coughing yeah slight
+day4_consultation09	steroids	DRUG	1	directors	any of those steroids uh those inhalers
+day4_consultation10	last menstrual period	FINDING	3	<UNKNOWN>	and uh your last menstrual period was just three
+day4_consultation10	foul smelling urine	FINDING	3	foul-smelling	sort of no foul smelling urine or anything like
+day4_consultation10	hot and sweaty	FINDING	3	<DELETED>	you're feeling hot hot and sweaty have you been
+day4_consultation10	light-headed	SYMPTOM	1	<DELETED>	been feeling um light-headed at all or
+day4_consultation10	examination	PROCEDURE	1	examination and	some more uh examination investigations if in
+day4_consultation10	bowel	ANATOMY	1	bow	you had a bowel motion uh yesterday
+day4_consultation10	face	ANATOMY	1	to face	see a gp face-to-face um soon today
+day4_consultation10	face	ANATOMY	1	to face	see a gp face-to-face um soon today
+day4_consultation10	arm	ANATOMY	1	<DELETED>	i've got the arm the implants um
+day4_consultation10	run	FINDING	1	running	any uh diseases run in your run
+day4_consultation10	run	FINDING	1	<DELETED>	run in your run in your family
+day4_consultation10	amoxicillin allergic	CONDITION	2	moxillin	um allergic to amoxicillin allergic to amoxicillin um
+day4_consultation10	uncomfortable	FINDING	1	comfortable	yeah it's getting uncomfortable yeah anything that
+day4_consultation10	amoxicillin	DRUG	1	<DELETED>	amoxicillin allergic to amoxicillin um but no
+day4_consultation10	amoxicillin	DRUG	1	moxicillin	ohh you mentioned amoxicillin but anything else
+day5_consultation01	feeling fine	SYMPTOM	2	skin's been	skin no skin feeling fine have you checked
+day5_consultation01	temperature	PROCEDURE	1	temperature is okay	sure that your temperature's ok ok sure
+day5_consultation01	microgynon	DRUG	1	micrograin on	you take uh microgynon pill when did
+day5_consultation01	ibuprofen	DRUG	1	tomorrow then	i'll take some ibuprofen and i'll um
+day5_consultation01	very much	FINDING	2	so	thanks so much very much bye bye
+day5_consultation01	skin	CONDITION	1	skin's been	your skin no skin feeling fine have
+day5_consultation01	pill	DRUG	1	<DELETED>	take uh microgynon pill when did you
+day5_consultation02	lower back pain	SYMPTOM	3	low	didn't have any lower back pain no i've got
+day5_consultation02	mebeverine	DRUG	1	merbin	medications i've had mebeverine mebeverine i've had
+day5_consultation02	mebeverine	DRUG	1	<DELETED>	i've had mebeverine mebeverine i've had mebeverine
+day5_consultation02	mebeverine	DRUG	1	me	mebeverine i've had mebeverine pardon no birth
+day5_consultation02	spots	SYMPTOM	1	okay	in my urine spots ok and is
+day5_consultation02	back	ANATOMY	1	<DELETED>	abdominal pain or back lower back pain
+day5_consultation03	panic attack	CONDITION	2	<DELETED>	ever had a panic attack um no i
+day5_consultation03	drugs	PROCEDURE	1	one okay	i don't take drugs ok and have
+day5_consultation03	tests	PROCEDURE	1	test and	you've had the tests so we can
+day5_consultation03	counsellors	FINDING	1	counselors	talked to any counsellors done any online
+day5_consultation03	couple	FINDING	1	okay	over the past couple of months ok
+day5_consultation04	amoxicillin allergy	CONDITION	2	i'm exiling pardon i'm exiling	i have amoxicillin amoxicillin allergy pardon ok anything
+day5_consultation04	implant	PROCEDURE	1	implanon okay	and it's called implant ok and do
+day5_consultation04	teacher	FINDING	1	<DELETED>	a teacher school teacher ok and who
+day5_consultation04	toilet	PROCEDURE	1	<DELETED>	been to the toilet what problems did
+day5_consultation04	slight	FINDING	1	this light	or just the slight bleeding just very
+day5_consultation04	close	FINDING	1	<DELETED>	yes i do close they they are
+day5_consultation04	light	PROCEDURE	1	like paint	dark it's just light pink colour so
+day5_consultation04	face	ANATOMY	1	face-to-face	can arrange a face to face examination
+day5_consultation04	face	ANATOMY	1	<DELETED>	a face to face examination where they
+day5_consultation04	problem	PROCEDURE	1	problems okay	i was having problem ok and what
+day5_consultation04	amoxicillin	DRUG	1	i'm exiling pardon i'm exiling	allergy i have amoxicillin amoxicillin allergy pardon
+day5_consultation05	nausea or vomiting	FINDING	3	<UNKNOWN>	you had any nausea or any vomiting uh no i'm
+day5_consultation05	contraceptive implant	FINDING	2	<DELETED>	uh internal uh contraceptive implant but like for
+day5_consultation05	and back pain	SYMPTOM	3	<UNKNOWN>	yeah yeah ok and any any back pain or strong smell
+day5_consultation05	amoxycillin	DRUG	1	amoxiciline okay	medications uh yes amoxycillin ok do you
+day5_consultation05	sore	SYMPTOM	1	sorry	no no nothing sore i mean depends
+day5_consultation05	face	ANATOMY	1	face	to see you face-to-face for an examination
+day5_consultation05	face	ANATOMY	1	face	to see you face-to-face for an examination
+day5_consultation06	ibuprofen	DRUG	1	<DELETED>	a a an ibuprofen just to ease
+day5_consultation06	vitamins	DRUG	1	i call	take my my vitamins vitamin d every
+day5_consultation06	cramps	SYMPTOM	1	camps	for my menstrual cramps when they come
+day5_consultation07	vomiting diarrhoea	SYMPTOM	2	you haunting diarrhea	that's fine no vomiting diarrhoea now no ok
+day5_consultation07	high temperature	SYMPTOM	2	<UNKNOWN>	might have a high temperature it's definitely worth
+day5_consultation07	pain chest	SYMPTOM	2	<UNKNOWN>	no any chest pain no chest what sorry any
+day5_consultation07	temperature	PROCEDURE	1	is	like if the temperature's ongoing above thirty
+day5_consultation07	temperature	PROCEDURE	1	is	settling or the temperature's ongoing getting worse
+day5_consultation07	paracetamol	PROCEDURE	1	paracetamol-containing	take any other paracetamol containing products um
+day5_consultation07	lisinopril	DRUG	1	<DELETED>	dose of the lisinopril you're taking uh
+day5_consultation07	change	PROCEDURE	1	changing	any headaches or change in your vision
+day5_consultation07	cherry	DRUG	1	sherry okay and	yes the odd cherry ok um who
+day5_consultation07	lemsip	DRUG	1	sip	moment with the lemsip i wouldn't take
+day5_consultation07	lemon	DRUG	1	lem	quite a few lemon sips um they
+day5_consultation08	very short of breath	FINDING	4	<UNKNOWN>	i feel like very short of breath and sometimes i
+day5_consultation08	short of breath	SYMPTOM	3	<UNKNOWN>	like kind of short of breath ok and how
+day5_consultation08	wheezy	SYMPTOM	1	weezy	um recently i'm wheezy uh i have
+day5_consultation08	eczema	CONDITION	1	well	hay fever and eczema sorry ok and
+day5_consultation08	flare	FINDING	1	flare-up	you've had a flare up of your
+day5_consultation08	salbutamol	DRUG	1	so but	um i took salbutamol salbutamol yeah ok
+day5_consultation08	salbutamol	DRUG	1	so but	i took salbutamol salbutamol yeah ok so
+day5_consultation09	diarrhoea vomiting	SYMPTOM	2	thyroid	infections chest infections diarrhoea vomiting anything like that
+day5_consultation09	diarrhoea vomiting	SYMPTOM	2	diarrhea	your bowel habit diarrhoea vomiting or blood in
+day5_consultation09	hay fever	CONDITION	2	ham	pardon asthma and hay fever if they can
+day5_consultation09	examined	FINDING	1	<DELETED>	of um he examined me so ok
+day5_consultation09	turns	FINDING	1	coincided with	honest that actually turns out it was
+day5_consultation09	flare	FINDING	1	flare	help ok any flare-ups of your asthma
+day5_consultation09	ups	CONDITION	1	flare	help ok any flare-ups of your asthma
+day5_consultation09	antihistamines	DRUG	1	anti-painted	one of the antihistamines it might be
+day5_consultation10	coughing up blood	SYMPTOM	3	coffee acne	nose bleeds or coughing up any blood or anything no
+day5_consultation10	flashing lights	CONDITION	2	flat	any visual symptoms flashing lights nausea vomiting with
+day5_consultation10	nausea vomiting	SYMPTOM	2	no	symptoms flashing lights nausea vomiting with them no
+day5_consultation10	no vomiting	FINDING	2	not	bit sick but no vomiting any tingling or
+day5_consultation10	nose bleeds	CONDITION	2	<DELETED>	no any any nose bleeds or coughing up
+day5_consultation10	ibuprofen	DRUG	1	and	went away with ibuprofen so nothing like
+day5_consultation10	ibuprofen	DRUG	1	aprobin	go away with ibuprofen either i try
+day5_consultation10	ibuprofen	DRUG	1	and	when i take ibuprofen it gets a
+day5_consultation10	headaches	SYMPTOM	1	this headache	just having these headaches so i'm find
+day5_consultation10	headaches	SYMPTOM	1	because this one is	um no these headaches just very recently
+day5_consultation10	ibuprofen	DRUG	1	upper profane diet	apart from the ibuprofen that i take
+day5_consultation10	prescribe	PROCEDURE	1	prescribed	medication which i prescribe to you take
+day5_consultation10	migraines	CONDITION	1	migraine she	has quite bad migraines she's like has
+day5_consultation10	headache	SYMPTOM	1	<DELETED>	had no more headache it's just um
+day5_consultation10	feverish	SYMPTOM	1	fabric	don't really feel feverish or anything ok
+day5_consultation10	headache	SYMPTOM	1	headaches okay	to bed your headache's ok and not
+day5_consultation10	reminded	PROCEDURE	1	reminded me	and that um reminded that my mum
+day5_consultation10	confirm	FINDING	1	<DELETED>	have to to confirm uh yeah if
+day5_consultation10	light	PROCEDURE	1	lights	get this shooting light sometimes um not
+day5_consultation10	cough	DRUG	1	<DELETED>	the sinuses any cough or flem no
+day5_consultation10	sick	SYMPTOM	1	would say quite normal headaches	um i was sick but i had
+day5_consultation10	pill	DRUG	1	a pilot	um just the pill which one um
+day5_consultation10	else	FINDING	1	<DELETED>	really bad nothing else ok um so
+day5_consultation10	pill	DRUG	1	is	make sure your pill's still appropriate for
+day5_consultation11	legs swelling	CONDITION	2	<UNKNOWN>	of your lower legs no any swelling which stays if
+day5_consultation11	indigestion acid	CONDITION	2	<UNKNOWN>	stomach or asthma indigestion acid reflux no no
+day5_consultation11	no problems	FINDING	2	<DELETED>	acid reflux no no no problems and what i
+day5_consultation11	back pains	SYMPTOM	2	<UNKNOWN>	you're getting any back pains small swelling of
+day5_consultation11	ibuprofen	DRUG	1	iboprofen	i i take ibuprofen um and i'll
+day5_consultation11	referral	PROCEDURE	1	<DELETED>	can do a referral before that if
+day5_consultation11	medicine	DRUG	1	and	me the stronger medicine i'll give that
+day5_consultation11	stairs	FINDING	1	<DELETED>	up and down stairs no any problems
+day5_consultation11	reflux	CONDITION	1	<DELETED>	asthma indigestion acid reflux no no no
+day5_consultation11	aleve	DRUG	1	leave	am i taking aleve whatever aleve is
+day5_consultation11	aleve	DRUG	1	leave	taking aleve whatever aleve is think that's
+day5_consultation11	sweet	CONDITION	1	<DELETED>	you bye ok sweet thanks so much
+day5_consultation11	far	PROCEDURE	1	farsighted	do have i'm far-sighted and so i
+day5_consultation11	and problems	FINDING	2	<DELETED>	knee that hurts and any problems with your left
+day5_consultation11	and problems	FINDING	2	<DELETED>	doesn't work ok and any problems with your stomach
+day5_consultation11	not not really	FINDING	3	<UNKNOWN>	that you know not not really i mean i
+day5_consultation12	pain killers	DRUG	2	painkillers	you taken any pain killers um i took
+day5_consultation12	ibuprofen	DRUG	1	hyperprofen	i took yesterday ibuprofen that's fine and
+day5_consultation12	headache	SYMPTOM	1	headaches	you had any headache before not really
+day5_consultation12	fevers	SYMPTOM	1	heart fever were	that any high fevers are you feeling
+day5_consultation12	back	ANATOMY	1	<DELETED>	us a call back if when you've

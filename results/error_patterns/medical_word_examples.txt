@@ -1,0 +1,739 @@
+
+========== CONDITION (top 30 ref words by error frequency) ==========
+
+  [ 1] "little" — 34 errors
+        primock57          day1_consultation01              ref='little'  parakeet='well'
+        primock57          day1_consultation03              ref='little'  parakeet=''
+        primock57          day2_consultation02              ref='this little'  parakeet="it's a"
+
+  [ 2] "infection" — 16 errors
+        primock57          day1_consultation01              ref='infection'  parakeet='pressure'
+        primock57          day2_consultation04              ref='infection'  parakeet='infections'
+        figshare-osce      RES0023                          ref='not do you use cannabis or any other substances no i dont use anything like that ok ok well i think that just about covers the things that i wanted to ask you today so based on the symptoms youre experiencing it sounds like it could be some kind of infective process like maybe some kind of viral infection that were concerned about particularly this year id really like to get a swab done on you its not necessarily covid but it potentially could be so what were going to have to ask you to do is to self isolate you and your family for 14 days and hopefully will get the results back shortly and youll know whether your covitest is positive or not ok does that sound like a good plan to you yeah that sounds good ok well thanks for chatting with me we will get that swab done right away thank you'  parakeet=''
+
+  [ 3] "heart" — 14 errors
+        primock57          day3_consultation03              ref='heart'  parakeet='heartbeat'
+        figshare-osce      RES0016                          ref='no heart'  parakeet="nope heart's"
+        figshare-osce      RES0052                          ref='heart'  parakeet=''
+
+  [ 4] "times" — 13 errors
+        figshare-osce      RES0007                          ref='times ok'  parakeet='time okay'
+        figshare-osce      RES0043                          ref='often times'  parakeet=''
+        figshare-osce      RES0057                          ref='some times that are'  parakeet=''
+
+  [ 5] "cancer" — 11 errors
+        primock57          day1_consultation03              ref='cancer'  parakeet=''
+        figshare-osce      RES0012                          ref='cancer'  parakeet=''
+        figshare-osce      RES0014                          ref='cancer'  parakeet='cancers'
+
+  [ 6] "asthma" — 11 errors
+        primock57          day2_consultation05              ref='asthma'  parakeet='action'
+        primock57          day4_consultation09              ref='your asthma'  parakeet='you out'
+        figshare-osce      RES0014                          ref='uh not really just maybe like the normal amount like if im running around too much i feel shortness of breath but i think it just got worse over the last few months ok and then have you ever had any imaging done in the past like a chest xray or investigations like a pulmonary function test no i dont recall having any of that done ok alright well those are all the questions i had for you if you didnt have anything else to add i guess we will conclude by saying that what you have we have a differential diagnosis for this um it sounds like what you have is asthma since your symptoms started three months ago when you moved into a flat with your friends and it seems like this smoking and cold is triggering that and so well work you up with a pulmonary function test to start and well see if bronchodilators will help with your symptoms and if it doesnt well also rule out other things like pneumonia or like allergic rhinitis how does that sound yeah that sounds good ok sounds great well well see you soon then alright thank you take care you too'  parakeet=''
+
+  [ 7] "strep" — 9 errors
+        figshare-osce      RES0064                          ref='strep'  parakeet='strap'
+        figshare-osce      RES0064                          ref='him some antibiotics but we will do a rapid strep test first in the clinic here today just to rule out in or rule that out if'  parakeet=''
+        figshare-osce      RES0064                          ref='strep'  parakeet='any'
+
+  [ 8] "allergies" — 7 errors
+        figshare-osce      GAS0004                          ref='allergies'  parakeet='entries'
+        figshare-osce      MSK0019                          ref='any allergies or'  parakeet=''
+        figshare-osce      RES0098                          ref='do have allergies in the spring i'  parakeet=''
+
+  [ 9] "pneumonia" — 7 errors
+        figshare-osce      RES0014                          ref='uh not really just maybe like the normal amount like if im running around too much i feel shortness of breath but i think it just got worse over the last few months ok and then have you ever had any imaging done in the past like a chest xray or investigations like a pulmonary function test no i dont recall having any of that done ok alright well those are all the questions i had for you if you didnt have anything else to add i guess we will conclude by saying that what you have we have a differential diagnosis for this um it sounds like what you have is asthma since your symptoms started three months ago when you moved into a flat with your friends and it seems like this smoking and cold is triggering that and so well work you up with a pulmonary function test to start and well see if bronchodilators will help with your symptoms and if it doesnt well also rule out other things like pneumonia or like allergic rhinitis how does that sound yeah that sounds good ok sounds great well well see you soon then alright thank you take care you too'  parakeet=''
+        figshare-osce      RES0104                          ref='vitals as well however yeah so after that since youre having some symptoms of what might be a pneumonia it can be a bacterial infection a viral infection we will have to get some blood work done as well as a chest xray and right now with the pandemic going on we will also do covid swab test for you as well just in case does that sound good yeah that makes sense thank you alright and if if youre while youre here if your shortness of breath gets any worse at all just let us know and well help you out ok thank you will do thank you bye bye'  parakeet=''
+        figshare-osce      RES0154                          ref='fathers side ok um and have you had antibiotics recently or within the last six months for any reason no no antibiotics ok so so that was everything that i wanted to ask today on uh on history um was there anything that you also wanted to mention i i maybe forgot no i think thats all um ok so uh yeah with the the symptoms um it could be um pneumonia which could be bacterial or viral um as well as the possibility of um something like uh like covid which is of course a concern for today so we will go ahead and start those investigations and get a swab um and um you may need antibiotics for um for this if there there is uh pneumonia so well also get a chest xray as well ok alright sounds good'  parakeet=''
+
+  [10] "covid19" — 7 errors
+        figshare-osce      RES0018                          ref='covid19'  parakeet='covid-19'
+        figshare-osce      RES0019                          ref='covid19'  parakeet='covid-19'
+        figshare-osce      RES0020                          ref='covid19'  parakeet='covid-19'
+
+  [11] "tumour" — 6 errors
+        primock57          day1_consultation03              ref='tumour'  parakeet='tumor'
+        primock57          day4_consultation06              ref='tumour'  parakeet='tumor'
+        primock57          day4_consultation06              ref='tumour'  parakeet=''
+
+  [12] "disease" — 5 errors
+        primock57          day1_consultation02              ref='disease'  parakeet='this'
+        primock57          day1_consultation03              ref='disease like'  parakeet='zigzag lines'
+        figshare-osce      RES0017                          ref='as um something called well it could cause pulmonary fibrosis and then also the joint pains that youve been experiencing might be another symptom that is suggestive of a connective tissue disease and it doesnt sound like you have a family history of those but we will do some lab work and investigations for for those including a chest xray and a chest ct sounds good'  parakeet=''
+
+  [13] "eczema" — 5 errors
+        primock57          day1_consultation02              ref='an eczema cu ok yes'  parakeet='i see you okay just'
+        primock57          day3_consultation04              ref='eczema em'  parakeet='a czema'
+        primock57          day3_consultation06              ref='eczema'  parakeet='extra'
+
+  [14] "swelling" — 5 errors
+        figshare-osce      CAR0003                          ref='swelling'  parakeet='swallow'
+        figshare-osce      MSK0005                          ref='swelling'  parakeet='slowing'
+        figshare-osce      MSK0031                          ref='swelling its'  parakeet="swallowing it's"
+
+  [15] "condition" — 5 errors
+        figshare-osce      MSK0019                          ref='autoimmmune condition uh'  parakeet=''
+        figshare-osce      MSK0020                          ref='condition'  parakeet='conditions'
+        figshare-osce      RES0014                          ref='condition'  parakeet='conditions'
+
+  [16] "dress" — 5 errors
+        figshare-osce      MSK0039                          ref='dress'  parakeet='desk'
+        nazmulkazi         D0421-S2-T02                     ref='is this dress'  parakeet="it's the stress"
+        nazmulkazi         D0422-S1-T01                     ref='you dress'  parakeet='he addressed'
+
+  [17] "migraine" — 4 errors
+        primock57          day1_consultation03              ref='migraine'  parakeet='migraine-type'
+        primock57          day1_consultation03              ref='uh migraine type'  parakeet=''
+        primock57          day4_consultation06              ref='migraine relief'  parakeet='migra leave'
+
+  [18] "osteoarthritis" — 4 errors
+        primock57          day2_consultation02              ref='osteoarthritis'  parakeet='ostearthritis'
+        figshare-osce      MSK0016                          ref='osteoarthritis'  parakeet='is'
+        figshare-osce      MSK0029                          ref='i think maybe osteoarthritis'  parakeet='maybe osteoar arthritis in'
+
+  [19] "mini-stroke" — 4 errors
+        primock57          day2_consultation05              ref='a mini-stroke'  parakeet='mini stroke'
+        primock57          day2_consultation05              ref='mini-stroke sure'  parakeet='mini stroke'
+        primock57          day2_consultation05              ref='mini-stroke'  parakeet='stroke'
+
+  [20] "hyper" — 4 errors
+        figshare-osce      MSK0039                          ref='hyper'  parakeet='hyperextended'
+        nazmulkazi         D0421-S2-T01                     ref='hyper'  parakeet='hyper-attentive'
+        nazmulkazi         D0421-S3-T04                     ref='hyper'  parakeet='hyperviligences'
+
+  [21] "hayfever" — 3 errors
+        primock57          day1_consultation08              ref='hayfever hayfever ok um'  parakeet='hay fever yep okay'
+        primock57          day1_consultation08              ref='hayfever hayfever ok um'  parakeet='hay fever yep okay'
+        primock57          day4_consultation09              ref='hayfever'  parakeet='fever'
+
+  [22] "hyperthyroidism" — 3 errors
+        primock57          day3_consultation07              ref='hyperthyroidism ok'  parakeet='hypothyroidism okay'
+        primock57          day4_consultation02              ref='hyperthyroidism ok'  parakeet='hypothyroidism okay'
+        figshare-osce      RES0066                          ref='hyperthyroidism'  parakeet='hypothirodism'
+
+  [23] "hypothyroidism" — 3 errors
+        primock57          day4_consultation08              ref='hypothyroidism'  parakeet='hyperthyroidism'
+        primock57          day4_consultation08              ref='hypothyroidism hyperthyroid'  parakeet='hyperthyroidism hyperthyroidism'
+        figshare-osce      RES0027                          ref='hypothyroidism'  parakeet='as'
+
+  [24] "migraines" — 3 errors
+        primock57          day5_consultation10              ref="migraines she's"  parakeet='migraine she'
+        figshare-osce      RES0069                          ref='migraines ok'  parakeet='migraine okay'
+        figshare-osce      RES0123                          ref='um have you had migraines'  parakeet=''
+
+  [25] "tingling" — 3 errors
+        figshare-osce      MSK0013                          ref='tingling'  parakeet=''
+        figshare-osce      MSK0018                          ref='tingling'  parakeet='jingling'
+        figshare-osce      RES0160                          ref='tingling'  parakeet='dingling'
+
+  [26] "diabetes" — 3 errors
+        figshare-osce      MSK0028                          ref='diabetes'  parakeet=''
+        figshare-osce      RES0058                          ref='also diabetes but dont know if'  parakeet='and my dad has diabetes but'
+        figshare-osce      RES0146                          ref='uh pre diabetes'  parakeet="prediabetes okay that's"
+
+  [27] "marijuana" — 3 errors
+        figshare-osce      RES0016                          ref='marijuana'  parakeet='no'
+        figshare-osce      RES0143                          ref='marijuana'  parakeet='marla'
+        figshare-osce      RES0199                          ref='marijuana'  parakeet='mijuwana'
+
+  [28] "tuberculosis" — 3 errors
+        figshare-osce      RES0033                          ref='tuberculosis'  parakeet='tuberculos'
+        figshare-osce      RES0039                          ref='tuberculosis'  parakeet='tuberosis'
+        figshare-osce      RES0039                          ref='uh tuberculosis'  parakeet=''
+
+  [29] "frank" — 3 errors
+        nazmulkazi         D0420-S3-T03                     ref='frank or'  parakeet='franco our'
+        nazmulkazi         D0422-S4-T03                     ref='frank'  parakeet='franco'
+        nazmulkazi         D0423-S2-T03                     ref='frank'  parakeet='frankfurt'
+
+  [30] "sensitivity" — 2 errors
+        primock57          day1_consultation03              ref='sensitivity'  parakeet=''
+        figshare-osce      RES0022                          ref='sensitivity'  parakeet=''
+
+========== SYMPTOM (top 30 ref words by error frequency) ==========
+
+  [ 1] "symptoms" — 27 errors
+        primock57          day1_consultation01              ref='symptoms'  parakeet=''
+        primock57          day1_consultation07              ref='no um and uh any other symptoms'  parakeet="there it seems like it's definitely trouble"
+        primock57          day1_consultation10              ref='symptoms'  parakeet='issues'
+
+  [ 2] "diarrhoea" — 27 errors
+        primock57          day1_consultation07              ref='diarrhoea'  parakeet='diarrhea'
+        primock57          day1_consultation09              ref='diarrhoea'  parakeet=''
+        primock57          day1_consultation11              ref='diarrhoea'  parakeet='diarrhea'
+
+  [ 3] "weight" — 22 errors
+        figshare-osce      MSK0004                          ref='weight'  parakeet="weight's"
+        figshare-osce      MSK0006                          ref='weight'  parakeet='way'
+        figshare-osce      MSK0006                          ref='weight'  parakeet='reserves'
+
+  [ 4] "fevers" — 18 errors
+        primock57          day5_consultation12              ref='high fevers are'  parakeet='heart fever were'
+        figshare-osce      MSK0006                          ref='loss fevers or chills'  parakeet=''
+        figshare-osce      MSK0006                          ref='fevers'  parakeet='fears'
+
+  [ 5] "wheezing" — 15 errors
+        figshare-osce      MSK0006                          ref='or wheezing'  parakeet=''
+        figshare-osce      MSK0016                          ref='wheezing'  parakeet=''
+        figshare-osce      MSK0032                          ref='wheezing'  parakeet='breathing'
+
+  [ 6] "coughs" — 15 errors
+        figshare-osce      RES0008                          ref='coughs'  parakeet="cough's"
+        figshare-osce      RES0027                          ref='coughs'  parakeet="cough's"
+        figshare-osce      RES0030                          ref='coughs were'  parakeet="cough's been"
+
+  [ 7] "pains" — 13 errors
+        primock57          day3_consultation03              ref='pains'  parakeet='pain'
+        primock57          day3_consultation03              ref='pains'  parakeet='pain'
+        primock57          day4_consultation09              ref="pains it's"  parakeet="pain there's"
+
+  [ 8] "coughing" — 12 errors
+        primock57          day1_consultation06              ref='coughing'  parakeet=''
+        primock57          day4_consultation07              ref='coughing'  parakeet='quoughing'
+        primock57          day5_consultation10              ref='coughing up'  parakeet='coffee acne'
+
+  [ 9] "headaches" — 12 errors
+        primock57          day4_consultation02              ref='headaches'  parakeet='headache'
+        primock57          day5_consultation10              ref='these headaches'  parakeet='this headache'
+        primock57          day5_consultation10              ref='um no these headaches'  parakeet='because this one is'
+
+  [10] "headache" — 11 errors
+        primock57          day1_consultation03              ref='a headache'  parakeet='the headaches'
+        primock57          day2_consultation10              ref='headache'  parakeet=''
+        primock57          day3_consultation08              ref='headache'  parakeet='know'
+
+  [11] "vomiting" — 11 errors
+        primock57          day1_consultation13              ref='no vomiting ok'  parakeet=''
+        primock57          day5_consultation07              ref='no vomiting diarrhoea'  parakeet='you haunting diarrhea'
+        figshare-osce      RES0028                          ref='kind of nausea or vomiting or'  parakeet=''
+
+  [12] "aches" — 6 errors
+        figshare-osce      MSK0006                          ref='aches'  parakeet=''
+        figshare-osce      RES0010                          ref='aches'  parakeet='echo'
+        figshare-osce      RES0063                          ref='aches'  parakeet='ache'
+
+  [13] "symptom" — 6 errors
+        figshare-osce      RES0052                          ref='symptom she has this pink'  parakeet='one i enjoyed okay um'
+        figshare-osce      RES0054                          ref='symptom'  parakeet='second'
+        figshare-osce      RES0081                          ref='symptom'  parakeet='symptoms'
+
+  [14] "light-headed" — 5 errors
+        primock57          day4_consultation01              ref='light-headed ok'  parakeet='lightheaded okay'
+        primock57          day4_consultation09              ref='light-headed'  parakeet='lightheaded'
+        primock57          day4_consultation10              ref='light-headed'  parakeet=''
+
+  [15] "runny nose" — 5 errors
+        figshare-osce      RES0077                          ref='runny nose'  parakeet=''
+        figshare-osce      RES0163                          ref='runny nose'  parakeet='running out'
+        figshare-osce      RES0165                          ref='runny nose'  parakeet='running those'
+
+  [16] "spell" — 5 errors
+        nazmulkazi         D0420-S1-T03                     ref='spell'  parakeet='speak'
+        nazmulkazi         D0420-S3-T01                     ref='spell'  parakeet='felt'
+        nazmulkazi         D0422-S1-T01                     ref='you spell in'  parakeet=''
+
+  [17] "aching" — 4 errors
+        primock57          day1_consultation10              ref='an aching pain ok'  parakeet=''
+        figshare-osce      MSK0018                          ref='and aching its its'  parakeet="at pain it's it's"
+        figshare-osce      MSK0036                          ref='aching'  parakeet=''
+
+  [18] "stridor" — 4 errors
+        primock57          day2_consultation06              ref='stridor'  parakeet='strido'
+        figshare-osce      RES0183                          ref='stridor'  parakeet='strider'
+        figshare-osce      RES0183                          ref='stridor'  parakeet='strider'
+
+  [19] "wheezy" — 4 errors
+        primock57          day4_consultation09              ref='wheezy'  parakeet='noisy'
+        primock57          day5_consultation08              ref='wheezy'  parakeet='weezy'
+        figshare-osce      RES0197                          ref='wheezy'  parakeet='busy'
+
+  [20] "rundown" — 4 errors
+        figshare-osce      DER0001                          ref='rundown'  parakeet='down'
+        figshare-osce      RES0167                          ref='rundown ok just'  parakeet='run down okay'
+        figshare-osce      RES0167                          ref='rundown'  parakeet='down'
+
+  [21] "rashes" — 4 errors
+        figshare-osce      MSK0001                          ref='rashes'  parakeet='lashes'
+        figshare-osce      MSK0021                          ref='rashes'  parakeet='grashes'
+        figshare-osce      RES0085                          ref='have you noticed any rashes on him'  parakeet=''
+
+  [22] "chills" — 4 errors
+        figshare-osce      MSK0006                          ref='loss fevers or chills'  parakeet=''
+        figshare-osce      RES0058                          ref='sweats or chills'  parakeet='us uh well'
+        figshare-osce      RES0104                          ref='chills'  parakeet='as'
+
+  [23] "nauseous" — 3 errors
+        primock57          day3_consultation03              ref='nauseous'  parakeet=''
+        figshare-osce      RES0093                          ref='nauseous'  parakeet='noxious'
+        nazmulkazi         D0424-S2-T04                     ref='nauseous'  parakeet='just'
+
+  [24] "discomfort" — 3 errors
+        primock57          day4_consultation01              ref='discomfort'  parakeet='comfort'
+        figshare-osce      RES0154                          ref='straining and discomfort when i take'  parakeet="strain that's come from uh taking"
+        figshare-osce      RES0189                          ref='pains character like is it sharp dull or achy its more just an ache and its kind of more of a discomfort than a pain and it kind of goes away once my episode of coughing and shortness of breath is relieved with some rest ok uh and uh have you been experiencing any fevers or chills'  parakeet=''
+
+  [25] "fatigued" — 3 errors
+        figshare-osce      RES0011                          ref='fatigued'  parakeet=''
+        figshare-osce      RES0065                          ref='fatigued'  parakeet='fatigue'
+        figshare-osce      RES0167                          ref='fatigued'  parakeet='fatigue'
+
+  [26] "dizziness" — 3 errors
+        figshare-osce      RES0027                          ref='no dizziness alright'  parakeet='dizziness all right'
+        figshare-osce      RES0168                          ref='dizziness'  parakeet='he'
+        nazmulkazi         D0422-S2-T02                     ref='congress dizziness are'  parakeet='you used humor'
+
+  [27] "spells" — 3 errors
+        figshare-osce      RES0045                          ref='to 48 hours uh in the meantime you should isolate for 14 days and that includes from family members when possible and public health will get in touch with you if those results are positive and so they can they can do some contact tracing if its not covid it could be another viral illness thats going around and i guess the best therapy for that is staying hydrated um getting good sleep and eating nutritious foods uh but if your symptoms get worse like youre running a really high fever um youre having neurological symptoms like you know seizures or fainting spells um or if youre having difficulty breathing um you should come back to the er so how does that sound yeah its really informative thank you alright take care thank you'  parakeet=''
+        figshare-osce      RES0086                          ref='spells'  parakeet='bowels'
+        figshare-osce      RES0177                          ref='spells'  parakeet='spouse'
+
+  [28] "tired" — 3 errors
+        figshare-osce      RES0121                          ref='tired'  parakeet='tire'
+        nazmulkazi         D0421-S1-T02                     ref='tired'  parakeet='kind'
+        nazmulkazi         D0425-S3-T03                     ref='tired of answering'  parakeet='tied her to'
+
+  [29] "despair" — 3 errors
+        nazmulkazi         D0420-S2-T01                     ref='despair'  parakeet='dyspiramine'
+        nazmulkazi         D0420-S2-T01                     ref='despair'  parakeet='dyspiramine'
+        nazmulkazi         D0424-S1-T03                     ref='despair'  parakeet='pair'
+
+  [30] "night sweats" — 2 errors
+        primock57          day1_consultation01              ref='night sweats'  parakeet=''
+        figshare-osce      RES0189                          ref='night sweats'  parakeet='threats uh'
+
+========== FINDING (top 30 ref words by error frequency) ==========
+
+  [ 1] "three" — 52 errors
+        primock57          day1_consultation09              ref='three weeks ago ok'  parakeet=''
+        primock57          day1_consultation09              ref='three'  parakeet='three-day'
+        primock57          day1_consultation10              ref='three'  parakeet='three-day'
+
+  [ 2] "nothing" — 43 errors
+        primock57          day1_consultation01              ref='nothing'  parakeet='think'
+        primock57          day1_consultation02              ref='nothing'  parakeet=''
+        primock57          day1_consultation03              ref='nothing'  parakeet=''
+
+  [ 3] "problem" — 23 errors
+        primock57          day1_consultation04              ref='problem'  parakeet='problems'
+        primock57          day1_consultation07              ref='problem'  parakeet='problems'
+        primock57          day1_consultation15              ref='problem'  parakeet='problems'
+
+  [ 4] "wanted" — 23 errors
+        primock57          day5_consultation03              ref='wanted'  parakeet='want'
+        figshare-osce      MSK0014                          ref='wanted'  parakeet='on'
+        figshare-osce      MSK0042                          ref='nothing else i wanted'  parakeet='let me also like'
+
+  [ 5] "worried" — 15 errors
+        figshare-osce      MSK0029                          ref='worried'  parakeet='worry'
+        figshare-osce      RES0131                          ref='worried'  parakeet='weary'
+        figshare-osce      RES0208                          ref='thats what i was worried about'  parakeet=''
+
+  [ 6] "write" — 15 errors
+        nazmulkazi         D0420-S1-T01                     ref='write'  parakeet='right'
+        nazmulkazi         D0420-S1-T01                     ref='write'  parakeet='right'
+        nazmulkazi         D0420-S1-T01                     ref='write'  parakeet='right'
+
+  [ 7] "either" — 10 errors
+        primock57          day1_consultation10              ref='ok either'  parakeet='okay fever'
+        figshare-osce      RES0021                          ref='either'  parakeet='it'
+        figshare-osce      RES0050                          ref='either'  parakeet=''
+
+  [ 8] "related" — 9 errors
+        primock57          day1_consultation14              ref="it's related sure"  parakeet='did so the'
+        primock57          day1_consultation15              ref='related um'  parakeet='a bit'
+        primock57          day3_consultation09              ref='there are related'  parakeet=''
+
+  [ 9] "chest" — 9 errors
+        figshare-osce      RES0053                          ref='has chest pain he'  parakeet='would he has a'
+        figshare-osce      RES0055                          ref='probably a chest x ray and'  parakeet='the catching up with all my'
+        figshare-osce      RES0144                          ref='chest is'  parakeet=''
+
+  [10] "fever" — 8 errors
+        primock57          day1_consultation01              ref='fever and'  parakeet='feeling generally'
+        primock57          day3_consultation07              ref='fever but i remember'  parakeet="i've tried also antihistamine"
+        primock57          day5_consultation08              ref='i have fever'  parakeet=''
+
+  [11] "definitely" — 8 errors
+        primock57          day1_consultation09              ref="uh it's it's definitely uh"  parakeet=''
+        primock57          day1_consultation11              ref='i definitely'  parakeet=''
+        primock57          day1_consultation12              ref='definitely'  parakeet=''
+
+  [12] "running" — 8 errors
+        primock57          day3_consultation08              ref='running'  parakeet='runny'
+        figshare-osce      RES0079                          ref='running'  parakeet='runny'
+        figshare-osce      RES0146                          ref='running'  parakeet='and'
+
+  [13] "stairs" — 8 errors
+        primock57          day4_consultation01              ref='the stairs'  parakeet=''
+        primock57          day4_consultation09              ref='stairs'  parakeet=''
+        primock57          day5_consultation11              ref='stairs'  parakeet=''
+
+  [14] "usually" — 8 errors
+        figshare-osce      CAR0002                          ref='uhh usually'  parakeet=''
+        figshare-osce      RES0061                          ref='usually'  parakeet="they're"
+        figshare-osce      RES0109                          ref='usually dont'  parakeet="normally don't"
+
+  [15] "stress" — 7 errors
+        nazmulkazi         D0420-S1-T05                     ref='stress'  parakeet='stressed'
+        nazmulkazi         D0420-S1-T05                     ref='stress'  parakeet=''
+        nazmulkazi         D0420-S4-T02                     ref='the stress'  parakeet='distress as'
+
+  [16] "difficulties" — 6 errors
+        primock57          day1_consultation03              ref='difficulties'  parakeet='difficulty'
+        primock57          day2_consultation09              ref='difficulties'  parakeet='difficulty'
+        figshare-osce      RES0082                          ref='difficulties'  parakeet='difficulty'
+
+  [17] "lives" — 6 errors
+        primock57          day1_consultation09              ref="lives who's"  parakeet=''
+        primock57          day1_consultation14              ref='lives'  parakeet='okay'
+        figshare-osce      RES0147                          ref='who lives'  parakeet=''
+
+  [18] "discolouration" — 6 errors
+        primock57          day1_consultation10              ref='um discolouration of'  parakeet='discoloration of the'
+        figshare-osce      MSK0040                          ref='discolouration'  parakeet='discoloration'
+        figshare-osce      MSK0041                          ref='discolouration'  parakeet='discoloration'
+
+  [19] "hearing" — 6 errors
+        primock57          day2_consultation01              ref='hearing'  parakeet="hearing's"
+        primock57          day3_consultation05              ref='hearing'  parakeet='ovarian'
+        figshare-osce      MSK0006                          ref='hearing smell or'  parakeet='hearings no kids'
+
+  [20] "talks" — 6 errors
+        nazmulkazi         D0420-S3-T01                     ref='talks'  parakeet='talked'
+        nazmulkazi         D0421-S3-T02                     ref='talks'  parakeet='talked'
+        nazmulkazi         D0422-S1-T01                     ref='talks'  parakeet='talked'
+
+  [21] "allergy" — 5 errors
+        primock57          day1_consultation10              ref='allergy'  parakeet='allergies'
+        figshare-osce      RES0107                          ref='allergy'  parakeet=''
+        figshare-osce      RES0165                          ref='allergy no'  parakeet='allergies okay'
+
+  [22] "helped" — 5 errors
+        primock57          day2_consultation10              ref='helped'  parakeet='help'
+        nazmulkazi         D0422-S1-T01                     ref='i can spend emma helped'  parakeet="he's been and that helps"
+        nazmulkazi         D0422-S2-T02                     ref='helped'  parakeet='help'
+
+  [23] "a lot" — 5 errors
+        primock57          day5_consultation05              ref='a lot'  parakeet=''
+        figshare-osce      MSK0017                          ref='a lot'  parakeet=''
+        figshare-osce      RES0042                          ref='a lot'  parakeet=''
+
+  [24] "smokers" — 5 errors
+        figshare-osce      RES0032                          ref='smokers'  parakeet="smoker's"
+        figshare-osce      RES0032                          ref='a smokers'  parakeet="the smoker's"
+        figshare-osce      RES0047                          ref='smokers'  parakeet="smoker's"
+
+  [25] "bright" — 5 errors
+        nazmulkazi         D0420-S3-T02                     ref='bright'  parakeet='right'
+        nazmulkazi         D0422-S2-T02                     ref='self-determination bright and'  parakeet='self-damination right in'
+        nazmulkazi         D0422-S2-T02                     ref='bright'  parakeet='right'
+
+  [26] "tarry" — 5 errors
+        kokoro-va-sample   O716                             ref='tarry'  parakeet='tari'
+        kokoro-va-sample   O716                             ref='tarry'  parakeet='tari'
+        kokoro-va-sample   P736                             ref='tarry'  parakeet='tari'
+
+  [27] "difficult" — 4 errors
+        primock57          day1_consultation01              ref="yeah yeah it's been quite difficult"  parakeet=''
+        primock57          day2_consultation08              ref='difficult'  parakeet=''
+        primock57          day4_consultation08              ref='difficult'  parakeet='difficulty'
+
+  [28] "worry" — 4 errors
+        primock57          day1_consultation07              ref='worry'  parakeet='worried'
+        primock57          day2_consultation07              ref="don't worry who's"  parakeet='is there anyone'
+        nazmulkazi         D0422-S2-T01                     ref='to worry'  parakeet='two worries'
+
+  [29] "turned" — 4 errors
+        primock57          day4_consultation04              ref='turned'  parakeet='heard'
+        figshare-osce      RES0209                          ref='turned'  parakeet='turn'
+        nazmulkazi         D0422-S2-T02                     ref='turned'  parakeet='tend'
+
+  [30] "normal" — 4 errors
+        primock57          day4_consultation05              ref='normal'  parakeet=''
+        figshare-osce      MSK0032                          ref='here which will just take uh like a few minutes um and and then after we reduce it back into its place um she should have normal function of her arm again um if shes still experiencing pain we can continue keeping it on a splint um but otherwise i dont think we need any imaging for this at this um at this time so did you have any questions or any concerns about that no i think thats um thats a good plan okay great um thank you thank you'  parakeet=''
+        figshare-osce      RES0144                          ref='normal'  parakeet='no'
+
+========== PROCEDURE (top 30 ref words by error frequency) ==========
+
+  [ 1] "physical" — 41 errors
+        figshare-osce      MSK0003                          ref='which can present in men your age and its kind of like a progressive dull back pain and that has some morning stiffness as well so yeah theres definitely multiple things that it can be so first we would need to do a full physical examination and book an appointment or for that in person and we will get some lab work done as well as well as a x ray of the of the spine and your sacroiliac joints and well also get some blood work with cbc crand esr so those are just inflammatory markers as well as the rheumatoid factor antinuclear antibodies those are just some things that will test for different kind of rheumatological issues and to see if you have any arthritis so yeah those are and then will also get an x ray of your hands and knees since youre having pain there as well so yeah those are some steps that well take do you have any questions or concerns no that that sounds that sounds great thank you alright yeah so i will get in touch with you shortly sounds great thank you alright take care bye bye'  parakeet=''
+        figshare-osce      MSK0017                          ref='um but if after we try some management and treatment plans it doesnt go away and it persists for more than eight weeks we do recommend imaging including an mri so uh in terms of management for right now um modified activity at work um some short term bed rest uh very short term though um and bed rest is only really recommended if you have severe back pain and muscle spasms um and you definitely shouldnt be doing that for more than like 24 to 48 hours and physical activity can help um so referral to physical therapy or physiotherapy um can help in rehab and theyll give you some exercises that you can try at home to kind of um strengthen those muscles and then ice and heating packs um temporarily can help uh medications like nsaids can help as well with the inflammation um so well try these things out and then well continue to follow up um yeah did you have any questions or does that sound like an ok plan uh that sounds like a good plan ok sounds good thank you'  parakeet=''
+        figshare-osce      MSK0017                          ref='um but if after we try some management and treatment plans it doesnt go away and it persists for more than eight weeks we do recommend imaging including an mri so uh in terms of management for right now um modified activity at work um some short term bed rest uh very short term though um and bed rest is only really recommended if you have severe back pain and muscle spasms um and you definitely shouldnt be doing that for more than like 24 to 48 hours and physical activity can help um so referral to physical therapy or physiotherapy um can help in rehab and theyll give you some exercises that you can try at home to kind of um strengthen those muscles and then ice and heating packs um temporarily can help uh medications like nsaids can help as well with the inflammation um so well try these things out and then well continue to follow up um yeah did you have any questions or does that sound like an ok plan uh that sounds like a good plan ok sounds good thank you'  parakeet=''
+
+  [ 2] "tests" — 20 errors
+        primock57          day2_consultation02              ref='tests'  parakeet='test'
+        primock57          day2_consultation02              ref='get the blood tests'  parakeet='to test on us'
+        primock57          day2_consultation02              ref='tests'  parakeet='test'
+
+  [ 3] "overlap" — 18 errors
+        primock57          day3_consultation04              ref='overlap'  parakeet='last'
+        figshare-osce      RES0042                          ref='well get you tested for that and well get you a swab and you should have the results of the that swab in about 24 to 48 hours and then you should isolate for 14 days regardless though because your symptoms do overlap with symptoms of coviand and that includes isolating from your your children as well oh ok and yeah and if its not coviit could be another viral illness thats going around at this time of year just so just make sure youre staying hydrated youre eating nutritious foods and getting good sleep if your symptoms do become worse and if they become uhm severe like you have a really high temperature you have trouble breathing or you have any neurological symptoms like seizures or fainting spells please do go to the er and seek help how does that sound ah yeah i guess that sounds good this is how its gotta be right yeah unfortunately or yeah well thank you again no thank you have a good day you too'  parakeet=''
+        figshare-osce      RES0047                          ref='um moderate exacerbation well also prescribe uh antibiotics and or steroids to go along with the short acting beta agonist and if it is severe or if it becomes severe um please do seek out aid um in the er and theyll try theyll probably put you on um uh some sort of um oxy like um some sort of supplemental oxygen whether its bipaor cpaum and again theyll continue giving you your bronchodilators and steroids as well as antibiotics to um make sure that you dont have any bad complications of uh pneumonia um and it does sound like it is a copexacerbation at this point but if you develop any other symptoms like um fevers or any symptoms that overlap with uh viral viral illnesses well well well work you up for that well do i think we will still do a covid swab on you just to make sure you dont have that uh but well start with um working you up for cophow does that sound that sounds great thank you alright take care'  parakeet=''
+
+  [ 4] "change" — 17 errors
+        primock57          day5_consultation07              ref='change'  parakeet='changing'
+        figshare-osce      RES0048                          ref='change'  parakeet='changes'
+        figshare-osce      RES0058                          ref='change its'  parakeet=''
+
+  [ 5] "drugs" — 16 errors
+        primock57          day1_consultation06              ref='ever since the drugs'  parakeet=''
+        primock57          day5_consultation03              ref='drugs ok'  parakeet='one okay'
+        figshare-osce      GAS0001                          ref='um and you consume any illicit drugs no no alright are you currently sexually active yeah just like with my boyfriend and do you use protection while having sex yeah we we just use condoms i used to be on birth control but it always made me feel like like kind of sick so i dont use that anymore mhm i see ok uh and um lets see family history do you do you have any medical conditions that run in your family uh like i dont i dont think so i guess my dad my dad has like high blood pressure yeah i dont think theres anything else alright alright well thank you so much for spending time with me today i think i have gathered all the information that i would have liked i will go talk to my attending well come back and maybe ask a couple more questions and then share the plan with you ok thank you youre welcome'  parakeet=''
+
+  [ 6] "examination" — 16 errors
+        primock57          day4_consultation10              ref='uh examination'  parakeet='examination and'
+        figshare-osce      MSK0003                          ref='which can present in men your age and its kind of like a progressive dull back pain and that has some morning stiffness as well so yeah theres definitely multiple things that it can be so first we would need to do a full physical examination and book an appointment or for that in person and we will get some lab work done as well as well as a x ray of the of the spine and your sacroiliac joints and well also get some blood work with cbc crand esr so those are just inflammatory markers as well as the rheumatoid factor antinuclear antibodies those are just some things that will test for different kind of rheumatological issues and to see if you have any arthritis so yeah those are and then will also get an x ray of your hands and knees since youre having pain there as well so yeah those are some steps that well take do you have any questions or concerns no that that sounds that sounds great thank you alright yeah so i will get in touch with you shortly sounds great thank you alright take care bye bye'  parakeet=''
+        figshare-osce      MSK0044                          ref='alright so those are all the questions i had for you today well do a full physical examination of the area um we we will definitely get an xray of the shoulder and clavicle to see what kind of it seems like you have a clavicular fracture from just the mechanism of the injury as well as everything you were describing um but it is important to understand how like what kind of clavicle injury it is and where its affected if its in the middle area on like the outer areas of the clavicle um and how much its displaced because that will determine if we just need to reduce it here and then give you a sling and then you can go home thats usually the case but sometimes you may require surgery as well and we would need to refer you to an orthopaedic surgeon so yeah well well get the xray done and if you need anything for pain currently we will give you some medications here um and then well go from there alright thank you youre welcome um ill be here with you shortly that sounds good thank you so much'  parakeet=''
+
+  [ 7] "management" — 15 errors
+        figshare-osce      MSK0017                          ref='um but if after we try some management and treatment plans it doesnt go away and it persists for more than eight weeks we do recommend imaging including an mri so uh in terms of management for right now um modified activity at work um some short term bed rest uh very short term though um and bed rest is only really recommended if you have severe back pain and muscle spasms um and you definitely shouldnt be doing that for more than like 24 to 48 hours and physical activity can help um so referral to physical therapy or physiotherapy um can help in rehab and theyll give you some exercises that you can try at home to kind of um strengthen those muscles and then ice and heating packs um temporarily can help uh medications like nsaids can help as well with the inflammation um so well try these things out and then well continue to follow up um yeah did you have any questions or does that sound like an ok plan uh that sounds like a good plan ok sounds good thank you'  parakeet=''
+        figshare-osce      MSK0017                          ref='um but if after we try some management and treatment plans it doesnt go away and it persists for more than eight weeks we do recommend imaging including an mri so uh in terms of management for right now um modified activity at work um some short term bed rest uh very short term though um and bed rest is only really recommended if you have severe back pain and muscle spasms um and you definitely shouldnt be doing that for more than like 24 to 48 hours and physical activity can help um so referral to physical therapy or physiotherapy um can help in rehab and theyll give you some exercises that you can try at home to kind of um strengthen those muscles and then ice and heating packs um temporarily can help uh medications like nsaids can help as well with the inflammation um so well try these things out and then well continue to follow up um yeah did you have any questions or does that sound like an ok plan uh that sounds like a good plan ok sounds good thank you'  parakeet=''
+        figshare-osce      MSK0029                          ref='management'  parakeet=''
+
+  [ 8] "temperature" — 12 errors
+        primock57          day5_consultation07              ref='temperature'  parakeet='temperatures'
+        figshare-osce      RES0042                          ref='well get you tested for that and well get you a swab and you should have the results of the that swab in about 24 to 48 hours and then you should isolate for 14 days regardless though because your symptoms do overlap with symptoms of coviand and that includes isolating from your your children as well oh ok and yeah and if its not coviit could be another viral illness thats going around at this time of year just so just make sure youre staying hydrated youre eating nutritious foods and getting good sleep if your symptoms do become worse and if they become uhm severe like you have a really high temperature you have trouble breathing or you have any neurological symptoms like seizures or fainting spells please do go to the er and seek help how does that sound ah yeah i guess that sounds good this is how its gotta be right yeah unfortunately or yeah well thank you again no thank you have a good day you too'  parakeet=''
+        figshare-osce      RES0056                          ref='temperature'  parakeet="haven't"
+
+  [ 9] "medical" — 11 errors
+        primock57          day1_consultation09              ref='medical'  parakeet=''
+        primock57          day2_consultation02              ref='medical history yeah right ok ok uh'  parakeet=''
+        primock57          day3_consultation08              ref='medical'  parakeet='of'
+
+  [10] "physiotherapy" — 9 errors
+        figshare-osce      MSK0017                          ref='um but if after we try some management and treatment plans it doesnt go away and it persists for more than eight weeks we do recommend imaging including an mri so uh in terms of management for right now um modified activity at work um some short term bed rest uh very short term though um and bed rest is only really recommended if you have severe back pain and muscle spasms um and you definitely shouldnt be doing that for more than like 24 to 48 hours and physical activity can help um so referral to physical therapy or physiotherapy um can help in rehab and theyll give you some exercises that you can try at home to kind of um strengthen those muscles and then ice and heating packs um temporarily can help uh medications like nsaids can help as well with the inflammation um so well try these things out and then well continue to follow up um yeah did you have any questions or does that sound like an ok plan uh that sounds like a good plan ok sounds good thank you'  parakeet=''
+        figshare-osce      MSK0021                          ref='and if none of those nonsurgical treatments work oh sorry i also forgot to mention will also refer you to physiotherapy to help you with the range of motion and strength and endurance but of those non surgical treatments work well also refer you to like am arthroscopy or some sort of surgery that may be able to fix the issue more permanently does that sound ok it does yeah thank you ok yeah no worries'  parakeet=''
+        figshare-osce      MSK0031                          ref='so physiotherapy will focus on improving your range of motion'  parakeet=''
+
+  [11] "contacts" — 9 errors
+        figshare-osce      RES0063                          ref='sick contacts that'  parakeet='contacts at all'
+        nazmulkazi         D0421-S3-T02                     ref='contacts'  parakeet='context'
+        nazmulkazi         D0421-S3-T02                     ref='contacts'  parakeet='context'
+
+  [12] "hospice" — 9 errors
+        kokoro-va-sample   O721                             ref="computer and they discuss patient so we're gonna look it up and i'll see if we can change it but really it's a discussion that needs to be had with whoever's controlling his pain but since i don't know how to get a hold of that person we can at least try to get you enough before they're gonna come when do they contact you normally um they we're gonna do the nurse is the one that gave me these directions i talked to her twice this morning second doctor o721 sure she told me to ask for the nicoderm she told me to ask for the lidoderm she told me to ask for um all the medicine everything i'm saying second doctor o721 uh-huh i got directives from my hospice nurse second doctor o721 okay i'm not a cancer doctor uh-huh second doctor o721 i don't have an educated opinion about that beyond what it appears is this is a non-surgical situation um and you know if they think he's too weak for chemo or there's no appropriate trials out there they're the best ones to speak to that now as far as pain goes yeah if he's not getting adequate pain control then we need to keep working on that um he's got a palliative doctor who's seeing him for pain control is that correct the abdomen is probably a little weaker and thinner so it creates an area where it's vulnerable for other organs like bowels to poke through oh okay second doctor o721 so wearing a belly band or something that don't help i mean wearing an um second doctor o721 i don't know that it's gonna make a huge difference here because it's not that big but it's clearly causing pain so let me talk to the hospice nurse too i don't mind referring him to surgery to see what they on second i m sorry i m listening i m just trying to read his last scan see when he left the"  parakeet=''
+        kokoro-va-sample   O721                             ref="computer and they discuss patient so we're gonna look it up and i'll see if we can change it but really it's a discussion that needs to be had with whoever's controlling his pain but since i don't know how to get a hold of that person we can at least try to get you enough before they're gonna come when do they contact you normally um they we're gonna do the nurse is the one that gave me these directions i talked to her twice this morning second doctor o721 sure she told me to ask for the nicoderm she told me to ask for the lidoderm she told me to ask for um all the medicine everything i'm saying second doctor o721 uh-huh i got directives from my hospice nurse second doctor o721 okay i'm not a cancer doctor uh-huh second doctor o721 i don't have an educated opinion about that beyond what it appears is this is a non-surgical situation um and you know if they think he's too weak for chemo or there's no appropriate trials out there they're the best ones to speak to that now as far as pain goes yeah if he's not getting adequate pain control then we need to keep working on that um he's got a palliative doctor who's seeing him for pain control is that correct the abdomen is probably a little weaker and thinner so it creates an area where it's vulnerable for other organs like bowels to poke through oh okay second doctor o721 so wearing a belly band or something that don't help i mean wearing an um second doctor o721 i don't know that it's gonna make a huge difference here because it's not that big but it's clearly causing pain so let me talk to the hospice nurse too i don't mind referring him to surgery to see what they on second i m sorry i m listening i m just trying to read his last scan see when he left the"  parakeet=''
+        kokoro-va-sample   O721                             ref="uh they come and see us every second doctor o721 two weeks no every uh twice a week second doctor o721 oh okay so when did you last see them or not we don't know second doctor o721 okay who prescribed his pain medicines right now um va did and then hospice second doctor o721 okay so we probably"  parakeet=''
+
+  [13] "treatment" — 8 errors
+        figshare-osce      MSK0017                          ref='um but if after we try some management and treatment plans it doesnt go away and it persists for more than eight weeks we do recommend imaging including an mri so uh in terms of management for right now um modified activity at work um some short term bed rest uh very short term though um and bed rest is only really recommended if you have severe back pain and muscle spasms um and you definitely shouldnt be doing that for more than like 24 to 48 hours and physical activity can help um so referral to physical therapy or physiotherapy um can help in rehab and theyll give you some exercises that you can try at home to kind of um strengthen those muscles and then ice and heating packs um temporarily can help uh medications like nsaids can help as well with the inflammation um so well try these things out and then well continue to follow up um yeah did you have any questions or does that sound like an ok plan uh that sounds like a good plan ok sounds good thank you'  parakeet=''
+        figshare-osce      RES0009                          ref='have a pulmonary embolism and so were going to do some lab work and imaging to investigate that ok i yeah is that scary is that bad it can vary from being mild to severe and so thats what we want to get some of the imaging and lab work to see well to first confirm if thats what you actually have and if so offer the right treatment ok thanks doctor welcome will get that started'  parakeet=''
+        figshare-osce      RES0044                          ref='going around at during this time of year um and usually the treatment for that kind of stuff is supportive so make sure youre staying well hydrated youre eating nutritious foods uh youre getting good sleep um and if not and your symptoms you know youre having a productive cough um youre really short of breath uh we can test you to see if you have some sort of bacterial pneumonia and those are usually treated with antibiotics so thats kind of the plan right now um so well just start with that covid swab for now how does that sound yeah that that sounds great thats really what it like i i dont feel super sick i just really wanna know if i have covid or not yeah for sure and i and i think its good that you came in awesome alright thank you ok thanks'  parakeet=''
+
+  [14] "prescribed" — 8 errors
+        figshare-osce      RES0170                          ref='of the night and thats not good so well we can be prescribed some puffers and see if those help and also get some testing done do you have any other questions for me uhm no yeah i was just wondering about so like the wheezing and all of that could be with from asthma too uhm yeah i would think so but again well get the testing done and see if there are any other any other causes ok you said the wheezing sort of lasts only 30 to 30 minutes to an hour and then gets better yeah i dont notice that any other times yes its possibly i mean i would think its asthma but then well get the testing done and see ok great thank you'  parakeet=''
+        nazmulkazi         D0420-S3-T02                     ref='prescribed'  parakeet=''
+        nazmulkazi         D0421-S3-T03                     ref='i prescribed'  parakeet="i've perturbed"
+
+  [15] "aorta" — 8 errors
+        kokoro-va-sample   G040                             ref='aorta'  parakeet='yorta'
+        kokoro-va-sample   G040                             ref='aorta uh-huh'  parakeet='jorta uha'
+        kokoro-va-sample   G040                             ref='aorta'  parakeet='iorta'
+
+  [16] "light" — 7 errors
+        primock57          day5_consultation04              ref='light pink'  parakeet='like paint'
+        primock57          day5_consultation10              ref='light'  parakeet='lights'
+        figshare-osce      RES0143                          ref='light'  parakeet='white'
+
+  [17] "amitriptyline" — 7 errors
+        kokoro-va-sample   E704                             ref='amitriptyline'  parakeet='amitriptylin'
+        kokoro-va-sample   E704                             ref='amitriptyline'  parakeet='amitriptyl'
+        kokoro-va-sample   M224                             ref='amitriptyline'  parakeet='amitriptylin'
+
+  [18] "fluids" — 6 errors
+        primock57          day1_consultation07              ref='fluids'  parakeet='clouds'
+        primock57          day1_consultation11              ref='focus on fluids'  parakeet='yeah absolutely so'
+        figshare-osce      RES0112                          ref='so far ok alright thats thats good um ok and does he have any allergies that youre aware of pardon me any allergies oh uh no allergies ok alright um well it looks like um i its great that you brought him into the emergency room um if he hasnt been eating drinking well hasnt slept well has been fussy and and has been lethargic and tired uh and is having difficulty swallowing food um thats definitely very um serious uh well have a look inside his mouth and see whats going on it could be that he has an infection or an inflammation of some sort um given his fever he probably has an infection um and uh well likely start him on antibiotics and put in an iv drip just to get in get some fluids inside him just to get him hydrated uh and monitor him very closely well also check his vitals and um well do uh yeah well go from there do you have any questions uh no thank you ok'  parakeet=''
+
+  [19] "prescribe" — 5 errors
+        primock57          day5_consultation10              ref='prescribe'  parakeet='prescribed'
+        figshare-osce      RES0047                          ref='um moderate exacerbation well also prescribe uh antibiotics and or steroids to go along with the short acting beta agonist and if it is severe or if it becomes severe um please do seek out aid um in the er and theyll try theyll probably put you on um uh some sort of um oxy like um some sort of supplemental oxygen whether its bipaor cpaum and again theyll continue giving you your bronchodilators and steroids as well as antibiotics to um make sure that you dont have any bad complications of uh pneumonia um and it does sound like it is a copexacerbation at this point but if you develop any other symptoms like um fevers or any symptoms that overlap with uh viral viral illnesses well well well work you up for that well do i think we will still do a covid swab on you just to make sure you dont have that uh but well start with um working you up for cophow does that sound that sounds great thank you alright take care'  parakeet=''
+        figshare-osce      RES0064                          ref='can prescribe'  parakeet='should find'
+
+  [20] "steps" — 5 errors
+        figshare-osce      CAR0005                          ref='uh no i think thats um yeah i think thats all that i wanted to talk about today ok so what im going to do is bring all this information to your family doctor and we can come back together and talk to you about the next steps awesome thank you thanks for coming in'  parakeet=''
+        figshare-osce      MSK0003                          ref='which can present in men your age and its kind of like a progressive dull back pain and that has some morning stiffness as well so yeah theres definitely multiple things that it can be so first we would need to do a full physical examination and book an appointment or for that in person and we will get some lab work done as well as well as a x ray of the of the spine and your sacroiliac joints and well also get some blood work with cbc crand esr so those are just inflammatory markers as well as the rheumatoid factor antinuclear antibodies those are just some things that will test for different kind of rheumatological issues and to see if you have any arthritis so yeah those are and then will also get an x ray of your hands and knees since youre having pain there as well so yeah those are some steps that well take do you have any questions or concerns no that that sounds that sounds great thank you alright yeah so i will get in touch with you shortly sounds great thank you alright take care bye bye'  parakeet=''
+        figshare-osce      RES0207                          ref='right ok so are you currently working i i am yeah what do you do for work i m an accountant ok cool are you working from home or still working out i m working from home yeah nice and thats sounds great ok and uh do you smoke i don t no do you drink alcohol on the weekends one or two class says a wine ok and did you use any other substances no i dont ok i think that about covers my questions for now so im gonna take everything we talked about im going to go over it with the doctor was working today and now well come back shortly and talk to you about the next steps if theres any tests we want to do or how we want to move forward with this so yeah thats great ok sure see you shortly'  parakeet=''
+
+  [21] "surgeries" — 5 errors
+        figshare-osce      MSK0031                          ref='surgeries and rehab and medication so we will definitely look into the surgical option first which is done using some internal repair with screws or you can do a total hip replacement or a partial hip replacement the orthopaedic surgeon will uh decide like which option is best for you after we refer you for a consult with them and then after that'  parakeet=''
+        figshare-osce      MSK0043                          ref='okay have you had any hospitalizations or surgeries in the past um'  parakeet=''
+        figshare-osce      RES0032                          ref='and any surgeries in the past no surgeries and have you been in contact with anyone who is ill i know you mentioned in the philippines you were exposed to some people with tb but anything since then not that i can think everybodys been healthy ok and and in your family has there been any history of any cancers or heart attacks any any medical conditions no heart attacks but uh my father died of lung cancer when he was 67 and currently do you live in an apartment building is there anyone you live with yeah i live with my girlfriend in an apartment ok and do you work currently yeah ive been doing some housing work in the philippines the last seven several years ok and do you currently drink uh no i dont drink alcohol any recreational drugs like marijuana no uh any and you smoke cigarettes at all yes i i do smoke cigarettes i ive smoked most of my life similar to my my father probably 1 to 2 packs per day'  parakeet=''
+
+  [22] "hospitalizations" — 5 errors
+        figshare-osce      MSK0043                          ref='okay have you had any hospitalizations or surgeries in the past um'  parakeet=''
+        figshare-osce      RES0028                          ref='hospitalizations'  parakeet='hospitalization'
+        figshare-osce      RES0144                          ref='no hospitalizations you said and no uhm no diagnosis right he hasnt been diagnosed with any condition no alright can you tell me about allergies is he allergic to anything that youre aware of no not that i know ok is there uh can you tell me about his family history anything that you might have or uhm his dad or anyone else in the family uh no him his dad and i are pretty healthy yeah no medical conditions anything like cystic fibrosis in the family no not that i know of ok alright well well examine the child and look at his vitals listen to his lungs look look inside his mouth and thats this sounds serious so well keep you well keep you updated and well let you know what needs to be done he might need potentially need antibiotics he might need potentially to be intubated but we will have all these discussions after the babys been seen and well draw some labs and go from there ok sounds good alright thank you'  parakeet=''
+
+  [23] "exercise" — 5 errors
+        figshare-osce      RES0028                          ref='house apartment yeah i live in an apartment by myself ok and do you currently work yeah im in charge of um a retail store as a manager there ok and do drink sometimes on weekends or if im socializing with friends but not very often ok and do you use any recreational drugs like marijuana never ok and do you smoke yes i smoke about 2 packs of cigarettes per day and ive been smoking since i was 12 ok alright and in terms of your daily routine like do you get any exercise uh not really lifes a bit too busy and hectic right now right now unfortunately ok and how about your diet like what is your regular diet look like a lot of fast food i know i could work on that but again with the busy lifestyle we tend to eat a lot of fried foods and fatty foods i know i could do better ok great thank you'  parakeet=''
+        figshare-osce      RES0033                          ref='alcohol uh not often like just when im at like parties and like when i was at school just maybe sometimes on the weekends but nothing regularly ok um and have you tried any other drugs besides marijuana um just just marijuana i i try sometimes at parties but nothing like regular uh other than that like just sometimes ive been offered like some pills at parties but other than that nothing else so it sounds occasional ok nothing like it im not addicted or anything to any drugs ok do you smoke cigarettes i dont smoke cigarettes but i do have marijuana once or twice in a week ok and and uh can you tell me a little bit about your diet and exercise i feel like im fairly active even though like i cough when im exercising i still play soccer with my friends and on a team other than that i like to go biking um yeah i feel like im still pretty active but it is getting more difficult with my cough other than that my diet has been pretty pretty good like at home especially im getting three meals a day and having a balanced diet so yeah i feel im doing well there ok great'  parakeet=''
+        figshare-osce      RES0142                          ref='if not if its mono and if we can do maybe a blood test for that you might have to um not engage in in physical activity um or exercise vigorous activity or like sports for the next couple of weeks or months as as that can be uh as that can cause problems if you get hit in the in your belly it could cause your spleen to rupture and sometimes your spleen become very big if you do have mono but well discuss all of that a little bit more after we do uh the strep test well also check your temperature um and see um how youre doing have you been taking anything to help yourself to help soothe your sore throat um just some lozenges yeah so just continue uh just drinking water and taking lozenges just to um provide some comfort for yourself and well do the test then we can chat a bit more after okay sounds good thank you so much'  parakeet=''
+
+  [24] "resolve" — 5 errors
+        figshare-osce      RES0053                          ref='resolve'  parakeet='resolved'
+        figshare-osce      RES0139                          ref='today if you would like yeah i would really like that thank you youre welcome um yeah but those are all the questions i had for today well definitely do like a physical examination but it seems youve just been having a cough for the last two weeks yeah without any other symptoms um okay so do you have any questions at all for me um no so what well do is since youve had this cough for the last two weeks we definitely want to do a coviswab just in case youve been uh working from home but if there was any potential contact they usually it comes back in 24 to 48 hours okay other than that sometimes uh with a history of smoking you can have something called uh copwe can like after the physical examinations and everything we can potentially discuss doing pulmonary function tests as well um and yeah but other than that it can also just be like a dry cough can be just a viral upper respiratory tract infection that takes two or more weeks to resolve in that case we wouldnt really sure um yeah so well do the physical examination and then go from there sounds great alright take care'  parakeet=''
+        figshare-osce      RES0177                          ref='for five days and just keep monitoring his symptoms they should resolve in about 5 days when the course of antibiotics is complete if his condition gets worse like hes getting neurological deficits like weakness or seizures just take him to the er and if symptoms dont resolve in five to seven days we can do further work up or things like fungal infections or tb or things like that how does that sound that sounds great thank you ok yeah no problem'  parakeet=''
+
+  [25] "diagnosed" — 5 errors
+        figshare-osce      RES0098                          ref='has the eczema that i have and my mom was also diagnosed with asthma when she was a child but shes been completely fine since then ok well thats good that that shes been ok does anybody in the family have any heart or or lung conditions or any cancers that run in the family my grandfather died of lung cancer but he was just just smoked all throughout his life ok uhm alright so that was all of the questions that i wanted to ask today so the next part well go on to do a physical exam but did you have any thing else that maybe i forgot to ask about today uh no i i i think i know what this was caused by but yeah lets lets see thanks for your help oh youre welcome so yeah well well uhmtrial some more puffers and see what we could do cause certainly its sounding like an asthma exacerbation and so definitely let somebody know if your your breathing is getting more difficult yep sounds good'  parakeet=''
+        figshare-osce      RES0109                          ref='diagnosed uh'  parakeet=''
+        figshare-osce      RES0123                          ref='youve been diagnosed'  parakeet='you can diagnose'
+
+  [26] "sugars" — 5 errors
+        figshare-osce      RES0149                          ref='family doctor and my uh he said my sugars were good ok great um alright so um youve been experiencing uh so this this chest pain when you breathe in deeply since this morning um as well as some more difficulty breathing and some left pain uh left leg pain with with some swelling uh have you been after travels as well have you had any other symptoms no i dont think so ok so that was all i wanted to ask today on on history and before i went on to uh the physical exam we want to check uh vital signs and have a listen to your heart and lungs and um measure the diameter of your of your shins as well um but um itll be important to get uh some imaging of your of your lungs um to assess whether or not theres a pulmonary embolism um uh because that would be one of the more um life threatening or potentially um complicating uh causes of whats going on right now sure'  parakeet=''
+        kokoro-va-sample   B610                             ref="okay well it's okay as long as you remember that sugar is gonna be bad for your diabetes so keep you know use substitute stuff if you can instead of the real sugars cause that's gonna be bad for your diabetes just remember just to limit your lemonade drinking at night like you know two three hours you should just try to make two to three hours before you're gonna go to bed let's say you go to bed at 10 o'clock you know just say at 8 o'clock you cut off any drinking unless you're really thirsty take a little half glass because of my blood pressure it hasn't been up and i was taking it and i was taking you know where i got the monitor and if it went down to a certain amount don't take the blood pressure medicine and i haven't when i started i was taking it it was down it would be down low or something like that i didn't take the blood pressure medicine and my blood pressure machine hasn't been working for the last two weeks like it's really not bad or something like that but i still have to wait and see so i don't think i'm not sure if they have that kind"  parakeet=''
+        kokoro-va-sample   B610                             ref="in two weeks and have your blood pressure rechecked risk factor for having a heart attack in the future okay but your diabetes looks good so we'll set you up with a meter so you can just check some sugars so we can have a log to see if we maybe can have you off the medicine bottom number you're at goal you're less than 80 the top number today you're almost at goal if you were 130 or less you'd be at goal but you're 135 so you're slightly high so that's your blood pressure is fairly well controlled come on back"  parakeet=''
+
+  [27] "release" — 5 errors
+        nazmulkazi         D0421-S1-T04                     ref="release there's any"  parakeet='but in a'
+        nazmulkazi         D0422-S2-T02                     ref='the release easterly'  parakeet='thoroughly c thoroughly'
+        nazmulkazi         D0425-S1-T01                     ref='release'  parakeet='relief'
+
+  [28] "field" — 4 errors
+        primock57          day1_consultation14              ref='ok it field right ok uh yeah work in'  parakeet='okay yeah work in it it field right okay'
+        nazmulkazi         D0421-S1-T04                     ref='field'  parakeet='theologians'
+        nazmulkazi         D0424-S2-T05                     ref='second field in'  parakeet='can feel even'
+
+  [29] "teeth" — 4 errors
+        figshare-osce      GAS0004                          ref='teeth'  parakeet='seeds'
+        figshare-osce      RES0009                          ref='have my wisdom teeth'  parakeet="haven't listened to that"
+        figshare-osce      RES0106                          ref='have my wisdom teeth removed ok'  parakeet='had a listen to moon okay'
+
+  [30] "treatments" — 4 errors
+        figshare-osce      MSK0021                          ref='and if none of those nonsurgical treatments work oh sorry i also forgot to mention will also refer you to physiotherapy to help you with the range of motion and strength and endurance but of those non surgical treatments work well also refer you to like am arthroscopy or some sort of surgery that may be able to fix the issue more permanently does that sound ok it does yeah thank you ok yeah no worries'  parakeet=''
+        figshare-osce      MSK0021                          ref='and if none of those nonsurgical treatments work oh sorry i also forgot to mention will also refer you to physiotherapy to help you with the range of motion and strength and endurance but of those non surgical treatments work well also refer you to like am arthroscopy or some sort of surgery that may be able to fix the issue more permanently does that sound ok it does yeah thank you ok yeah no worries'  parakeet=''
+        figshare-osce      RES0107                          ref='rhinitis is allergic rhinitis is caused by allergies to certain things so we can get him allergy tested um and that will give us a better understanding of like what his triggers are and the way to treat that is to avoid those triggers those allergens and if his symptoms are persistent um we will prescribe him also like an intranasal corticosteroid um and there are like there are like second line treatments as well like antihistamines and leukotriene like leukotriene receptor antagonists but those are like second line well well see how he does with the inhaled corticosteroids at first how does that sound sounds great ok great thank you no problem'  parakeet=''
+
+========== ANATOMY (top 30 ref words by error frequency) ==========
+
+  [ 1] "hearts" — 67 errors
+        figshare-osce      MSK0013                          ref='hearts'  parakeet="heart's"
+        figshare-osce      MSK0028                          ref='hearts'  parakeet="heart's"
+        figshare-osce      MSK0035                          ref='hearts'  parakeet="heart's"
+
+  [ 2] "bowel" — 11 errors
+        primock57          day1_consultation09              ref='bowel'  parakeet='bowels'
+        primock57          day1_consultation11              ref='bowel'  parakeet=''
+        primock57          day4_consultation05              ref='bowel'  parakeet='all'
+
+  [ 3] "shell" — 9 errors
+        figshare-osce      MSK0041                          ref='like shell'  parakeet=''
+        figshare-osce      RES0137                          ref='shell'  parakeet="she'll"
+        figshare-osce      RES0137                          ref='shell'  parakeet='will'
+
+  [ 4] "throat" — 9 errors
+        figshare-osce      RES0003                          ref='his throat'  parakeet=''
+        figshare-osce      RES0062                          ref='throat'  parakeet="throat's"
+        figshare-osce      RES0072                          ref='the sore throat'  parakeet='one though i'
+
+  [ 5] "lower" — 7 errors
+        primock57          day1_consultation09              ref='lower'  parakeet='lowered'
+        primock57          day1_consultation09              ref='lower'  parakeet='lowered'
+        primock57          day2_consultation06              ref='lower'  parakeet='low'
+
+  [ 6] "throats" — 6 errors
+        figshare-osce      RES0011                          ref='throats kinda'  parakeet='kind of'
+        figshare-osce      RES0025                          ref='throats'  parakeet="throat's"
+        figshare-osce      RES0046                          ref='throats'  parakeet="throat's"
+
+  [ 7] "wrist" — 5 errors
+        figshare-osce      MSK0016                          ref='wrist'  parakeet='wrists'
+        figshare-osce      MSK0035                          ref='is the right wrist'  parakeet=''
+        figshare-osce      MSK0036                          ref='wrist'  parakeet='wrists'
+
+  [ 8] "nerve" — 4 errors
+        primock57          day2_consultation02              ref='nerve'  parakeet='now'
+        figshare-osce      MSK0016                          ref='nerve'  parakeet='nerve-damaging'
+        figshare-osce      RES0174                          ref='nerve'  parakeet='nerve-wracking'
+
+  [ 9] "urinary" — 4 errors
+        figshare-osce      MSK0006                          ref='urinary or'  parakeet='school comments'
+        figshare-osce      MSK0049                          ref='um and how about any urinary problems uh'  parakeet=''
+        figshare-osce      RES0009                          ref='urinary'  parakeet=''
+
+  [10] "hands" — 4 errors
+        figshare-osce      MSK0035                          ref='hands'  parakeet="hand's"
+        figshare-osce      MSK0035                          ref='hands'  parakeet='hand'
+        figshare-osce      MSK0036                          ref='hands'  parakeet='hand'
+
+  [11] "belly" — 3 errors
+        primock57          day4_consultation05              ref='belly ok'  parakeet='bed okay'
+        figshare-osce      RES0009                          ref='belly'  parakeet='body'
+        figshare-osce      RES0208                          ref='pain in your belly no cause i i meant i haven t really been'  parakeet=''
+
+  [12] "wrists" — 3 errors
+        figshare-osce      MSK0016                          ref='wrists'  parakeet='wrist'
+        figshare-osce      MSK0019                          ref='wrists um'  parakeet='wrist and'
+        nazmulkazi         D0425-S3-T05                     ref='wrists'  parakeet='wrist'
+
+  [13] "lungs" — 3 errors
+        figshare-osce      RES0012                          ref='to the lungs'  parakeet=''
+        figshare-osce      RES0020                          ref='lungs'  parakeet='lung'
+        figshare-osce      RES0092                          ref='lungs'  parakeet='lung-related'
+
+  [14] "heads" — 3 errors
+        figshare-osce      RES0141                          ref='heads'  parakeet="head's"
+        figshare-osce      RES0211                          ref='heads'  parakeet="head's"
+        nazmulkazi         D0423-S2-T03                     ref='heads'  parakeet=''
+
+  [15] "wings" — 3 errors
+        nazmulkazi         D0422-S1-T01                     ref='wings'  parakeet=''
+        nazmulkazi         D0422-S4-T03                     ref='black between the wings'  parakeet='between those things so'
+        nazmulkazi         D0425-S2-T02                     ref='wings'  parakeet='swings'
+
+  [16] "abdominal" — 2 errors
+        primock57          day4_consultation05              ref='abdominal pain'  parakeet=''
+        figshare-osce      RES0189                          ref='abdominal'  parakeet='no'
+
+  [17] "thighs" — 2 errors
+        figshare-osce      MSK0006                          ref='legs thighs'  parakeet='leg size'
+        figshare-osce      MSK0038                          ref='thighs maintain'  parakeet='is maintained'
+
+  [18] "acromion" — 2 errors
+        figshare-osce      MSK0016                          ref='acromion'  parakeet='acronym'
+        figshare-osce      MSK0018                          ref='acromion'  parakeet='chromian'
+
+  [19] "muscle" — 2 errors
+        figshare-osce      MSK0018                          ref='muscle'  parakeet='possible'
+        figshare-osce      MSK0031                          ref='muscle'  parakeet=''
+
+  [20] "kneecap" — 2 errors
+        figshare-osce      MSK0021                          ref='the kneecap uhm'  parakeet='my left knee'
+        figshare-osce      MSK0049                          ref='kneecap that thats'  parakeet="knee cell that's"
+
+  [21] "inguinal" — 2 errors
+        figshare-osce      RES0060                          ref='an inguinal'  parakeet='a inglinal'
+        figshare-osce      RES0062                          ref='inguinal'  parakeet=''
+
+  [22] "knees" — 2 errors
+        figshare-osce      RES0168                          ref='knees'  parakeet='is'
+        kokoro-va-sample   P736                             ref='and then it goes all the way down to my knees'  parakeet=''
+
+  [23] "prostates" — 2 errors
+        figshare-osce      RES0175                          ref='prostates'  parakeet="prostate's"
+        figshare-osce      RES0208                          ref='prostates'  parakeet=''
+
+  [24] "location" — 2 errors
+        nazmulkazi         D0420-S4-T02                     ref='my location and hub'  parakeet='them the cocaine habit'
+        nazmulkazi         D0422-S4-T05                     ref='exact location'  parakeet='a declaration'
+
+  [25] "process" — 2 errors
+        nazmulkazi         D0421-S2-T02                     ref='stop process'  parakeet='stock pasta'
+        nazmulkazi         D0422-S4-T04                     ref='stuck process'  parakeet='across as'
+
+  [26] "shoulders" — 2 errors
+        nazmulkazi         D0422-S2-T01                     ref='i was against okay shoulders'  parakeet='okay sure shoulders relax relax'
+        nazmulkazi         D0423-S2-T03                     ref='shoulders'  parakeet='shoulds'
+
+  [27] "ankles" — 1 errors
+        primock57          day1_consultation06              ref='ankles ok uh'  parakeet=''
+
+  [28] "mouth" — 1 errors
+        primock57          day1_consultation11              ref='could be anything from the mouth anus'  parakeet=''
+
+  [29] "elbow" — 1 errors
+        primock57          day3_consultation07              ref='elbow'  parakeet=''
+
+  [30] "buttocks" — 1 errors
+        figshare-osce      MSK0006                          ref='buttocks'  parakeet='buttock'

@@ -1,0 +1,201 @@
+term	category	length	n_occurrences	n_errors	error_rate_pct
+ill	SYMPTOM	1	265	244	92.08
+symptoms	SYMPTOM	1	679	135	19.88
+back	ANATOMY	1	426	72	16.90
+hearts	ANATOMY	1	68	67	98.53
+swab	PROCEDURE	1	89	51	57.30
+antibiotics	DRUG	1	119	49	41.18
+cough	DRUG	1	961	46	4.79
+isolate	DRUG	1	69	42	60.87
+chest xray	PROCEDURE	2	41	41	100.00
+definitely	FINDING	1	250	39	15.60
+infection	CONDITION	1	123	39	31.71
+tylenol	DRUG	1	102	36	35.29
+results	FINDING	1	81	33	40.74
+couple	FINDING	1	410	31	7.56
+ramipril	DRUG	1	29	29	100.00
+medications	DRUG	1	538	28	5.20
+csection	PROCEDURE	1	27	27	100.00
+runny nose	SYMPTOM	2	298	27	9.06
+else	FINDING	1	305	24	7.87
+overlap	PROCEDURE	1	55	24	43.64
+problem	PROCEDURE	1	51	21	41.18
+xray	PROCEDURE	1	21	21	100.00
+physical exam	FINDING	2	87	21	24.14
+nausea or vomiting	FINDING	3	185	20	10.81
+asthma	CONDITION	1	173	20	11.56
+history	FINDING	1	274	19	6.93
+likely	FINDING	1	59	19	32.20
+wheezing	SYMPTOM	1	157	19	12.10
+fevers	SYMPTOM	1	237	19	8.02
+usually	FINDING	1	221	18	8.14
+x ray	PROCEDURE	2	18	18	100.00
+fever	FINDING	1	233	18	7.73
+sick	SYMPTOM	1	418	17	4.07
+ventolin	DRUG	1	17	17	100.00
+lung	CONDITION	1	166	17	10.24
+tests	PROCEDURE	1	37	16	43.24
+run	FINDING	1	103	16	15.53
+weight	SYMPTOM	1	123	16	13.01
+coughs	SYMPTOM	1	27	16	59.26
+public health	PROCEDURE	2	37	16	43.24
+hydrated	DRUG	1	25	16	64.00
+marijuana	CONDITION	1	177	15	8.47
+weights	SYMPTOM	1	20	15	75.00
+physical examination	FINDING	2	36	15	41.67
+worries	FINDING	1	34	15	44.12
+management	PROCEDURE	1	27	15	55.56
+cold	PROCEDURE	1	124	15	12.10
+chest x ray	PROCEDURE	3	15	15	100.00
+lungs	ANATOMY	1	48	15	31.25
+pneumonia	CONDITION	1	37	15	40.54
+viral illness	CONDITION	2	27	15	55.56
+sore throat	CONDITION	2	294	15	5.10
+coughing	SYMPTOM	1	318	14	4.40
+possibly	FINDING	1	64	13	20.31
+prescribe	PROCEDURE	1	23	13	56.52
+physiotherapy	PROCEDURE	1	23	12	52.17
+mothers	DRUG	1	13	12	92.31
+steroid	DRUG	1	25	12	48.00
+positive	FINDING	1	39	12	30.77
+short of breath	SYMPTOM	3	144	12	8.33
+advil	DRUG	1	54	11	20.37
+crohns disease	CONDITION	2	11	11	100.00
+imaging	FINDING	1	30	11	36.67
+vitamins	DRUG	1	22	11	50.00
+other things	FINDING	2	30	11	36.67
+common cold	CONDITION	2	23	11	47.83
+temperature	PROCEDURE	1	160	11	6.88
+multi vitamin	DRUG	2	10	10	100.00
+times	CONDITION	1	180	10	5.56
+heart	CONDITION	1	225	10	4.44
+worried	FINDING	1	78	10	12.82
+inflammation	CONDITION	1	22	10	45.45
+headaches	SYMPTOM	1	164	10	6.10
+add	CONDITION	1	33	10	30.30
+either	FINDING	1	126	10	7.94
+cancers	CONDITION	1	111	9	8.11
+rosuvastatin	DRUG	1	9	9	100.00
+drugs	PROCEDURE	1	210	9	4.29
+reactine	DRUG	1	9	9	100.00
+lung cancer	CONDITION	2	39	9	23.08
+coughing up blood	SYMPTOM	3	36	9	25.00
+amoxicillin	DRUG	1	12	9	75.00
+chest	FINDING	1	142	9	6.34
+swelling	CONDITION	1	195	8	4.10
+flu like symptoms	SYMPTOM	3	9	8	88.89
+related	FINDING	1	40	8	20.00
+medical	PROCEDURE	1	254	8	3.15
+muscle aches	SYMPTOM	2	138	8	5.80
+behaviour	FINDING	1	8	8	100.00
+chest pain	SYMPTOM	2	277	8	2.89
+cancer	CONDITION	1	43	8	18.60
+running	FINDING	1	50	8	16.00
+pretty pretty	FINDING	2	13	8	61.54
+tuberculosis	CONDITION	1	30	8	26.67
+seizures	SYMPTOM	1	16	8	50.00
+other symptoms	SYMPTOM	2	131	8	6.11
+steroids	DRUG	1	13	8	61.54
+strep throat	CONDITION	2	15	8	53.33
+cortico	DRUG	1	8	8	100.00
+supportive care	PROCEDURE	2	12	8	66.67
+meth	DRUG	1	10	7	70.00
+conditions	CONDITION	1	547	7	1.28
+come and go	FINDING	3	65	7	10.77
+immunizations	PROCEDURE	1	127	7	5.51
+activity	FINDING	1	51	7	13.73
+muscles	ANATOMY	1	40	7	17.50
+energys	FINDING	1	7	7	100.00
+feeling ok	SYMPTOM	2	7	7	100.00
+surgery	FINDING	1	51	7	13.73
+allergies	CONDITION	1	231	7	3.03
+possible	FINDING	1	48	7	14.58
+shell	ANATOMY	1	7	7	100.00
+10 pounds	FINDING	2	8	7	87.50
+night sweats	SYMPTOM	2	151	7	4.64
+symptom	SYMPTOM	1	15	7	46.67
+covid19	CONDITION	1	7	7	100.00
+doc	DRUG	1	25	7	28.00
+dry cough	DRUG	2	156	7	4.49
+neurological symptoms	SYMPTOM	2	18	7	38.89
+sleep	DRUG	1	116	7	6.03
+agonist	DRUG	1	13	7	53.85
+strep	CONDITION	1	14	7	50.00
+difficult	FINDING	1	44	6	13.64
+dads	DRUG	1	6	6	100.00
+wisdom teeth	ANATOMY	2	10	6	60.00
+pains	SYMPTOM	1	40	6	15.00
+joint pains	SYMPTOM	2	50	6	12.00
+overtime	DRUG	1	6	6	100.00
+treatment	PROCEDURE	1	17	6	35.29
+nothings	FINDING	1	6	6	100.00
+talked	CONDITION	1	31	6	19.35
+leg	ANATOMY	1	51	6	11.76
+diet	PROCEDURE	1	38	6	15.79
+embolism	FINDING	1	13	6	46.15
+throat	ANATOMY	1	97	6	6.19
+tinged	DRUG	1	6	6	100.00
+not not really	FINDING	3	10	6	60.00
+take deep breath	FINDING	3	39	6	15.38
+throats	ANATOMY	1	6	6	100.00
+dust	FINDING	1	85	6	7.06
+10 days	FINDING	2	10	6	60.00
+weakness	SYMPTOM	1	42	6	14.29
+headache	SYMPTOM	1	168	6	3.57
+middle ear effusion	CONDITION	3	6	6	100.00
+travel	PROCEDURE	1	80	6	7.50
+lisinopril	DRUG	1	5	5	100.00
+crystal	DRUG	1	9	5	55.56
+metformin	DRUG	1	30	5	16.67
+your age	FINDING	2	7	5	71.43
+nsaids	DRUG	1	11	5	45.45
+resolve	PROCEDURE	1	12	5	41.67
+knee	ANATOMY	1	103	5	4.85
+2 years	FINDING	2	5	5	100.00
+corticosteroids	DRUG	1	6	5	83.33
+x rays	PROCEDURE	2	5	5	100.00
+range of motion	PROCEDURE	3	24	5	20.83
+condition	CONDITION	1	20	5	25.00
+ibuprofen	DRUG	1	21	5	23.81
+joint	FINDING	1	64	5	7.81
+reduce	FINDING	1	9	5	55.56
+neck	FINDING	1	81	5	6.17
+surgeries	PROCEDURE	1	233	5	2.15
+head	ANATOMY	1	62	5	8.06
+best	CONDITION	1	20	5	25.00
+difficulty breathing	SYMPTOM	2	44	5	11.36
+fluids	PROCEDURE	1	20	5	25.00
+hope	FINDING	1	15	5	33.33
+negative	LAB_RESULT	1	21	5	23.81
+ear	CONDITION	1	21	5	23.81
+3 or 4	FINDING	3	5	5	100.00
+5 or 6	FINDING	3	5	5	100.00
+wet cough	FINDING	2	51	5	9.80
+change	PROCEDURE	1	55	5	9.09
+20 years	FINDING	2	23	5	21.74
+eye	CONDITION	1	20	5	25.00
+copd	DRUG	1	19	5	26.32
+dok	DRUG	1	5	5	100.00
+stuffy nose	SYMPTOM	2	70	5	7.14
+labs	LAB_RESULT	1	8	5	62.50
+diagnosed	PROCEDURE	1	220	5	2.27
+vital signs	PROCEDURE	2	8	5	62.50
+far	PROCEDURE	1	65	5	7.69
+oxygen saturation	PROCEDURE	2	7	5	71.43
+playing	FINDING	1	28	5	17.86
+too much	FINDING	2	71	4	5.63
+rundown	SYMPTOM	1	4	4	100.00
+living	FINDING	1	128	4	3.12
+nausea and vomiting	SYMPTOM	3	9	4	44.44
+three or four days	FINDING	4	32	4	12.50
+rashes	SYMPTOM	1	184	4	2.17
+hands	ANATOMY	1	50	4	8.00
+wrist	ANATOMY	1	74	4	5.41
+increase	FINDING	1	14	4	28.57
+chills fevers	SYMPTOM	2	5	4	80.00
+hearing	FINDING	1	112	4	3.57
+others	DRUG	1	16	4	25.00
+hurt	FINDING	1	93	4	4.30
+osteoarthritis	CONDITION	1	19	4	21.05
+physical	PROCEDURE	1	27	4	14.81
+immobilized	PROCEDURE	1	13	4	30.77

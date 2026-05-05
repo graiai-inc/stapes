@@ -1,0 +1,4 @@
+dataset	n_files	n_spans	n_errors	overall_error_rate_pct
+primock57	57	6538	591	9.04
+figshare-osce	272	32228	4106	12.74
+nazmulkazi	71	13785	1137	8.25

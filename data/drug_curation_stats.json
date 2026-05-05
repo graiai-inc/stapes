@@ -1,0 +1,11 @@
+{
+  "umls_drug_total": 19217,
+  "umls_drug_single_word": 10918,
+  "clincalc_seed_tokens": 342,
+  "brand_seed_tokens": 336,
+  "pdf_drug_tokens_unique": 547,
+  "final_seed_set_after_denylist": 797,
+  "curated_vocab_size": 2555,
+  "dropped_no_seed_match": 12984,
+  "dropped_denylist_token": 3678
+}

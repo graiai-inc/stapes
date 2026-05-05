@@ -1,0 +1,31 @@
+file_id	path	parakeet_span	medasr_replacement	vocab_phrase	edit_dist	max_len
+CAR0002	A:acoustic	rizubastatin	rosuvastatin	rosuvastatin	3	12
+CAR0002	A:acoustic	lesidopril	lisinopril	lisinopril	2	10
+MSK0009	A:acoustic	cruster	crestor	crestor	2	7
+MSK0013	A:acoustic	a toverstatin	uhm atorvastatin	atorvastatin	3	12
+MSK0020	B:anchor	12	atorvastatin	atorvastatin	12	12
+MSK0029	B:anchor	i'm broken or alanol	ibuprofen or tylenol uhm	ibuprofen	12	17
+MSK0031	A:acoustic	ramapril	ramipril	ramipril	1	8
+MSK0033	A:acoustic	pylonol	tylenol	tylenol	2	7
+MSK0043	B:anchor	i got a lot of	like dilaudid is uh is	dilaudid	9	10
+MSK0049	A:acoustic	ramaprol	ramipril	ramipril	2	8
+RES0005	A:acoustic	rozuvastatin	rosuvastatin	rosuvastatin	1	12
+RES0025	A:acoustic	silenol	tylenol	tylenol	2	7
+RES0037	A:acoustic	resubastatin	rosuvastatin	rosuvastatin	2	12
+RES0048	B:anchor	ramaprillar or	uhu ramipril	ramipril	6	13
+RES0062	B:anchor	um all	uh metoprolol	metoprolol	8	10
+RES0063	A:acoustic	ramapril	ramipril	ramipril	1	8
+RES0063	B:anchor	crest crester yeah	cres- crestor yea	crestor	10	16
+RES0074	A:acoustic	crester	crestor	crestor	1	7
+RES0083	A:acoustic	thylanol	tylenol	tylenol	2	8
+RES0083	B:anchor	thyl	tylenol	tylenol	5	7
+RES0089	A:acoustic	ventilin	ventolin	ventolin	1	8
+RES0098	A:acoustic	ventilin	ventolin	ventolin	1	8
+RES0102	A:acoustic	ramapril	ramipril	ramipril	1	8
+RES0105	A:acoustic	spariva	spiriva	spiriva	1	7
+RES0116	B:anchor	moxicillin and	amoxicillin u	amoxicillin	4	13
+RES0134	B:anchor	like alandronate alandronate	likeu alendronate alendronate	alendronate	15	26
+RES0155	A:acoustic	ventilin	ventolin	ventolin	1	8
+RES0197	A:acoustic	ventiline	ventolin	ventolin	2	9
+RES0197	A:acoustic	ventilin	ventolin	ventolin	1	8
+RES0197	A:acoustic	ventilin	ventolin	ventolin	1	8

@@ -1,0 +1,6 @@
+file_id	path	parakeet_span	medasr_replacement	vocab_phrase	edit_dist	max_len
+day1_consultation02	A:acoustic	loratidine	loratadine	loratadine	1	10
+day1_consultation09	A:acoustic	nitrofurintoin	nitrofurantoin	nitrofurantoin	1	14
+day4_consultation09	A:acoustic	ventilin	ventolin	ventolin	1	8
+day4_consultation09	A:acoustic	ventilin	ventolin	ventolin	1	8
+day5_consultation08	B:anchor	asthma	aspirin	aspirin	5	7

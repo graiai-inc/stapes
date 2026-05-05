@@ -1,0 +1,6 @@
+# secondary=nemotron
+# min_anchor_words=2
+dataset	n_files	parakeet_wer	fused_wer	wer_delta_pp	subs_neg	subs_lat	subs_num	p_neg_rec	f_neg_rec	neg_delta	p_lat_rec	f_lat_rec	lat_delta	p_num_rec	f_num_rec	num_delta	better	worse	tied
+primock57	57	18.2168	18.2015	-0.0153	15	0	0	89.1753	89.8196	+0.6443	89.6774	89.6774	+0.0000	63.8686	63.8686	+0.0000	9	1	47
+figshare-osce	272	22.6580	22.6493	-0.0087	50	0	0	92.5898	92.9744	+0.3846	95.5185	95.5185	+0.0000	72.0675	72.0675	+0.0000	35	7	230
+nazmulkazi	71	7.7545	7.7531	-0.0014	7	0	0	97.7871	97.8303	+0.0432	97.4166	97.4166	+0.0000	81.8419	81.8419	+0.0000	5	1	65

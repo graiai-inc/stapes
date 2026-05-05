@@ -1,0 +1,2 @@
+file_id	term	category	length	parakeet_sub	rule
+D0420-S1-T05	light-headed	SYMPTOM	1	lightheaded	uk_to_us:light-headed->light headed
