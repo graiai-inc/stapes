@@ -125,24 +125,47 @@ def fuse_structural_single(parakeet_text: str, secondary_text: str, min_anchor_w
             fused.extend(p_words[p_start:p_end])
             continue
         if ctype == 'insert':
-            # secondary has extra words; consider for structural fusion (negation insertion only).
-            # SURGICAL: only insert the specific negation token(s) from secondary, not the
-            # whole insert chunk (which often has disfluencies).
+            # secondary has extra words; consider for structural fusion via surgical
+            # insertion of NEGATION and NUMERIC tokens. SURGICAL: only insert the
+            # specific target token(s) from secondary, not the whole insert chunk
+            # (which often has disfluencies/noise).
+            #
+            # NEGATION: insert any negation token (no/not/never/n't suffixes/etc.).
+            # NUMERIC: insert any digit-form or spelled-form number token. Form-aware
+            #   routing happens NATURALLY because each secondary contributes whatever
+            #   it transcribed: paraformer-en's spelled-form numerics + medasr's
+            #   digit-form numerics both flow in via this same path.
+            # LATERALITY: SYMMETRIC — without 3rd-model voting, disabled.
             s_chunk_words = s_words[s_start:s_end]
             prev_ok = chunk_is_anchor(chunks[i - 1] if i > 0 else None, min_anchor_words)
             next_ok = chunk_is_anchor(chunks[i + 1] if i + 1 < len(chunks) else None, min_anchor_words)
             if not (prev_ok and next_ok):
                 continue
-            # Extract just the negation token(s) — drop the rest of medasr's noise.
-            neg_tokens_only = [t for t in s_chunk_words if t in NEGATION_TOKENS]
-            if neg_tokens_only:
-                fused.extend(neg_tokens_only)
+            # Walk the secondary chunk in order, keep only target tokens (preserves
+            # multi-token sequences like "no five" with their original ordering).
+            inserted = []
+            saw_neg = False
+            saw_num = False
+            for t in s_chunk_words:
+                if t in NEGATION_TOKENS:
+                    inserted.append(t)
+                    saw_neg = True
+                elif NUMERIC_DIGIT_RE.search(t) or t in SPELLED_NUMBER_TOKENS:
+                    inserted.append(t)
+                    saw_num = True
+            if inserted:
+                fused.extend(inserted)
+            if saw_neg:
                 n_neg += 1
                 sub_log.append({'pattern': 'NEGATION', 'parakeet': '',
-                                'secondary': ' '.join(neg_tokens_only),
+                                'secondary': ' '.join(t for t in inserted if t in NEGATION_TOKENS),
                                 'kind': 'insert_surgical'})
-            # Laterality + numeric on insert: SYMMETRIC — without 3rd-model voting,
-            # disabled. Don't insert.
+            if saw_num:
+                n_num += 1
+                sub_log.append({'pattern': 'NUMERIC', 'parakeet': '',
+                                'secondary': ' '.join(t for t in inserted
+                                                      if NUMERIC_DIGIT_RE.search(t) or t in SPELLED_NUMBER_TOKENS),
+                                'kind': 'insert_surgical'})
             continue
 
         # ctype == 'substitute'

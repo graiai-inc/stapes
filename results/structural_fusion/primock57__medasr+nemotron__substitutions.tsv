@@ -1,14 +1,19 @@
 file_id	pattern	kind	parakeet_span	secondary_replacement
+day1_consultation01	NUMERIC	insert_surgical		two
+day1_consultation01	NUMERIC	insert_surgical		six
 day1_consultation03	NEGATION	insert_surgical		no
 day1_consultation07	NEGATION	insert_surgical		not
 day1_consultation07	NEGATION	insert_surgical		not
 day1_consultation08	NEGATION	insert_surgical		don't
+day1_consultation11	NUMERIC	insert_surgical		six
 day2_consultation04	NEGATION	insert_surgical		not
 day2_consultation07	NEGATION	insert_surgical		not
 day2_consultation07	NEGATION	insert_surgical		not
 day3_consultation02	NEGATION	insert_surgical		not
 day3_consultation02	NEGATION	insert_surgical		no no no
+day3_consultation03	NUMERIC	insert_surgical		six
 day3_consultation03	NEGATION	insert_surgical		haven't
+day3_consultation04	NUMERIC	insert_surgical		four
 day3_consultation04	NEGATION	insert_surgical		don't
 day4_consultation02	NEGATION	insert_surgical		not
 day4_consultation07	NEGATION	insert_surgical		hasn't
