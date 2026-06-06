@@ -1,8 +1,0 @@
-# categories=DRUG
-# vocab_size=2538
-# min_anchor_words=2
-# max_anchor_edit_ratio=None
-dataset	n_files	parakeet_wer	medasr_wer	fused_wer	delta_pp	better	worse	tied	subs_acoustic	subs_anchor
-primock57	57	18.2168	88.8292	18.2132	-0.0035	3	1	53	4	1
-figshare-osce	272	22.658	57.3161	22.651	-0.007	21	1	250	21	9
-nazmulkazi	71	7.7545	26.9347	7.7429	-0.0116	10	0	61	31	9

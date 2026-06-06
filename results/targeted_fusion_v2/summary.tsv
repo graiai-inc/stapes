@@ -1,6 +1,0 @@
-# categories=DRUG
-# vocab_size=17988
-dataset	n_files	parakeet_wer	medasr_wer	fused_wer	fused_delta_pp	better	worse	tied	n_subs
-primock57	57	18.2168	88.8292	18.2132	-0.0035	3	1	53	6
-figshare-osce	272	22.658	57.3161	22.6575	-0.0006	19	15	238	54
-nazmulkazi	71	7.7545	26.9347	7.7507	-0.0038	8	11	52	60

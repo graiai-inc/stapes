@@ -1,6 +1,0 @@
-# secondary=medasr+nemotron+paraformer-en
-# min_anchor_words=2
-dataset	n_files	parakeet_wer	fused_wer	wer_delta_pp	subs_neg	subs_lat	subs_num	p_neg_rec	f_neg_rec	neg_delta	p_lat_rec	f_lat_rec	lat_delta	p_num_rec	f_num_rec	num_delta	better	worse	tied
-primock57	57	18.2168	18.1768	-0.0400	38	0	13	89.1753	90.7216	+1.5464	89.6774	89.6774	+0.0000	63.8686	64.7810	+0.9124	19	2	36
-figshare-osce	272	22.6580	22.6499	-0.0081	189	0	58	92.5898	93.4997	+0.9099	95.5185	95.5185	+0.0000	72.0675	72.4156	+0.3482	67	43	162
-nazmulkazi	71	7.7545	7.7511	-0.0034	48	0	27	97.7871	98.0462	+0.2591	97.4166	97.4166	+0.0000	81.8419	82.1025	+0.2606	19	8	44

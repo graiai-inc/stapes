@@ -1,8 +1,0 @@
-file_id	pattern	kind	parakeet_span	secondary_replacement
-D0420-S1-T01	NEGATION	insert_surgical		no
-D0423-S1-T03	NEGATION	insert_surgical		not
-D0424-S2-T01	NEGATION	insert_surgical		no
-D0424-S2-T02	NEGATION	insert_surgical		didn't
-D0424-S2-T05	NEGATION	insert_surgical		can't
-D0425-S1-T02	NEGATION	insert_surgical		not
-D0425-S3-T01	NEGATION	insert_surgical		not
