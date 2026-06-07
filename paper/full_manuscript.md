@@ -1,15 +1,15 @@
 
 # Abstract
 
-**Objective:** To determine whether privacy-preserving on-device speech recognition achieves clinical term accuracy comparable to commercial cloud services for ambient clinical documentation, and to characterize medication-name recognition failures across deployment modes.
+**Objective:** To determine whether privacy-preserving on-device speech recognition achieves clinical term accuracy comparable to commercial cloud services for ambient clinical documentation, to characterize medication-name recognition failures, and to test whether multi-model fusion narrows the residual accuracy gap.
 
-**Materials and Methods:** We evaluated 14 on-device ASR models and 5 cloud APIs on 400 conversations from three public datasets (OSCE respiratory, n=272; PriMock57 primary care, n=57; Kazi et al. psychiatric, n=71). WER was reported in two regimes: standard (Whisper text normalizer) and meaning-preserving (collapsing orthographic variants and conversational backchannels). Clinical term recall (CTR) used UMLS 2025AB concept spans via QuickUMLS with bootstrap 95% confidence intervals. ROVER fusion and six advanced fusion algorithms were evaluated.
+**Materials and Methods:** We evaluated 14 on-device ASR models and 5 cloud APIs on 400 conversations from three public datasets (OSCE respiratory, n=272; PriMock57 primary care, n=57; Kazi et al. psychiatric, n=71). WER was reported in standard (Whisper normalizer) and meaning-preserving (collapsing orthographic variants and backchannels) regimes. Clinical term recall (CTR) used UMLS 2025AB spans via QuickUMLS with bootstrap 95% CIs. ROVER and six advanced fusion algorithms were evaluated.
 
-**Results:** On-device CTR was within 1–3 percentage points of the best cloud service per dataset. The standard-WER gap was 0.5 to 4 percentage points; the meaning-preserving-WER gap narrowed to 0.7 to 2 percentage points, driven mostly by differential backchannel handling. Drug names had the highest error rates across every model and deployment mode, with individual medications misrecognized in over 60% of occurrences. ROVER fusion yielded ≤ 0.82 pp improvements; no advanced fusion algorithm exceeded naive equal-weight voting.
+**Results:** On-device CTR was within 1–3 pp of the best cloud service per dataset. The standard-WER gap was 0.5–4 pp; the meaning-preserving-WER gap narrowed to 0.7–2 pp, driven mostly by differential backchannel handling. Drug names had the highest error rates across every model and deployment mode, with individual medications misrecognized in over 60% of occurrences. ROVER yielded ≤ 0.82 pp gains; none exceeded naive equal-weight voting.
 
-**Discussion:** Privacy-preserving on-device ASR is a viable alternative to cloud services for clinical conversation transcription. Multi-model fusion offers only narrow accuracy gains for substantial deployment cost.
+**Discussion:** The dominance of medication errors across models reflects look-alike/sound-alike confusability and the sparse representation of drug vocabulary in ASR training corpora; near-parity clinical term recall alongside these persistent errors shows that aggregate accuracy can mask clinically critical failure modes.
 
-**Conclusion:** Until medication transcription accuracy improves, ASR deployment in either mode requires explicit medication verification before note finalization; single-model domain adaptation is more promising than multi-model fusion.
+**Conclusion:** Privacy-preserving on-device ASR is a viable, lower-cost alternative to cloud services for clinical transcription, and a single model suffices; fusion did not close the small residual gap. Until medication accuracy improves, deployment in either mode requires explicit medication verification before note finalization.
 
 # Background and Significance
 
