@@ -48,19 +48,21 @@ VERMILLION = '#D55E00'   # best cloud reference
 
 DATASET_LAYOUT = [
     # (display label, table1 column, supp S2 key or 'osce' for OSCE_PAIRS_TSV)
-    ('OSCE', 'OSCE (n=272)*', 'osce'),
-    ('PriMock57', 'PriMock57 (n=57)', 'primock57'),
-    ('Psychiatric', 'Psychiatric (n=71)', 'nazmulkazi'),
+    ('OSCE', 'OSCE Std (n=272)*', 'osce'),
+    ('PriMock57', 'PriMock57 Std (n=57)', 'primock57'),
+    ('Psychiatric', 'Psychiatric Std (n=71)', 'nazmulkazi'),
 ]
 
 
 def _strip_dagger(val) -> float:
     if isinstance(val, str):
-        return float(val.replace('†', '').strip())
+        return float(val.replace('†', '').replace('‡', '').strip())
     return float(val)
 
 
 def _best_by_type(df: pd.DataFrame, col: str, kind: str, lower_is_better: bool) -> tuple[float, str]:
+    # Daggered (subset-only) rows are excluded; all models are now evaluated on
+    # the full datasets, so none are currently excluded.
     sub = df[df['Type'].str.startswith(kind)].copy()
 
     def is_subset(value) -> bool:

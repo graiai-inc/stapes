@@ -16,5 +16,5 @@ MedASR int8,On-device,56.21,54.79,88.83,88.38,32.48,32.28
 Azure Speech,Cloud (general),7.70,7.34,9.88,9.35,6.83,6.58
 Deepgram Nova-2 Medical,Cloud (medical),10.10,7.26,11.80,9.14,6.99,6.89
 AssemblyAI,Cloud (general),10.29,7.60,13.76,11.26,7.81,7.81
-AWS Transcribe Medical,Cloud (medical),8.03†,7.64†,9.39†,8.81†,7.18†,6.80†
+AWS Transcribe Medical,Cloud (medical),8.10,7.69,8.68,8.09,7.06,6.77
 Google medical_conversation,Cloud (medical),16.53,13.38,26.00,23.49,10.52‡,10.30‡

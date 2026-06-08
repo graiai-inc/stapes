@@ -96,11 +96,7 @@ def inject_apostrophes_for_figshare(text: str) -> str:
 def hypothesis_path(dataset: str, model: str, is_cloud: bool) -> Path | None:
     """Resolve the JSON path for a (dataset, model) cell. Returns None if missing."""
     if is_cloud:
-        if model == 'aws' and dataset == 'figshare-osce':
-            # AWS on figshare-osce was a 50-file cost-limited subset.
-            p = OSSICLES / 'benchmark_results_cloud_figshare-osce-subset' / 'aws.json'
-        else:
-            p = OSSICLES / f'benchmark_results_cloud_{dataset}' / f'{model}.json'
+        p = OSSICLES / f'benchmark_results_cloud_{dataset}' / f'{model}.json'
     else:
         p = OSSICLES / f'benchmark_results_{dataset}' / f'{model}.json'
     return p if p.exists() else None

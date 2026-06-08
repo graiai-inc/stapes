@@ -34,7 +34,7 @@ All on-device models run via [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx
 - Google Cloud Speech (medical_conversation)
 - Deepgram (Nova-2 Medical)
 - AssemblyAI (Best)
-- AWS Transcribe Medical (representative subset)
+- AWS Transcribe Medical
 
 ## Scripts
 

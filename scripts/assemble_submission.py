@@ -132,15 +132,15 @@ def build_main_manuscript() -> str:
     tables_block = f"""
 # Tables
 
-**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). †AWS Transcribe Medical was run on cost-limited subsets: 50 of 272 figshare-OSCE files, 17 of 57 PriMock57 files, 21 of 71 psychiatric files (see Methods). ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four files exceeded the 10-minute per-request timeout and were not retried (see Methods).
+**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four files exceeded the 10-minute per-request timeout and were not retried (see Methods).
 
 {tbl1}
 
-**Table 2. Clinical term recall (%) by model and dataset, with bootstrap 95% confidence intervals (1000 resamples, fixed seed).** †AWS Transcribe Medical was run on cost-limited subsets across all three datasets (see Methods). AWS OSCE CTR is omitted because a bootstrap CI computed on the 50-file subset would not be comparable to the 272-file CIs reported for other models on this dataset; AWS PriMock57 and psychiatric CIs are retained because their 17- and 21-file subsets compare reasonably against full-dataset CIs of similar n on those datasets. AWS OSCE WER is reported in Table 1 with a dagger marking the subset, and AWS OSCE hypotheses are released with the code repository for downstream replication.
+**Table 2. Clinical term recall (%) by model and dataset, with bias-corrected and accelerated (BCa) bootstrap 95% confidence intervals (10,000 resamples; common random numbers within each dataset).** Clinical term recall is the percentage of UMLS medical concept spans in the reference transcript transcribed without error. All five cloud services, including AWS Transcribe Medical, were evaluated on the complete datasets (Google on 396 of 400 files; see Methods).
 
 {tbl2}
 
-**Table 3. Cloud API cost for the full benchmark (~90 hours, 400 conversations).** †AWS Transcribe Medical was run on cost-limited subsets totalling 88 files (50 of 272 figshare-OSCE, 17 of 57 PriMock57, 21 of 71 psychiatric); the cost shown reflects this subset only. On-device inference incurs no per-encounter cost.
+**Table 3. Cloud API cost for the full benchmark (~90 hours, 400 conversations).** All five services were evaluated on the full benchmark (Google on 396 of 400 files; see Methods). On-device inference incurs no per-encounter cost.
 
 {tbl3}
 """

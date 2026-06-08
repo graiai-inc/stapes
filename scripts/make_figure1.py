@@ -34,22 +34,27 @@ BLUE = '#0072B2'        # best on-device
 VERMILLION = '#D55E00'  # best cloud
 
 DATASET_COLS = [
-    ('OSCE (n=272)*', 'OSCE (n=272)', 'OSCE\n(272 files)'),
-    ('PriMock57 (n=57)', 'PriMock57 (n=57)', 'PriMock57\n(57 files)'),
-    ('Psychiatric (n=71)', 'Psychiatric (n=71)', 'Psychiatric\n(71 files)'),
+    ('OSCE Std (n=272)*', 'OSCE (n=272)', 'OSCE\n(272 files)'),
+    ('PriMock57 Std (n=57)', 'PriMock57 (n=57)', 'PriMock57\n(57 files)'),
+    ('Psychiatric Std (n=71)', 'Psychiatric (n=71)', 'Psychiatric\n(71 files)'),
 ]
 
 
 def _strip_dagger(val):
     if isinstance(val, str):
-        return float(val.replace('†', '').strip())
+        s = val.replace('†', '').replace('‡', '').strip()
+        # CTR cells look like "93.1 [92.8, 93.5]"; take the leading point estimate.
+        s = s.split('[')[0].strip()
+        if not s or s.lower() == 'n/a':
+            return float('nan')
+        return float(s.split()[0])
     return float(val)
 
 
 def _best(df: pd.DataFrame, col: str, kind: str, lower_is_better: bool) -> tuple[float, str]:
     """Return (best value, model name) for the requested Type ('On-device' or
-    cloud). Excludes daggered rows (AWS Transcribe Medical is reported on a
-    50-file subset and is not comparable to full-dataset numbers)."""
+    cloud). Daggered (subset-only) rows are excluded from the best-of selection;
+    all models are now evaluated on the full datasets, so none are excluded."""
     sub = df[df['Type'].str.startswith(kind)].copy()
 
     def is_subset(value) -> bool:

@@ -1,62 +1,63 @@
-dataset	model	n_files	ctr_pct	ci_lo_pct	ci_hi_pct
-figshare-osce	canary-180m-flash	272	30.51	26.90	34.40
-figshare-osce	cloud-assemblyai	272	95.43	95.18	95.70
-figshare-osce	cloud-azure	272	95.45	95.19	95.70
-figshare-osce	cloud-deepgram	272	95.36	95.09	95.64
-figshare-osce	cloud-google	272	90.95	90.41	91.46
-figshare-osce	cohere-transcribe-14lang	22	56.05	41.07	69.38
-figshare-osce	medasr	272	56.92	53.40	60.11
-figshare-osce	medasr-int8	272	57.14	53.72	60.44
-figshare-osce	nemo-fastconformer	272	76.86	76.01	77.77
-figshare-osce	nemo-fastconformer-int8	272	75.58	74.76	76.37
-figshare-osce	nemotron	272	60.03	59.28	60.74
-figshare-osce	paraformer-en	272	76.92	76.16	77.71
-figshare-osce	parakeet-tdt-0.6b-v2	272	87.19	86.33	88.11
-figshare-osce	parakeet-tdt-0.6b-v3	82	76.46	73.05	79.94
-figshare-osce	qwen3-asr	272	91.91	91.49	92.35
-figshare-osce	sensevoice	272	88.78	88.31	89.27
-figshare-osce	sensevoice-no-itn	272	87.52	86.93	88.09
-figshare-osce	whisper-base-en	272	89.11	88.62	89.66
-figshare-osce	whisper-distil-v3.5	272	93.14	92.81	93.50
-figshare-osce	whisper-turbo	272	93.59	93.22	93.95
-figshare-osce	zipformer-zh-en	272	68.45	67.65	69.21
-nazmulkazi	canary-180m-flash	71	75.81	72.33	78.65
-nazmulkazi	cloud-assemblyai	71	91.98	91.07	92.84
-nazmulkazi	cloud-aws	21	92.95	91.80	94.00
-nazmulkazi	cloud-azure	71	92.96	92.33	93.53
-nazmulkazi	cloud-deepgram	71	92.37	91.75	93.00
-nazmulkazi	cloud-google	67	88.99	88.10	89.85
-nazmulkazi	medasr	71	75.47	71.78	78.52
-nazmulkazi	medasr-int8	71	75.57	72.46	78.50
-nazmulkazi	nemo-fastconformer	71	83.95	83.09	84.74
-nazmulkazi	nemo-fastconformer-int8	71	84.18	83.33	85.05
-nazmulkazi	nemotron	71	52.38	51.47	53.34
-nazmulkazi	paraformer-en	71	88.10	87.28	88.88
-nazmulkazi	parakeet-tdt-0.6b-v2	71	91.75	91.16	92.35
-nazmulkazi	qwen3-asr	71	90.90	90.14	91.61
-nazmulkazi	sensevoice	71	90.53	89.87	91.16
-nazmulkazi	sensevoice-no-itn	71	90.45	89.75	91.15
-nazmulkazi	whisper-base-en	71	91.22	90.59	91.86
-nazmulkazi	whisper-distil-v3.5	71	91.88	91.23	92.49
-nazmulkazi	whisper-turbo	71	91.96	91.29	92.65
-nazmulkazi	zipformer-zh-en	71	85.24	84.21	86.19
-primock57	canary-180m-flash	57	56.34	52.94	59.57
-primock57	cloud-assemblyai	57	91.42	90.44	92.35
-primock57	cloud-aws	17	92.35	90.98	93.66
-primock57	cloud-azure	57	89.84	88.95	90.67
-primock57	cloud-deepgram	57	90.82	90.13	91.51
-primock57	cloud-google	57	76.46	74.46	78.46
-primock57	medasr	57	13.89	11.63	16.31
-primock57	medasr-int8	57	14.41	12.01	16.83
-primock57	nemo-fastconformer	57	62.03	60.07	64.07
-primock57	nemo-fastconformer-int8	57	63.82	61.95	65.94
-primock57	nemotron	57	53.52	52.02	55.08
-primock57	paraformer-en	57	64.75	62.59	66.94
-primock57	parakeet-tdt-0.6b-v2	57	89.39	88.32	90.39
-primock57	qwen3-asr	57	87.01	86.03	88.00
-primock57	sensevoice	57	77.83	76.13	79.45
-primock57	sensevoice-no-itn	57	78.09	76.35	79.63
-primock57	whisper-base-en	57	80.29	78.68	81.91
-primock57	whisper-distil-v3.5	57	88.46	87.38	89.56
-primock57	whisper-turbo	57	88.79	87.71	89.75
-primock57	zipformer-zh-en	57	57.70	55.04	60.13
+dataset	model	n_files	ctr_pct	ci_lo_pct	ci_hi_pct	method
+figshare-osce	canary-180m-flash	272	30.51	27.27	34.51	BCa
+figshare-osce	cloud-assemblyai	272	95.43	95.17	95.68	BCa
+figshare-osce	cloud-aws	272	95.63	95.37	95.89	BCa
+figshare-osce	cloud-azure	272	95.45	95.18	95.70	BCa
+figshare-osce	cloud-deepgram	272	95.36	95.07	95.62	BCa
+figshare-osce	cloud-google	272	90.95	90.43	91.45	BCa
+figshare-osce	cohere-transcribe-14lang	22	56.05	43.12	70.58	BCa
+figshare-osce	medasr	272	56.92	53.46	60.22	BCa
+figshare-osce	medasr-int8	272	57.14	53.71	60.41	BCa
+figshare-osce	nemo-fastconformer	272	76.86	75.98	77.66	BCa
+figshare-osce	nemo-fastconformer-int8	272	75.58	74.70	76.38	BCa
+figshare-osce	nemotron	272	60.03	59.28	60.83	BCa
+figshare-osce	paraformer-en	272	76.92	76.12	77.70	BCa
+figshare-osce	parakeet-tdt-0.6b-v2	272	87.19	86.32	88.05	BCa
+figshare-osce	parakeet-tdt-0.6b-v3	82	76.46	72.71	79.88	BCa
+figshare-osce	qwen3-asr	272	91.91	91.45	92.36	BCa
+figshare-osce	sensevoice	272	88.78	88.28	89.25	BCa
+figshare-osce	sensevoice-no-itn	272	87.52	86.92	88.09	BCa
+figshare-osce	whisper-base-en	272	89.11	88.60	89.61	BCa
+figshare-osce	whisper-distil-v3.5	272	93.14	92.79	93.47	BCa
+figshare-osce	whisper-turbo	272	93.59	93.23	93.92	BCa
+figshare-osce	zipformer-zh-en	272	68.45	67.67	69.25	BCa
+nazmulkazi	canary-180m-flash	71	75.81	71.92	78.42	BCa
+nazmulkazi	cloud-assemblyai	71	91.98	90.89	92.80	BCa
+nazmulkazi	cloud-aws	71	92.83	92.20	93.45	BCa
+nazmulkazi	cloud-azure	71	92.96	92.35	93.55	BCa
+nazmulkazi	cloud-deepgram	71	92.37	91.74	92.99	BCa
+nazmulkazi	cloud-google	67	88.99	88.11	89.84	BCa
+nazmulkazi	medasr	71	75.47	71.49	78.27	BCa
+nazmulkazi	medasr-int8	71	75.57	71.59	78.31	BCa
+nazmulkazi	nemo-fastconformer	71	83.95	83.11	84.72	BCa
+nazmulkazi	nemo-fastconformer-int8	71	84.18	83.38	84.99	BCa
+nazmulkazi	nemotron	71	52.38	51.38	53.33	BCa
+nazmulkazi	paraformer-en	71	88.10	87.32	88.83	BCa
+nazmulkazi	parakeet-tdt-0.6b-v2	71	91.75	91.13	92.37	BCa
+nazmulkazi	qwen3-asr	71	90.90	90.14	91.60	BCa
+nazmulkazi	sensevoice	71	90.53	89.85	91.18	BCa
+nazmulkazi	sensevoice-no-itn	71	90.45	89.75	91.11	BCa
+nazmulkazi	whisper-base-en	71	91.22	90.56	91.90	BCa
+nazmulkazi	whisper-distil-v3.5	71	91.88	91.25	92.50	BCa
+nazmulkazi	whisper-turbo	71	91.96	91.26	92.64	BCa
+nazmulkazi	zipformer-zh-en	71	85.24	84.27	86.17	BCa
+primock57	canary-180m-flash	57	56.34	53.19	59.70	BCa
+primock57	cloud-assemblyai	57	91.42	90.40	92.29	BCa
+primock57	cloud-aws	57	92.30	91.47	93.07	BCa
+primock57	cloud-azure	57	89.84	88.90	90.68	BCa
+primock57	cloud-deepgram	57	90.82	90.05	91.55	BCa
+primock57	cloud-google	57	76.46	74.31	78.31	BCa
+primock57	medasr	57	13.89	11.52	16.43	BCa
+primock57	medasr-int8	57	14.41	12.08	16.98	BCa
+primock57	nemo-fastconformer	57	62.03	60.03	63.88	BCa
+primock57	nemo-fastconformer-int8	57	63.82	61.72	65.81	BCa
+primock57	nemotron	57	53.52	52.04	55.06	BCa
+primock57	paraformer-en	57	64.75	62.47	66.77	BCa
+primock57	parakeet-tdt-0.6b-v2	57	89.39	88.31	90.41	BCa
+primock57	qwen3-asr	57	87.01	85.96	87.97	BCa
+primock57	sensevoice	57	77.83	75.86	79.29	BCa
+primock57	sensevoice-no-itn	57	78.09	76.00	79.58	BCa
+primock57	whisper-base-en	57	80.29	78.50	81.83	BCa
+primock57	whisper-distil-v3.5	57	88.46	87.22	89.55	BCa
+primock57	whisper-turbo	57	88.79	87.65	89.69	BCa
+primock57	zipformer-zh-en	57	57.70	55.07	60.07	BCa
