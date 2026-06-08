@@ -1,0 +1,4 @@
+figshare-osce: n=32255 single=24913 (77.2%) multi=7342 mean_len=1.29 max=5
+primock57: n=6653 single=5301 (79.7%) multi=1352 mean_len=1.26 max=5
+nazmulkazi: n=13785 single=10965 (79.5%) multi=2820 mean_len=1.22 max=5
+ALL: n=52693 single=41179 (78.1%) mean_len=1.27

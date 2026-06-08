@@ -78,6 +78,12 @@
 "requiring explicit confirmation before finalizing notes containing high-risk medications"
 → [17] Zhou (already cited)
 
+"transcription errors propagate into the downstream LLM-generated note... AI-generated notes scored lower... clinicians edit AI drafts"
+→ [25] Reddy, [26] Guo
+
+"a 2025 study of consent practices for ambient documentation found wide variation in how consent is obtained"
+→ [27] Lawrence
+
 ---
 
 ## Formatted Reference List (NEJM AI style)
@@ -129,3 +135,9 @@
 23. Lambert BL, Dickey LW, Fisher WM, et al. Listen Carefully: The Risk of Error in Spoken Medication Orders. Soc Sci Med 2010;70(10):1599-1608. DOI: 10.1016/j.socscimed.2010.01.042.
 
 24. Bryan R, Aronson JK, Williams A, et al. The Problem of Look-Alike, Sound-Alike Name Errors: Drivers and Solutions. Br J Clin Pharmacol 2021;87(2):386-394. DOI: 10.1111/bcp.14285.
+
+25. Reddy A, Gunnink E, Wheat CL, et al. Rapid Evaluation of Artificial Intelligence Technology Used for Ambient Dictation in Primary Care: Comparing the Quality of Documentation of Artificial Intelligence-Generated and Human-Produced Clinical Notes. Ann Intern Med 2026 (online ahead of print). DOI: 10.7326/ANNALS-25-02772.
+
+26. Guo Y, Hu D, Yang Z, et al. Clinicians' Rationale for Editing Ambient AI-Drafted Clinical Notes: Persistent Challenges and Implications for Improvement. J Am Med Inform Assoc 2026 (online ahead of print):ocag059. DOI: 10.1093/jamia/ocag059.
+
+27. Lawrence K, Kuram VS, Levine DL, et al. Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care. JAMA Netw Open 2025;8(7):e2522400. DOI: 10.1001/jamanetworkopen.2025.22400.

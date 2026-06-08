@@ -1,0 +1,5 @@
+dataset	n_spans	n_single	n_multi	pct_single	mean_len	max_len
+figshare-osce	32255	24913	7342	77.2	1.29	5
+primock57	6653	5301	1352	79.7	1.26	5
+nazmulkazi	13785	10965	2820	79.5	1.22	5
+ALL	52693	41179	11514	78.1	1.27	5
