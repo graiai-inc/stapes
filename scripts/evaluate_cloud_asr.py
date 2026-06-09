@@ -22,8 +22,10 @@ import argparse
 import json
 import logging
 import os
+import subprocess
 import time
 import wave as wave_mod
+from datetime import datetime, timezone
 from pathlib import Path
 
 import jiwer
@@ -373,6 +375,67 @@ SERVICES = {
     'azure': transcribe_azure,
 }
 
+# Exact request configuration per service, recorded in each result's
+# provenance block so cloud runs are self-documenting (these have no local
+# model files to hash; the API/model/params are the reproducibility surface).
+SERVICE_CONFIG = {
+    'deepgram': {
+        'api': 'Deepgram /v1/listen',
+        'model': 'nova-2-medical',
+        'params': {'language': 'en-US', 'smart_format': True},
+    },
+    'google': {
+        'api': 'Google Cloud Speech-to-Text v1',
+        'model': 'medical_conversation',
+        'params': {'encoding': 'LINEAR16', 'sample_rate_hertz': 16000,
+                   'language_code': 'en-US'},
+    },
+    'aws': {
+        'api': 'AWS Transcribe Medical (start_medical_transcription_job)',
+        'model': 'medical',
+        'params': {'Specialty': 'PRIMARYCARE', 'Type': 'CONVERSATION'},
+    },
+    'assemblyai': {
+        'api': 'AssemblyAI /v2/transcript',
+        'model': 'universal-3-pro',
+        'params': {'speech_models': ['universal-3-pro', 'universal-2'],
+                   'language_code': 'en_us',
+                   'prompt': 'This is a doctor-patient clinical conversation.'},
+    },
+    'azure': {
+        'api': 'Azure Speech Batch Transcription v3.2',
+        'model': 'default',
+        'params': {'locale': 'en-US'},
+    },
+}
+
+
+def _git_commit() -> str | None:
+    """Short git commit of the repo, or None if unavailable."""
+    try:
+        out = subprocess.run(
+            ['git', '-C', str(OSSICLES_DIR), 'rev-parse', '--short', 'HEAD'],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=5,
+        )
+        return out.stdout.strip()
+    except (subprocess.SubprocessError, OSError):
+        return None
+
+
+def _cloud_provenance(service_name: str) -> dict:
+    """Record the exact API, model, and request config used for a cloud run,
+    so each result JSON self-documents what produced it."""
+    return {
+        'service': service_name,
+        'request_config': SERVICE_CONFIG.get(service_name),
+        'git_commit': _git_commit(),
+        'generated_utc': datetime.now(timezone.utc).isoformat(
+            timespec='seconds'),
+    }
+
 
 def run_service(service_name: str, dataset_name: str, files: list[dict],
                 subset: bool = False) -> None:
@@ -383,6 +446,7 @@ def run_service(service_name: str, dataset_name: str, files: list[dict],
     output_file = output_dir / f'{service_name}.json'
 
     transcribe_fn = SERVICES[service_name]
+    provenance = _cloud_provenance(service_name)
 
     # Resume support
     existing_results = {}
@@ -450,6 +514,7 @@ def run_service(service_name: str, dataset_name: str, files: list[dict],
         output = {
             'service': service_name,
             'dataset': dataset_name,
+            'provenance': provenance,
             'files_completed': len(results),
             'files_total': len(files),
             'aggregates': aggregates,

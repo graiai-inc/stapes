@@ -21,10 +21,13 @@ Usage:
 """
 
 import argparse
+import hashlib
 import json
 import logging
+import subprocess
 import time
 import wave as wave_mod
+from datetime import datetime, timezone
 from pathlib import Path
 
 import jiwer
@@ -400,6 +403,88 @@ def discover_files(dataset_dir: Path) -> list[dict]:
     return files
 
 
+def _file_digest(path: str) -> dict:
+    """Record one model file's path, size, and SHA-256 for provenance."""
+    p = Path(path)
+    if not p.is_file():
+        return {'path': path, 'exists': False}
+    h = hashlib.sha256()
+    size = 0
+    with p.open('rb') as fh:
+        for chunk in iter(lambda: fh.read(1 << 20), b''):
+            h.update(chunk)
+            size += len(chunk)
+    return {
+        'path': path,
+        'exists': True,
+        'size_bytes': size,
+        'sha256': h.hexdigest(),
+    }
+
+
+def _git_commit() -> str | None:
+    """Short git commit of the repo, or None if unavailable."""
+    try:
+        out = subprocess.run(
+            ['git', '-C', str(OSSICLES_DIR), 'rev-parse', '--short', 'HEAD'],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=5,
+        )
+        return out.stdout.strip()
+    except (subprocess.SubprocessError, OSError):
+        return None
+
+
+def _build_provenance(model_name: str, num_threads: int) -> dict:
+    """Record exactly which model files (path, size, SHA-256), precision, and
+    settings produced a result, so each run's JSON is self-documenting.
+
+    Precision is derived from the ONNX filenames: 'int8' if every weight file
+    is int8, 'fp32' if none are, 'mixed' otherwise (e.g., int8 encoder with a
+    full-precision decoder).
+    """
+    if model_name in BATCH_MODELS:
+        spec = BATCH_MODELS[model_name]
+        model_type = 'batch'
+    else:
+        spec = STREAMING_MODELS[model_name]
+        model_type = 'streaming'
+
+    kwargs = spec.get('kwargs', {})
+    files = {
+        role: _file_digest(value)
+        for role, value in kwargs.items()
+        if isinstance(value, str) and value.endswith(('.onnx', '.txt'))
+    }
+
+    onnx = [v for v in kwargs.values()
+            if isinstance(v, str) and v.endswith('.onnx')]
+    int8 = [p for p in onnx if 'int8' in Path(p).name]
+    if not onnx:
+        precision = 'unknown'
+    elif len(int8) == len(onnx):
+        precision = 'int8'
+    elif not int8:
+        precision = 'fp32'
+    else:
+        precision = 'mixed'
+
+    return {
+        'model_name': model_name,
+        'model_type': model_type,
+        'factory': spec.get('factory'),
+        'precision': precision,
+        'num_threads': num_threads,
+        'sherpa_onnx_version': getattr(sherpa_onnx, '__version__', 'unknown'),
+        'git_commit': _git_commit(),
+        'generated_utc': datetime.now(timezone.utc).isoformat(
+            timespec='seconds'),
+        'model_files': files,
+    }
+
+
 def evaluate_model_on_dataset(
     model_name: str,
     dataset_name: str,
@@ -451,6 +536,13 @@ def evaluate_model_on_dataset(
     chunk_seconds = None
     if not is_streaming and model_name in BATCH_MODELS:
         chunk_seconds = BATCH_MODELS[model_name].get('chunk_seconds')
+
+    # Record exactly which model files/precision produced this result.
+    provenance = _build_provenance(model_name, num_threads)
+    log.info(f'Provenance: precision={provenance["precision"]}, '
+             f'{len(provenance["model_files"])} files, '
+             f'sherpa-onnx {provenance["sherpa_onnx_version"]}, '
+             f'commit {provenance["git_commit"]}')
 
     results = list(existing_results.values())
 
@@ -517,13 +609,15 @@ def evaluate_model_on_dataset(
                  f'[{elapsed:.1f}s]')
 
         # Save immediately
-        _save_results(output_file, model_name, dataset_name, results, len(files))
+        _save_results(output_file, model_name, dataset_name, results,
+                      len(files), provenance)
 
     log.info(f'DONE {model_name} on {dataset_name}: {len(results)} files')
 
 
 def _save_results(output_file: Path, model_name: str, dataset_name: str,
-                  results: list[dict], total_files: int) -> None:
+                  results: list[dict], total_files: int,
+                  provenance: dict | None = None) -> None:
     """Save results JSON — called after every file."""
     aggregates = {}
     for norm_name in NORMALIZERS:
@@ -540,6 +634,7 @@ def _save_results(output_file: Path, model_name: str, dataset_name: str,
     data = {
         'model': model_name,
         'dataset': dataset_name,
+        'provenance': provenance,
         'files_completed': len(results),
         'files_total': total_files,
         'aggregates': aggregates,
