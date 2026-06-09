@@ -39,7 +39,7 @@ def csv_to_md_table(csv_path: Path) -> str:
     return '\n'.join(out)
 
 
-TITLE_PAGE = """# Open Benchmark of On-Device and Cloud Speech Recognition for Clinical Conversations: Parity in Accuracy, Persistent Errors in Medication Names
+TITLE_PAGE = """# Open Benchmark of On-Device and Cloud Speech Recognition for Clinical Conversations: Near-Parity in Accuracy, Persistent Errors in Medication Names
 
 **Author:** J. Grey Faulkenberry, MD, MPH
 
@@ -57,7 +57,7 @@ Phone: +1 404 778 1900
 
 **Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
 
-**Word count (body, excluding abstract, references, tables, figures):** 3,971
+**Word count (body, excluding abstract, references, tables, figures):** 3,983
 
 ---
 
@@ -132,7 +132,7 @@ def build_main_manuscript() -> str:
     tables_block = f"""
 # Tables
 
-**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four files exceeded the 10-minute per-request timeout and were not retried (see Methods).
+**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). Parameter counts (millions) are approximate, drawn from model documentation and cross-checked against the deployed ONNX files; MedASR, which has no published specification, was counted directly from its model file, and int8 variants have the same parameter count as their full-precision counterparts. Cloud services do not disclose model sizes (Proprietary). ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four files exceeded the 10-minute per-request timeout and were not retried (see Methods).
 
 {tbl1}
 

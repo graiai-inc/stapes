@@ -1,20 +1,20 @@
-Model,Type,OSCE Std (n=272)*,OSCE MP (n=272)*,PriMock57 Std (n=57),PriMock57 MP (n=57),Psychiatric Std (n=71),Psychiatric MP (n=71)
-Whisper distil-v3.5,On-device,11.23,8.51,14.19,11.71,7.35,7.33
-Whisper turbo,On-device,12.01,9.37,15.53,13.05,7.55,7.54
-Whisper base.en,On-device,14.27,11.79,20.27,18.08,7.64,7.63
-Qwen3-ASR,On-device,12.37,9.68,14.74,12.33,7.94,7.92
-Parakeet-TDT-0.6b-v2,On-device,17.06,14.56,13.85,11.39,7.30,7.28
-SenseVoice (no ITN),On-device,13.06,10.54,19.95,17.70,7.63,7.63
-SenseVoice,On-device,12.80,10.26,21.01,18.72,7.68,7.69
-Paraformer-en,On-device,17.95,16.77,29.12,27.33,9.28,9.20
-NeMo FastConformer,On-device,22.44,19.77,34.93,32.63,11.51,11.14
-NeMo FastConformer int8,On-device,22.73,20.11,32.34,30.00,11.28,10.92
-Nemotron,On-device,35.59,33.76,38.16,36.49,37.40,37.45
-Zipformer,On-device,33.90,33.27,36.61,35.57,11.14,10.84
-MedASR,On-device,56.71,55.32,89.28,88.86,32.78,32.60
-MedASR int8,On-device,56.21,54.79,88.83,88.38,32.48,32.28
-Azure Speech,Cloud (general),7.70,7.34,9.88,9.35,6.83,6.58
-Deepgram Nova-2 Medical,Cloud (medical),10.10,7.26,11.80,9.14,6.99,6.89
-AssemblyAI,Cloud (general),10.29,7.60,13.76,11.26,7.81,7.81
-AWS Transcribe Medical,Cloud (medical),8.10,7.69,8.68,8.09,7.06,6.77
-Google medical_conversation,Cloud (medical),16.53,13.38,26.00,23.49,10.52‡,10.30‡
+Model,Type,Params (M),OSCE Std (n=272)*,OSCE MP (n=272)*,PriMock57 Std (n=57),PriMock57 MP (n=57),Psychiatric Std (n=71),Psychiatric MP (n=71)
+Whisper distil-v3.5,On-device,756,11.23,8.51,14.19,11.71,7.35,7.33
+Whisper turbo,On-device,809,12.01,9.37,15.53,13.05,7.55,7.54
+Whisper base.en,On-device,74,14.27,11.79,20.27,18.08,7.64,7.63
+Qwen3-ASR,On-device,600,12.37,9.68,14.74,12.33,7.94,7.92
+Parakeet-TDT-0.6b-v2,On-device,600,17.06,14.56,13.85,11.39,7.30,7.28
+SenseVoice (no ITN),On-device,234,13.06,10.54,19.95,17.70,7.63,7.63
+SenseVoice,On-device,234,12.80,10.26,21.01,18.72,7.68,7.69
+Paraformer-en,On-device,220,17.95,16.77,29.12,27.33,9.28,9.20
+NeMo FastConformer,On-device,114,22.44,19.77,34.93,32.63,11.51,11.14
+NeMo FastConformer int8,On-device,114,22.73,20.11,32.34,30.00,11.28,10.92
+Nemotron,On-device,600,35.59,33.76,38.16,36.49,37.40,37.45
+Zipformer,On-device,70,33.90,33.27,36.61,35.57,11.14,10.84
+MedASR,On-device,105,56.71,55.32,89.28,88.86,32.78,32.60
+MedASR int8,On-device,105,56.21,54.79,88.83,88.38,32.48,32.28
+Azure Speech,Cloud (general),Proprietary,7.70,7.34,9.88,9.35,6.83,6.58
+Deepgram Nova-2 Medical,Cloud (medical),Proprietary,10.10,7.26,11.80,9.14,6.99,6.89
+AssemblyAI,Cloud (general),Proprietary,10.29,7.60,13.76,11.26,7.81,7.81
+AWS Transcribe Medical,Cloud (medical),Proprietary,8.10,7.69,8.68,8.09,7.06,6.77
+Google medical_conversation,Cloud (medical),Proprietary,16.53,13.38,26.00,23.49,10.52‡,10.30‡

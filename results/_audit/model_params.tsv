@@ -1,0 +1,12 @@
+label	params_millions	dir	onnx_breakdown
+Whisper distil-v3.5	756.4	sherpa-onnx-whisper-distil-large-v3.5	distil-large-v3.5-decoder.int8.onnx=112.9M; distil-large-v3.5-encoder.int8.onnx=643.5M
+Whisper turbo	808.9	sherpa-onnx-whisper-turbo	turbo-decoder.int8.onnx=158.8M; turbo-encoder.int8.onnx=650.1M
+Whisper base.en	72.6	sherpa-onnx-whisper-base.en	base.en-decoder.onnx=48.9M; base.en-encoder.onnx=23.7M
+Qwen3-ASR	939.3	sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25	conv_frontend.onnx=11.0M; decoder.int8.onnx=752.6M; encoder.int8.onnx=175.6M
+Parakeet-TDT-0.6b-v2	617.8	sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8	decoder.int8.onnx=7.2M; encoder.int8.onnx=608.9M; joiner.int8.onnx=1.7M
+SenseVoice	234.0	sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17	model.onnx=234.0M
+Paraformer-en	213.6	sherpa-onnx-paraformer-en-2024-03-09	model.onnx=213.6M
+NeMo FastConformer	114.2	sherpa-onnx-nemo-streaming-fast-conformer-transducer-en-1040ms	decoder.onnx=3.9M; encoder.onnx=108.9M; joiner.onnx=1.4M
+Nemotron	618.1	sherpa-onnx-nemotron-speech-streaming-en-0.6b-int8-2026-01-14	decoder.int8.onnx=7.2M; encoder.int8.onnx=609.1M; joiner.int8.onnx=1.7M
+Zipformer	65.6	sherpa-onnx-streaming-zipformer-en-2023-06-26	decoder.onnx=0.5M; encoder.onnx=64.8M; joiner.onnx=0.3M
+MedASR	105.3	sherpa-onnx-medasr-ctc-en-2025-12-25	model.onnx=105.3M

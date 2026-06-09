@@ -1,6 +1,6 @@
 Dear Editor,
 
-I submit "Open Benchmark of On-Device and Cloud Speech Recognition for Clinical Conversations: Parity in Accuracy, Persistent Errors in Medication Names" for consideration in the Journal of the American Medical Informatics Association as a Research and Applications article.
+I submit "Open Benchmark of On-Device and Cloud Speech Recognition for Clinical Conversations: Near-Parity in Accuracy, Persistent Errors in Medication Names" for consideration in the Journal of the American Medical Informatics Association as a Research and Applications article.
 
 Speech recognition is the foundation of every ambient AI clinical scribe currently being deployed in U.S. health systems, yet no open, reproducible benchmark has compared the privacy-preserving on-device models that have emerged in the past two years against the established cloud services dominating commercial deployment. JAMIA has published the two most-cited systematic reviews of clinical speech recognition (Blackley et al. 2019; Hodgson and Coiera 2016), which together documented weak and inconsistent prior evidence and significant gaps in standardized evaluation. This benchmark contributes open, reproducible empirical evidence in that gap, built using only publicly redistributable audio and code so that other groups can extend and critique it.
 
