@@ -26,7 +26,7 @@ MODELS = [
     ('Paraformer-en', 'sherpa-onnx-paraformer-en-2024-03-09'),
     ('NeMo FastConformer', 'sherpa-onnx-nemo-streaming-fast-conformer-transducer-en-1040ms'),
     ('Nemotron', 'sherpa-onnx-nemotron-speech-streaming-en-0.6b-int8-2026-01-14'),
-    ('Zipformer', 'sherpa-onnx-streaming-zipformer-en-2023-06-26'),
+    ('Zipformer', 'sherpa-onnx-zipformer-zh-en-2023-11-22'),
     ('MedASR', 'sherpa-onnx-medasr-ctc-en-2025-12-25'),
 ]
 

@@ -7,12 +7,10 @@ Parakeet-TDT-0.6b-v2,On-device,600,17.06,14.56,13.85,11.39,7.30,7.28
 SenseVoice (no ITN),On-device,234,13.06,10.54,19.95,17.70,7.63,7.63
 SenseVoice,On-device,234,12.80,10.26,21.01,18.72,7.68,7.69
 Paraformer-en,On-device,220,17.95,16.77,29.12,27.33,9.28,9.20
-NeMo FastConformer,On-device,114,22.44,19.77,34.93,32.63,11.51,11.14
-NeMo FastConformer int8,On-device,114,22.73,20.11,32.34,30.00,11.28,10.92
+NeMo FastConformer,On-device,114,22.73,20.11,32.34,30.00,11.28,10.92
 Nemotron,On-device,600,35.59,33.76,38.16,36.49,37.40,37.45
-Zipformer,On-device,70,33.90,33.27,36.61,35.57,11.14,10.84
-MedASR,On-device,105,56.71,55.32,89.28,88.86,32.78,32.60
-MedASR int8,On-device,105,56.21,54.79,88.83,88.38,32.48,32.28
+Zipformer,On-device,67,33.90,33.27,36.61,35.57,11.14,10.84
+MedASR,On-device,105,56.21,54.79,88.83,88.38,32.48,32.28
 Azure Speech,Cloud (general),Proprietary,7.70,7.34,9.88,9.35,6.83,6.58
 Deepgram Nova-2 Medical,Cloud (medical),Proprietary,10.10,7.26,11.80,9.14,6.99,6.89
 AssemblyAI,Cloud (general),Proprietary,10.29,7.60,13.76,11.26,7.81,7.81
