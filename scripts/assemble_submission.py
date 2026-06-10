@@ -57,7 +57,7 @@ Phone: +1 404 778 1900
 
 **Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
 
-**Word count (body, excluding abstract, references, tables, figures):** 3,994
+**Word count (body, excluding abstract, references, tables, figures):** 3,992
 
 ---
 
@@ -154,9 +154,10 @@ def build_supplementary() -> str:
     print('[supp] assembling supplementary tables', flush=True)
     supp_md = read_file(PAPER / 'supplementary_tables.md')
 
-    # S1 table is already inline as markdown in supplementary_tables.md. Append S2 and S3 as full tables.
+    # S1 table is already inline as markdown in supplementary_tables.md. Append S2-S4 as full tables.
     s2 = csv_to_md_table(PAPER / 'supplementary_table_S2_rover_pairs.csv')
     s3 = csv_to_md_table(PAPER / 'supplementary_table_S3_rover_triples.csv')
+    s4 = csv_to_md_table(PAPER / 'supplementary_table_S4_drug_rates.csv')
 
     appendix = f"""
 
@@ -167,6 +168,10 @@ def build_supplementary() -> str:
 ## Table S3 data
 
 {s3}
+
+## Table S4 data
+
+{s4}
 """
     return supp_md + appendix
 

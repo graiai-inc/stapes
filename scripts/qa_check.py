@@ -64,7 +64,7 @@ if body:
     clean = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', clean)
     n_body = len(clean.split())
     emit(f'[body] Background..Conclusion word count (excl. tables/captions): {n_body}')
-    emit('       (title page claims 3,994; JAMIA limit is 4,000)')
+    emit('       (title page claims 3,992; JAMIA limit is 4,000)')
 emit()
 
 # --- 4. Citation order of first appearance ---
