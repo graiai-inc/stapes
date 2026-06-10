@@ -1,0 +1,18 @@
+file	imported_module	status
+scripts/extended_normalizer.py	extended_normalizer	local-ok
+scripts/figshare_cloud_fix.py	figshare_fix_and_eval	local-ok
+scripts/figshare_fix_and_eval.py	rover_fusion	local-ok
+scripts/figshare_solo_all_models.py	figshare_fix_and_eval	local-ok
+scripts/recompute_wer_extended.py	extended_normalizer	local-ok
+scripts/round_robin_fusion.py	rover_fusion	local-ok
+scripts/round_robin_fusion.py	figshare_fix_and_eval	local-ok
+scripts/verify_rover_bug.py	rover_fusion	local-ok
+fusion_depth/scripts/cnc_fusion.py	rover_variants	local-ok
+fusion_depth/scripts/empty_space_patterns.py	rover_variants	local-ok
+fusion_depth/scripts/extract_disagreement_slots.py	rover_variants	local-ok
+fusion_depth/scripts/learned_fusion.py	rover_variants	local-ok
+fusion_depth/scripts/prob_diagnostic.py	learned_fusion	local-ok
+
+=== SUMMARY ===
+44 python files audited
+All local imports resolve within stapes. Self-contained.
