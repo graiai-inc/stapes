@@ -6,6 +6,7 @@ heading and the 'Data Availability' heading (the JAMIA-countable main text),
 matching what an editor's Word count would see. Writes result to disk.
 """
 
+import re
 from pathlib import Path
 
 from docx import Document
@@ -24,6 +25,10 @@ for p in doc.paragraphs:
         in_body = True
     if text == 'Data Availability':
         break
+    # skip table captions: JAMIA word counts exclude tables, which now sit
+    # inline where first cited (cell text is already outside doc.paragraphs)
+    if re.match(r'^Table \d+\.', text):
+        continue
     if in_body:
         words += len(p.text.split())
         paras += 1

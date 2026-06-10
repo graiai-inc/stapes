@@ -54,22 +54,28 @@ body = re.search(r'# Background and Significance\n(.*?)\n# Data Availability',
                  manuscript, re.S)
 if body:
     btext = body.group(1)
+    # drop inline tables (pipe rows) and table captions — JAMIA word counts
+    # exclude tables, which are now placed in the body where first cited
+    btext = '\n'.join(
+        ln for ln in btext.splitlines()
+        if not ln.lstrip().startswith('|') and not ln.startswith('**Table '))
     # remove markdown bold/italic markers and figure/table markup
     clean = re.sub(r'[#*`]', '', btext)
     clean = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', clean)
     n_body = len(clean.split())
-    emit(f'[body] Background..Conclusion word count: {n_body}')
-    emit('       (title page claims 3,986; JAMIA limit is 4,000)')
+    emit(f'[body] Background..Conclusion word count (excl. tables/captions): {n_body}')
+    emit('       (title page claims 3,965; JAMIA limit is 4,000)')
 emit()
 
 # --- 4. Citation order of first appearance ---
 # Get the body+discussion region only (before References section)
 ref_idx = manuscript.index('\n# References')
 body_region = manuscript[:ref_idx]
-cites = re.findall(r'\[(\d+(?:[,\-]\d+)*)\]', body_region)
+cites = re.findall(r'\[(\d+(?:\s*[,\-]\s*\d+)*)\]', body_region)
 order = []
 for grp in cites:
     for part in grp.split(','):
+        part = part.strip()
         if '-' in part:
             a, b = part.split('-')
             order.extend(range(int(a), int(b) + 1))
@@ -98,6 +104,11 @@ if not is_sorted:
         if first_seen[i] < first_seen[i - 1]:
             emit(f'           first out-of-order: ...{first_seen[i-1]} then {first_seen[i]}')
             break
+# JAMIA: reference numbers go immediately AFTER punctuation, no word spacing
+bad_before = re.findall(r'\[\d+(?:\s*[,\-]\s*\d+)*\][.,;:]', body_region)
+bad_spaced = re.findall(r' \[\d+(?:\s*[,\-]\s*\d+)*\]', body_region)
+emit(f'[citations] citations placed BEFORE punctuation (must be 0): {len(bad_before)} {bad_before[:5]}')
+emit(f'[citations] citations with a preceding space (must be 0): {len(bad_spaced)} {bad_spaced[:5]}')
 emit()
 
 # --- 5. WER gap ranges from CSV (verify "0.5 to 5" / "0.7 to 3") ---
