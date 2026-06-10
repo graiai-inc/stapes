@@ -33,4 +33,4 @@ Assistant Professor, Department of Hematology and Medical Oncology
 Emory University School of Medicine
 Email: grey.faulkenberry@emory.edu
 Phone: +1 404 778 1900
-36 Linden Ave NE, GA 30308
+36 Linden Ave NE, Atlanta, GA 30308, USA
