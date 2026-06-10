@@ -1,0 +1,10 @@
+check	dataset	detail
+denoms	nazmulkazi	{"ANATOMY": 928, "CONDITION": 2120, "DRUG": 1287, "FINDING": 7030, "LAB_RESULT": 31, "PROCEDURE": 1704, "SYMPTOM": 485}
+cat>=50	nazmulkazi	DRUG top for 18/19; not-top: cloud-aws:ANATOMY(0.04 vs DRUG 0.04)
+top10terms	nazmulkazi	[["egg", "DRUG", 1.0], ["bath", "PROCEDURE", 1.0], ["stalking", "FINDING", 0.97], ["ear", "CONDITION", 0.97], ["mouse", "PROCEDURE", 0.96], ["breast", "PROCEDURE", 0.96], ["witches", "FINDING", 0.95], ["washed", "FINDING", 0.95], ["transfer", "PROCEDURE", 0.95], ["steering", "FINDING", 0.95]]
+denoms	primock57	{"ANATOMY": 566, "CONDITION": 1061, "DRUG": 870, "FINDING": 2289, "LAB_RESULT": 2, "PROCEDURE": 763, "SYMPTOM": 1081}
+cat>=50	primock57	DRUG top for 17/19; not-top: medasr-int8:FINDING(0.88 vs DRUG 0.86); medasr:FINDING(0.88 vs DRUG 0.87)
+top10terms	primock57	[["hayfever", "CONDITION", 0.98], ["cough worse at night", "SYMPTOM", 0.97], ["mmm", "CONDITION", 0.96], ["piriton", "DRUG", 0.96], ["hmm", "DRUG", 0.96], ["well-hydrated", "FINDING", 0.95], ["mini-stroke", "CONDITION", 0.95], ["mebeverine", "DRUG", 0.95], ["diarrhoea vomiting", "SYMPTOM", 0.95], ["bisoprolol", "DRUG", 0.95]]
+denoms	figshare-osce	{"ANATOMY": 2897, "CONDITION": 5203, "DRUG": 3948, "FINDING": 9203, "LAB_RESULT": 47, "PROCEDURE": 3740, "SYMPTOM": 7099}
+cat>=50	figshare-osce	DRUG top for 13/19; not-top: parakeet-tdt-0.6b-v3:ANATOMY(0.13 vs DRUG 0.07); zipformer-zh-en:CONDITION(0.45 vs DRUG 0.40); cloud-assemblyai:PROCEDURE(0.06 vs DRUG 0.06); cloud-azure:PROCEDURE(0.07 vs DRUG 0.05); cloud-deepgram:SYMPTOM(0.06 vs DRUG 0.05); cloud-google:PROCEDURE(0.12 vs DRUG 0.10)
+top10terms	figshare-osce	[["mmm", "CONDITION", 0.99], ["antiinflammatories", "DRUG", 0.98], ["covid19", "CONDITION", 0.98], ["s reaction", "PROCEDURE", 0.97], ["discolouration", "FINDING", 0.97], ["cop", "DRUG", 0.97], ["crohns disease", "CONDITION", 0.96], ["dads", "DRUG", 0.96], ["shell", "ANATOMY", 0.95], ["reactine", "DRUG", 0.95]]

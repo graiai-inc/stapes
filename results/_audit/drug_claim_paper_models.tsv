@@ -1,0 +1,11 @@
+dataset	scope	result
+nazmulkazi	paper-models	DRUG top 16/17; not-top: cloud-aws:ANATOMY(0.043 vs DRUG 0.039)
+nazmulkazi	pooled-ondev	DRUG:0.228, PROCEDURE:0.176, CONDITION:0.168
+nazmulkazi	pooled-cloud	DRUG:0.105, PROCEDURE:0.097, ANATOMY:0.091
+primock57	paper-models	DRUG top 16/17; not-top: medasr-int8:FINDING(0.881 vs DRUG 0.855)
+primock57	pooled-ondev	DRUG:0.430, CONDITION:0.327, SYMPTOM:0.303
+primock57	pooled-cloud	DRUG:0.188, CONDITION:0.131, PROCEDURE:0.104
+figshare-osce	MISSING	['cloud-aws']
+figshare-osce	paper-models	DRUG top 11/16; not-top: zipformer-zh-en:CONDITION(0.448 vs DRUG 0.401); cloud-azure:PROCEDURE(0.066 vs DRUG 0.053); cloud-google:PROCEDURE(0.119 vs DRUG 0.100); cloud-deepgram:SYMPTOM(0.059 vs DRUG 0.048); cloud-assemblyai:PROCEDURE(0.062 vs DRUG 0.055)
+figshare-osce	pooled-ondev	DRUG:0.249, SYMPTOM:0.208, PROCEDURE:0.193
+figshare-osce	pooled-cloud	PROCEDURE:0.076, SYMPTOM:0.068, ANATOMY:0.067
