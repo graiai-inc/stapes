@@ -4,7 +4,7 @@ Supporting data and code for the fusion depth-study reported in the main paper (
 
 ## Scope
 
-All experiments here were performed on **PriMock57** (57 simulated primary care consultations, ≈12.6 hours) using the two best-performing solo on-device models identified in the main paper: `parakeet-tdt-0.6b-v2` and `whisper-distil-v3.5`. The goal was to test whether fusion algorithms more sophisticated than naive equal-weight ROVER — confusion network combination with parameter tuning, per-token-probability-weighted voting variants, and a learned per-word classifier — could meaningfully exceed naive ROVER's WER on the strongest pair. They did not; see Supplementary Table S1.
+All experiments here were performed on **PriMock57** (57 simulated primary care consultations, ≈12.6 hours) using the two best-performing solo on-device models identified in the main paper: `parakeet-tdt-0.6b-v2` and `whisper-distil-v3.5`. The goal was to test whether fusion algorithms more sophisticated than naive equal-weight ROVER — confusion network combination with parameter tuning, per-token-probability-weighted voting variants, and a learned per-word classifier — could meaningfully exceed naive ROVER's WER on this pairing. They did not; see Supplementary Table S1.
 
 ## Layout
 
