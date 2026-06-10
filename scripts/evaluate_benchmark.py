@@ -147,41 +147,11 @@ BATCH_MODELS = {
         },
         'chunk_seconds': 120,
     },
-    'parakeet-tdt-0.6b-v3': {
-        'factory': 'from_transducer',
-        'kwargs': {
-            'encoder': _model_path('sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/encoder.int8.onnx'),
-            'decoder': _model_path('sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/decoder.int8.onnx'),
-            'joiner': _model_path('sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/joiner.int8.onnx'),
-            'tokens': _model_path('sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/tokens.txt'),
-            'model_type': 'nemo_transducer',
-            'feature_dim': 128,
-        },
-        'chunk_seconds': 120,
-    },
     'paraformer-en': {
         'factory': 'from_paraformer',
         'kwargs': {
             'paraformer': _model_path('sherpa-onnx-paraformer-en-2024-03-09/model.int8.onnx'),
             'tokens': _model_path('sherpa-onnx-paraformer-en-2024-03-09/tokens.txt'),
-        },
-        'chunk_seconds': 60,
-    },
-    'fire-red-asr': {
-        'factory': 'from_fire_red_asr',
-        'kwargs': {
-            'encoder': _model_path('sherpa-onnx-fire-red-asr-large-zh_en-2025-02-16/encoder.int8.onnx'),
-            'decoder': _model_path('sherpa-onnx-fire-red-asr-large-zh_en-2025-02-16/decoder.int8.onnx'),
-            'tokens': _model_path('sherpa-onnx-fire-red-asr-large-zh_en-2025-02-16/tokens.txt'),
-        },
-        'chunk_seconds': 60,
-    },
-    'fire-red-asr2-ctc': {
-        'factory': 'from_fire_red_asr',
-        'kwargs': {
-            'encoder': _model_path('sherpa-onnx-fire-red-asr2-ctc-zh_en-int8-2026-02-25/model.int8.onnx'),
-            'decoder': '',
-            'tokens': _model_path('sherpa-onnx-fire-red-asr2-ctc-zh_en-int8-2026-02-25/tokens.txt'),
         },
         'chunk_seconds': 60,
     },
@@ -194,17 +164,6 @@ BATCH_MODELS = {
             'tokens': _model_path('sherpa-onnx-zipformer-zh-en-2023-11-22/tokens.txt'),
         },
         'chunk_seconds': 120,
-    },
-    'moonshine-base': {
-        'factory': 'from_moonshine',
-        'kwargs': {
-            'preprocessor': _model_path('sherpa-onnx-moonshine-base-en-int8/preprocess.onnx'),
-            'encoder': _model_path('sherpa-onnx-moonshine-base-en-int8/encode.int8.onnx'),
-            'uncached_decoder': _model_path('sherpa-onnx-moonshine-base-en-int8/uncached_decode.int8.onnx'),
-            'cached_decoder': _model_path('sherpa-onnx-moonshine-base-en-int8/cached_decode.int8.onnx'),
-            'tokens': _model_path('sherpa-onnx-moonshine-base-en-int8/tokens.txt'),
-        },
-        'chunk_seconds': None,  # process full audio
     },
     'qwen3-asr': {
         'factory': 'from_qwen3_asr',
@@ -251,15 +210,6 @@ STREAMING_MODELS = {
             'tokens': _model_path('sherpa-onnx-nemotron-speech-streaming-en-0.6b-int8-2026-01-14/tokens.txt'),
             'model_type': 'nemo_transducer',
             'feature_dim': 128,
-        },
-    },
-    'zipformer': {
-        'factory': 'streaming',
-        'kwargs': {
-            'encoder': _model_path('sherpa-onnx-streaming-zipformer-en-2023-06-26/encoder-epoch-99-avg-1-chunk-16-left-128.int8.onnx'),
-            'decoder': _model_path('sherpa-onnx-streaming-zipformer-en-2023-06-26/decoder-epoch-99-avg-1-chunk-16-left-128.onnx'),
-            'joiner': _model_path('sherpa-onnx-streaming-zipformer-en-2023-06-26/joiner-epoch-99-avg-1-chunk-16-left-128.int8.onnx'),
-            'tokens': _model_path('sherpa-onnx-streaming-zipformer-en-2023-06-26/tokens.txt'),
         },
     },
 }
@@ -668,8 +618,8 @@ def main():
             print(f'  {name}')
         return
 
-    # Models to skip (too slow, not competitive)
-    SKIP_MODELS = {'fire-red-asr', 'fire-red-asr2-ctc', 'parakeet-tdt-0.6b-v3', 'moonshine-base'}
+    # No models are skipped: the registry is scoped to the paper's models.
+    SKIP_MODELS: set[str] = set()
 
     # Resolve models
     if args.model == 'all':
