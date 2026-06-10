@@ -106,9 +106,9 @@ rows = list(csv.reader((PAPER / 'table1_wer.csv').open()))
 hdr = rows[0]
 data = rows[1:]
 cols = {
-    'OSCE Std': 2, 'OSCE MP': 3,
-    'PriMock Std': 4, 'PriMock MP': 5,
-    'Psych Std': 6, 'Psych MP': 7,
+    'OSCE Std': 3, 'OSCE MP': 4,
+    'PriMock Std': 5, 'PriMock MP': 6,
+    'Psych Std': 7, 'Psych MP': 8,
 }
 
 
