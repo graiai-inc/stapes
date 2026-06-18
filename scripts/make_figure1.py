@@ -129,7 +129,6 @@ def main() -> None:
     ax_wer.set_ylim(0, max(wer_on + wer_cloud) * 1.22)
     ax_wer.grid(axis='y', linestyle=':', linewidth=0.5, alpha=0.6)
     ax_wer.set_axisbelow(True)
-    ax_wer.legend(loc='upper right', frameon=True, framealpha=1.0)
 
     for bar, val in zip(bars_wer_on, wer_on):
         ax_wer.text(
@@ -162,7 +161,6 @@ def main() -> None:
     ax_ctr.set_ylim(0, 110)
     ax_ctr.grid(axis='y', linestyle=':', linewidth=0.5, alpha=0.6)
     ax_ctr.set_axisbelow(True)
-    ax_ctr.legend(loc='upper right', frameon=True, framealpha=1.0)
 
     for bar, val in zip(bars_ctr_on, ctr_on):
         ax_ctr.text(
@@ -182,7 +180,15 @@ def main() -> None:
             fontsize=11, fontweight='bold', va='bottom', ha='left',
         )
 
-    fig.tight_layout()
+    # Single shared legend above both panels. Per-panel legends collided with
+    # the (tall) clinical-term-recall bars in panel b, hiding the psychiatric
+    # value labels; a figure-level legend keeps both panels uncluttered.
+    handles, labels = ax_wer.get_legend_handles_labels()
+    fig.legend(
+        handles, labels, loc='upper center', ncol=2, frameon=True,
+        framealpha=1.0, fontsize=8, bbox_to_anchor=(0.5, 1.0),
+    )
+    fig.tight_layout(rect=[0, 0, 1, 0.91])
     fig.savefig(OUT_PNG, dpi=300, bbox_inches='tight')
     fig.savefig(OUT_PDF, bbox_inches='tight')
     plt.close(fig)
