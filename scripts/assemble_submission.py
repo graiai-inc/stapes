@@ -13,6 +13,7 @@ Run with the lens venv python (it has pypandoc-binary installed):
 """
 
 import csv
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -112,12 +113,16 @@ def build_main_manuscript() -> str:
 
     # Convert CSV tables to markdown and splice each into the main text at
     # its [[TABLEn]] marker (JAMIA: tables are placed where first cited).
-    tbl1 = csv_to_md_table(PAPER / 'table1_wer.csv')
+    # Table 1 has 9 columns; the per-column "(n=272)" labels bloat the headers
+    # and force four-line wraps in the rendered docx, so we strip them from the
+    # column headers (keeping the OSCE asterisk) and state the sizes in the
+    # caption instead. Only the header row contains "(n=...)".
+    tbl1 = re.sub(r'\s*\(n=\d+\)', '', csv_to_md_table(PAPER / 'table1_wer.csv'))
     tbl2 = csv_to_md_table(PAPER / 'table2_ctr.csv')
     tbl3 = csv_to_md_table(PAPER / 'table3_cost.csv')
 
     table_blocks = {
-        '[[TABLE1]]': f"""**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). Parameter counts (millions) are approximate, drawn from model documentation and cross-checked against the deployed ONNX files; MedASR, which has no published specification, was counted directly from its model file. All on-device models were run as their published int8-quantized builds; in the Zipformer and Qwen3-ASR builds the upstream distribution leaves one component unquantized (the decoder and convolutional frontend, respectively). Cloud services do not disclose model sizes (Proprietary). ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four of the six longest recordings had not completed within the 10-minute client-side wait and were not retried (see Methods).
+        '[[TABLE1]]': f"""**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). Parameter counts (millions) are approximate, drawn from model documentation and cross-checked against the deployed ONNX files; MedASR, which has no published specification, was counted directly from its model file. All on-device models were run as their published int8-quantized builds; in the Zipformer and Qwen3-ASR builds the upstream distribution leaves one component unquantized (the decoder and convolutional frontend, respectively). Cloud services do not disclose model sizes (Proprietary). Dataset sizes: OSCE n = 272, PriMock57 n = 57, psychiatric n = 71. ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four of the six longest recordings had not completed within the 10-minute client-side wait and were not retried (see Methods).
 
 {tbl1}""",
         '[[TABLE2]]': f"""**Table 2. Clinical term recall (%) by model and dataset, with bias-corrected and accelerated (BCa) bootstrap 95% confidence intervals (10,000 resamples; common random numbers within each dataset).** Clinical term recall is the percentage of UMLS medical concept spans in the reference transcript transcribed without error. All five cloud services, including AWS Transcribe Medical, were evaluated on the complete datasets (Google on 396 of 400 files; see Methods).
@@ -181,25 +186,137 @@ def build_cover_letter() -> str:
     return read_file(PAPER / 'cover_letter.md')
 
 
-def apply_double_spacing(docx_path: Path) -> None:
-    """Set line spacing to 2.0 on all paragraphs in the docx.
+def post_process_docx(docx_path: Path) -> None:
+    """Finalize a pandoc-generated docx for submission.
 
-    JAMIA requires double-spaced manuscript submission. Pandoc default is 1.0;
-    we post-process here so that authors do not need a Word reference doc.
+    Pandoc leaves the page geometry unset, double-spaces nothing, and gives
+    every table column equal width, which makes the 9-column Table 1 wrap into
+    four-line headers spanning six pages. This pass (1) sets explicit Letter
+    geometry, (2) double-spaces body text per JAMIA, and (3) gives each table a
+    fixed layout with content-aware column widths, single-spaced compact cells,
+    a repeating header row, and no mid-row page breaks.
     """
     from docx import Document
-    from docx.shared import Pt
+    from docx.shared import Inches, Pt, Twips
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
 
     doc = Document(str(docx_path))
+
+    # 1. Explicit page geometry so column widths are deterministic (pandoc
+    #    leaves pgSz unset, which makes rendered width locale-dependent).
+    for section in doc.sections:
+        section.page_width = Inches(8.5)
+        section.page_height = Inches(11)
+        section.left_margin = Inches(1)
+        section.right_margin = Inches(1)
+        section.top_margin = Inches(1)
+        section.bottom_margin = Inches(1)
+    text_width_twips = int(6.5 * 1440)
+
+    # 2. Double-space body paragraphs only (doc.paragraphs excludes table cells).
     for paragraph in doc.paragraphs:
         paragraph.paragraph_format.line_spacing = 2.0
-    # Also set spacing on table cells.
+
+    # 3. Format every table: fixed layout, content-aware column widths,
+    #    single-spaced compact cells, header repeat, no row splitting.
     for table in doc.tables:
-        for row in table.rows:
-            for cell in row.cells:
-                for paragraph in cell.paragraphs:
-                    paragraph.paragraph_format.line_spacing = 2.0
+        _format_table(table, text_width_twips, OxmlElement, qn, Pt, Twips)
+
     doc.save(str(docx_path))
+
+
+def _table_profile(table) -> tuple:
+    """Return (column-width fractions summing to ~1, font size pt) for a table.
+
+    The four hand-tuned main/S4 tables are keyed by header signature (verified
+    by rendering). Every other table (the S2/S3 round-robin dumps and any future
+    table) gets content-aware widths: each column is sized in proportion to its
+    longest cell, and the font is shrunk just enough that the widest column
+    fits its share of the text width.
+    """
+    rows = table.rows
+    headers = [c.text.strip() for c in rows[0].cells]
+    ncol = len(headers)
+    joined = ' '.join(headers).lower()
+    h0 = headers[0].strip().lower()
+    if 'params' in joined:                       # Table 1 (WER), 9 columns
+        return [0.235, 0.11, 0.10] + [0.0925] * 6, 8.5
+    if ncol == 5 and h0 == 'model':              # Table 2 (CTR)
+        return [0.26, 0.12] + [0.2067] * 3, 9.0
+    if ncol == 4 and h0 == 'service':            # Table 3 (cost)
+        return [0.34, 0.22, 0.22, 0.22], 9.5
+    if ncol == 8 and h0 == 'model':              # Table S4 (per-drug)
+        return [0.18, 0.09] + [0.1217] * 6, 8.0
+
+    # content-aware fallback (S2/S3 round-robin and any future table)
+    maxlen = [1] * ncol
+    for r in rows:
+        for ci, c in enumerate(r.cells):
+            if ci < ncol:
+                maxlen[ci] = max(maxlen[ci], len(c.text.strip()))
+    total = float(sum(maxlen))
+    fractions = [m / total for m in maxlen]
+    # shrink font until the widest column fits (~0.0075 in per char per pt in TNR)
+    widest_share_in = max(fractions) * 6.5
+    pt = widest_share_in / (max(maxlen) * 0.0075)
+    font_pt = round(max(6.5, min(9.0, pt)), 1)
+    return fractions, font_pt
+
+
+def _format_table(table, text_width_twips, OxmlElement, qn, Pt, Twips) -> None:
+    fractions, font_pt = _table_profile(table)
+    widths_tw = [max(360, int(f * text_width_twips)) for f in fractions]
+
+    tbl = table._tbl
+    tblPr = tbl.tblPr
+
+    # fixed layout (honor explicit widths instead of autofitting to content)
+    layout = tblPr.find(qn('w:tblLayout'))
+    if layout is None:
+        layout = OxmlElement('w:tblLayout')
+        tblPr.append(layout)
+    layout.set(qn('w:type'), 'fixed')
+
+    # total table width
+    tblW = tblPr.find(qn('w:tblW'))
+    if tblW is None:
+        tblW = OxmlElement('w:tblW')
+        tblPr.append(tblW)
+    tblW.set(qn('w:type'), 'dxa')
+    tblW.set(qn('w:w'), str(sum(widths_tw)))
+    table.autofit = False
+    table.allow_autofit = False
+
+    # rebuild the grid that defines column widths
+    grid = tbl.find(qn('w:tblGrid'))
+    if grid is not None:
+        tbl.remove(grid)
+    grid = OxmlElement('w:tblGrid')
+    for w in widths_tw:
+        gc = OxmlElement('w:gridCol')
+        gc.set(qn('w:w'), str(w))
+        grid.append(gc)
+    tbl.insert(list(tbl).index(tblPr) + 1, grid)
+
+    for ri, row in enumerate(table.rows):
+        trPr = row._tr.get_or_add_trPr()
+        # keep each row on one page (no mid-row page breaks)
+        if trPr.find(qn('w:cantSplit')) is None:
+            trPr.append(OxmlElement('w:cantSplit'))
+        # repeat the header row at the top of each page the table spans
+        if ri == 0 and trPr.find(qn('w:tblHeader')) is None:
+            trPr.append(OxmlElement('w:tblHeader'))
+        for ci, cell in enumerate(row.cells):
+            if ci < len(widths_tw):
+                cell.width = Twips(widths_tw[ci])
+            for p in cell.paragraphs:
+                pf = p.paragraph_format
+                pf.line_spacing = 1.0
+                pf.space_before = Pt(1)
+                pf.space_after = Pt(1)
+                for run in p.runs:
+                    run.font.size = Pt(font_pt)
 
 
 def write_and_convert(md_text: str, stem: str, to_docx: bool = True,
@@ -229,8 +346,8 @@ def write_and_convert(md_text: str, stem: str, to_docx: bool = True,
             raise
 
         if double_space:
-            apply_double_spacing(docx_path)
-            print(f'[double-spaced] {docx_path}', flush=True)
+            post_process_docx(docx_path)
+            print(f'[formatted] {docx_path}', flush=True)
 
 
 def main() -> None:
