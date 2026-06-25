@@ -58,7 +58,7 @@ Phone: +1 404 778 1900
 
 **Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
 
-**Word count (body, excluding abstract, references, tables, figures):** 3,995
+**Word count (body, excluding abstract, references, tables, figures):** 3,997
 
 ---
 
@@ -74,7 +74,7 @@ Phone: +1 404 778 1900
 FIGURES_BLOCK = """# Figure Legends
 
 **Figure 1. Word error rate and clinical term recall of the best on-device ASR model versus the best cloud API, per dataset.**
-**a**, Word error rate (%) of the best on-device model and the best cloud API on each of the three clinical conversation datasets (OSCE respiratory interviews, n = 272; PriMock57 primary care, n = 57; Kazi et al. psychiatric, n = 71). Lower is better. **b**, Clinical term recall (%) of the best on-device model and the best cloud API on each dataset. Higher is better. Clinical term recall was computed as the proportion of UMLS medical concept spans in the reference transcript that were correctly transcribed.
+**a**, Word error rate (%, standard Whisper-normalized regime; see Methods) of the best on-device model and the best cloud API on each of the three clinical conversation datasets (OSCE respiratory interviews, n = 272; PriMock57 primary care, n = 57; Kazi et al. psychiatric, n = 71). Lower is better. **b**, Clinical term recall (%) of the best on-device model and the best cloud API on each dataset. Higher is better. Clinical term recall was computed as the proportion of UMLS medical concept spans in the reference transcript that were correctly transcribed.
 
 Alt text: Two-panel grouped bar chart comparing the best on-device ASR model with the best cloud API on each of three clinical conversation datasets. Panel a shows word error rate (lower is better); panel b shows clinical term recall (higher is better). Datasets are OSCE respiratory interviews (n=272), PriMock57 primary care (n=57), and Kazi et al. psychiatric (n=71).
 
