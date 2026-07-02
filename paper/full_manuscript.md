@@ -71,7 +71,7 @@ To assess clinical relevance beyond aggregate WER, we measured the accuracy of m
 
 ## Cost Tracking
 
-Cloud API costs were recorded from each provider's billing dashboard at published rates; introductory credits defrayed out-of-pocket cost on all five services, and only Google Cloud Speech exceeded its $300 credit during the benchmark. On-device inference cost was considered zero per encounter. Per-encounter cost was total cost divided by encounter count; the annual illustration assumes one full-time clinician (~5,000 encounters per year).
+Cloud API costs were recorded from each provider's billing dashboard at published rates; introductory credits covered the three lower-cost services, while the two most expensive, AWS and Google, exceeded their credits during the benchmark. On-device inference cost was considered zero per encounter. Per-encounter cost was total cost divided by encounter count; the annual illustration assumes one full-time clinician (~5,000 encounters per year).
 
 
 ## AI Tool Use
