@@ -96,23 +96,23 @@
 
 4. Olson KD, Meeker D, Troup M, et al. Use of Ambient AI Scribes to Reduce Administrative Burden and Professional Burnout. JAMA Netw Open 2025;8(10):e2534976. DOI: 10.1001/jamanetworkopen.2025.34976.
 
-5. Haberle TM, Giannitrapani KF, Engel E, et al. Evaluation of a Large-Scale Implementation of Nuance DAX Ambient Documentation Technology. J Am Med Inform Assoc 2024;31(4):975-979. DOI: 10.1093/jamia/ocae022.
+5. Haberle T, Cleveland C, Snow GL, et al. The Impact of Nuance DAX Ambient Listening AI Documentation: A Cohort Study. J Am Med Inform Assoc 2024;31(4):975-979. DOI: 10.1093/jamia/ocae022.
 
 6. Ng JJW, Wang E, Zhou X, et al. Evaluating the Performance of Artificial Intelligence-Based Speech Recognition for Clinical Documentation: A Systematic Review. BMC Med Inform Decis Mak 2025;25(1):236. DOI: 10.1186/s12911-025-03061-0.
 
 7. Elsayed N. Socio-Technical Risks of Clinical Speech-to-Text Systems: Transparency, Privacy, and Reliability Challenges in AI-driven Documentation. Int J Med Inform 2026;214:106419. DOI: 10.1016/j.ijmedinf.2026.106419.
 
-8. Anderson KM, Balu S, Bates DW, et al. Ethical Considerations for Ambient Digital Scribes. J Am Med Inform Assoc 2026;33(3):770-775. DOI: 10.1093/jamia/ocaf227.
+8. Anderson TN, Mohan V, Gold JA. Ethical Considerations for Clinical Adoption of Ambient Digital Scribe Technology. J Am Med Inform Assoc 2026;33(3):770-775. DOI: 10.1093/jamia/ocaf227.
 
 9. Afonja T, Olatunji T, Ogun S, et al. Performant ASR Models for Medical Entities in Accented Speech. In: Proceedings of Interspeech 2024. Kos, Greece: ISCA, 2024:2315-2319. DOI: 10.21437/Interspeech.2024-2261.
 
 10. Fareez F, Parikh T, Wavell C, et al. A Dataset of Simulated Patient-Physician Medical Interviews with a Focus on Respiratory Cases. Sci Data 2022;9:313. DOI: 10.1038/s41597-022-01423-1.
 
-11. Korfiatis AP, Moramarco F, Sarac R, et al. PriMock57: A Dataset of Primary Care Mock Consultations. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Dublin, Ireland: ACL, 2022:541-547.
+11. Korfiatis AP, Moramarco F, Sarac R, et al. PriMock57: A Dataset of Primary Care Mock Consultations. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). Dublin, Ireland: ACL, 2022:588-598.
 
 12. Kazi N. Dataset for Automated Medical Transcription. GitHub/Zenodo, 2020. (https://github.com/nazmulkazi/dataset_automated_medical_transcription.)
 
-13. Gandhi S, von Platen P, Rush AM. Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation. arXiv preprint arXiv:2510.06961, 2025.
+13. Srivastav V, Zheng S, Bezzam E, et al. Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation. arXiv preprint arXiv:2510.06961, 2025.
 
 14. Fiscus JG. A Post-Processing System to Yield Reduced Word Error Rates: Recognizer Output Voting Error Reduction (ROVER). In: Proceedings of the 1997 IEEE Workshop on Automatic Speech Recognition and Understanding. Santa Barbara, CA: IEEE, 1997:347-354. DOI: 10.1109/ASRU.1997.659110.
 
@@ -132,11 +132,11 @@
 
 22. Warraich HJ, Tazbaz T, Califf RM. FDA Perspective on the Regulation of Artificial Intelligence in Health Care and Biomedicine. JAMA 2025;333(3):241-247. DOI: 10.1001/jama.2024.21451.
 
-23. Yang F, Graetz I. Ambient AI Tool Adoption in US Hospitals and Associated Factors. Am J Manag Care 2026 (online ahead of print). DOI: 10.37765/ajmc.2026.89876.
+23. Yang F, Graetz I. Ambient AI Tool Adoption in US Hospitals and Associated Factors. Am J Manag Care 2026;32(1):e25-e30. DOI: 10.37765/ajmc.2026.89876.
 
-24. Reddy A, Gunnink E, Wheat CL, et al. Rapid Evaluation of Artificial Intelligence Technology Used for Ambient Dictation in Primary Care: Comparing the Quality of Documentation of Artificial Intelligence-Generated and Human-Produced Clinical Notes. Ann Intern Med 2026 (online ahead of print). DOI: 10.7326/ANNALS-25-02772.
+24. Reddy A, Gunnink E, Wheat CL, et al. Rapid Evaluation of Artificial Intelligence Technology Used for Ambient Dictation in Primary Care: Comparing the Quality of Documentation of Artificial Intelligence-Generated and Human-Produced Clinical Notes. Ann Intern Med 2026;179(6):765-772. DOI: 10.7326/ANNALS-25-02772.
 
-25. Guo Y, Hu D, Yang Z, et al. Clinicians' Rationale for Editing Ambient AI-Drafted Clinical Notes: Persistent Challenges and Implications for Improvement. J Am Med Inform Assoc 2026 (online ahead of print):ocag059. DOI: 10.1093/jamia/ocag059.
+25. Guo Y, Hu D, Yang Z, et al. Clinicians' Rationale for Editing Ambient AI-Drafted Clinical Notes: Persistent Challenges and Implications for Improvement. J Am Med Inform Assoc 2026;33(7):1345-1353. DOI: 10.1093/jamia/ocag059.
 
 26. Tran BD, Latif K, Reynolds TL, et al. "Mm-Hm," "Uh-Uh": Are Non-Lexical Conversational Sounds Deal Breakers for the Ambient Clinical Documentation Technology? J Am Med Inform Assoc 2023;30(4):703-711. DOI: 10.1093/jamia/ocad001.
 
