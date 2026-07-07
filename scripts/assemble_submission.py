@@ -40,7 +40,7 @@ def csv_to_md_table(csv_path: Path) -> str:
     return '\n'.join(out)
 
 
-TITLE_PAGE = """# Open Benchmark of On-Device and Cloud Speech Recognition for Clinical Conversations: Near-Parity in Accuracy, Persistent Errors in Medication Names
+TITLE_PAGE = """# Privacy-Preserving On-Device Speech Recognition Achieves Near-Parity with Cloud Services for Clinical Documentation, but Both Fail on Medication Names
 
 **Author:** J. Grey Faulkenberry, MD, MPH
 
@@ -58,7 +58,7 @@ Phone: +1 404 778 1900
 
 **Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
 
-**Word count (body, excluding abstract, references, tables, figures):** 3,998
+**Word count (body, excluding abstract, references, tables, figures):** 3,996
 
 ---
 
