@@ -110,7 +110,7 @@ Model rankings differed between WER and CTR: whisper-turbo, second on overall WE
 
 ## Cost Analysis
 
-Total cloud API costs for the benchmark's approximately 90 hours of audio (400 encounters) ranged from $19.33 (Azure Speech) to $397.96 (AWS Transcribe Medical), with Deepgram Nova-2 Medical at $25.78, AssemblyAI at $28.10, and Google Cloud Speech at $382.64 (Table 3). This corresponds to roughly $0.05 to $0.07 per encounter for Azure, Deepgram, and AssemblyAI versus about $1.00 per encounter for Google and AWS, which are priced 14 to 21 times higher. For a single full-time clinician (about 5,000 encounters per year), annual costs at published rates would range from roughly $240 to $5,000 depending on the service. On-device inference incurred no per-encounter cost after initial model download (37 MB to 1.5 GB) and runs on consumer mobile devices clinicians already own.
+Total cloud API costs for the benchmark's approximately 90 hours of audio (400 encounters) ranged from $19.33 (Azure Speech) to $397.96 (AWS Transcribe Medical), with Deepgram Nova-2 Medical at $25.78, AssemblyAI at $28.10, and Google Cloud Speech at $382.64 (Table 3). This corresponds to roughly $0.05 to $0.07 per encounter for Azure, Deepgram, and AssemblyAI versus about $1.00 per encounter for Google and AWS, which are priced 14 to 20 times higher. For a single full-time clinician (about 5,000 encounters per year), annual costs at published rates would range from roughly $240 to $5,000 depending on the service. On-device inference incurred no per-encounter cost after initial model download (37 MB to 1.5 GB) and runs on consumer mobile devices clinicians already own.
 
 [[TABLE3]]
 
