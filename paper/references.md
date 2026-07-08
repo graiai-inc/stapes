@@ -41,7 +41,7 @@
 → [12] Kazi
 
 "HuggingFace Open ASR Leaderboard...and MLPerf Inference ASR benchmarks"
-→ [13] Gandhi
+→ [13] Srivastav
 
 "ROVER (Fiscus, 1997)"
 → [14] Fiscus
@@ -54,7 +54,7 @@
 
 ### Discussion citations:
 
-"5.7 to 8.9 percent of ASR errors in clinical documents are clinically significant"
+"5.7 percent of errors in speech-recognition-generated clinical documents are clinically significant, with medication the most common clinical error category"
 → [17] Zhou
 
 "A 2026 national study found that ambient AI adoption in U.S. hospitals is concentrated"

@@ -58,7 +58,7 @@ Phone: +1 404 778 1900
 
 **Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
 
-**Word count (body, excluding abstract, references, tables, figures):** 3,996
+**Word count (body, excluding abstract, references, tables, figures):** 3,997
 
 ---
 
