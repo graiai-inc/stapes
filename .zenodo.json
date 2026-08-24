@@ -1,0 +1,21 @@
+{
+  "title": "stapes: an open benchmark of on-device and cloud speech recognition for clinical conversations",
+  "description": "Evaluation code, model inference scripts, ROVER fusion implementation, exhaustive pair and triple round-robin search, and the fusion depth-study supporting the manuscript \"Medication Names Are a Safety-Critical Failure Mode in Clinical Speech Recognition: An Open Benchmark of On-Device and Cloud Systems\". Benchmarks 12 on-device ASR models and 5 cloud APIs on 400 clinical conversations from three public datasets.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Faulkenberry, J. Grey",
+      "affiliation": "Department of Hematology and Medical Oncology, Emory University School of Medicine, Atlanta, GA, USA"
+    }
+  ],
+  "keywords": [
+    "speech recognition",
+    "clinical documentation",
+    "medication errors",
+    "benchmark",
+    "on-device inference",
+    "word error rate"
+  ]
+}
