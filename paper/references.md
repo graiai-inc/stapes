@@ -32,57 +32,57 @@
 ### Methods citations:
 
 "OSCE respiratory interview dataset"
-→ [10] Fareez
+→ [11] Fareez
 
 "PriMock57"
-→ [11] Korfiatis
+→ [12] Korfiatis
 
 "Kazi et al. psychiatric dataset"
-→ [12] Kazi
+→ [13] Kazi
 
 "HuggingFace Open ASR Leaderboard...and MLPerf Inference ASR benchmarks"
-→ [13] Srivastav
+→ [14] Srivastav
 
 "ROVER (Fiscus, 1997)"
-→ [14] Fiscus
+→ [15] Fiscus
 
 "confusion network combination (Mangu et al., 2000)"
-→ [15] Mangu
+→ [16] Mangu
 
 "QuickUMLS"
-→ [16] Soldaini
+→ [17] Soldaini
 
 ### Discussion citations:
 
 "5.7 percent of errors in speech-recognition-generated clinical documents are clinically significant, with medication the most common clinical error category"
-→ [17] Zhou
+→ [18] Zhou
 
 "A 2026 national study found that ambient AI adoption in U.S. hospitals is concentrated"
-→ [23] Yang & Graetz
+→ [24] Yang & Graetz
 
 "Clinical deployment may fall under FDA oversight"
-→ [22] Warraich
+→ [23] Warraich
 
 "For privacy-sensitive specialties such as psychiatry, substance abuse treatment"
 → [7] Elsayed (already cited)
 
 "overlapping speech, background noise, and non-lexical conversational sounds"
-→ [26] Tran, [27] Alboksmaty
+→ [27] Tran, [28] Alboksmaty
 
 "automatic cross-referencing of ASR output against patient medication lists and institutional formularies"
-→ [20] Rash-Foanio
+→ [21] Rash-Foanio
 
 "flagging phonetically similar drug names for mandatory clinician review"
-→ [18] Lambert, [19] Bryan
+→ [19] Lambert, [20] Bryan
 
 "requiring explicit confirmation before finalizing notes containing high-risk medications"
-→ [17] Zhou (already cited)
+→ [18] Zhou (already cited)
 
 "transcription errors propagate into the downstream LLM-generated note... AI-generated notes scored lower... clinicians edit AI drafts"
-→ [24] Reddy, [25] Guo
+→ [25] Reddy, [26] Guo
 
 "a 2025 study of consent practices for ambient documentation found wide variation in how consent is obtained"
-→ [21] Lawrence
+→ [22] Lawrence
 
 ---
 
@@ -106,38 +106,40 @@
 
 9. Afonja T, Olatunji T, Ogun S, Etori NA, Owodunni A, Yekini M. Performant ASR models for medical entities in accented speech. In: Proceedings of Interspeech 2024. Kos: ISCA; 2024. p. 2315-9. doi:10.21437/Interspeech.2024-2261.
 
-10. Fareez F, Parikh T, Wavell C, Shahab S, Chevalier M, Good S, et al. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Sci Data. 2022;9(1):313. doi:10.1038/s41597-022-01423-1.
+10. Nolan EJ, Burke HB. Accuracy of large language model transcription of simulated physician-patient verbal interactions. BMC Med Inform Decis Mak. 2026;26(1):124. doi:10.1186/s12911-026-03414-3.
 
-11. Papadopoulos Korfiatis A, Moramarco F, Sarac R, Savkov A. PriMock57: a dataset of primary care mock consultations. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (volume 2: short papers). Dublin: Association for Computational Linguistics; 2022. p. 588-98. doi:10.18653/v1/2022.acl-short.65.
+11. Fareez F, Parikh T, Wavell C, Shahab S, Chevalier M, Good S, et al. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Sci Data. 2022;9(1):313. doi:10.1038/s41597-022-01423-1.
 
-12. Kazi N, Kuntz M, Kanewala U, Kahanda I. Dataset for automated medical transcription. Zenodo. 2020. https://doi.org/10.5281/zenodo.4279041.
+12. Papadopoulos Korfiatis A, Moramarco F, Sarac R, Savkov A. PriMock57: a dataset of primary care mock consultations. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (volume 2: short papers). Dublin: Association for Computational Linguistics; 2022. p. 588-98. doi:10.18653/v1/2022.acl-short.65.
 
-13. Srivastav V, Zheng S, Bezzam E, Le Bihan E, Koluguri NR, Żelasko P, et al. Open ASR leaderboard: towards reproducible and transparent multilingual and long-form speech recognition evaluation. arXiv [Preprint]. 2025. doi:10.48550/arXiv.2510.06961.
+13. Kazi N, Kuntz M, Kanewala U, Kahanda I. Dataset for automated medical transcription. Zenodo. 2020. https://doi.org/10.5281/zenodo.4279041.
 
-14. Fiscus JG. A post-processing system to yield reduced word error rates: recognizer output voting error reduction (ROVER). In: Proceedings of the 1997 IEEE Workshop on Automatic Speech Recognition and Understanding. Santa Barbara: IEEE; 1997. p. 347-54. doi:10.1109/ASRU.1997.659110.
+14. Srivastav V, Zheng S, Bezzam E, Le Bihan E, Koluguri NR, Żelasko P, et al. Open ASR leaderboard: towards reproducible and transparent multilingual and long-form speech recognition evaluation. arXiv [Preprint]. 2025. doi:10.48550/arXiv.2510.06961.
 
-15. Mangu L, Brill E, Stolcke A. Finding consensus in speech recognition: word error minimization and other applications of confusion networks. Comput Speech Lang. 2000;14(4):373-400. doi:10.1006/csla.2000.0152.
+15. Fiscus JG. A post-processing system to yield reduced word error rates: recognizer output voting error reduction (ROVER). In: Proceedings of the 1997 IEEE Workshop on Automatic Speech Recognition and Understanding. Santa Barbara: IEEE; 1997. p. 347-54. doi:10.1109/ASRU.1997.659110.
 
-16. Soldaini L, Goharian N. QuickUMLS: a fast, unsupervised approach for medical concept extraction. In: Proceedings of the Medical Information Retrieval Workshop (MedIR) at SIGIR 2016. Pisa; 2016.
+16. Mangu L, Brill E, Stolcke A. Finding consensus in speech recognition: word error minimization and other applications of confusion networks. Comput Speech Lang. 2000;14(4):373-400. doi:10.1006/csla.2000.0152.
 
-17. Zhou L, Blackley SV, Kowalski L, Doan R, Acker WW, Landman AB, et al. Analysis of errors in dictated clinical documents assisted by speech recognition software and professional transcriptionists. JAMA Netw Open. 2018;1(3):e180530. doi:10.1001/jamanetworkopen.2018.0530.
+17. Soldaini L, Goharian N. QuickUMLS: a fast, unsupervised approach for medical concept extraction. In: Proceedings of the Medical Information Retrieval Workshop (MedIR) at SIGIR 2016. Pisa; 2016.
 
-18. Lambert BL, Dickey LW, Fisher WM, Gibbons RD, Lin SJ, Luce PA, et al. Listen carefully: the risk of error in spoken medication orders. Soc Sci Med. 2010;70(10):1599-608. doi:10.1016/j.socscimed.2010.01.042.
+18. Zhou L, Blackley SV, Kowalski L, Doan R, Acker WW, Landman AB, et al. Analysis of errors in dictated clinical documents assisted by speech recognition software and professional transcriptionists. JAMA Netw Open. 2018;1(3):e180530. doi:10.1001/jamanetworkopen.2018.0530.
 
-19. Bryan R, Aronson JK, Williams A, Jordan S. The problem of look-alike, sound-alike name errors: drivers and solutions. Br J Clin Pharmacol. 2021;87(2):386-94. doi:10.1111/bcp.14285.
+19. Lambert BL, Dickey LW, Fisher WM, Gibbons RD, Lin SJ, Luce PA, et al. Listen carefully: the risk of error in spoken medication orders. Soc Sci Med. 2010;70(10):1599-608. doi:10.1016/j.socscimed.2010.01.042.
 
-20. Rash-Foanio C, Galanter W, Bryson M, Falck S, Liu KL, Schiff GD, et al. Automated detection of look-alike/sound-alike medication errors. Am J Health Syst Pharm. 2017;74(7):521-7. doi:10.2146/ajhp150690.
+20. Bryan R, Aronson JK, Williams A, Jordan S. The problem of look-alike, sound-alike name errors: drivers and solutions. Br J Clin Pharmacol. 2021;87(2):386-94. doi:10.1111/bcp.14285.
 
-21. Lawrence K, Kuram VS, Levine DL, Sharif S, Polet C, Malhotra K, et al. Informed consent for ambient documentation using generative AI in ambulatory care. JAMA Netw Open. 2025;8(7):e2522400. doi:10.1001/jamanetworkopen.2025.22400.
+21. Rash-Foanio C, Galanter W, Bryson M, Falck S, Liu KL, Schiff GD, et al. Automated detection of look-alike/sound-alike medication errors. Am J Health Syst Pharm. 2017;74(7):521-7. doi:10.2146/ajhp150690.
 
-22. Warraich HJ, Tazbaz T, Califf RM. FDA perspective on the regulation of artificial intelligence in health care and biomedicine. JAMA. 2025;333(3):241-7. doi:10.1001/jama.2024.21451.
+22. Lawrence K, Kuram VS, Levine DL, Sharif S, Polet C, Malhotra K, et al. Informed consent for ambient documentation using generative AI in ambulatory care. JAMA Netw Open. 2025;8(7):e2522400. doi:10.1001/jamanetworkopen.2025.22400.
 
-23. Yang F, Graetz I. Ambient AI tool adoption in US hospitals and associated factors. Am J Manag Care. 2026;32(1):e25-30. doi:10.37765/ajmc.2026.89876.
+23. Warraich HJ, Tazbaz T, Califf RM. FDA perspective on the regulation of artificial intelligence in health care and biomedicine. JAMA. 2025;333(3):241-7. doi:10.1001/jama.2024.21451.
 
-24. Reddy A, Gunnink E, Wheat CL, Pawlikowski S, Payne CM, Wiltz S, et al. Rapid evaluation of artificial intelligence technology used for ambient dictation in primary care: comparing the quality of documentation of artificial intelligence-generated and human-produced clinical notes. Ann Intern Med. 2026;179(6):765-72. doi:10.7326/ANNALS-25-02772.
+24. Yang F, Graetz I. Ambient AI tool adoption in US hospitals and associated factors. Am J Manag Care. 2026;32(1):e25-30. doi:10.37765/ajmc.2026.89876.
 
-25. Guo Y, Hu D, Yang Z, Chow E, Tam S, Perret D, et al. Clinicians' rationale for editing ambient AI-drafted clinical notes: persistent challenges and implications for improvement. J Am Med Inform Assoc. 2026;33(7):1345-53. doi:10.1093/jamia/ocag059.
+25. Reddy A, Gunnink E, Wheat CL, Pawlikowski S, Payne CM, Wiltz S, et al. Rapid evaluation of artificial intelligence technology used for ambient dictation in primary care: comparing the quality of documentation of artificial intelligence-generated and human-produced clinical notes. Ann Intern Med. 2026;179(6):765-72. doi:10.7326/ANNALS-25-02772.
 
-26. Tran BD, Latif K, Reynolds TL, Park J, Elston Lafata J, Tai-Seale M, et al. "Mm-hm," "Uh-uh": are non-lexical conversational sounds deal breakers for the ambient clinical documentation technology? J Am Med Inform Assoc. 2023;30(4):703-11. doi:10.1093/jamia/ocad001.
+26. Guo Y, Hu D, Yang Z, Chow E, Tam S, Perret D, et al. Clinicians' rationale for editing ambient AI-drafted clinical notes: persistent challenges and implications for improvement. J Am Med Inform Assoc. 2026;33(7):1345-53. doi:10.1093/jamia/ocag059.
 
-27. Alboksmaty A, Aldakhil R, Hayhoe BW, Ashrafian H, Darzi A, Neves AL. The impact of using AI-powered voice-to-text technology for clinical documentation on quality of care in primary care and outpatient settings: a systematic review. EBioMedicine. 2025;118:105861. doi:10.1016/j.ebiom.2025.105861.
+27. Tran BD, Latif K, Reynolds TL, Park J, Elston Lafata J, Tai-Seale M, et al. "Mm-hm," "Uh-uh": are non-lexical conversational sounds deal breakers for the ambient clinical documentation technology? J Am Med Inform Assoc. 2023;30(4):703-11. doi:10.1093/jamia/ocad001.
+
+28. Alboksmaty A, Aldakhil R, Hayhoe BW, Ashrafian H, Darzi A, Neves AL. The impact of using AI-powered voice-to-text technology for clinical documentation on quality of care in primary care and outpatient settings: a systematic review. EBioMedicine. 2025;118:105861. doi:10.1016/j.ebiom.2025.105861.
