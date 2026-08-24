@@ -10,10 +10,10 @@ Reads:
   * paper/supplementary_table_S2_rover_pairs.csv
   * results/figshare_fix_summary.tsv (confirms OSCE pair WER of 11.01 %)
 
-Writes: paper/figure2.png (300 dpi RGB), paper/figure2.pdf (vector).
+Writes: paper/figure2.png (400 dpi RGB, clears Snapp's 1500x1200 px minimum), paper/figure2.pdf (vector).
 
 npj Digital Medicine compliance:
-  * 300 dpi, RGB
+  * 400 dpi, RGB
   * Sans-serif 8 pt (Liberation Sans - Helvetica-metric)
   * Colorblind-safe palette (Wong 2011)
   * No truncated y-axis (starts at 0)
@@ -38,6 +38,7 @@ PAIRS_CSV = PAPER_DIR / 'supplementary_table_S2_rover_pairs.csv'
 # figshare_fix_summary.tsv; supplementary_table_S2_rover_pairs.csv only
 # contains PriMock57 + psychiatric pairs.
 OSCE_PAIRS_TSV = RESULTS_DIR / 'figshare_fix_summary.tsv'
+EXPORT_DPI = 400  # 300 dpi left both figures under 1200 px tall
 OUT_PNG = PAPER_DIR / 'figure2.png'
 OUT_PDF = PAPER_DIR / 'figure2.pdf'
 
@@ -210,7 +211,7 @@ def main() -> None:
     ax.legend(loc='upper right', frameon=True, framealpha=1.0)
 
     fig.tight_layout()
-    fig.savefig(OUT_PNG, dpi=300, bbox_inches='tight')
+    fig.savefig(OUT_PNG, dpi=EXPORT_DPI, bbox_inches='tight')
     fig.savefig(OUT_PDF, bbox_inches='tight')
     plt.close(fig)
 

@@ -67,15 +67,19 @@ Phone: +1 404 778 1900
 # alt text description goes in the main manuscript file directly under the
 # figure legend, preceded by "Alt text:".
 
-FIGURES_BLOCK = """# Figure Legends
+FIGURES_BLOCK = """# Figures
 
-**Figure 1. Word error rate and clinical term recall of the best on-device ASR model versus the best cloud API, per dataset.**
-**a**, Word error rate (%, standard Whisper-normalized regime; see Methods) of the best on-device model and the best cloud API on each of the three clinical conversation datasets (OSCE respiratory interviews, n = 272; PriMock57 primary care, n = 57; Kazi et al. psychiatric, n = 71). Lower is better. **b**, Clinical term recall (%) of the best on-device model and the best cloud API on each dataset. Higher is better. Clinical term recall was computed as the proportion of UMLS medical concept spans in the reference transcript that were correctly transcribed.
+![](figure1.png)
+
+**Figure 1. Best on-device model versus best cloud API, per dataset.**
+Word error rate and clinical term recall of the best on-device ASR model against the best cloud API on each dataset. **a**, Word error rate (%, standard Whisper-normalized regime; see Methods) of the best on-device model and the best cloud API on each of the three clinical conversation datasets (OSCE respiratory interviews, n = 272; PriMock57 primary care, n = 57; Kazi et al. psychiatric, n = 71). Lower is better. **b**, Clinical term recall (%) of the best on-device model and the best cloud API on each dataset. Higher is better. Clinical term recall was computed as the proportion of UMLS medical concept spans in the reference transcript that were correctly transcribed.
 
 Alt text: Two-panel grouped bar chart comparing the best on-device ASR model with the best cloud API on each of three clinical conversation datasets. Panel a shows word error rate (lower is better); panel b shows clinical term recall (higher is better). Datasets are OSCE respiratory interviews (n=272), PriMock57 primary care (n=57), and Kazi et al. psychiatric (n=71).
 
-**Figure 2. ROVER hypothesis fusion yields small improvements over the best single on-device model, with the best cloud API as reference.**
-For each dataset, the figure shows the word error rate of the best single on-device model (left point), the best two-model ROVER fusion pair (right point, connected by a grey line to display the fusion delta), and the best cloud API as a dashed horizontal reference. Fusion provided ≤ 0.82 percentage point improvements on all three datasets. On the OSCE respiratory interview dataset, the best fused on-device pair (parakeet-tdt-0.6b-v2 + sensevoice, 11.01%) did not surpass the best cloud API (Azure, 7.70%).
+![](figure2.png)
+
+**Figure 2. ROVER fusion yields only small gains over a single on-device model.**
+The best cloud API is drawn as a reference. For each dataset, the figure shows the word error rate of the best single on-device model (left point), the best two-model ROVER fusion pair (right point, connected by a grey line to display the fusion delta), and the best cloud API as a dashed horizontal reference. Fusion provided ≤ 0.82 percentage point improvements on all three datasets. On the OSCE respiratory interview dataset, the best fused on-device pair (parakeet-tdt-0.6b-v2 + sensevoice, 11.01%) did not surpass the best cloud API (Azure, 7.70%).
 
 Alt text: Dot-and-line plot showing word error rate for the best single on-device model versus the best two-model ROVER fusion pair on each of three clinical conversation datasets, with the best cloud API drawn as a dashed horizontal reference line. Fusion produces small improvements over the best single on-device model on all three datasets but does not reach the best cloud API on any of them.
 """
@@ -121,7 +125,7 @@ def build_main_manuscript() -> str:
         '[[TABLE1]]': f"""**Table 1. Word error rate (%) by model and dataset, under two normalization regimes.** Each dataset column has two sub-columns: **Std** uses the Whisper English text normalizer alone (the de facto leaderboard standard, used by the HuggingFace Open ASR Leaderboard and MLPerf), and **MP** is meaning-preserving WER, which layers on a normalization for clinical text (UK/US spelling, hyphenation, compound words, possessive eponyms, spaced acronyms, honorifics, dosing units, and conversational backchannels; full rules in Methods). Asterisked OSCE columns reflect the apostrophe-injected reference transcripts (see Methods). Parameter counts (millions) are approximate, drawn from model documentation and cross-checked against the deployed ONNX files; MedASR's count, which its distribution does not list, was measured directly from its ONNX model file. All on-device models were run as their published int8-quantized builds; in the Zipformer and Qwen3-ASR builds the upstream distribution leaves one component unquantized (the decoder and convolutional frontend, respectively). Cloud services do not disclose model sizes (Proprietary). Dataset sizes: OSCE n = 272, PriMock57 n = 57, psychiatric n = 71. ‡Google medical_conversation psychiatric WER is aggregated over 67 of 71 files; four of the six longest recordings had not completed within the 10-minute client-side wait and were not retried (see Methods).
 
 {tbl1}""",
-        '[[TABLE2]]': f"""**Table 2. Clinical term recall (%) by model and dataset, with bias-corrected and accelerated (BCa) bootstrap 95% confidence intervals (10,000 resamples; common random numbers within each dataset).** Clinical term recall is the percentage of UMLS medical concept spans in the reference transcript transcribed without error. All five cloud services, including AWS Transcribe Medical, were evaluated on the complete datasets (Google on 396 of 400 files; see Methods).
+        '[[TABLE2]]': f"""**Table 2. Clinical term recall (%) by model and dataset, with 95% confidence intervals.** Intervals are bias-corrected and accelerated (BCa) bootstrap intervals over 10,000 resamples, using common random numbers within each dataset. Clinical term recall is the percentage of UMLS medical concept spans in the reference transcript transcribed without error. All five cloud services, including AWS Transcribe Medical, were evaluated on the complete datasets (Google on 396 of 400 files; see Methods).
 
 {tbl2}""",
         '[[TABLE3]]': f"""**Table 3. Cloud API cost for the full benchmark (~90 hours, 400 conversations).** All five services were evaluated on the full benchmark (Google on 396 of 400 files; see Methods). On-device inference incurs no per-encounter cost.
@@ -208,6 +212,30 @@ def post_process_docx(docx_path: Path) -> None:
         section.top_margin = Inches(1)
         section.bottom_margin = Inches(1)
     text_width_twips = int(6.5 * 1440)
+
+    # 1b. BMC requires continuous line numbering and page numbering on the
+    #     submitted manuscript so reviewers can cite exact locations.
+    for section in doc.sections:
+        ln = OxmlElement('w:lnNumType')
+        ln.set(qn('w:countBy'), '1')
+        ln.set(qn('w:restart'), 'continuous')
+        ln.set(qn('w:distance'), '360')
+        section._sectPr.append(ln)
+
+        footer_par = section.footer.paragraphs[0]
+        footer_par.alignment = 1  # centered
+        for node, attrs, text in (
+            ('w:fldChar', {'w:fldCharType': 'begin'}, None),
+            ('w:instrText', {'xml:space': 'preserve'}, ' PAGE '),
+            ('w:fldChar', {'w:fldCharType': 'end'}, None),
+        ):
+            run = footer_par.add_run()
+            el = OxmlElement(node)
+            for k, v in attrs.items():
+                el.set(qn(k), v)
+            if text is not None:
+                el.text = text
+            run._r.append(el)
 
     # 2. Double-space body paragraphs only (doc.paragraphs excludes table cells).
     for paragraph in doc.paragraphs:

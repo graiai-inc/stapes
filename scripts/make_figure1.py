@@ -3,10 +3,10 @@ on each of three datasets, across both WER (lower-is-better) and CTR
 (higher-is-better).
 
 Reads: paper/table1_wer.csv, paper/table2_ctr.csv
-Writes: paper/figure1.png (300 dpi RGB), paper/figure1.pdf (vector).
+Writes: paper/figure1.png (400 dpi RGB, clears Snapp's 1500x1200 px minimum), paper/figure1.pdf (vector).
 
 npj Digital Medicine figure guidelines followed:
-  * 300 dpi, RGB
+  * 400 dpi, RGB
   * Sans-serif (Helvetica-metric: Liberation Sans) at 8 pt print size
   * Colorblind-safe palette (Wong / Okabe-Ito blue + vermillion)
   * Panels labeled lowercase bold ``a``, ``b``
@@ -26,6 +26,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PAPER_DIR = SCRIPT_DIR.parent / 'paper'
 WER_CSV = PAPER_DIR / 'table1_wer.csv'
 CTR_CSV = PAPER_DIR / 'table2_ctr.csv'
+EXPORT_DPI = 400  # 300 dpi left both figures under 1200 px tall
 OUT_PNG = PAPER_DIR / 'figure1.png'
 OUT_PDF = PAPER_DIR / 'figure1.pdf'
 
@@ -189,7 +190,7 @@ def main() -> None:
         framealpha=1.0, fontsize=8, bbox_to_anchor=(0.5, 1.0),
     )
     fig.tight_layout(rect=[0, 0, 1, 0.91])
-    fig.savefig(OUT_PNG, dpi=300, bbox_inches='tight')
+    fig.savefig(OUT_PNG, dpi=EXPORT_DPI, bbox_inches='tight')
     fig.savefig(OUT_PDF, bbox_inches='tight')
     plt.close(fig)
 

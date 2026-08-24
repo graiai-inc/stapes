@@ -143,3 +143,9 @@
 27. Tran BD, Latif K, Reynolds TL, Park J, Elston Lafata J, Tai-Seale M, et al. "Mm-hm," "Uh-uh": are non-lexical conversational sounds deal breakers for the ambient clinical documentation technology? J Am Med Inform Assoc. 2023;30(4):703-11. doi:10.1093/jamia/ocad001.
 
 28. Alboksmaty A, Aldakhil R, Hayhoe BW, Ashrafian H, Darzi A, Neves AL. The impact of using AI-powered voice-to-text technology for clinical documentation on quality of care in primary care and outpatient settings: a systematic review. EBioMedicine. 2025;118:105861. doi:10.1016/j.ebiom.2025.105861.
+
+29. Fareez F, Parikh T, Wavell C, Shahab S, Chevalier M, Good S, et al. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. figshare. 2022. https://doi.org/10.6084/m9.figshare.c.5545842.v1.
+
+30. Papadopoulos Korfiatis A, Moramarco F, Sarac R, Savkov A. PriMock57: primary care mock consultation dataset. GitHub. 2022. https://github.com/babylonhealth/primock57. Accessed 24 Aug 2026.
+
+31. Faulkenberry JG. stapes: an open benchmark of on-device and cloud speech recognition for clinical conversations. GitHub. 2026. https://github.com/graiai-lab/stapes. Accessed 24 Aug 2026.
