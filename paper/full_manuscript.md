@@ -160,7 +160,7 @@ The datasets supporting the conclusions of this article are all publicly availab
 
 Per-model inference outputs, aggregated WER and clinical term recall tables, and per-file fusion results for the exhaustive round-robin search and the fusion depth-study are deposited with the code repository described below.
 
-All evaluation code, model inference scripts, the ROVER fusion implementation, the exhaustive pair and triple round-robin search, and the fusion depth-study (naive ROVER and six advanced fusion algorithms on PriMock57) are available in the GitHub repository, https://github.com/graiai-lab/stapes, under the MIT license.[31] The depth-study scripts and per-file results are in the `fusion_depth/` subdirectory. Cloud API evaluation scripts for each of the five services are included, along with the apostrophe-injection correction applied to the OSCE reference transcripts.
+All evaluation code, model inference scripts, the ROVER fusion implementation, the exhaustive pair and triple round-robin search, and the fusion depth-study (naive ROVER and six advanced fusion algorithms on PriMock57) are available under the MIT license. The current version is in the GitHub repository, https://github.com/graiai-lab/stapes; the exact version reported here is archived in the Zenodo repository, https://doi.org/10.5281/zenodo.22081372 (v1.0.0), with https://doi.org/10.5281/zenodo.22081371 resolving to the latest archived version.[31] The depth-study scripts and per-file results are in the `fusion_depth/` subdirectory. Cloud API evaluation scripts for each of the five services are included, along with the apostrophe-injection correction applied to the OSCE reference transcripts.
 
 ## Competing interests
 

@@ -148,4 +148,4 @@
 
 30. Papadopoulos Korfiatis A, Moramarco F, Sarac R, Savkov A. PriMock57: primary care mock consultation dataset. GitHub. 2022. https://github.com/babylonhealth/primock57. Accessed 24 Aug 2026.
 
-31. Faulkenberry JG. stapes: an open benchmark of on-device and cloud speech recognition for clinical conversations. GitHub. 2026. https://github.com/graiai-lab/stapes. Accessed 24 Aug 2026.
+31. Faulkenberry JG. stapes: an open benchmark of on-device and cloud speech recognition for clinical conversations (v1.0.0). Zenodo. 2026. https://doi.org/10.5281/zenodo.22081372.
