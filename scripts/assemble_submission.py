@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble the stapes npj Digital Medicine submission package.
+"""Assemble the stapes BMC Medical Informatics and Decision Making submission package.
 
 Reads the individual paper components and produces:
     build/stapes_submission.md   — assembled manuscript markdown
@@ -40,7 +40,7 @@ def csv_to_md_table(csv_path: Path) -> str:
     return '\n'.join(out)
 
 
-TITLE_PAGE = """# Privacy-Preserving On-Device Speech Recognition Achieves Near-Parity with Cloud Services for Clinical Documentation, but Both Fail on Medication Names
+TITLE_PAGE = """# Medication Names Are a Safety-Critical Failure Mode in Clinical Speech Recognition: An Open Benchmark of On-Device and Cloud Systems
 
 **Author:** J. Grey Faulkenberry, MD, MPH
 
@@ -55,10 +55,6 @@ Emory University School of Medicine
 36 Linden Ave NE, Atlanta, GA 30308, USA
 Email: grey.faulkenberry@emory.edu
 Phone: +1 404 778 1900
-
-**Keywords (MeSH):** Speech Recognition Software; Medication Errors; Documentation; Mobile Applications; Benchmarking
-
-**Word count (body, excluding abstract, references, tables, figures):** 3,997
 
 ---
 
@@ -145,8 +141,7 @@ def build_main_manuscript() -> str:
         refs_block = refs_text.split(marker, 1)[1]
     else:
         refs_block = refs_text
-    # Drop the "(NEJM AI style)" subtitle if present.
-    refs_block = refs_block.replace(' (NEJM AI style)', '').strip()
+    refs_block = refs_block.strip()
     # Demote the section heading.
     refs_section = '\n# References\n\n' + refs_block + '\n'
 

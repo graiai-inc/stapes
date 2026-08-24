@@ -1,17 +1,17 @@
 
 # Abstract
 
-**Objective:** To determine whether privacy-preserving on-device speech recognition achieves clinical term accuracy comparable to commercial cloud services for ambient clinical documentation, to characterize medication-name recognition failures, and to test whether multi-model fusion narrows the residual accuracy gap.
+**Background:** Ambient AI scribes now entering clinical practice depend on speech recognition that transmits patient audio to cloud services, and no open benchmark exists for clinical conversation transcription. We built an open, reproducible benchmark and used it to characterize clinically consequential failure modes across deployment settings, and secondarily to determine whether on-device models reach cloud-level clinical term accuracy and whether multi-model fusion narrows any residual gap.
 
-**Materials and Methods:** We evaluated 12 on-device ASR models and 5 cloud APIs on 400 simulated conversations from three public datasets (OSCE respiratory, n=272; PriMock57 primary care, n=57; Kazi et al. psychiatric, n=71). WER was reported in standard (Whisper normalizer) and meaning-preserving regimes. Clinical term recall (CTR) used UMLS 2025AB spans via QuickUMLS with BCa bootstrap 95% CIs. ROVER and six advanced fusion algorithms were evaluated.
+**Methods:** We evaluated 12 on-device ASR models and 5 cloud APIs on 400 simulated conversations from three public datasets (OSCE respiratory, n=272; PriMock57 primary care, n=57; Kazi et al. psychiatric, n=71). WER was reported in standard (Whisper normalizer) and meaning-preserving regimes. Clinical term recall (CTR) used UMLS 2025AB spans via QuickUMLS with BCa bootstrap 95% CIs. ROVER and six advanced fusion algorithms were evaluated.
 
-**Results:** On-device CTR was within 1–3 pp of the best cloud service per dataset. The standard-WER gap was 0.5–5.2 pp; the meaning-preserving-WER gap narrowed to 0.7–3.3 pp. Medication names were the highest-error category for most models; the highest-error drugs were misrecognized in 85% to 93% of on-device occurrences versus 3% to 30% in the cloud. A medical-dictation model cut wellbutrin errors to 5%, showing this deficit is addressable through domain adaptation. ROVER gained ≤ 0.82 pp; no advanced algorithm exceeded naive voting by more than 0.4 pp.
+**Results:** Medication names were the highest-error clinical term category for most systems in both deployment modes; the highest-error drugs were misrecognized in 85% to 93% of on-device occurrences versus 3% to 30% in the cloud. A medical-dictation model cut wellbutrin errors to 5%, showing this deficit is addressable through domain adaptation. On-device clinical term recall was within 1–3 pp of the best cloud service per dataset; the standard-WER gap was 0.5–5.2 pp, narrowing to 0.7–3.3 pp under meaning-preserving normalization. ROVER gained ≤ 0.82 pp; no advanced algorithm exceeded naive voting by more than 0.4 pp.
 
-**Discussion:** Medication errors reflect look-alike/sound-alike confusability, and their persistence alongside near-parity recall shows that aggregate accuracy can mask clinically critical failure modes.
+**Conclusions:** Medication errors reflect look-alike/sound-alike confusability, and their persistence alongside near-parity recall shows that aggregate accuracy can mask clinically critical failure modes. Because this failure is independent of where transcription runs, any clinical ASR deployment requires explicit medication verification before note finalization. Within that constraint, on-device ASR is a clinically viable, lower-cost alternative that keeps patient audio local, and a single model suffices; fusion did not close the small residual gap.
 
-**Conclusion:** On-device ASR is a clinically viable, lower-cost alternative that keeps patient audio local, and a single model suffices; fusion did not close the small residual gap. Until medication accuracy improves, deployment in either mode requires explicit medication verification before note finalization.
+**Keywords:** Speech recognition software; Medication errors; Documentation; Mobile applications; Benchmarking
 
-# Background and Significance
+# Background
 
 Physicians spend more than half their working hours on documentation, and administrative burden is a leading contributor to burnout.[1, 2] Ambient AI scribes, which passively transcribe encounters for note generation, have emerged as a promising intervention. Evaluations report reductions in documentation time and improved clinician satisfaction,[3, 4] though results are mixed: one large cohort study of a commercial ambient scribe found no significant time savings and worsened after-hours EHR use.[5] Regardless of downstream effectiveness, all such systems depend on the accuracy of automatic speech recognition (ASR), where reported word error rates range from below 10% for controlled dictation to over 50% for naturalistic clinical speech.[6]
 
@@ -19,9 +19,9 @@ Commercial cloud ASR services now offer medical-specific models, but these requi
 
 Existing evaluations of medical ASR have significant limitations. Industry benchmarks report WER on proprietary datasets that cannot be independently verified. Afonja et al. introduced a medical WER for accented clinical speech but relied on a commercial NER service to label medical entities, limiting reproducibility.[9] Ng et al.'s systematic review noted the absence of a standardized evaluation framework for clinical ASR,[6] and the socio-technical risks of clinical speech-to-text systems remain largely unaddressed.[7]
 
-We show, through the first open, reproducible benchmark of on-device versus cloud ASR for medical conversations, that on-device ASR now reaches near-parity with commercial cloud services—so keeping patient audio on the device imposes no meaningful accuracy penalty—while medication names remain a safety-critical failure mode in both modes. The benchmark comprises: (1) a standardized comparison of 12 on-device models and 5 cloud APIs across three public datasets totaling 400 clinical conversations; (2) a clinical term recall analysis using UMLS; (3) a per-term error analysis identifying medication names as the highest-error category for most models, with direct patient-safety implications; (4) an evaluation of ROVER fusion across pairwise and three-model combinations, showing a single model suffices; and (5) a cost analysis of cloud versus zero-marginal-cost on-device inference.
+We present the first open, reproducible benchmark of ASR for medical conversations spanning both deployment modes, and use it to show that medication names are a safety-critical failure mode independent of where transcription runs: they are the highest-error clinical term category for most on-device models and remain the weakest cloud category on two of three datasets. On-device ASR otherwise reaches near-parity with commercial cloud services, so keeping patient audio on the device imposes no meaningful accuracy penalty. The benchmark comprises: (1) a standardized comparison of 12 on-device models and 5 cloud APIs across three public datasets totaling 400 clinical conversations; (2) a clinical term recall analysis using UMLS; (3) a per-term error analysis identifying medication names as the highest-error category for most models, with direct patient-safety implications; (4) an evaluation of ROVER fusion across pairwise and three-model combinations, showing a single model suffices; and (5) a cost analysis of cloud versus zero-marginal-cost on-device inference.
 
-# Materials and Methods
+# Methods
 
 
 ## Datasets
@@ -136,34 +136,46 @@ Several aspects merit caution. First and most important, all three datasets cons
 
 Other limitations are methodological. On-device models were evaluated using a single inference engine (sherpa-onnx); performance may vary under alternative runtimes. The UMLS-based term identification relies on a 36-token stopword list curated by the author from high-frequency QuickUMLS collisions with common English words (e.g., "said"/Simian AIDS, "still"/Still's Disease); as a single-reviewer artifact it may still miss collisions or exclude valid terms. Clinical term recall used span-level scoring, counting a span as an error if any of its words was misrecognized; because 78% of the 52,693 reference spans are single-word and the mean span length is 1.27 words (maximum five), this affects only a minority of multi-word phrases. WER is sensitive to backchannel handling and orthographic variants, which the meaning-preserving regime addresses (see Results). Finally, cloud results reflect early 2026 pricing and may change as providers update their rate schedules.
 
-# Conclusion
+# Conclusions
 
 Privacy-preserving on-device ASR is a viable alternative to commercial cloud services for clinical conversation transcription, with clinical term recall within 1 to 3 percentage points of the best cloud service per dataset, standard WER within 0.5 to 5.2 percentage points, and meaning-preserving WER within 0.7 to 3.3 percentage points. The widest gaps occur on a single dataset (PriMock57); on the other two, meaning-preserving WER is within 1.3 percentage points of the best cloud service. Neither deployment mode reliably transcribes medication names, and on-device failures are far more frequent; until that improves, any clinical ASR deployment requires explicit medication verification before notes are finalized. On-device deployment lowers the cost barrier in under-resourced settings and keeps audio off the network in sensitive specialties; single-model medical fine-tuning is more promising than multi-model fusion as a path to closing the remaining gap with cloud services.
 
-# Data Availability
+# List of abbreviations
 
-The three clinical conversation datasets evaluated in this work are publicly available under open licenses at their respective repositories: the OSCE respiratory interview dataset on figshare (Fareez et al., Scientific Data 2022; CC0 1.0), PriMock57 on the Babylon Health GitHub (Korfiatis et al., ACL 2022; CC-BY 4.0), and the Kazi et al. psychiatric dataset on Zenodo/GitHub (CC-BY 4.0). The Unified Medical Language System (UMLS) 2025AB Metathesaurus requires a free license from the U.S. National Library of Medicine. Per-model inference outputs, aggregated WER and clinical term recall tables, and per-file fusion results for the exhaustive round-robin search and the fusion depth-study are deposited with the code repository (see Code Availability).
+ASR: automatic speech recognition; BAA: business associate agreement; BCa: bias-corrected and accelerated; CTR: clinical term recall; ITN: inverse text normalization; LASA: look-alike/sound-alike; MP: meaning-preserving; OSCE: objective structured clinical examination; PHI: protected health information; ROVER: recognizer output voting error reduction; UMLS: Unified Medical Language System; WER: word error rate.
 
-# Code Availability
+# Declarations
 
-All evaluation code, model inference scripts, ROVER fusion implementation, the exhaustive pair and triple round-robin search, and the fusion depth-study (naive ROVER and six advanced fusion algorithms on PriMock57) are publicly available under the MIT license at https://github.com/graiai-inc/stapes. The depth-study scripts and per-file results are in the `fusion_depth/` subdirectory. Cloud API evaluation scripts for each of the five services are included, along with the apostrophe-injection correction applied to the OSCE reference transcripts.
-
-# Ethics Approval
+## Ethics approval and consent to participate
 
 This study did not constitute human subjects research and did not require institutional review board approval: it used only publicly available datasets of simulated or enacted clinical encounters, released by their original creators under open licenses, and did not involve human participants, identifiable private information, or protected health information.
 
-# Funding
+## Consent for publication
+
+Not applicable.
+
+## Availability of data and materials
+
+The three clinical conversation datasets evaluated in this work are publicly available under open licenses at their respective repositories: the OSCE respiratory interview dataset on figshare (Fareez et al., Scientific Data 2022; CC0 1.0), PriMock57 on the Babylon Health GitHub (Papadopoulos Korfiatis et al., ACL 2022; CC-BY 4.0), and the Kazi et al. psychiatric dataset on Zenodo/GitHub (CC-BY 4.0). The Unified Medical Language System (UMLS) 2025AB Metathesaurus requires a free license from the U.S. National Library of Medicine. Per-model inference outputs, aggregated WER and clinical term recall tables, and per-file fusion results for the exhaustive round-robin search and the fusion depth-study are deposited with the code repository named below.
+
+All evaluation code, model inference scripts, ROVER fusion implementation, the exhaustive pair and triple round-robin search, and the fusion depth-study (naive ROVER and six advanced fusion algorithms on PriMock57) are publicly available under the MIT license at https://github.com/graiai-lab/stapes. The depth-study scripts and per-file results are in the `fusion_depth/` subdirectory. Cloud API evaluation scripts for each of the five services are included, along with the apostrophe-injection correction applied to the OSCE reference transcripts.
+
+## Competing interests
+
+The author declares that they have no competing interests.
+
+## Funding
 
 This study received no funding.
 
-# Acknowledgments
+## Authors' contributions
+
+Following the CRediT (Contributor Roles Taxonomy): J.G.F.: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing (original draft), Writing (review and editing), Visualization, Project administration. The author read and approved the final manuscript.
+
+## Acknowledgements
 
 The author thanks the creators of the OSCE respiratory interview corpus, PriMock57, and the Kazi et al. psychiatric dataset for releasing these recordings under open licenses, which made this benchmark possible.
 
-# Competing Interests
+## Use of artificial intelligence
 
-The author declares no competing interests.
-
-# Author Contributions
-
-Following the CRediT (Contributor Roles Taxonomy): J.G.F.: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing (original draft), Writing (review and editing), Visualization, Project administration.
+This work used AI coding assistants (Anthropic Claude Code and Google Gemini Code Assist) for programming support in developing evaluation scripts, data-verification tools, and fusion code, as described in Methods. All scientific design, dataset selection, analysis decisions, and manuscript text were authored and verified by the author; AI-generated code was reviewed and tested before use.

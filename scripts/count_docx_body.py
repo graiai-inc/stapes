@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Word-equivalent body count of the rendered submission docx.
 
-Counts words in all paragraphs between the 'Background and Significance'
-heading and the 'Data Availability' heading (the JAMIA-countable main text),
+Counts words in all paragraphs between the 'Background'
+heading and the 'List of abbreviations' heading (the countable main text),
 matching what an editor's Word count would see. Writes result to disk.
 """
 
@@ -21,9 +21,9 @@ words = 0
 paras = 0
 for p in doc.paragraphs:
     text = p.text.strip()
-    if text == 'Background and Significance':
+    if text == 'Background':
         in_body = True
-    if text == 'Data Availability':
+    if text == 'List of abbreviations':
         break
     # skip table captions: JAMIA word counts exclude tables, which now sit
     # inline where first cited (cell text is already outside doc.paragraphs)

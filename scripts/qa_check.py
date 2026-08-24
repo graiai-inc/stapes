@@ -40,7 +40,7 @@ for label, text in [('build manuscript', manuscript),
 emit()
 
 # --- 2. Abstract word count ---
-abs = re.search(r'# Abstract\n(.*?)\n# Background', manuscript, re.S)
+abs = re.search(r'# Abstract\n(.*?)\n\*\*Keywords:\*\*', manuscript, re.S)
 if abs:
     abs_text = abs.group(1)
     # strip the bold field labels like **Objective:**
@@ -50,7 +50,7 @@ if abs:
 emit()
 
 # --- 3. Body word count (Background..Conclusion) ---
-body = re.search(r'# Background and Significance\n(.*?)\n# Data Availability',
+body = re.search(r'# Background\n(.*?)\n# List of abbreviations',
                  manuscript, re.S)
 if body:
     btext = body.group(1)
@@ -64,7 +64,7 @@ if body:
     clean = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', clean)
     n_body = len(clean.split())
     emit(f'[body] Background..Conclusion word count (excl. tables/captions): {n_body}')
-    emit('       (title page claims 3997; JAMIA limit is 4,000)')
+    emit('       (BMC MIDM states no main-text word limit)')
 emit()
 
 # --- 4. Citation order of first appearance ---
